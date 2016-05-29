@@ -7,14 +7,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Ganesh a.k.a cosmobird website</title>
-		<meta name="description" content="My interface to the Miserable Humans out there !" />
-		<meta name="keywords" content="ganesh, cosmobird" />
-		<meta name="author" content="ganesh" />
 
-		<link rel="stylesheet" type="text/css" href="styles/off-canvas/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="styles/off-canvas/demo.css" />
-		<link rel="stylesheet" type="text/css" href="styles/off-canvas/menu_cornerbox.css" />
+		<meta name="description" content="My interface to the Miserable Humans out there !" />
+		<meta name="keywords" content="cosmobird" />
+		<meta name="author" content="cosmobird" />
+
+		<!-- STYLE STHEETS -->
+		<link rel="stylesheet" type="text/css" href="styles/cosmobird-style/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="styles/cosmobird-style/demo.css" />
+		<link rel="stylesheet" type="text/css" href="styles/cosmobird-style/menu_cornerbox.css" />
+		<link rel="stylesheet" type="text/css" href="styles/cosmobird-style/grid_caption_hover.css" />
 		<link rel="stylesheet" type="text/css" href="styles/font-awesome/font-awesome.css" />
+
+		<!-- SCRIPTS -->
+		<script src="scripts/front-end-functionality/modernizr.custom.js"></script>
+		<script src="scripts/front-end-functionality/toucheffects.js"></script>
 	</head>
 
 	<body>
@@ -22,7 +29,7 @@
 
 			<div class="menu-wrap">
 				<nav class="menu">
-					<div class="profile"><img src="assets/pics/me-photo.png" alt="Ganesh a.k.a. cosmobird"/><span>Ganesh a.k.a. cosmobird</span></div>
+					<div class="profile"><img src="assets/pics/me-pic.png" alt="Cosmobird"/><span>Cosmobird</span></div>
 
 					<div class="icon-list">
 						<a href="#"><i class="fa fa-fw fa-star-o"></i><span>Favorites</span></a>
@@ -32,22 +39,89 @@
 					</div>
 				</nav>
 				<button class="close-button" id="close-button">Close Menu</button>
-			</div>
+			</div><!-- /menu-wrap -->
 
 			<button class="menu-button" id="open-button">Open Menu</button>
 
 			<div class="content-wrap">
 				<div class="content">
+
+					<!-- header -->
 					<header class="codrops-header">
-							<a class="current-demo" href="cornerbox.html">Corner Box</a>
+							<a class="current-demo" href="#"><h2>Hey there Human !</h2></a>
 					</header>
+					<!-- /header -->
+
+					<!-- grid -->
+					<ul class="grid cs-style-1">
+						<li>
+							<figure>
+								<img src="assets/pics/1.png" alt="img01">
+								<figcaption>
+									<h3>Philosophy</h3>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="assets/pics/2.png" alt="img02">
+								<figcaption>
+									<h3>Systems</h3>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="assets/pics/3.png" alt="img03">
+								<figcaption>
+									<h3>Research</h3>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="assets/pics/4.png" alt="img04">
+								<figcaption>
+									<h3>Projects</h3>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="assets/pics/5.png" alt="img05">
+								<figcaption>
+									<h3>Artwork</h3>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="assets/pics/6.png" alt="img06">
+								<figcaption>
+									<h3>Presentations</h3>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="assets/pics/1.png" alt="img01">
+								<figcaption>
+									<h3>Publications</h3>
+								</figcaption>
+							</figure>
+						</li>
+					</ul>
+					<!-- grid -->
+
 				</div>
 			</div><!-- /content-wrap -->
+
 		</div><!-- /container -->
 
-		<script src="scripts/off-canvas/classie.js"></script>
-		<script src="scripts/off-canvas/main.js"></script>
-
 	</body>
+
+	<!-- SCRIPTS -->
+	<script src="scripts/front-end-functionality/classie.js"></script>
+	<script src="scripts/front-end-functionality/menu_cornerbox.js"></script>
 
 </html>
