@@ -51,27 +51,31 @@ section {
 }
 
 /* Header */
-.codrops-header {
+.cosmo-header {
 	margin: 0 auto;
 	padding: 3em 2em;
 	text-align: center;
 }
 
-.codrops-header h1 {
+.cosmo-header h1 {
 	margin: 0 auto;
 	font-weight: 800;
 	font-size: 3.75em;
 	line-height: 1;
 }
 
-.codrops-header h1 span {
+.cosmo-header img {
+	border-radius: 2%;
+}
+
+.cosmo-header h1 span {
 	display: block;
 	font-size: 50%;
 	font-weight: 400;
 	padding-top: 0.325em;
 }
 
-.codrops-links {
+.cosmo-links {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.69em;
@@ -79,14 +83,14 @@ section {
 	padding: 1.61em 5em;
 }
 
-.codrops-links a {
+.cosmo-links a {
 	display: inline-block;
 	padding: 0 1em;
 	text-decoration: none;
 	letter-spacing: 1px;
 }
 
-.codrops-icon:before {
+.cosmo-icon:before {
 	margin: 0 4px;
 	text-transform: none;
 	font-weight: normal;
@@ -98,23 +102,23 @@ section {
 	-webkit-font-smoothing: antialiased;
 }
 
-.codrops-icon-drop:before {
+.cosmo-icon-drop:before {
 	content: "\e001";
 }
 
-.codrops-icon-prev:before {
+.cosmo-icon-prev:before {
 	content: "\e004";
 }
 
 /* Demo Buttons Style */
-.codrops-demos {
+.cosmo-demos {
 	font-size: 1em;
 	max-width: 1200px;
 	margin: 3em auto 5em;
 	padding: 2em 10em 0;
 }
 
-.codrops-demos > a {
+.cosmo-demos > a {
 	display: inline-block;
 	margin: 0.75em;
 	padding: 1.35em 1.1em;
@@ -128,7 +132,7 @@ section {
 	border-radius: 20px/50px;
 }
 
-.codrops-demos > a.current-demo {
+.cosmo-demos > a.current-demo {
 	background: #c94e50;
 	color: #fffce1;
 }
@@ -190,10 +194,10 @@ body #cdawrap {
 	body {
 		font-size: 80%;
 	}
-	.codrops-header h1 {
+	.cosmo-header h1 {
 		font-size: 2.5em;
 	}
-	.codrops-demos {
+	.cosmo-demos {
 		max-width: 900px;
 		padding: 2em 2em 0;
 	}
@@ -204,11 +208,11 @@ body #cdawrap {
 
 @media screen and (max-width: 25em) {
 
-	.codrops-icon {
+	.cosmo-icon {
 		font-size: 250%;
 	}
 
-	.codrops-icon span {
+	.cosmo-icon span {
 		display: none;
 	}
 
