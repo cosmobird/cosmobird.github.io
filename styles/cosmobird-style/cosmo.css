@@ -52,8 +52,8 @@ section {
 
 /* Header */
 .cosmo-header {
-	margin: 0 auto;
-	padding: 3em 2em;
+	margin: 1em 1em;
+	padding: 1em 1em;
 	text-align: center;
 }
 
@@ -65,7 +65,7 @@ section {
 }
 
 .cosmo-header img {
-	border-radius: 2%;
+	border-radius: 1%;
 }
 
 .cosmo-header h1 span {

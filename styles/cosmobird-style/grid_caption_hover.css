@@ -35,6 +35,10 @@
 	color: #ed4e6e;
 }
 
+.grid flat-box{
+	border: 1px;
+}
+
 .grid figcaption h3 {
 	margin: 0;
 	padding: 0;

@@ -1,131 +1,138 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-	<head>
+<head>
 
-		<!-- META -->
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- META -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<meta name="description" content="My interface to the Miserable Humans out there !" />
-		<meta name="keywords" content="cosmobird" />
-		<meta name="author" content="cosmobird" />
+	<meta name="description" content="My interface to the Miserable Humans out there !" />
+	<meta name="keywords" content="cosmobird" />
+	<meta name="author" content="cosmobird" />
 
-		<!-- TITLE -->
-		<title>Ganesh a.k.a cosmobird website</title>
+	<!-- TITLE -->
+	<title>Ganesh a.k.a cosmobird website</title>
 
-		<!-- STYLE STHEETS -->
-		<link rel="stylesheet" type="text/css" href="styles/cosmobird-style/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="styles/cosmobird-style/cosmo.css" />
-		<link rel="stylesheet" type="text/css" href="styles/cosmobird-style/menu_cornerbox.css" />
-		<link rel="stylesheet" type="text/css" href="styles/cosmobird-style/grid_caption_hover.css" />
-		<link rel="stylesheet" type="text/css" href="styles/font-awesome/font-awesome.css" />
+	<!-- STYLE STHEETS -->
+	<link rel="stylesheet" type="text/css" href="styles/cosmobird-style/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="styles/cosmobird-style/cosmo.css" />
+	<link rel="stylesheet" type="text/css" href="styles/cosmobird-style/menu_cornerbox.css" />
+	<link rel="stylesheet" type="text/css" href="styles/cosmobird-style/grid_caption_hover.css" />
+	<link rel="stylesheet" type="text/css" href="styles/font-awesome/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="styles/font-awesome/materialize.css" />
 
+</head>
 
-	</head>
+<body>
+	<div class="container">
 
-	<body>
-		<div class="container">
+		<div class="menu-wrap">
+			<nav class="menu">
+				<div class="profile"><img src="assets/pics/me-pic.png" alt="Cosmobird" /><span>Hi there Humans !</span></div>
 
-			<div class="menu-wrap">
-				<nav class="menu">
-					<div class="profile"><img src="assets/pics/me-pic.png" alt="Cosmobird"/><span>Cosmobird</span></div>
-
-					<div class="icon-list">
-						<a href="#"><i class="fa fa-fw fa-star-o"></i><span>Favorites</span></a>
-						<a href="#"><i class="fa fa-fw fa-bell-o"></i><span>Alerts</span></a>
-						<a href="#"><i class="fa fa-fw fa-envelope-o"></i><span>Messages</span></a>
-						<a href="#"><i class="fa fa-fw fa-fort-awesome"></i><span>About Me</span></a>
-					</div>
-				</nav>
-
-				<button class="close-button" id="close-button">Close Menu</button>	<!-- CLOSE BUTTON IN THE OFF CANVAS MENU -->
-			</div><!-- /menu-wrap -->
-
-			<button class="menu-button" id="open-button">Open Menu</button>				<!-- MENU BUTTON OF THE OFF CANVAS MENU -->
-
-			<div class="content-wrap">
-				<div class="content">
-
-					<!-- header -->
-					<header class="cosmo-header">
-							<img src="assets/pics/header-pic.png" alt="header-pic"/>
-					</header>
-					<!-- /header -->
-
-					<!-- grid -->
-					<ul class="grid cs-style-1">
-						<li>
-							<figure>
-								<img src="assets/pics/1.png" alt="img01">
-								<figcaption>
-									<a href="#">Philosophy</a>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="assets/pics/2.png" alt="img02">
-								<figcaption>
-									<a href="#">Systems</a>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="assets/pics/3.png" alt="img03">
-								<figcaption>
-									<a href="#">Research</a>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="assets/pics/4.png" alt="img04">
-								<figcaption>
-									<a href="#">Projects</a>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="assets/pics/5.png" alt="img05">
-								<figcaption>
-									<a href="#">Artwork</a>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="assets/pics/6.png" alt="img06">
-								<figcaption>
-									<a href="#">Presentations</a>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="assets/pics/1.png" alt="img01">
-								<figcaption>
-									<a href="#">Publications</a>
-								</figcaption>
-							</figure>
-						</li>
-					</ul>
-					<!-- grid -->
-
+				<div class="icon-list">
+					<a href="#"><i class="fa fa-fw fa-star-o"></i><span>Favorites</span></a>
+					<a href="#"><i class="fa fa-fw fa-bell-o"></i><span>Alerts</span></a>
+					<a href="#"><i class="fa fa-fw fa-envelope-o"></i><span>Messages</span></a>
+					<a href="#"><i class="fa fa-fw fa-fort-awesome"></i><span>About Me</span></a>
 				</div>
-			</div><!-- /content-wrap -->
+			</nav>
 
-		</div><!-- /container -->
+			<button class="close-button" id="close-menu-button">Close Menu</button>
+			<!-- CLOSE BUTTON IN THE OFF CANVAS MENU -->
+		</div>
+		<!-- /menu-wrap -->
 
-	</body>
+		<button class="menu-button" id="open-menu-button">Open Menu</button>
+		<!-- MENU BUTTON OF THE OFF CANVAS MENU -->
 
-	<!-- SCRIPTS -->
-	<script src="scripts/front-end-functionality/modernizr.custom.js"></script>
-	<script src="scripts/front-end-functionality/toucheffects.js"></script>
-	<script src="scripts/front-end-functionality/classie.js"></script>
-	<script src="scripts/front-end-functionality/menu_cornerbox.js"></script>
+		<div class="content-wrap">
+			<div class="content">
+
+				<!-- header -->
+				<header class="cosmo-header">
+					<img src="assets/pics/header-pic.png" alt="header-pic" />
+				</header>
+				<!-- /header -->
+
+				<!-- grid -->
+				<ul class="grid cs-style-1">
+					<li>
+						<figure>
+							<img src="assets/pics/Philosophy.png" alt="img01">
+							<figcaption>
+								<a class="waves-effect waves-light btn-large" href="#">Philosophy</a>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="assets/pics/Systems.png" alt="img02">
+							<figcaption>
+								<a href="#">Systems</a>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="assets/pics/Research.png" alt="img03">
+							<figcaption>
+								<a href="#">Research</a>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="assets/pics/4.png" alt="img04">
+							<figcaption>
+								<a href="#">Projects</a>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="assets/pics/5.png" alt="img05">
+							<figcaption>
+								<a href="#">Artwork</a>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="assets/pics/6.png" alt="img06">
+							<figcaption>
+								<a href="#">Presentations</a>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="assets/pics/1.png" alt="img01">
+							<figcaption>
+								<a href="#">Publications</a>
+							</figcaption>
+						</figure>
+					</li>
+				</ul>
+				<!-- grid -->
+
+			</div>
+		</div>
+		<!-- /content-wrap -->
+
+	</div>
+	<!-- /container -->
+
+</body>
+
+<!-- SCRIPTS -->
+<script type="text/javascript" src="scripts/front-end-functionality/modernizr.custom.js"></script>
+<script type="text/javascript" src="scripts/front-end-functionality/toucheffects.js"></script>
+<script type="text/javascript" src="scripts/front-end-functionality/classie.js"></script>
+<script type="text/javascript" src="scripts/front-end-functionality/menu_cornerbox.js"></script>
+<script type="text/javascript" src="scripts/front-end-functionality/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="scripts/front-end-functionality/materialize.js"></script>
 
 </html>
