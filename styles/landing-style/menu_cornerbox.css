@@ -108,7 +108,7 @@ body,
 	position: absolute;
 	z-index: 1001;
 	width: 280px;
-	height: 300px;
+	height: 330px;
 	background: #fdfdf8;
 	color: #373a47;
 	padding: 2em;
@@ -121,7 +121,7 @@ body,
 .profile {
 	display: inline-block;
 	line-height: 42px;
-	margin-bottom: 1em;
+	margin-bottom: 0em;
 	font-weight: 700;
 }
 
