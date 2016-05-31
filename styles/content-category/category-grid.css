@@ -772,7 +772,7 @@ button:focus {
 
   .main {
     height: 100%;
-    margin-left: 300px;
+    width: 100%
   }
 
   .content__item {
