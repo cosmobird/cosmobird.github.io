@@ -51,7 +51,7 @@
 
 .grid figcaption a {
 	text-align: center;
-	padding: 5px 10px;
+	padding: 0px 0px;
 	display: inline-block;
 	color: #fff;
 }
@@ -82,7 +82,7 @@
 }
 
 .cs-style-1 figcaption h3 {
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 .cs-style-1 figcaption span {
