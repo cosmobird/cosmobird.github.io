@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="42.333336mm"
-   height="42.333332mm"
-   viewBox="0 0 150 150"
+   width="42.333332mm"
+   height="42.334583mm"
+   viewBox="0 0 149.99999 150.00443"
    id="svg4759"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="131.571"
-     inkscape:cy="81.893845"
+     inkscape:zoom="1"
+     inkscape:cx="357.40259"
+     inkscape:cy="-59.642026"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,7 +39,8 @@
      inkscape:window-height="704"
      inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showborder="false" />
   <metadata
      id="metadata4764">
     <rdf:RDF>
@@ -62,8 +63,8 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <rect
-         ry="17.745853"
-         rx="17.745853"
+         ry="0"
+         rx="0"
          style="opacity:1;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:6.79094839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect5453"
          width="150"
@@ -74,7 +75,7 @@
          sodipodi:nodetypes="ccccccccccccccc"
          inkscape:connector-curvature="0"
          id="path4445"
-         d="m 359.03194,988.42988 50.2537,50.27742 0,42.9535 c 0,0 0.0645,6.7834 -4.8227,11.6599 -5.47882,5.4788 -11.60993,5.4447 -11.60993,5.4447 l -44.60102,0.025 -33.15622,-33.2081 7.68352,3.7092 10.12663,1.9918 12.5311,-2.6441 10.66959,-8.56 5.32198,-11.8214 2.71209,-13.7445 -0.15322,-10.3264 z"
+         d="m 359.03194,988.42988 50.2537,50.27742 0,42.9535 -0.003,17.1344 -16.42924,-0.03 -44.60102,0.025 -33.15622,-33.2081 7.68352,3.7092 10.12663,1.9918 12.5311,-2.6441 10.66959,-8.56 5.32198,-11.8214 2.71209,-13.7445 -0.15322,-10.3264 z"
          style="fill:#aa8800;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <g
          style="fill:#ffffff"
