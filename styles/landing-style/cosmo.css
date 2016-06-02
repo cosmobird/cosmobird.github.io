@@ -17,6 +17,7 @@ body {
 	font-weight: 400;
 	font-size: 1em;
 	font-family: 'Lato', Arial, sans-serif;
+	min-width: 600px;
 }
 
 a {
@@ -41,7 +42,9 @@ section {
 
 /* Header */
 .cosmo-header {
-	margin: 0 1em 1em 1em;
+	position: relative;
+	width: 100%vw;
+	margin: 0;
 	padding: 1em 1em;
 	text-align: center;
 }
@@ -98,7 +101,6 @@ section {
 .cosmo-icon-prev:before {
 	content: "\e004";
 }
-
 
 @media screen and (max-width: 40em) {
 	body {

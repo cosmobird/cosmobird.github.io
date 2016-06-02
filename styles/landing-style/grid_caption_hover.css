@@ -1,14 +1,16 @@
+/*GRID CAPTIONS IN PAGE*/
 .grid {
-	padding: 20px 20px 100px 20px;
-	max-width: 1300px;
-	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+	max-width: 2100px;
+  margin: 0 auto;
 	list-style: none;
 	text-align: center;
 }
 
 .grid li {
 	display: inline-block;
-	width: 200px;
+  min-width: 200px;
+	max-width: 200px;
 	margin: 0;
 	padding: 20px;
 	text-align: left;
@@ -95,10 +97,11 @@
 
 @media screen and (max-width: 31.5em) {
 	.grid {
-		padding: 10px 10px 100px 10px;
+		padding: 10px 10px 10px 10px;
 	}
 	.grid li {
 		width: 100%;
-		min-width: 300px;
+		min-width: 200px;
 	}
 }
+/*GRID CAPTIONS IN PAGE*/
