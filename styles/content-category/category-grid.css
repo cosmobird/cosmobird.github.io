@@ -76,7 +76,7 @@ button:focus {
 	display: block;
 	position: relative;
   margin: 1em auto;
-	border-radius: 2%;
+	border-radius: 50%;
 }
 
 .sidebar h1 {
