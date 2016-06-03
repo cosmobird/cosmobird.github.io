@@ -64,6 +64,11 @@
 	function scrollY() { return window.pageYOffset || docElem.scrollTop; }
 
 	function init() {
+		if ( !classie.has(sidebarEl, 'sidebar--open')){ // initially let the sidebar appear and push the main container - containing the grid
+			classie.add(sidebarEl, 'sidebar--open'); // show the sidebar
+			classie.add(gridEl, 'main--push'); // push the main container along with grid
+			classie.add(gridEl, 'grid--push'); // resize the grid container
+		}
 		initEvents();
 	}
 
@@ -107,16 +112,23 @@
 		} );
 
 		// hamburger menu button (mobile) and close cross
+
 		menuCtrl.addEventListener('click', function() {
-			if( !classie.has(sidebarEl, 'sidebar--open') ) {
-				classie.add(sidebarEl, 'sidebar--open');
+			if( !classie.has(sidebarEl, 'sidebar--open')) {
+				classie.add(sidebarEl, 'sidebar--open'); // show the side bar
+				classie.add(gridEl, 'main--push'); // push the main container that contains the grid
+				classie.add(gridEl, 'grid--push'); // resize the grid container
+				menuCtrl.style.display = 'none'; // hide menu button from view
 			}
 		});
 
 		menuCloseCtrl.addEventListener('click', function() {
-			if( classie.has(sidebarEl, 'sidebar--open') ) {
-				classie.remove(sidebarEl, 'sidebar--open');
-			}
+				if( classie.has(sidebarEl, 'sidebar--open') ) {
+					classie.remove(sidebarEl, 'sidebar--open'); // remove the side bar
+					classie.remove(gridEl, 'main--push'); // pull back the main container
+					classie.remove(gridEl, 'grid--push'); // resize the grid container
+					menuCtrl.style.display = 'inline-block'; // show menu button
+				}
 		});
 	}
 
@@ -137,6 +149,11 @@
 
 		// body overlay
 		classie.add(bodyEl, 'view-single');
+
+		classie.remove(sidebarEl,'sidebar--open'); // remove sidebar--open class
+		classie.remove(gridEl, 'main--push'); // remove main--push  class
+		menuCtrl.style.display = 'none'; // hide menu button from view
+		classie.remove(gridEl, 'grid--push'); // resize the grid container
 
 		setTimeout(function() {
 			// expands the placeholder
@@ -172,6 +189,12 @@
 		classie.remove(contentItemsContainer, 'content--show');
 		classie.remove(closeCtrl, 'content-close-button--show');
 		classie.remove(bodyEl, 'view-single');
+
+		classie.add(sidebarEl,'sidebar--open'); // add sidebar--open class
+		classie.add(gridEl, 'main--push'); // add main--push  class
+		menuCtrl.style.display = 'inline-block'; // show menu button
+		classie.add(gridEl, 'grid--push'); // resize the grid container
+
 
 		setTimeout(function() {
 			var dummy = gridItemsContainer.querySelector('.placeholder');

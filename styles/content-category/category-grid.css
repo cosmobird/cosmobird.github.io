@@ -29,8 +29,9 @@ body {
   font-family: "Lato", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
+	overflow-x: auto;
+	min-width: 600px;
   /* force scroll to appear */
 }
 
@@ -89,15 +90,58 @@ button:focus {
   display: block;
 }
 
+.sidebar {
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: -webkit-transform 0.3s;
+}
+
+.sidebar.sidebar--open {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.sidebar .close-button {
+	opacity: 1;
+	pointer-events: auto;
+}
+
 /* Main content */
 .main {
   position: relative;
   z-index: 50;
 }
 
+.main header{
+	position: relative;
+	text-align: center;
+}
+
+.main{
+	margin-left: 0px;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.main.main--push{
+	-webkit-transform: translate3d(300px, 0, 0);
+	transform: translate3d(300px, 0, 0);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
 /* Grid container */
 .grid {
   position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid--push{
+	width: calc(100vw - 300px);
 }
 
 /* Overlay */
@@ -138,7 +182,7 @@ button:focus {
   font-size: 0.75em;
 }
 
-/* Menu button for toggling the sidebar (appears on small screen) */
+/* Menu button for toggling the sidebar (appears on small screen) - **NOW Hacked, patched to work for all screens - now user has the control to select the sidebar */
 .menu-toggle {
   position: fixed;
   z-index: 100;
@@ -147,7 +191,7 @@ button:focus {
   height: 25px;
   top: 14px;
   left: 14px;
-  /*cursor: pointer;*/
+  cursor: pointer;
   background: none;
   border: none;
   display: none;
@@ -772,7 +816,7 @@ button:focus {
 
   .main {
     height: 100%;
-    margin-left: 300px;
+    /*margin-left: 300px;*/
   }
 
   .content__item {
@@ -819,44 +863,38 @@ button:focus {
   .grid__item--loading.grid__item::before {
     opacity: 0;
   }
+
 }
 @media screen and (min-width: 1200px) {
   /* 3 columns */
   .grid__item {
     width: 33.333%;
   }
+
 }
 @media screen and (min-width: 1500px) {
   /* 4 columns */
   .grid__item {
     width: 25%;
   }
+
 }
 @media screen and (min-width: 1800px) {
   /* 5 columns */
   .grid__item {
     width: 20%;
   }
+
 }
 @media screen and (min-width: 2100px) {
   /* 6 columns */
   .grid__item {
     width: 16.66%;
   }
+
 }
 /* small screen changes for sidebar (it becomes an off-canvas menu) */
 @media screen and (max-width: 599px) {
-  .sidebar {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-    -webkit-transition: -webkit-transform 0.3s;
-    transition: -webkit-transform 0.3s;
-  }
-
-  .sidebar.sidebar--open {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
 
   .sidebar.sidebar--open ~ .main {
     pointer-events: none;
@@ -864,15 +902,6 @@ button:focus {
 
   .top-bar {
     padding: 22px 15px 10px 60px;
-  }
-
-  .menu-toggle {
-    display: inline-block;
-  }
-
-  .sidebar .close-button {
-    opacity: 1;
-    pointer-events: auto;
   }
 
   .title--full {
@@ -986,6 +1015,11 @@ body {
     transition: transform 0.5s;
   }
 
+	.grid {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
   .view-single .sidebar,
   .view-single .grid {
     -webkit-transform: translate3d(calc(280px - 100vw), 0, 0);
@@ -1045,6 +1079,7 @@ body {
     display: none;
   }
 }
+
 @media screen and (max-width: 599px) {
   .meta__misc,
   .article-nav {
