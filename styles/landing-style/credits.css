@@ -26,6 +26,13 @@ body {
   margin: 0em;
 }
 
+.container p{
+	margin: 2em 0em;
+	padding: 1em;
+	text-align: justify;
+	border-style: none none dotted none;
+}
+
 .credits{
   margin: 0;
 }
@@ -40,21 +47,6 @@ body {
   position: relative;
   box-sizing: border-box;
   margin: 0;
-}
-
-.credits .web{
-  padding: 1em 0;
-  background-color: #00d4aa;
-}
-
-.credits .icons{
-  padding: 1em 0;
-  background-color: #1fe4be;
-}
-
-.credits .articles{
-  padding: 1em 0;
-  background-color: #00d4aa;
 }
 
 .credits li{
@@ -76,4 +68,5 @@ body {
   display: inline-block;
   padding-left: 1em;
   font-weight: 700;
+	visibility: hidden;
 }
