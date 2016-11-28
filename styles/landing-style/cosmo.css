@@ -12,7 +12,7 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: #b4bad2;
+	background: #fdfdf8; /*#b4bad2;*/
 	color: #fffce1;
 	font-weight: 400;
 	font-size: 1em;
@@ -47,6 +47,7 @@ section {
 	width: 100%vw;
 	margin: 0;
 	padding: 1em 1em;
+	padding-top: 5em;
 	text-align: center;
 }
 
@@ -129,4 +130,4 @@ section {
 		display: none;
 	}
 
-}
+}	
