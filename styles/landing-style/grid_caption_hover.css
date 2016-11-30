@@ -23,6 +23,11 @@
 	position: relative;
 }
 
+.grid figure a {
+	text-align: center;
+	color: #fff;
+}
+
 .grid figure img {
 	max-width: 100%;
 	display: block;
@@ -46,14 +51,7 @@
 
 
 
-.grid figcaption a {
-	text-align: center;
-	color: #fff;
-}
-
-
-
-@media screen and (max-width: 31.5em) {
+@media screen and (width: 800px) {
 	.grid {
 		padding: 10px 10px 10px 10px;
 	}

@@ -17,8 +17,7 @@ body {
 	font-weight: 400;
 	font-size: 1em;
 	font-family: 'Lato', Arial, sans-serif;
-	min-width: 600px;
-	max-width: 1920px;
+	vertical-align: middle;
 }
 
 a {
@@ -45,9 +44,8 @@ section {
 .cosmo-header {
 	position: relative;
 	width: 100%vw;
-	margin: 0;
 	padding: 1em 1em;
-	padding-top: 5em;
+	margin-top: 2.5em;
 	text-align: center;
 }
 
@@ -103,31 +101,3 @@ section {
 .cosmo-icon-prev:before {
 	content: "\e004";
 }
-
-@media screen and (max-width: 40em) {
-	body {
-		font-size: 100%;
-	}
-	.cosmo-header h1 {
-		font-size: 2.5em;
-	}
-	.cosmo-demos {
-		max-width: 900px;
-		padding: 2em 2em 0;
-	}
-	.related > a {
-		margin: 20px 0;
-	}
-}
-
-@media screen and (max-width: 25em) {
-
-	.cosmo-icon {
-		font-size: 250%;
-	}
-
-	.cosmo-icon span {
-		display: none;
-	}
-
-}	
