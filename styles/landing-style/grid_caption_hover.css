@@ -1,7 +1,8 @@
 /*GRID CAPTIONS IN PAGE*/
 .grid {
 	padding: 10px 10px 10px 10px;
-	max-width: 100%;
+	min-width: 20%;
+	max-width: 80%;
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
