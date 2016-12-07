@@ -10,29 +10,45 @@
 @font-face {
 	font-weight: normal;
 	font-style: normal;
-	font-family: 'SourceCodePro';
+	font-family: 'SourceCodePro-Regular';
 	src:url('../../assets/fonts/sourcecodepro/SourceCodePro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'SourceCodePro-SemiBold';
+	src:url('../../assets/fonts/sourcecodepro/SourceCodePro-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'SourceCodePro-Bold';
+	src:url('../../assets/fonts/sourcecodepro/SourceCodePro-Bold.ttf') format('truetype');
 }
 
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { content: ''; display: table; }
 .clearfix:after { clear: both; }
 
+html{
+	display: table;
+	margin: auto;
+}
+
 html,body {
-	background: #fdfdf8; /*#b4bad2;*/
-	color: #111111;
+	background: url('../../assets/pics/background/bg5.png');
+	color: #fdfdf8;
 	font-weight: 400;
 	font-size: 1em;
 	font-family: 'Lato', Arial, sans-serif;
-	vertical-align: middle;
+	height: 100%;
 }
 
-
-pre {
-	font-family: 'SourceCodePro';
-	font-size: 13px;
-	font-weight: 400;
-	color: #111111;
+body{
+	display: table-cell;
+	vertical-align: middle;
 }
 
 a {
@@ -60,7 +76,7 @@ section {
 	position: relative;
 	width: 100%;
 	padding: 1em 1em;
-	margin-top: 2.5em;
+	margin-top: 2em;
 	text-align: center;
 }
 
@@ -69,7 +85,7 @@ section {
 	font-weight: 800;
 	font-size: 3.75em;
 	line-height: 1;
-	color: #111111;
+	color: #fdfdf8;
 }
 
 .cosmo-header h1 span {
@@ -82,16 +98,46 @@ section {
 .cosmo-header h2 {
 	margin: 0 auto;
 	font-weight: 400;
-	font-size: 2.75em;
+	font-size: 2.5em;
 	line-height: 1;
-	color: #111111;
+	color: #fdfdf8;
 }
 
 .cosmo-header h2 span {
 	display: block;
 	font-size: 50%;
 	font-weight: 200;
-	padding-top: 0.325em;
+	padding-top: 0.3em;
+}
+
+.cosmo-content{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.cosmo-content pre {
+	font-family: 'SourceCodePro-Regular';
+	font-size: 13px;
+	font-weight: 400;
+	color: #fdfdf8;
+	white-space: pre-wrap;
+	overflow: auto;
+}
+
+.cosmo-content bud{
+	font-family: 'SourceCodePro-Bold';
+	font-size: 13px;
+	font-weight: 400;
+	color: #1ED865;
+}
+
+.cosmo-content pre ul {
+	line-height: 0.5em;
+}
+
+.cosmo-content pre b {
+	font-family: 'SourceCodePro-SemiBold';
+	color: #D49733;
 }
 
 .cosmo-links {
