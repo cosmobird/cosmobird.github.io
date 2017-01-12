@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="42.333332mm"
+   height="42.334583mm"
+   viewBox="0 0 149.99999 150.00443"
+   id="svg4759"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Spectroscopy.svg">
+  <defs
+     id="defs4761">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4918"
+       x="-0.0455988"
+       width="1.0911976"
+       y="-0.087696746"
+       height="1.1753935">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.89995"
+         id="feGaussianBlur4920" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.4277488"
+     inkscape:cx="107.73125"
+     inkscape:cy="73.429425"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showborder="false" />
+  <metadata
+     id="metadata4764">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-259.28568,-948.79077)">
+    <g
+       id="g4934">
+      <rect
+         ry="0"
+         rx="0"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:6.79094839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5453"
+         width="150"
+         height="150"
+         x="259.28568"
+         y="948.79077" />
+      <g
+         style="fill:#999999;filter:url(#filter4918)"
+         transform="matrix(1.14,0,0,1.14,277.28568,966.79077)"
+         id="g4109">
+        <polygon
+           style="fill:#999999"
+           points="36.834,48.494 37.663,47.06 0,56.963 0,58.283 "
+           id="polygon4097" />
+        <polygon
+           style="fill:#999999"
+           points="100,62.448 68.332,54.066 61.876,42.887 100,48.791 "
+           id="polygon4099" />
+        <path
+           style="fill:#999999"
+           inkscape:connector-curvature="0"
+           d="m 20.954,75.998 30.021,-51.996 30.019,51.996 -60.04,0 z m 15.88,-27.504 31.498,5.573 -6.456,-11.18 -24.213,4.173 -0.829,1.434 z"
+           id="path4101" />
+      </g>
+      <g
+         id="g4922"
+         transform="matrix(1.14,0,0,1.14,277.28568,966.79077)"
+         style="fill:#999999;">
+        <polygon
+           id="polygon4924"
+           points="36.834,48.494 37.663,47.06 0,56.963 0,58.283 "
+           style="fill:#999999" />
+        <polygon
+           id="polygon4926"
+           points="100,62.448 68.332,54.066 61.876,42.887 100,48.791 "
+           style="fill:#999999" />
+        <path
+           id="path4928"
+           d="m 20.954,75.998 30.021,-51.996 30.019,51.996 -60.04,0 z m 15.88,-27.504 31.498,5.573 -6.456,-11.18 -24.213,4.173 -0.829,1.434 z"
+           inkscape:connector-curvature="0"
+           style="fill:#999999" />
+      </g>
+    </g>
+  </g>
+</svg>
