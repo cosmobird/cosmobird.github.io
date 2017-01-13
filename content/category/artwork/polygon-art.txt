@@ -1,0 +1,30 @@
+hi there,
+
+	This is a System Monitor based design which i made using Inkscape & Conky.
+	The UI design is only one way as usual in conky. However, the design basically
+	reflects my curiosity towards polygonization of surfaces. Particularly the mesh
+	generation, voronoi & delaunay patterns used in spatial analysis & statistics
+	have inspired me in a geometric and artistic sense.
+
+	I am also interested in learning how the reporters (hardware sensors + programmed
+	functions) that monitor vital system status. Particularly learned something
+	around Lua & C. Really appreciable stuff.
+
+	With such curiosity, and knowing very little about the above stuff, i somehow
+	managed to make the conky system monitor work in my screen. Much of the web is
+	mostly filled with some popular designs for Conky.
+
+	It is very great that using free software like Conky, its derived designs are
+	rapidly copied and redistributed with little bit of customization a user immediately
+	wants to enjoy it. But it is also its very nature is to easily customize its
+	operation, look, feel that brings the individuality in oneself. I consider that
+	as a great value for liberty, helps gain confidence on one's own hacking, brings
+	courage to write some program. The individual becomes their own critical reviewer...
+	because it brings a personal touch and help get started with introspection.
+
+	:)
+
+	Searched for immediate availability of polygon generation - none is good, moreover,
+	not available as free/open tool. Somehow pattern generation plugin in Inkscape is not
+	much helpful during that time (how ever they are good at generating voronoi, delaunay
+	polygons...)

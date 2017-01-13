@@ -135,6 +135,11 @@ section {
 	line-height: 0.5em;
 }
 
+.cosmo-content pre a {
+	color: #478DA1;
+	text-decoration: none;
+	outline: auto;
+}
 .cosmo-content pre b {
 	font-family: 'SourceCodePro-SemiBold';
 	color: #D49733;
@@ -177,4 +182,14 @@ section {
 
 .cosmo-header img {
 	border-radius: 2%;
+}
+
+.content-image img {
+	position: relative;
+	width: auto;
+	height: auto;
+	max-width: 90%;
+	max-height: 500px;
+	padding: 1em 1em ;
+	vertical-align: middle;
 }
