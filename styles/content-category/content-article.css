@@ -193,3 +193,11 @@ section {
 	padding: 1em 1em ;
 	vertical-align: middle;
 }
+
+figure{
+	font-family: 'SourceCodePro-Regular';
+	font-size: 13px;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+}
