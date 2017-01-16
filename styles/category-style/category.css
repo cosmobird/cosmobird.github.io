@@ -27,14 +27,6 @@ html,body {
 	vertical-align: middle;
 }
 
-
-pre {
-	font-family: 'SourceCodePro';
-	font-size: 13px;
-	font-weight: 400;
-	color: #111111;
-}
-
 a {
 	color: #4e4a46;
 	text-decoration: none;
@@ -122,3 +114,5 @@ section {
 .category-icon-prev:before {
 	content: "\e004";
 }
+
+

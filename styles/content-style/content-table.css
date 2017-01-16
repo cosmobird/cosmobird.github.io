@@ -1,0 +1,75 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'Lato';
+	src:url('../../assets/fonts/lato/Lato-Regular.eot');
+	src:url('../../assets/fonts/lato/Lato-Regular.woff') format('woff'),
+			url('../../assets/fonts/lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'SourceCodePro';
+	src:url('../../assets/fonts/sourcecodepro/SourceCodePro-Regular.ttf') format('truetype');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+html{
+	display: table;
+	margin: auto;
+}
+
+html,body {
+	background: url('../../assets/pics/background/bg5.png');
+	color: #E5E8EA;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Lato', Arial, sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	display: table-cell;
+	min-width: 50%;
+}
+
+a {
+	color: #E5E8EA;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #c94e50;
+	outline: none;
+}
+
+.content-table{
+	position: relative;
+	display: table;
+	width: 90%;
+	margin: 1em auto;
+	vertical-align: middle;
+}
+
+.content-table-head{
+	display: table-header-group;
+	background: #1B739B;
+	height: 50px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.content-table-body {
+	display: table-row-group;
+	text-align: center;
+}
+
+.content-table-body td{
+	padding: 1em 1em;
+}
