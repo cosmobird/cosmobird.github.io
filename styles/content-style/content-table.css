@@ -14,9 +14,20 @@
 	src:url('../../assets/fonts/sourcecodepro/SourceCodePro-Regular.ttf') format('truetype');
 }
 
-*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
-.clearfix:before, .clearfix:after { content: ''; display: table; }
-.clearfix:after { clear: both; }
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after
+{
+	content: '';
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
 
 html{
 	display: table;
@@ -55,7 +66,8 @@ a:hover, a:focus {
 	width: 80%;
 	margin: 1em auto;
 	vertical-align: middle;
-	border-collapse: collapse;
+	border-collapse: separate;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
 }
 
 .content-table-head{
@@ -79,6 +91,7 @@ a:hover, a:focus {
 .content-table-head th:nth-child(3){
 	width: 128px;
 }
+
 .content-table-body td{
 	padding: 1em 1em;
 }
