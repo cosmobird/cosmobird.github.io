@@ -150,9 +150,9 @@ section {
 	font-size: 13px;
 	font-weight: 400;
 	color: #333333;
-	white-space: auto;
 	overflow: auto;
 	margin: 3em auto;
+	scroll-behavior: smooth;
 }
 
 .content bud{
@@ -160,6 +160,16 @@ section {
 	font-size: 13px;
 	font-weight: 400;
 	color: #1ED865;
+}
+
+.content ul{
+	text-align: justify;
+	margin: 1em auto;
+}
+
+.content li{
+	text-align: justify;
+	margin: 1em auto;
 }
 
 .content pre ul {
