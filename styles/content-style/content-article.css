@@ -135,6 +135,14 @@ section {
 	color: #333333;
 }
 
+.content h3 {
+	margin: 0 auto;
+	font-weight: 800;
+	font-size: 1em;
+	line-height: 1;
+	color: #0076FF;
+}
+
 .content p {
 	margin: 2em auto;
 	text-align: justify;
@@ -153,6 +161,8 @@ section {
 	overflow: auto;
 	margin: 3em auto;
 	scroll-behavior: smooth;
+	vertical-align: middle;
+	max-width: 640px;
 }
 
 .content bud{
@@ -164,6 +174,7 @@ section {
 
 .content ul{
 	text-align: justify;
+	width: 80%;
 	margin: 1em auto;
 }
 
@@ -214,4 +225,9 @@ figure{
 	position: relative;
 	vertical-align: middle;
 	text-align: center;
+	margin: 2em auto;
+}
+
+figcaption{
+	margin: 2em auto;
 }
