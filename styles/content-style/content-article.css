@@ -208,13 +208,6 @@ section {
 	border-radius: 2%;
 }
 
-.content img:before{
-	background: url(../../assets/pics/misc/Preloader.gif) no-repeat;
-	position: relative;
-	width: 64px;
-	height: 64px;
-}
-
 .content img {
 	position: relative;
 	width: auto;
