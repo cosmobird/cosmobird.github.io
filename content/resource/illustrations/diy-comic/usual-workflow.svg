@@ -518,9 +518,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0542061"
-     inkscape:cx="224.11681"
-     inkscape:cy="67.900269"
+     inkscape:zoom="1"
+     inkscape:cx="148.88471"
+     inkscape:cy="121.66543"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -552,7 +552,9 @@
      id="layer1"
      transform="translate(-45.077274,-301.38175)">
     <g
-       id="g7037">
+       id="g7037"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
          transform="translate(16.892772,0)"
          id="g7026">
