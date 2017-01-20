@@ -208,7 +208,7 @@ section {
 	border-radius: 2%;
 }
 
-.content-image img {
+.content img {
 	position: relative;
 	width: auto;
 	height: auto;
@@ -219,7 +219,7 @@ section {
 	vertical-align: middle;
 }
 
-figure{
+.content figure{
 	font-family: 'SourceCodePro-Regular';
 	font-size: 13px;
 	position: relative;
@@ -228,6 +228,6 @@ figure{
 	margin: 2em auto;
 }
 
-figcaption{
+.content figcaption{
 	margin: 2em auto;
 }
