@@ -17,6 +17,7 @@
 
     <!-- STYLE STHEETS -->
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-article.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-table.css" />
 
 
 </head>
@@ -97,6 +98,136 @@
   	  	  	called the terrain of the planet Earth.
   	  	</p>
 
+  	  	<p>
+			The coolsome thing about terrain is it provides <b>elevation</b>. Elevation is an important stuff here,
+  	  	  	because in physical reality it enables perspective. As terrain is not just about a location alone, but elevation
+  	  	  	at that particular location - the information extracted facilitates one to think about what will be the
+  	  	  	perspective that it can offer. Terrain mapping is all about profiling the elevation measurement in a location
+  	  	  	through survey teams and using survey instruments, projecting the measurement meticulously on the map, and fuse
+  	  	  	it with other abstract field data to enrich the explorative and communication aspect of mapping.
+  	  	</p>
+
+  	  	<p>
+  	  	   	Understanding terrain thoroughly requires the knowledge of how is it surveyed, how the elevations are measured,
+  	  	   	how is it mapped using cartography and how the information is disseminated and updated then after. For very long
+  	  	  	time, the measurement is undergone with Military or Survey authority regulated and adminsitered by Governments of
+  	  	  	a country. Still now, hard to reach places are effectively measured by such dedicated Survey Engineers & Technicians.
+			This has been particularly influenced by the availability of standards and technology that uses them. With the
+  	  	  	evolution of open standards and research communities encouraging open standards in the field of <a href="http://wiki.gis.com/wiki/index.php/Main_Page">
+			Geographical Information Systems</a> - have paved a way for reducing the fatigue process of mapping into a more
+  	  	  	interesting and elegant proceduce.
+  	  	</p>
+
+  	  	<p>
+  	  	  	Terrain in Cartographic terms are referred as Topographical maps which are further percieved based on the
+  	  	  	measurement of elevation relative to <a href="https://en.wikipedia.org/wiki/Sea_level">mean sea level</a> as :
+  	  	  	<ul>
+  	  	  	  <li> Hypsometry </li>
+  	  	  	  <li> Bathymetry </li>
+  	  	  	</ul>
+
+  	  		<figure>
+  	  		  	<img src="../../../../content/resource/maps/Global Bathymetry DEM.jpg" alt="global-bath-dem">
+  	  	  		<figcaption><b>example bathymetry DEM</b></figcaption>
+  	  		</figure>
+  	  	  	With the advent in Satellite & Remote sensing technology, several explorative & scientific satellite missions have
+  	  	  	been launched to facilitate global measurements with diverse goals that would surpass the cost indulged
+  	  	  	in lauching the remote sensing project itself. In similar way to create computerized models of elevations
+			international research efforts such as <a href="https://en.wikipedia.org/wiki/Shuttle_Radar_Topography_Mission">
+			SRTM</a>, <a href="https://en.wikipedia.org/wiki/Advanced_Spaceborne_Thermal_Emission_and_Reflection_Radiometer#ASTER_Global_Digital_Elevation_Model">
+			ASTER</a> & other satellite missions were launched, to provide the data required for creating the <a href="http://wiki.gis.com/wiki/index.php/Digital_Elevation_Model">
+			Digital Elevation Model (DEM)</a>. Checkout their instrumentation, and are one of the supercooooool integrations
+  	  	  	in the scientific, engineering realm... which will surely spike out hairs of instrumentation, communication hackers
+  	  	  	in general.
+  	  	</p>
+
+  	  	<p>
+  	  	  	With the availability of UAVs, RADAR, SONAR, LIDAR, HyperSpectral based instruments, the data fusion have brought
+  	  	  	has very informative and attractive topographical maps which is disseminated to commons use. Even more with the
+  	  	  	accessability of Free & Open Source Software tools, technologies & platforms that implement a democratic and open
+  	  	  	strandards pur forth by the geo-science community, enables commons to contribute to mapping effectively than ever
+  	  	  	before. This strategy not only distributes the information, but also encourages the commons to study about the
+  	  	  	mechanisms, policies, scientific principles involved with mapping itself.
+  	  	</p>
+
+<pre>
+ <bud>@</bud>
+<bud>/.\</bud> ----+----------+
+<bud>/ \</bud>     | YAWN  :O |
+	+----------+
+
+  			+----------------------------------------+--------( me )
+  			| fine, fine,... lets get into action... |
+  			+----------------------------------------+
+</pre>
+
+  	  	<figure>
+  	  	  	<img src="../../../../assets/pics/misc/action-time.png" alt="action-time">
+  	  	  	<figcaption><b><i>WHAT'S THE ACTION ?</i></b></figcaption>
+  	  	</figure>
+
+		<p>
+		  	I have always fascinated by <a href="http://wiki.gis.com/wiki/index.php/Contour_line">
+		  	contour/isolines</a>. They add meaning to the existing topography representation when
+		  	added at the optimum density. I also like the fact that they can be represented in vector
+		  	form which enables detail scaling. It is smooth, curvy <b>[ :) ]</b> & it is generated by
+		  	a cool algorithm.
+		</p>
+
+  	  	<p>
+  	  	  	Let's walk our try out through the following simple gis workflow :
+
+	  	  	<figure>
+	  	  	  	<img src="../../../../content/resource/illustrations/try-terrain/gis-flow.png" alt="gis-flow">
+	  	  	  	<figcaption><b>Common Workflow</b></figcaption>
+	  	  	</figure>
+  	  	</p>
+
+  	  	<ul>
+	  	  	<li><h3><i>STEP 1:</i></h3>
+
+		  	  	<p>
+		  	  	  	One has to know the data sources from which they can either download the data directly if the
+		  	  	  	data provider offers the data in public domain or registration based data access. It has to be
+		  	  	  	noted that most of the data source mentioned here are mostly of public domain type, which are
+		  	  	  	mostly offered by established research institutions, and includes collaborative authorship sources
+		  	  	  	too. Since we here planned to work with terrain/topography data, the following data sources can
+		  	  	  	be used :
+
+					<table class="content-table">
+						  <thead class="content-table-head">
+							  <tr>
+							    <th>TYPE</th>
+							    <th>SOURCE</th>
+							  </tr>
+						  </thead>
+						  <tbody class="content-table-body">
+							  <tr>
+							    <td>FTP</td>
+							    <td><a href="https://dds.cr.usgs.gov/srtm/">Shuttle Radar Topography Mission</a></td>
+							  </tr>
+						    	  <tr>
+						    	    <td>WMS</td>
+						    	    <td><a href="https://asterweb.jpl.nasa.gov/gdem.asp">Advanced Spaceborne Thermal Emission and Reflection Radiometer</a></td>
+						    	  </tr>
+						  </tbody>
+					</table>
+		  	  	</p>
+	  	  	</li>
+
+  	  	  	<li><h3><i>STEP 2:</i></h3>
+
+  	  	  	</li>
+
+  	  	  	<li><h3><i>STEP 3:</i></h3>
+
+  	  	  	</li>
+
+  	  	  	<li><h3><i>STEP 4:</i></h3>
+
+  	  	  	</li>
+  	  	</ul>
+
 <pre>
 						  		 <bud>@</bud>
 								<bud>/.\</bud>
@@ -105,7 +236,7 @@
 
 +--------------------+
 | Links  & Downloads |
-+--------------------+---->  1.
++--------------------+---->  1. <a href="../../../../content/category/presentations/Free GIS.pdf"> My evolving presentation on GIS </a>
   		     |
   		     +---->  2.
   		     |
@@ -119,11 +250,23 @@
 </pre>
 
   	  	<p>
-  	  	  <h3>CREDITS :</h3>
+  	  	  <h3><i>CREDITS :</i></h3>
   	  	  	<ul>
-  	  	  	  <li><b>Stuff :</b>
-
-  	  	  	  </li>
+			  <li><b>Icons :</b>
+				  <ul>
+		  	  	  	<li><a href="https://thenounproject.com/IconDots/">IconDots</a></li>
+				  	<li><a href="https://thenounproject.com/mikhail.listopadov/">Mikhail Listopadov</a></li>
+				    	<li><a href="http://www.flaticon.com/authors/madebyoliver">Made by Oliver - Technology elements</a></li>
+				    	<li><a href="http://www.flaticon.com/packs/business-situations">Becris - Business situations</a></li>
+				    	<li><a href="https://thenounproject.com/vectorsmarket/">Vector Market</a></li>
+				    	<li><a href="http://www.flaticon.com/authors/roundicons">Round Icons</a></li>
+	  	  	  	  </ul>
+			  </li>
+  	  	  	  <li><b>Maps :</b>
+				  <ul>
+		  	  	  	<li><a href="https://www.flickr.com/photos/kevinmgill/">Kevin Gill</a></li>
+	  	  	  	  </ul>
+			  </li>
   	  	  	</ul>
   	  	</p>
 

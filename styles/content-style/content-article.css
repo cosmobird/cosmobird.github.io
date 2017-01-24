@@ -175,7 +175,10 @@ section {
 .content ul{
 	text-align: justify;
 	width: 90%;
-	margin: 1em auto;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .content li{
