@@ -84,15 +84,6 @@ a:hover, a:focus {
 	text-align: center;
 }
 
-
-.content-table-head th:nth-child(1){
-	width: 128px;
-}
-
-.content-table-head th:nth-child(4){
-	width: 128px;
-}
-
 .content-table-body td{
 	padding: 1em 1em;
 }

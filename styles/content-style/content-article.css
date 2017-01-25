@@ -143,6 +143,12 @@ section {
 	color: #0076FF;
 }
 
+.content a {
+	color: #4C76BE;
+	text-decoration: none;
+}
+
+
 .content p {
 	margin: 2em auto;
 	text-align: justify;

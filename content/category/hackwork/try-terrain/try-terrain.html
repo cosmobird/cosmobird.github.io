@@ -198,29 +198,100 @@
 						  <thead class="content-table-head">
 							  <tr>
 							    <th>TYPE</th>
+							    <th>ACCESS</th>
 							    <th>SOURCE</th>
+							    <th>RANGE</th>
+							    <th>COVERAGE</th>
 							  </tr>
 						  </thead>
 						  <tbody class="content-table-body">
 							  <tr>
-							    <td>FTP</td>
-							    <td><a href="https://dds.cr.usgs.gov/srtm/">Shuttle Radar Topography Mission</a></td>
+							    <td>Elevation</td>
+							    <td>Public Domain</td>
+							    <td><a href="https://dds.cr.usgs.gov/srtm/">SRTM</a></td>
+							    <td>60&#176N - 56&#176S</td>
+							    <td>80% Landmass</td>
 							  </tr>
 						    	  <tr>
-						    	    <td>WMS</td>
-						    	    <td><a href="https://asterweb.jpl.nasa.gov/gdem.asp">Advanced Spaceborne Thermal Emission and Reflection Radiometer</a></td>
+						    	    <td>Elevation</td>
+						    	    <td>Public Domain</td>
+						    	    <td><a href="https://asterweb.jpl.nasa.gov/gdem.asp">ASTER</a></td>
+						    	    <td>83&#176N - 83&#176S</td>
+						    	    <td>99% Landmass</td>
+						    	  </tr>
+						    	  <tr>
+						    	    <td>Physical <br>&</br> Cultural</td>
+						    	    <td>Public Domain</td>
+						    	    <td><a href="http://www.naturalearthdata.com/">Natural Earth</a></td>
+						    	    <td>-</td>
+						    	    <td>-</td>
 						    	  </tr>
 						  </tbody>
 					</table>
 		  	  	</p>
+
+	  	  	  	<p>
+	  	  	  	  <b>NOTE:</b>
+	  	  	  	</p>
+
+	  	  	  	<p>
+	  	  	  	  	It has to be noted that since we are focusing on some degree of specificity towards terrain
+	  	  	  	  	hacking, not all exhaustive sources are listed. If one is interested in knowing them, please
+	  	  	  	  	refer to my presentation listed at links and downloads section of this page.
+	  	  	  	</p>
 	  	  	</li>
 
   	  	  	<li><h3><i>STEP 2:</i></h3>
+				<p>
+				  	With data sources identified, and being downloaded with your favourite download
+				  	manager, one has to know what are the FOSS tools available to play with. Remember
+				  	<b>not to mirror</b> the website when the service is offered by plain FTP. That
+				  	would load the server and would eventually lead the administrators to shutdown
+				  	for good. I have just listed the popular tools in FOSS realm - which offer a wide
+				  	variety of data acquisition, analysis, visualization and storage workflows. However,
+				  	apart from specific differences, they tend to embrace a common & overlapped workflow.
+				</p>
 
+  	  	  	  	<ul>
+  	  	  	  	  	<li><a href="https://grass.osgeo.org/"> GRASS </a>(or)</li>
+  	  	  	  	  	<li><a href="http://qgis.org/en/site/"> QGIS </a>(or)</li>
+  	  	  	  	  	<li><a href="http://saga-gis.sourceforge.net/en/"> SAGA </a>(or)</li>
+  	  	  	  	  	<li><a href="http://udig.refractions.net/"> UDIG </a>(or)</li>
+  	  	  	  	  	<li><a href="http://live.osgeo.org/en/"> OSGEO live distro. </a></li>
+  	  	  	  	  	<li>...</li>
+  	  	  	  	</ul>
+
+  	  	  	  	<p>
+					However, i am not to list exhausting set of FOSS based GIS tools out there, and for
+  	  	  	  	  	those who are interested can see my presentation listed at the end of the page in
+  	  	  	  	  	links and downloads section. It is wise to note, that almost all of the FOSS - GIS
+  	  	  	  	  	tool stacks work upon the fundamental <a href="http://www.gdal.org/index.html">GDAL/OGR</a>
+  	  	  	  	  	implementation of open standards.
+  	  	  	  	</p>
   	  	  	</li>
 
   	  	  	<li><h3><i>STEP 3:</i></h3>
+				<p>
+					Now what to do with the Data & Tools ? One can play
+				</p>
+<pre>
+ <bud>@</bud>
+<bud>/.\</bud> ----+------------+
+<bud>/ \</bud>     | Atlast !!! |
+	+------------+
 
+ <bud>@</bud>
+<bud>/.\</bud> ----+-----------------------------------------------------+
+<bud>/ \</bud>     | you really are an amateur when it comes to  writing |
+	+-----------------------------------------------------+
+</pre>
+				<p>
+				  	To start working with anyone of the above tools, it is necessary that one understands
+				  	some degree of projection systems, cartography, raster & vector data formats to start
+				  	with. However, if one is interested in exploring the rabbit hole, a beautiful math &
+				  	statistical world is waiting where cool computational, algorithms crank and churn out
+				  	numbers and commands to enable us to do crazy things we wish to do !
+				</p>
   	  	  	</li>
 
   	  	  	<li><h3><i>STEP 4:</i></h3>
