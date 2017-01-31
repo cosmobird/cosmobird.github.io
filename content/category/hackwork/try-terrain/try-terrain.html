@@ -305,7 +305,7 @@
   	  	  	  	</p>
 
   	  	  	  	<p>
-  	  	  	  	  	<b>Add Graticules :</b> Download Graticule file from Natural Earth & apply filter
+  	  	  	  	  	<b>Add Graticules :</b> Download Graticule file from Natural Earth & apply label properties.
 
   	  	  	  	  	<figure>
 						<img src="../../../../content/resource/maps/Graticules2.png" alt="Graticules">
@@ -314,7 +314,7 @@
   	  	  	  	</p>
 
   	  	  	  	<p>
-  	  	  	  	  	<b>Add Basemap :</b> Download country, state files from Natural Earth & apply filter
+  	  	  	  	  	<b>Add Basemap :</b> Download files from Natural Earth & apply country, state filters.
 
   	  	  	  	  	<figure>
 						<img src="../../../../content/resource/maps/Basemap-with-Graticules.png" alt="Basemap">
@@ -323,7 +323,8 @@
   	  	  	  	</p>
 
   	  	  	  	<p>
-  	  	  	  	  	<b>Add Local Region :</b> Query OSM using Overpass & filter with the required region name
+  	  	  	  	  	<b>Add Local Region :</b> Query OSM using Overpass & filter the required region. Your region of
+  	  	  	  	  	interest might vary... and wouldn't it be interesting to select your locality <b>:D</b> ?
 
   	  	  	  	  	<figure>
 						<img src="../../../../content/resource/maps/Area-Graticule-Selection.png" alt="Area-Selection">
@@ -350,7 +351,8 @@
 
   	  	  	  	<p>
   	  	  	  	  	In this case, the map shown above is annotated with coordinates which are <b><i>bottom-left corners</i></b>
-  	  	  	  	  	of the graticules that covers the region (yellow) required.
+  	  	  	  	  	(red markers) of the graticules that covers the region (yellow) required. Please do read the SRTM
+  	  	  	  	  	<a href="https://dds.cr.usgs.gov/srtm/version2_1/Documentation/">documentation</a> to know why is it so.
   	  	  	  	</p>
 
   	  	  		<p>
@@ -380,9 +382,40 @@
 
   	  	  	  	  	<figure>
 						<img src="../../../../content/resource/maps/Area-Graticule-SRTM.png" alt="Area-Selection">
-	  	  	  			<figcaption><b>Basemap overlaye with Regional SRTM referenced by coordinates</b></figcaption>
+	  	  	  			<figcaption><b>Basemap overlayed with Regional SRTM referenced by coordinates</b></figcaption>
+  	  	  	  	  	</figure>
+
+  	  	  	  	  	One might easily note discontinuity in the SRTM rasters on the selected region. This occurs
+  	  	  	  	  	irrespective of the size of the region of interest. To eradicate this discontinuity, one can
+  	  	  	  	  	merge the rasters and render into a single raster.
+
+					<figure>
+						<img src="../../../../content/resource/maps/Area-Graticule-SRTM-Merged.png" alt="Area-Merged-SRTM">
+	  	  	  			<figcaption><b>Merged SRTM rasters</b></figcaption>
   	  	  	  	  	</figure>
   	  	  	  	</p>
+
+  	  	  		<p>
+  	  	  		  	We shall disable other layers that acted as reference & helped us selecting required SRTM files.
+
+  	  	  		  	<figure>
+						<img src="../../../../content/resource/maps/Simple-Graticule-Region-Merged.png" alt="Simple-Merged">
+  	  	  	  	  	</figure>
+
+  	  	  		  	One might learn that, after following this step, one need not access natural earth data at all for working
+  	  	  		  	with a specific locality. But i have included it for learners, and might help learners who are interested
+  	  	  		  	in doing this stuff for the whole state or country itself !!
+  	  	  		</p>
+
+  	  	  	</li>
+
+  	  	  	<li><h3><i>STEP 5:</i></h3>
+
+				<p>
+				  	OK, with the completion of acquiring required data - accessing files from Remote sensing + public domain
+				  	websites, and projecting them into the canvas of the GIS tool (QGIS), we shall see how to pre-process the
+				  	data, and apply other raster/vector analysis.
+				</p>
   	  	  	</li>
   	  	</ul>
 
