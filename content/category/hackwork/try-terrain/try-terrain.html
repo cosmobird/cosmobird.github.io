@@ -114,8 +114,8 @@
   	  	  	a country. Still now, hard to reach places are effectively measured by such dedicated Survey Engineers & Technicians.
 			This has been particularly influenced by the availability of standards and technology that uses them. With the
   	  	  	evolution of open standards and research communities encouraging open standards in the field of <a href="http://wiki.gis.com/wiki/index.php/Main_Page">
-			Geographical Information Systems</a> - have paved a way for reducing the fatigue process of mapping into a more
-  	  	  	interesting and elegant proceduce.
+			Geographical/Geospatial Information Systems</a> - have paved a way for reducing the fatigue process of mapping into
+  	  	  	a more interesting and elegant proceduce.
   	  	</p>
 
   	  	<p>
@@ -237,7 +237,8 @@
 	  	  	  	<p>
 	  	  	  	  	It has to be noted that since we are focusing on some degree of specificity towards terrain
 	  	  	  	  	hacking, not all exhaustive sources are listed. If one is interested in knowing them, please
-	  	  	  	  	refer to my presentation listed at links and downloads section of this page.
+	  	  	  	  	refer to <a href="../../../../content/category/presentations/Free GIS.pdf">my presentation</a>
+	  	  	  	  	listed at links and downloads section of this page.
 	  	  	  	</p>
 	  	  	</li>
 
@@ -288,7 +289,7 @@
 				<p>
 				  	To start working with anyone of the above tools, it is necessary that one understands
 				  	some degree of projection systems, cartography, raster & vector data formats to start
-				  	with. However, if one is interested in exploring the rabbit hole, a beautiful math &
+				  	with. However, if one is interested in exploring the rabbit hole, all beautiful math &
 				  	statistical world is waiting where cool computational, algorithms crank and churn out
 				  	numbers and commands to enable us to do crazy things we wish to do !
 				</p>
@@ -296,6 +297,92 @@
 
   	  	  	<li><h3><i>STEP 4:</i></h3>
 
+  	  	  	  	<p>
+  	  	  	  	  	Any map requires a reference layer of grid, especially when the data is a field representing
+  	  	  	  	  	a phenomenon. This "<b><i>field</i></b>" data is typically available in <b>raster format</b>. Thus
+  	  	  	  	  	to play with the SRTM data, one has to decide the <b>local region</b> falling under
+  	  	  	  	  	the administrative boundaries of a state/province; country; continent.
+  	  	  	  	</p>
+
+  	  	  	  	<p>
+  	  	  	  	  	<b>Add Graticules :</b> Download Graticule file from Natural Earth & apply filter
+
+  	  	  	  	  	<figure>
+						<img src="../../../../content/resource/maps/Graticules2.png" alt="Graticules">
+	  	  	  			<figcaption><b>Graticules with Cardinal indication</b></figcaption>
+  	  	  	  	  	</figure>
+  	  	  	  	</p>
+
+  	  	  	  	<p>
+  	  	  	  	  	<b>Add Basemap :</b> Download country, state files from Natural Earth & apply filter
+
+  	  	  	  	  	<figure>
+						<img src="../../../../content/resource/maps/Basemap-with-Graticules.png" alt="Basemap">
+	  	  	  			<figcaption><b>Basemap with graticules</b></figcaption>
+  	  	  	  	  	</figure>
+  	  	  	  	</p>
+
+  	  	  	  	<p>
+  	  	  	  	  	<b>Add Local Region :</b> Query OSM using Overpass & filter with the required region name
+
+  	  	  	  	  	<figure>
+						<img src="../../../../content/resource/maps/Area-Graticule-Selection.png" alt="Area-Selection">
+	  	  	  			<figcaption><b>Graticules with Cardinal indication</b></figcaption>
+  	  	  	  	  	</figure>
+  	  	  	  	</p>
+
+  	  	  	  		<table class="content-table">
+						  <thead class="content-table-head">
+							  <tr>
+							    <th>LONGITUDE</th>
+							    <th>LATITUDE</th>
+							    <th>FILE TO ADD</th>
+							  </tr>
+						  </thead>
+						  <tbody class="content-table-body">
+							  <tr>
+							    <td>78</td>
+							    <td>12</td>
+							    <td>N12E078.hgt</td>
+							  </tr>
+						  </tbody>
+					</table>
+
+  	  	  	  	<p>
+  	  	  	  	  	In this case, the map shown above is annotated with coordinates which are <b><i>bottom-left corners</i></b>
+  	  	  	  	  	of the graticules that covers the region (yellow) required.
+  	  	  	  	</p>
+
+  	  	  		<p>
+  	  	  	  	 	In SRTM case, the raster data represents the height, in which the files represent the elevation
+  	  	  	  	  	profile of an area limited by the graticule formed by cardinal latitudes & longitudes. The above
+  	  	  	  	  	exmaple clarifies how to find the required files. Thus the following 4 files are required...
+
+  	  	  		  	<ul>
+  	  	  		  	  <li>N12E078.hgt</li>
+  	  	  		  	  <li>N12E079.hgt</li>
+  	  	  		  	  <li>N13E078.hgt</li>
+  	  	  		  	  <li>N13E079.hgt</li>
+  	  	  		  	</ul>
+  	  	  	  	</p>
+
+  	  	  	  	<p>
+  	  	  	  	  <b><i>NOTE:</i></b> One has to be careful when working in a <b>disputed area</b>. Make sure
+  	  	  	  	  to work by including the disputed area as a part of your residing country. That way map
+  	  	  	  	  would be protected by the local law, and can immune the individual from foregin complaints.
+  	  	  	  	  Do remember, that when sharing maps in Internet, the map comes in public view without any
+  	  	  	  	  geographical limit to access it, and thus be prepared to take the heat from attacks and do not
+  	  	  	  	  forgot to provide <b>disclaimer</b> while doing so !
+  	  	  	  	</p>
+
+  	  	  	  	<p>
+  	  	  	  	  	<b>Add SRTM - hgt files :</b>
+
+  	  	  	  	  	<figure>
+						<img src="../../../../content/resource/maps/Area-Graticule-SRTM.png" alt="Area-Selection">
+	  	  	  			<figcaption><b>Basemap overlaye with Regional SRTM referenced by coordinates</b></figcaption>
+  	  	  	  	  	</figure>
+  	  	  	  	</p>
   	  	  	</li>
   	  	</ul>
 
