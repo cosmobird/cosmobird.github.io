@@ -547,8 +547,13 @@
 					</br>
 
   	  	  	  	  	<figure>
-						<img src="../../../../content/resource/maps/try-terrain/ShadedreliefonOSM.png" alt="Relief overlayed on OSM">
-	  	  	  			<figcaption><b>Shaded relief overlayed upon OSM</b></figcaption>
+						<img src="../../../../content/resource/maps/try-terrain/ShadedreliefonOSMraster.png" alt="Relief overlayed on OSM raster">
+	  	  	  			<figcaption><b>Shaded relief overlayed upon OSM raster</b></figcaption>
+  	  	  	  		</figure>
+
+  	  	  	  	  	<figure>
+						<img src="../../../../content/resource/maps/try-terrain/ShadedreliefonOSMvector.png" alt="Relief overlayed on OSM vector">
+	  	  	  			<figcaption><b>Shaded relief overlayed upon OSM vector data</b></figcaption>
   	  	  	  		</figure>
 
   	  	  	  	  	<figure>
@@ -563,10 +568,15 @@
   	  	  	  	<p>
   	  	  	  	  	Whatever might be the analysis implemented on the data, the results along with the original data, can be visualized
   	  	  	  	  	in number of ways. 3D visualization is one of the way that modern <b>webgl & js</b> enables one to simply
-  	  	  	  	  	use modern web browesers to communicate the data effectively. Thus visualization and communication plays vital
-  	  	  	  	  	role in enabling the user to properly interpret the information that the map is designed to convey. Level of
-  	  	  	  	  	detail varies upon the information carried by the map itself defined by the application. With more information the
-  	  	  	  	  	resolution and interpretation would be improved, while craving for computing power.
+  	  	  	  	  	use modern web browesers to communicate the data effectively.
+
+  	  	  	  	  	<h3>→ Visualization:</h3>
+  	  	  	  	  	<br></br>
+
+  	  	  	  	  	Visualization and Communication plays vital role in enabling the user to properly interpret the information that
+  	  	  	  	  	the map is designed to convey. Level of detail varies upon the information carried by the map itself defined by the
+  	  	  	  	  	application. With more information the resolution and interpretation would be improved, while craving for computing
+  	  	  	  	  	power. Try it out for yourself !!!
 					<br></br>
 
   	  	  	  	  	<a href="../../../../content/resource/maps/try-terrain/threejs/q3.html">
@@ -582,10 +592,66 @@
   	  	  	  		</figure>
 
   	  	  	  	  	The 3D rendering can also be awesomely done using <a href="https://grasswiki.osgeo.org/wiki/Help_with_3D">GRASS-Nviz</a>
-  	  	  	  	  	tool which offers wider controls and visualization.
+  	  	  	  	  	tool which offers wider controls and visualization options.
+
+  	  	  	  	</p>
+
+  	  	  	  	<p>
+  	  	  	  	  	<h3>→ Communication/Sharing:</h3>
+  	  	  	  	  	<br></br>
+
+  	  	  	  	  	With the widespread usage of Internet, and accelerated usage of client server model throughout the web mapping
+  	  	  	  	  	services like Open street map; Open cycle map; Open topo map; ... etc, have enabled commons to easily contribute
+  	  	  	  	  	as a collaborative effort. However, with transition towards grassroots based internet, the ability to serve the
+  	  	  	  	  	content/information locally to the locality in a decentralized way or a flat p2p way is a better approach than the
+  	  	  	  	  	centralized hierarchically controlled internet based business that restricts access to web map data.
+
+  	  	  	  	  	<br></br>
+
+  	  	  	  	  	<b>★★★★★ : </b>This is where the federated free software projects like <a href="https://www.npmjs.com/package/tileserver-gl-light">
+					tileserver-light</a> - by <a href="https://openmaptiles.org/">osmtovector tiles</a> project
+  	  	  	  	  	comes to play in place of traditional mapnik based image(png) based web map services with space and presentation
+  	  	  	  	  	efficiency that effectively reduces the delay and offers information capacity by hacking the nature of scalable vector
+  	  	  	  	  	graphics and the ability of modern web technologies. The end result is a scalable and federated approach to access map,
+  	  	  	  	  	which necessarily does not even require continuous internet connection to serve the map, to update the user screen -
+  	  	  	  	  	until and unless the new data is itself updated in the collaborative map servers. Already fully p2p capable map sharing
+  	  	  	  	  	applications are being developed and would more likely serve in the space of hard to reach & slow internet places,
+  	  	  	  	  	eliminating the digital divide in the Collaborative Web Mapping & possibly in GIS.
+
+  	  	  	  	  	<figure>
+						<img src="../../../../content/resource/maps/try-terrain/mbtiles.png" alt="tilserver mbtiles">
+	  	  	  			<figcaption><b>Vector tiles served by tileserver-light</b></figcaption>
+  	  	  	  		</figure>
+
+  	  	  	  	  	The above screenshot represents the xray-view rendered by the tilerserver-light that takes the mapbox-tiles file
+  	  	  	  	  	generated from the geojson files using <a href="https://github.com/mapbox/tippecanoe">tippecanoe</a>. The required
+  	  	  	  	  	geojson files are generated from the shapefiles/xml files using GRASS/QGIS. Here, the vector layers such as contours,
+  	  	  	  	  	OSM based points, lines, multiline-strings, polygons, admin layers.. are used to generate the respective geojsons.
+  	  	  	  	  	The raw geojson can be easily styled and can be used to produce very attractive web maps. Styling can be done locally
+					by <a href="http://maputnik.com/">Maputnik</a> either using the <a href="https://github.com/maputnik/editor">web version</a>
+  	  	  	  	  	or by deploying the <a href="https://github.com/maputnik/desktop">desktop version</a>.  <b>:D...</b>
   	  	  	  	</p>
   	  	  	</li>
   	  	</ul>
+
+<pre>
+ <bud>@</bud>
+<bud>/.\</bud> ----+------------------+
+<bud>/ \</bud>     | Yo ! So What ??? |
+  	+------------------+
+
+ <bud>@</bud>
+<bud>/.\</bud> ----+-----------------------------+
+<bud>/ \</bud>     | What are the applications ? |
+  	+-----------------------------+
+				+-------------------------------------+---( me )
+  				| Learning basic GIS ,		      |
+  				| Contributing to OSM ,		      |
+  				| Communication - N/W planning ,      |
+  				| Transport - N/W mgmt. ,	      |
+  				| Disaster resilient mapping ...      |
+  				+-------------------------------------+
+</pre>
 
 <pre>
 						  		 <bud>@</bud>
@@ -599,7 +665,7 @@
   		     |
   		     +---->  2. <a href="https://grass.osgeo.org/documentation/manuals/"> GRASS GIS Manuals </a>
   		     |
-  		     +---->  3.
+  		     +---->  3. <a href="https://tileserver.readthedocs.io/en/latest/"> Tileserver documentation </a>
 
 
 	 <bud>@</bud>
@@ -621,10 +687,12 @@
 				    	<li><a href="http://www.flaticon.com/authors/roundicons">Round Icons</a></li>
 	  	  	  	  </ul>
 			  </li>
-  	  	  	  <li><b>Maps :</b>
+  	  	  	  <li><b>Maps/Libraries :</b>
 				  <ul>
-		  	  	  	<li><a href="https://www.flickr.com/photos/kevinmgill/">Kevin Gill</a></li>
-				    	<li><a href="http://plugins.qgis.org/plugins/Qgis2threejs/">Minoru Akagi</a></li>
+		  	  	  	<li><a href="https://www.flickr.com/photos/kevinmgill/">Kevin Gill - Bathymetry map</a></li>
+				    	<li><a href="http://plugins.qgis.org/plugins/Qgis2threejs/">Minoru Akagi - Threejs plugin</a></li>
+				    	<li><a href="https://github.com/mapbox/tippecanoe">Tippecanoe - tilesets from geojson</a></li>
+				    	<li><a href="http://maputnik.com/">Maputnik - Visual map style editor</a></li>
 	  	  	  	  </ul>
 			  </li>
   	  	  	</ul>
