@@ -491,7 +491,7 @@
 			  	  	  			<figcaption><b>1st order Derivative (NS)</b></figcaption>
 	  	  	  	  	  		</figure>
   	  	  	  	  	  	</li>
-  	  	  	  	  	  	<li><a href="https://grass.osgeo.org/grass72/manuals/r.relief.html">Hill Shade / Shaded Relief</a>
+  	  	  	  	  	  	<li><a href="https://grass.osgeo.org/grass72/manuals/r.relief.html">Shaded Relief</a>
 	  	  	  	  	  	  	<figure>
 								<img src="../../../../content/resource/maps/try-terrain/Shadedrelief.png" alt="Relief">
 			  	  	  			<figcaption><b>Shaded Relief (without admin boundary)</b></figcaption>
@@ -517,12 +517,22 @@
   	  	  	  	  	<h3>→ Vectorization:</h3>
 					<br>
   	  	  	  	  	After generating the DEM, and applying suitable terrain analysis, the above resultant terrain models can be
-					used to extract the <a href="https://wiki.openstreetmap.org/wiki/Contours">contours</a>.
+					used to extract the <a href="https://wiki.openstreetmap.org/wiki/Contours">contours</a>. The following
+					contour lines are generated from the void filled shaded relief raster obtained above.
 					</br>
 
   	  	  	  	  	<figure>
 						<img src="../../../../content/resource/maps/try-terrain/Contour-25.png" alt="Contour25">
 	  	  	  			<figcaption><b>Generated Contour lines at (step size) = 25</b></figcaption>
+  	  	  	  		</figure>
+
+  	  	  	  	  	Further, the contour lines can be beautified by labelling each contour line with their <b>level</b> value.
+  	  	  	  	  	The following zoomed in view of contour lines with different step levels overlayed on the shaded relief
+  	  	  	  	  	provides good interpretation of elevation in the terrain of the selected region.
+
+  	  	  	  	  	<figure>
+						<img src="../../../../content/resource/maps/try-terrain/Contour-closeup.png" alt="Contour with label">
+	  	  	  			<figcaption><b>Contour zoomed @ different step level</b></figcaption>
   	  	  	  		</figure>
   	  	  	  	</p>
   	  	  	</li>
