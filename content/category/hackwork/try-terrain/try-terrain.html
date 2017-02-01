@@ -402,9 +402,14 @@
 						<img src="../../../../content/resource/maps/Simple-Graticule-Region-Merged.png" alt="Simple-Merged">
   	  	  	  	  	</figure>
 
-  	  	  		  	One might learn that, after following this step, one need not access natural earth data at all for working
-  	  	  		  	with a specific locality. But i have included it for learners, and might help learners who are interested
-  	  	  		  	in doing this stuff for the whole state or country itself !!
+  	  	  		  	<figure>
+						<img src="../../../../content/resource/maps/Simple-Graticule-SRTM-Clipped.png" alt="Simple-Clipped">
+						<figcaption><b>SRTM raster clipped by the regional boundary</b></figcaption>
+  	  	  	  	  	</figure>
+
+  	  	  		  	One might learn that, after following these steps, that there is no need to access natural earth data at all
+  	  	  		  	for working with a specific locality. But i have included it for learners, and might help learners who are
+  	  	  		  	interested in doing this stuff for the whole state or country itself !!
   	  	  		</p>
 
   	  	  	</li>
@@ -412,10 +417,39 @@
   	  	  	<li><h3><i>STEP 5:</i></h3>
 
 				<p>
-				  	OK, with the completion of acquiring required data - accessing files from Remote sensing + public domain
-				  	websites, and projecting them into the canvas of the GIS tool (QGIS), we shall see how to pre-process the
-				  	data, and apply other raster/vector analysis.
+				  	OK, with the completion of acquiring required data - accessing files from public domain remote sensing
+				  	websites, and projecting them into the canvas of the GIS tool (GRASS/QGIS), we shall see how to pre-process
+				  	the data, and apply required/interested raster/vector analysis. We shall call the available elevation
+				  	data as digital elevation model <b>(DEM)</b>.
 				</p>
+
+  	  	  	  	<p>
+  	  	  	  	  	<b>Fill voids in the SRTM raster :</b> SRTM files are collected by RADAR sensing method, often comes
+  	  	  	  	  	with voids when the terrain is so much rugged (high variance/high slopes). These voids can be filled
+  	  	  	  	  	out using the GIS tool.
+
+  	  	  	  	  	<figure>
+						<img src="../../../../content/resource/maps/Simple-Graticule-SRTM-Void-Filled.png" alt="Area-Selection">
+	  	  	  			<figcaption><b>Void Filled SRTM raster in the region</b></figcaption>
+  	  	  	  	  	</figure>
+  	  	  	  	</p>
+
+  	  	  	  	<p>
+  	  	  	  	  	<b>Terrain Analysis :</b> Making sense of the topographical data in SRTM raster layers can be provided
+  	  	  	  	  	by the following tools :
+
+  	  	  	  	  	<ul>
+  	  	  	  	  	  	<li><a href="https://grass.osgeo.org/grass72/manuals/r.slope.aspect.html">Slope, Aspect, Derivatives & Curvature</a></li>
+  	  	  	  	  	  	<li>Hill Shade</li>
+  	  	  	  	  	  	<li>Relief</li>
+  	  	  	  	  	  	<li>Ruggedness Index</li>
+  	  	  	  	  	</ul>
+
+  	  	  	  	  	<figure>
+						<img src="../../../../content/resource/maps/Hillshade.png" alt="Area-Selection">
+	  	  	  			<figcaption><b>Hill-Shade</b></figcaption>
+  	  	  	  	  	</figure>
+  	  	  	  	</p>
   	  	  	</li>
   	  	</ul>
 
