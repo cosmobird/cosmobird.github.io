@@ -347,9 +347,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.75058594"
-     inkscape:cx="235.65799"
-     inkscape:cy="237.35837"
+     inkscape:zoom="1.609655"
+     inkscape:cx="-12.842464"
+     inkscape:cy="336.75855"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -371,7 +371,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -381,12 +381,11 @@
      id="layer1"
      transform="translate(-138.32422,-305.42691)">
     <g
-       id="g11675"
-       transform="matrix(0.87313959,0,0,0.87313959,-39.241232,53.360878)"
+       id="g3579"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <g
-         transform="matrix(1.3025558,0,0,1.3025558,-1719.9091,-308.63321)"
+         transform="matrix(1.137313,0,0,1.137313,-1540.962,-216.119)"
          id="g6875">
         <rect
            y="430.86749"
@@ -423,7 +422,7 @@
       </g>
       <g
          id="g6726"
-         transform="matrix(0.88791692,0,0,0.88791692,-1456.3116,10535.018)">
+         transform="matrix(0.77527542,0,0,0.77527542,-1310.8045,9251.9022)">
         <rect
            style="opacity:1;fill:#d5d5ff;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="rect6728"
@@ -457,7 +456,7 @@
              sodipodi:role="line">Fill Voids</tspan></text>
       </g>
       <g
-         transform="matrix(1.3025558,0,0,1.3025558,-1660.1409,-308.63321)"
+         transform="matrix(1.137313,0,0,1.137313,-1488.776,-216.119)"
          id="g8378">
         <path
            sodipodi:nodetypes="cc"
@@ -486,7 +485,7 @@
       </g>
       <g
          id="g10509"
-         transform="matrix(1.3025558,0,0,1.3025558,-1482.1409,-308.63321)">
+         transform="matrix(1.137313,0,0,1.137313,-1333.3571,-216.119)">
         <path
            style="fill:none;fill-rule:evenodd;stroke:#333333;stroke-width:2.04501843;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotS)"
            d="m 1150.5947,444.9061 19.7006,0"
@@ -513,6 +512,7 @@
            style="fill:none;fill-rule:evenodd;stroke:#333333;stroke-width:2.04500008;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       </g>
       <g
+         transform="matrix(0.87313959,0,0,0.87313959,-39.241232,53.360878)"
          id="g10540">
         <rect
            style="opacity:1;fill:#ffaaaa;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -548,47 +548,18 @@
              sodipodi:role="line">Terrain Analysis</tspan></text>
       </g>
       <rect
-         y="248.513"
-         x="53.066605"
-         height="171.45731"
-         width="147.90547"
+         y="270.34741"
+         x="7.0933213"
+         height="129.20488"
+         width="129.14212"
          id="rect10547"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#1a1a1a;stroke-width:1.31281495;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.6256299, 2.6256299;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#1a1a1a;stroke-width:1.14627075;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.29254141, 2.29254141;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         transform="translate(2,0)"
-         id="g11571">
-        <g
-           id="g11453"
-           transform="translate(-18.841461,-3.06552)">
-          <text
-             transform="matrix(0.88791692,0,0,0.88791692,-1277.7888,10574.585)"
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:34.77841949px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter36766)"
-             x="1568.1039"
-             y="-11555.255"
-             id="text11225"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               x="1568.1039"
-               y="-11555.255"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.12873363px;font-family:monaco;-inkscape-font-specification:monaco;text-align:center;text-anchor:middle;fill:#1a1a1a"
-               id="tspan11227">Fill Voids</tspan></text>
-          <text
-             sodipodi:linespacing="125%"
-             id="text11229"
-             y="314.47867"
-             x="114.55717"
-             style="font-style:normal;font-weight:normal;font-size:30.8803463px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             xml:space="preserve"><tspan
-               id="tspan11231"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.54514122px;font-family:monaco;-inkscape-font-specification:monaco;text-align:center;text-anchor:middle;fill:#1a1a1a"
-               y="314.47867"
-               x="114.55717"
-               sodipodi:role="line">Fill Voids</tspan></text>
-        </g>
+         transform="translate(0,-20)"
+         id="g3552">
         <g
            id="g11459"
-           transform="translate(-38.46202,15.946516)">
+           transform="matrix(0.87313959,0,0,0.87313959,-71.077665,67.284412)">
           <text
              sodipodi:linespacing="125%"
              id="text11461"
@@ -616,7 +587,7 @@
                id="tspan11467">Slope</tspan></text>
         </g>
         <g
-           transform="translate(-33.665465,37.580826)"
+           transform="matrix(0.87313959,0,0,0.87313959,-66.889603,86.174185)"
            id="g11469">
           <text
              transform="matrix(0.88791692,0,0,0.88791692,-1277.7888,10574.585)"
@@ -646,7 +617,7 @@
         </g>
         <g
            id="g11479"
-           transform="translate(-18.38067,59.14639)">
+           transform="matrix(0.87313959,0,0,0.87313959,-53.543843,105.00393)">
           <text
              sodipodi:linespacing="125%"
              id="text11481"
@@ -674,7 +645,7 @@
                id="tspan11487">Derivative</tspan></text>
         </g>
         <g
-           transform="translate(-6.339776,77.743538)"
+           transform="matrix(0.87313959,0,0,0.87313959,-43.030462,121.24184)"
            id="g11489">
           <text
              transform="matrix(0.88791692,0,0,0.88791692,-1277.7888,10574.585)"
@@ -704,7 +675,7 @@
         </g>
         <g
            id="g11499"
-           transform="translate(10.388003,96.93446)">
+           transform="matrix(0.87313959,0,0,0.87313959,-28.424776,137.99819)">
           <text
              sodipodi:linespacing="125%"
              id="text11501"
@@ -733,7 +704,7 @@
         </g>
       </g>
       <g
-         transform="matrix(0.88791692,0,0,0.88791692,-1072.3116,10535.018)"
+         transform="matrix(0.77527542,0,0,0.77527542,-975.51894,9251.9022)"
          id="g11603">
         <rect
            y="-11580.775"
@@ -769,7 +740,7 @@
       </g>
       <g
          id="g11615"
-         transform="matrix(1.3025558,0,0,1.3025558,-1276.1409,-308.63321)">
+         transform="matrix(1.137313,0,0,1.137313,-1153.4904,-216.119)">
         <path
            style="fill:none;fill-rule:evenodd;stroke:#333333;stroke-width:2.04501843;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotS)"
            d="m 1150.5947,444.9061 19.7006,0"
