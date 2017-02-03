@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="42.333332mm"
+   height="42.333332mm"
+   viewBox="0 0 149.99999 150"
+   id="svg4759"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Self-Sustain.svg">
+  <defs
+     id="defs4761">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4467"
+       x="-0.036782082"
+       width="1.0735642"
+       y="-0.035250481"
+       height="1.070501">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.4077423"
+         id="feGaussianBlur4469" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.9599431"
+     inkscape:cx="56.398433"
+     inkscape:cy="84.302369"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     showborder="false" />
+  <metadata
+     id="metadata4764">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-263.37482,-945.53693)">
+    <g
+       id="g4507">
+      <rect
+         ry="0"
+         rx="0"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:6.79094839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5453"
+         width="150"
+         height="150"
+         x="263.37482"
+         y="945.53693" />
+      <g
+         id="g4471">
+        <g
+           transform="matrix(1.0886842,0,0,1.0886842,-27.648878,-80.983258)"
+           id="g3629"
+           style="fill:#ffffff;filter:url(#filter4467)">
+          <g
+             id="g3631"
+             transform="translate(164.40233,-20.85965)"
+             style="fill:#ffffff">
+            <g
+               transform="translate(152.21008,972.76653)"
+               id="g3633"
+               style="fill:#ffffff">
+              <circle
+                 id="circle3635"
+                 r="3.4130001"
+                 cy="17.648001"
+                 cx="47.109001"
+                 style="fill:#ffffff" />
+              <ellipse
+                 id="ellipse3637"
+                 ry="5.309"
+                 rx="4.2589998"
+                 cy="17.27"
+                 cx="37.926998"
+                 style="fill:#ffffff" />
+              <circle
+                 id="circle3639"
+                 r="3.0339999"
+                 cy="21.062"
+                 cx="54.146"
+                 style="fill:#ffffff" />
+              <circle
+                 id="circle3641"
+                 r="2.655"
+                 cy="25.233999"
+                 cx="59.834"
+                 style="fill:#ffffff" />
+              <circle
+                 id="circle3643"
+                 r="2.2750001"
+                 cy="30.922001"
+                 cx="63.247002"
+                 style="fill:#ffffff" />
+            </g>
+            <path
+               id="path3645"
+               d="m 194.56608,997.62053 c 0,0 1.446,0 0,0 -4.342,0 -6.51,2.17 -6.51,5.78897 0,2.895 0.722,5.789 3.616,8.683 3.618,3.618 9.408,7.236 9.408,12.301 0,2.894 -0.365,8.321 -4.344,12.301 -5.065,5.065 -7.825,9.711 -7.825,14.776 0,5.066 3.312,9.102 9.101,9.102 5.788,0 9.102,-4.106 9.102,-10.618 0,-6.512 -0.246,-12.537 2.649,-19.049 2.895,-6.512 4.341,-9.406 5.065,-11.577 0.724,-2.17 0.724,-3.618 0.724,-5.065 0,-4.341 -3.258,-7.599 -5.067,-9.408 -5.065,-5.06597 -10.131,-7.23497 -15.919,-7.23497 z"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff" />
+          </g>
+          <g
+             style="fill:#ffffff"
+             transform="matrix(-1,0,0,1,508.01249,-0.85965)"
+             id="g3647">
+            <g
+               style="fill:#ffffff"
+               id="g3649"
+               transform="translate(152.21008,972.76653)">
+              <circle
+                 style="fill:#ffffff"
+                 cx="47.109001"
+                 cy="17.648001"
+                 r="3.4130001"
+                 id="circle3651" />
+              <ellipse
+                 style="fill:#ffffff"
+                 cx="37.926998"
+                 cy="17.27"
+                 rx="4.2589998"
+                 ry="5.309"
+                 id="ellipse3653" />
+              <circle
+                 style="fill:#ffffff"
+                 cx="54.146"
+                 cy="21.062"
+                 r="3.0339999"
+                 id="circle3655" />
+              <circle
+                 style="fill:#ffffff"
+                 cx="59.834"
+                 cy="25.233999"
+                 r="2.655"
+                 id="circle3657" />
+              <circle
+                 style="fill:#ffffff"
+                 cx="63.247002"
+                 cy="30.922001"
+                 r="2.2750001"
+                 id="circle3659" />
+            </g>
+            <path
+               style="fill:#ffffff"
+               inkscape:connector-curvature="0"
+               d="m 194.56608,997.62053 c 0,0 1.446,0 0,0 -4.342,0 -6.51,2.17 -6.51,5.78897 0,2.895 0.722,5.789 3.616,8.683 3.618,3.618 9.408,7.236 9.408,12.301 0,2.894 -0.365,8.321 -4.344,12.301 -5.065,5.065 -7.825,9.711 -7.825,14.776 0,5.066 3.312,9.102 9.101,9.102 5.788,0 9.102,-4.106 9.102,-10.618 0,-6.512 -0.246,-12.537 2.649,-19.049 2.895,-6.512 4.341,-9.406 5.065,-11.577 0.724,-2.17 0.724,-3.618 0.724,-5.065 0,-4.341 -3.258,-7.599 -5.067,-9.408 -5.065,-5.06597 -10.131,-7.23497 -15.919,-7.23497 z"
+               id="path3661" />
+          </g>
+        </g>
+        <g
+           id="g3611"
+           transform="matrix(1.0886842,0,0,1.0886842,-27.648878,-80.983258)">
+          <g
+             style="fill:#cccccc"
+             transform="translate(164.40233,-20.85965)"
+             id="g3586">
+            <g
+               style="fill:#cccccc"
+               id="g3538"
+               transform="translate(152.21008,972.76653)">
+              <circle
+                 style="fill:#cccccc"
+                 cx="47.109001"
+                 cy="17.648001"
+                 r="3.4130001"
+                 id="circle3540" />
+              <ellipse
+                 style="fill:#cccccc"
+                 cx="37.926998"
+                 cy="17.27"
+                 rx="4.2589998"
+                 ry="5.309"
+                 id="ellipse3542" />
+              <circle
+                 style="fill:#cccccc"
+                 cx="54.146"
+                 cy="21.062"
+                 r="3.0339999"
+                 id="circle3544" />
+              <circle
+                 style="fill:#cccccc"
+                 cx="59.834"
+                 cy="25.233999"
+                 r="2.655"
+                 id="circle3546" />
+              <circle
+                 style="fill:#cccccc"
+                 cx="63.247002"
+                 cy="30.922001"
+                 r="2.2750001"
+                 id="circle3548" />
+            </g>
+            <path
+               style="fill:#cccccc"
+               inkscape:connector-curvature="0"
+               d="m 194.56608,997.62053 c 0,0 1.446,0 0,0 -4.342,0 -6.51,2.17 -6.51,5.78897 0,2.895 0.722,5.789 3.616,8.683 3.618,3.618 9.408,7.236 9.408,12.301 0,2.894 -0.365,8.321 -4.344,12.301 -5.065,5.065 -7.825,9.711 -7.825,14.776 0,5.066 3.312,9.102 9.101,9.102 5.788,0 9.102,-4.106 9.102,-10.618 0,-6.512 -0.246,-12.537 2.649,-19.049 2.895,-6.512 4.341,-9.406 5.065,-11.577 0.724,-2.17 0.724,-3.618 0.724,-5.065 0,-4.341 -3.258,-7.599 -5.067,-9.408 -5.065,-5.06597 -10.131,-7.23497 -15.919,-7.23497 z"
+               id="path3550" />
+          </g>
+          <g
+             id="g3595"
+             transform="matrix(-1,0,0,1,508.01249,-0.85965)"
+             style="fill:#cccccc">
+            <g
+               transform="translate(152.21008,972.76653)"
+               id="g3597"
+               style="fill:#cccccc">
+              <circle
+                 id="circle3599"
+                 r="3.4130001"
+                 cy="17.648001"
+                 cx="47.109001"
+                 style="fill:#cccccc" />
+              <ellipse
+                 id="ellipse3601"
+                 ry="5.309"
+                 rx="4.2589998"
+                 cy="17.27"
+                 cx="37.926998"
+                 style="fill:#cccccc" />
+              <circle
+                 id="circle3603"
+                 r="3.0339999"
+                 cy="21.062"
+                 cx="54.146"
+                 style="fill:#cccccc" />
+              <circle
+                 id="circle3605"
+                 r="2.655"
+                 cy="25.233999"
+                 cx="59.834"
+                 style="fill:#cccccc" />
+              <circle
+                 id="circle3607"
+                 r="2.2750001"
+                 cy="30.922001"
+                 cx="63.247002"
+                 style="fill:#cccccc" />
+            </g>
+            <path
+               id="path3609"
+               d="m 194.56608,997.62053 c 0,0 1.446,0 0,0 -4.342,0 -6.51,2.17 -6.51,5.78897 0,2.895 0.722,5.789 3.616,8.683 3.618,3.618 9.408,7.236 9.408,12.301 0,2.894 -0.365,8.321 -4.344,12.301 -5.065,5.065 -7.825,9.711 -7.825,14.776 0,5.066 3.312,9.102 9.101,9.102 5.788,0 9.102,-4.106 9.102,-10.618 0,-6.512 -0.246,-12.537 2.649,-19.049 2.895,-6.512 4.341,-9.406 5.065,-11.577 0.724,-2.17 0.724,-3.618 0.724,-5.065 0,-4.341 -3.258,-7.599 -5.067,-9.408 -5.065,-5.06597 -10.131,-7.23497 -15.919,-7.23497 z"
+               inkscape:connector-curvature="0"
+               style="fill:#cccccc" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
