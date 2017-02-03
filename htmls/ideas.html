@@ -16,9 +16,10 @@
     <title>Cosmobird Ideas Category</title>
 
     <!-- STYLE STHEETS -->
-    <link rel="stylesheet" type="text/css" href="../styles/generalizers/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/category-style/category.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/category-style/grid_caption_hover.css" />
     <link rel="stylesheet" type="text/css" href="../styles/font-awesome/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="../styles/content-category/category-grid.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/balloons/balloon.css" />
 
 </head>
 
@@ -34,14 +35,57 @@
   	DIY Radio, Antenna, TX/RX boards (or SDR)
   	Environmental monitoring - Weather station, Radar
   	Generative Art
-  	DIY comics tools that helps paper+pencil and computer supporting workflows
     -->
+    <div>
+
+  	<!-- header -->
+	<header class="category-header">
+		<a href="../htmls/ideas.html" data-balloon="Ideas are contagious :D" data-balloon-pos="down">
+			<img src="../assets/pics/category/Ideas.png" alt="header" />
+		</a>
+	</header>
+	<!-- /header -->
+
+      	<!-- grid -->
+	<ul class="grid">
+	  		<li>
+				  <figure data-balloon="Right to manage Civil Disobedience !" data-balloon-pos="up">
+					  <a href="../content/category/ideas/cdm-mgmt/cdm-mgmt.html">
+					    	<img src="../assets/pics/content/cdm-mgmt.png" alt="CDM Management">
+					  <figcaption>
+					    	Be Disobedient
+					  </figcaption>
+					  </a>
+				  </figure>
+			</li>
+
+	  		<li>
+				  <figure data-balloon="Social Food Inspection" data-balloon-pos="up">
+					  <a href="../content/category/ideas/food-inspect/food-inspect.html">
+					    	<img src="../assets/pics/content/food-inspect.png" alt="Social Food Inspection">
+					  <figcaption>
+					    	Know thy Food
+					  </figcaption>
+					  </a>
+				  </figure>
+			</li>
+
+	  		<li>
+				  <figure data-balloon="Know the Battery" data-balloon-pos="up">
+					  <a href="../content/category/ideas/bat-man/bat-man.html">
+					    	<img src="../assets/pics/content/bat-man.png" alt="Battery Management">
+					  <figcaption>
+					    	Battery mgmt.
+					  </figcaption>
+					  </a>
+				  </figure>
+			</li>
+	</ul>
+		<!-- grid -->
+   </div>
 
 </body>
 
 <!-- SCRIPTS -->
-<script type="text/javascript" src="../scripts/generalizers/modernizr.custom_categorygrid.js"></script>
-<script type="text/javascript" src="../scripts/generalizers/classie_categorygrid.js"></script>
-<script type="text/javascript" src="../scripts/frontend-functionality/category_grid.js"></script>
 
 </html>

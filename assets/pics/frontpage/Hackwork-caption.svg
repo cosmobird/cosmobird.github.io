@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="112.88889mm"
@@ -17,7 +18,29 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="Hackwork-caption.svg">
   <defs
-     id="defs4761" />
+     id="defs4761">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient20346">
+      <stop
+         style="stop-color:#aa8800;stop-opacity:1;"
+         offset="0"
+         id="stop20348" />
+      <stop
+         style="stop-color:#aa8800;stop-opacity:0;"
+         offset="1"
+         id="stop20350" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient20346"
+       id="linearGradient20352"
+       x1="325.28571"
+       y1="1006.7908"
+       x2="389.28571"
+       y2="1070.7908"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,7 +49,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="256.57096"
+     inkscape:cx="90.57096"
      inkscape:cy="156.89383"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -36,10 +59,10 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="713"
+     inkscape:window-height="768"
      inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata4764">
     <rdf:RDF>
@@ -58,7 +81,7 @@
      id="layer1"
      transform="translate(-134.28572,-873.79077)">
     <g
-       id="g17748"
+       id="g20354"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <rect
@@ -79,7 +102,7 @@
          inkscape:connector-curvature="0"
          id="path17743"
          d="m 359.03181,988.42944 4.95508,35.75776 0.1543,10.3262 -2.71289,13.7442 -5.32227,11.8222 -10.66992,8.5586 -12.5293,2.6446 -10.12695,-1.9922 -7.68359,-3.709 32.70703,32.7597 c 8.26285,-0.5459 16.47998,-1.5992 24.69922,-3.2187 17.01666,-3.3336 29.86224,-16.3312 33.02929,-33.1641 1.55902,-7.8922 2.63298,-15.8334 3.22071,-23.7871 l -49.72071,-49.74216 z"
-         style="fill:#aa8800;fill-opacity:1" />
+         style="fill:url(#linearGradient20352);fill-opacity:1" />
       <g
          style="fill:#ffffff"
          transform="translate(283.99318,973.79074)"
