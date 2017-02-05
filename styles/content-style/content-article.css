@@ -253,4 +253,10 @@ section {
 	margin-right: auto;
 }
 
-
+.content-comments{
+	font-family: 'SourceCode-Pro-Regular';
+	max-width: 80%;
+    	vertical-align: middle;
+    	margin-left: auto;
+    	margin-right: auto;
+}
