@@ -253,6 +253,14 @@ section {
 	margin-right: auto;
 }
 
+.content-rectangle{
+	background: #5EA8FC;
+	max-width: 65%;
+	max-height: 2px;
+	margin: auto;
+	vertical-align: middle;
+}
+
 .content-comments{
 	max-width: 60%;
     	vertical-align: middle;
