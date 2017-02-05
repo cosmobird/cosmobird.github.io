@@ -254,8 +254,7 @@ section {
 }
 
 .content-comments{
-	font-family: 'SourceCode-Pro-Regular';
-	max-width: 70%;
+	max-width: 60%;
     	vertical-align: middle;
     	margin-left: auto;
     	margin-right: auto;
