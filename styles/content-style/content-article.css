@@ -254,13 +254,13 @@ section {
 }
 
 
-.content iframe{
-	max-width: 640px;
-	max-height: 360px;
-	margin: 2em auto;
-	vertical-align: middle;
-	text-align: center;
-	position: relative;
+.content-video{
+	max-width: 320px;
+	max-height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 .content-rectangle{
