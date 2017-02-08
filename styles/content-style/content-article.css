@@ -158,7 +158,8 @@ section {
 
 .content p {
 	margin: 2em auto;
-	text-align: justify;
+	text-align: auto;
+	line-height: 1.8em;
 }
 
 .content b {
@@ -186,7 +187,7 @@ section {
 }
 
 .content ul{
-	text-align: justify;
+	text-align: left;
 	width: 90%;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
@@ -195,12 +196,12 @@ section {
 }
 
 .content li{
-	text-align: justify;
+	text-align: left;
 	margin: 1em auto;
 }
 
 .content pre ul {
-	line-height: 0.5em;
+	line-height: 0.8em;
 }
 
 .content pre a {
