@@ -131,6 +131,9 @@
   	  		  	<img src="../../../../content/resource/maps/try-terrain/Global Bathymetry DEM.jpg" alt="global-bath-dem">
   	  	  		<figcaption><b>example bathymetry DEM</b></figcaption>
   	  		</figure>
+  	  	</p>
+
+  	  	<p>
   	  	  	With the advent in Satellite & Remote sensing technology, several explorative & scientific satellite missions have
   	  	  	been launched to facilitate global measurements with diverse goals that would surpass the cost indulged
   	  	  	in lauching the remote sensing project itself. In similar way to create computerized models of elevations
@@ -296,11 +299,14 @@
 				</p>
   	  	  	</li>
 
-  	  	  	<li><h3><i>STEP 4:</i></h3>
-  	  	  	  	<br>
-  	  	  	  	Understanding an abstract organization of layers of information while
-  	  	  	  	creating a map enables easier execution of cartography workflow.
-  	  	  	  	</br>
+  	  	  	<li>
+  	  	  	  	<p>
+  	  	  	  		<h3><i>STEP 4:</i></h3>
+  	  	  	  	</p>
+  	  	  	  	<p>
+	  	  	  	  	Understanding an abstract organization of layers of information while
+	  	  	  	  	creating a map enables easier execution of cartography workflow.
+  	  	  	  	</p>
 <pre>
  <bud>@</bud>
 <bud>/.\</bud> ----+---------------------------------+
@@ -358,10 +364,12 @@
 
   	  	  	  	<p>
   	  	  	  	  	<h3>→ Add Local Region:</h3>
-  	  	  	  	  	<br>
+  	  	  	  	</p>
+
+  	  	  	  	<p>
   	  	  	  	  	Query OSM using Overpass & filter the required region. Your region of
   	  	  	  	  	interest might vary... and wouldn't it be interesting to select your locality <b>:D</b> ?
-					</br>
+
 
   	  	  	  	  	<figure>
 						<img src="../../../../content/resource/maps/try-terrain/Area-Graticule-Selection.png" alt="Area-Selection">
@@ -426,7 +434,8 @@
 						<img src="../../../../content/resource/maps/try-terrain/Area-Graticule-SRTM.png" alt="Area-Selection">
 	  	  	  			<figcaption><b>Basemap overlayed with Regional SRTM referenced by coordinates</b></figcaption>
   	  	  	  	  	</figure>
-
+  	  	  	  	</p>
+				<p>
   	  	  	  	  	One might easily note discontinuity in the SRTM rasters on the selected region. This occurs
   	  	  	  	  	irrespective of the size of the region of interest. To eradicate this discontinuity, one can
   	  	  	  	  	merge the rasters and render into a single raster.
@@ -448,7 +457,8 @@
 						<img src="../../../../content/resource/maps/try-terrain/Simple-Graticule-SRTM-Clipped.png" alt="Simple-Clipped">
 						<figcaption><b>SRTM raster clipped by the regional boundary</b></figcaption>
   	  	  	  	  	</figure>
-
+				</p>
+  	  	  		<p>
   	  	  		  	One might learn that, after following these steps, that there is no need to access natural earth data at all
   	  	  		  	for working with a specific locality. But i have included it for learners, and might help learners who are
   	  	  		  	interested in doing this stuff for the whole state or country itself !!
@@ -472,7 +482,8 @@
 
   	  	  	  	<p>
   	  	  	  	  	<h3>→ Fill voids in the SRTM raster:</h3>
-  	  	  	  	  	<br>
+  	  	  	  	</p>
+  	  	  	  	<p>
   	  	  	  	  	SRTM files are collected by RADAR sensing method, often comes with voids when the terrain is so much rugged
   	  	  	  	  	(high variance/high slopes). These voids can be filled out using the GIS tool.
 					</br>
@@ -485,10 +496,10 @@
 
   	  	  	  	<p>
   	  	  	  	  	<h3>→ Terrain Analysis:</h3>
-					<br>
+				</p>
+  	  	  	  	<p>
   	  	  	  	  	Making sense of the topographical data in of elevation layers (DEM) is vital, as it can drive the impetus
 					to apply suitable analysis upon interpreting the terrain based on its statistical variations.
-					</br>
 
   	  	  	  	  	<ul>
   	  	  	  	  	  	<li><a href="https://grass.osgeo.org/grass72/manuals/r.slope.aspect.html">Slope, Aspect, Derivatives & Curvature</a>
@@ -531,11 +542,11 @@
 
   	  	  	  	<p>
   	  	  	  	  	<h3>→ Vectorization:</h3>
-					<br>
+				</p>
+  	  	  	  	<p>
   	  	  	  	  	After generating the DEM, and applying suitable terrain analysis, the above resultant terrain models can be
 					used to extract the <a href="https://wiki.openstreetmap.org/wiki/Contours">contours</a>. The following
 					contour lines are generated from the void filled shaded relief raster obtained above.
-					</br>
 
   	  	  	  	  	<figure>
 						<img src="../../../../content/resource/maps/try-terrain/Contour-25.png" alt="Contour25">
@@ -545,11 +556,11 @@
 
   	  	  	  	<p>
   	  	  	  	  	<h3>→ Overlaying:</h3>
-  	  	  	  	  	<br>
+  	  	  	  	</p>
+  	  	  	  	<p>
   	  	  	  	  	Further, the contour lines can be beautified by labelling each contour line with their <b>level</b> value.
   	  	  	  	  	The following zoomed in view of contour lines with different step levels overlayed on the shaded relief layer
   	  	  	  	  	provides good interpretation of elevation about the terrain of the selected region.
-					</br>
 
   	  	  	  	  	<figure>
 						<img src="../../../../content/resource/maps/try-terrain/ShadedreliefonOSMraster.png" alt="Relief overlayed on OSM raster">
@@ -574,9 +585,13 @@
   	  	  	  	  	Whatever might be the analysis implemented on the data, the results along with the original data, can be visualized
   	  	  	  	  	in number of ways. 3D visualization is one of the way that modern <b>webgl & js</b> enables one to simply
   	  	  	  	  	use modern web browesers to communicate the data effectively.
+  	  	  	  	</p>
 
+  	  	  	  	<p>
   	  	  	  	  	<h3>→ Visualization:</h3>
-  	  	  	  	  	<br></br>
+				</p>
+
+  	  	  	  	<p>
 
   	  	  	  	  	Visualization and Communication plays vital role in enabling the user to properly interpret the information that
   	  	  	  	  	the map is designed to convey. Level of detail varies upon the information carried by the map itself defined by the
@@ -596,6 +611,9 @@
 	  	  	  			<figcaption><b>3D Visualization using Threejs</b></figcaption>
   	  	  	  		</figure>
 
+  	  	  	  	</p>
+
+  	  	  	  	<p>
   	  	  	  	  	The 3D rendering can also be awesomely done using <a href="https://grasswiki.osgeo.org/wiki/Help_with_3D">GRASS-Nviz</a>
   	  	  	  	  	tool which offers wider controls and visualization options.
 
@@ -603,15 +621,17 @@
 
   	  	  	  	<p>
   	  	  	  	  	<h3>→ Communication/Sharing:</h3>
-  	  	  	  	  	<br></br>
+				</p>
 
+  	  	  	  	<p>
   	  	  	  	  	With the widespread usage of Internet, and accelerated usage of client server model throughout the web mapping
   	  	  	  	  	services like Open street map; Open cycle map; Open topo map; ... etc, have enabled commons to easily contribute
   	  	  	  	  	as a collaborative effort. However, with transition towards grassroots based internet, the ability to serve the
   	  	  	  	  	content/information locally to the locality in a decentralized way or a flat p2p way is a better approach than the
   	  	  	  	  	centralized hierarchically controlled internet based business that restricts access to web map data.
 
-  	  	  	  	  	<br></br>
+  	  	  	  	</p>
+  	  	  	  	<p>
 
   	  	  	  	  	<b>★★★★★ : </b>This is where the federated free software projects like <a href="https://www.npmjs.com/package/tileserver-gl-light">
 					tileserver-light</a> - by <a href="https://openmaptiles.org/">osmtovector tiles</a> project
@@ -627,7 +647,8 @@
 						<img src="../../../../content/resource/maps/try-terrain/mbtiles.png" alt="tilserver mbtiles">
 	  	  	  			<figcaption><b>Vector tiles served by tileserver-light</b></figcaption>
   	  	  	  		</figure>
-
+				</p>
+  	  	  	  	<p>
   	  	  	  	  	The above screenshot represents the xray-view rendered by the tilerserver-light that takes the mapbox-tiles file
   	  	  	  	  	generated from the geojson files using <a href="https://github.com/mapbox/tippecanoe">tippecanoe</a>. The required
   	  	  	  	  	geojson files are generated from the shapefiles/xml files using GRASS/QGIS. Here, the vector layers such as contours,
