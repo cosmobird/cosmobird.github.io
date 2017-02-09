@@ -9,22 +9,22 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="42.333332mm"
-   height="42.334583mm"
-   viewBox="0 0 149.99999 150.00443"
+   width="33.866665mm"
+   height="33.866665mm"
+   viewBox="0 0 119.99999 119.99999"
    id="svg4759"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Meetup-4CCON.svg">
+   sodipodi:docname="Meetup-4CCON-Odd.svg">
   <defs
      id="defs4761">
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter6870"
-       x="-0.038731968"
+       x="-0.038731966"
        width="1.0774639"
-       y="-0.063222273"
+       y="-0.063222274"
        height="1.1264445">
       <feGaussianBlur
          inkscape:collect="always"
@@ -39,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.9930288"
-     inkscape:cx="42.075274"
-     inkscape:cy="50.235029"
+     inkscape:zoom="2.8469816"
+     inkscape:cx="33.392648"
+     inkscape:cy="55.7558"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -71,7 +71,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-259.28568,-948.79077)">
+     transform="translate(-258.32652,-976.15753)">
     <g
        id="g6906"
        transform="matrix(0.9375,0,0,0.9375,16.145407,68.509846)"
