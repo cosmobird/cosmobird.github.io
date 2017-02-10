@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="42.333332mm"
-   height="42.334583mm"
-   viewBox="0 0 149.99999 150.00443"
+   width="33.866665mm"
+   height="33.866665mm"
+   viewBox="0 0 119.99999 119.99999"
    id="svg4759"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -24,7 +24,7 @@
        id="filter5491"
        x="-0.048414961"
        width="1.0968299"
-       y="-0.079027843"
+       y="-0.079027846"
        height="1.1580557">
       <feGaussianBlur
          inkscape:collect="always"
@@ -40,8 +40,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="23.839948"
-     inkscape:cy="41.39153"
+     inkscape:cx="24.799113"
+     inkscape:cy="38.753863"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -63,7 +63,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,7 +71,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-259.28568,-948.79077)">
+     transform="translate(-258.32652,-976.15753)">
     <g
        id="g5495"
        inkscape:export-xdpi="90"

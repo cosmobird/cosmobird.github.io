@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="42.333332mm"
-   height="42.333332mm"
-   viewBox="0 0 149.99999 150"
+   width="33.866665mm"
+   height="33.866665mm"
+   viewBox="0 0 119.99999 120"
    id="svg4759"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -22,10 +22,10 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter6131"
-       x="-0.059618774"
+       x="-0.059618775"
        width="1.1192375"
-       y="-0.060386133"
-       height="1.1207723">
+       y="-0.060386132"
+       height="1.1207722">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="3.3000991"
@@ -40,8 +40,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="86.613308"
-     inkscape:cy="79.385434"
+     inkscape:cx="86.613304"
+     inkscape:cy="79.38544"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -71,7 +71,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-263.37482,-945.53693)">
+     transform="translate(-263.37482,-975.53693)">
     <g
        id="g6161"
        transform="matrix(0.8,0,0,0.8,52.674963,219.10739)"

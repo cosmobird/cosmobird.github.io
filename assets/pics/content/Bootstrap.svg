@@ -23,8 +23,8 @@
        style="color-interpolation-filters:sRGB"
        id="filter11929"
        x="-0.17886753"
-       width="1.3577351"
-       y="-0.090285814"
+       width="1.3577352"
+       y="-0.090285815"
        height="1.1805716">
       <feGaussianBlur
          inkscape:collect="always"
@@ -39,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="38.073274"
-     inkscape:cy="77.928383"
+     inkscape:zoom="1"
+     inkscape:cx="258.27237"
+     inkscape:cy="68.004754"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -73,7 +73,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-263.37482,-945.53693)">
+     transform="translate(-283.17573,-935.61328)">
     <g
        id="g11937"
        inkscape:export-xdpi="90"

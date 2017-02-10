@@ -15,7 +15,7 @@
    id="svg4759"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Comms.svg">
+   sodipodi:docname="Communicating.svg">
   <defs
      id="defs4761">
     <filter
@@ -23,7 +23,7 @@
        style="color-interpolation-filters:sRGB"
        id="filter17844"
        x="-0.11410524"
-       width="1.2282105"
+       width="1.2282104"
        y="-0.126537"
        height="1.253074">
       <feGaussianBlur
@@ -40,8 +40,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="183.85296"
-     inkscape:cy="37.539463"
+     inkscape:cx="159.56301"
+     inkscape:cy="24.528416"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -73,7 +73,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-263.37482,-945.53693)">
+     transform="translate(-287.66477,-932.52588)">
     <g
        id="g17862"
        inkscape:export-xdpi="90"
