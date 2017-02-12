@@ -279,3 +279,19 @@ section {
     	margin-left: auto;
     	margin-right: auto;
 }
+
+.content-blockquote {
+	background: #f9f9f9;
+	border-left: 10px solid #ccc;
+	margin: auto;
+	padding: 0.5em 2em;
+	vertical-align:middle;
+	font-family: 'Lato';
+	font-size: 17px;
+	font-weight: 400;
+	color: #333333;
+}
+
+.content-blockquote p {
+	display: relative;
+}
