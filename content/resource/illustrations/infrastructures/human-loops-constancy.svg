@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="228.74518mm"
-   height="108.09657mm"
-   viewBox="0 0 810.51441 383.01935"
+   width="346.83652mm"
+   height="208.00931mm"
+   viewBox="0 0 1228.9483 737.04085"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -38,15 +38,16 @@
        inkscape:isstock="true"
        style="overflow:visible"
        id="marker18142"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Mstart">
       <path
-         transform="scale(0.4) translate(10,0)"
-         style="fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1;fill:#666666;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path18144" />
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path18144"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mend"
@@ -67,17 +68,18 @@
     <marker
        inkscape:stockid="Arrow1Mstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="marker17634"
        style="overflow:visible"
        inkscape:isstock="true"
        inkscape:collect="always">
       <path
          id="path17636"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1;fill:#666666;fill-opacity:1"
-         transform="scale(0.4) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:isstock="true"
@@ -99,31 +101,33 @@
        inkscape:isstock="true"
        style="overflow:visible"
        id="marker17234"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Mstart"
        inkscape:collect="always">
       <path
-         transform="scale(0.4) translate(10,0)"
-         style="fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1;fill:#666666;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path17236" />
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path17236"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mstart"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Mstart"
        style="overflow:visible"
        inkscape:isstock="true"
        inkscape:collect="always">
       <path
          id="path16446"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1;fill:#666666;fill-opacity:1"
-         transform="scale(0.4) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <inkscape:path-effect
        vertical="false"
@@ -911,9 +915,9 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter15408"
-       x="-0.073600885"
+       x="-0.073600888"
        width="1.1472018"
-       y="-0.070467273"
+       y="-0.070467271"
        height="1.1409345">
       <feGaussianBlur
          inkscape:collect="always"
@@ -924,9 +928,9 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter15414"
-       x="-0.061334071"
+       x="-0.06133407"
        width="1.1226681"
-       y="-0.058722728"
+       y="-0.058722727"
        height="1.1174455">
       <feGaussianBlur
          inkscape:collect="always"
@@ -942,8 +946,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.97050406"
-     inkscape:cx="507.7287"
-     inkscape:cy="195.38432"
+     inkscape:cx="497.58758"
+     inkscape:cy="549.4068"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -960,23 +964,23 @@
      showguides="true"
      inkscape:guide-bbox="true">
     <sodipodi:guide
-       position="185.9375,-65.625001"
+       position="175.79638,288.39748"
        orientation="1,0"
        id="guide16161" />
     <sodipodi:guide
-       position="1173.4375,-62.500001"
+       position="1163.2964,291.52248"
        orientation="1,0"
        id="guide16163" />
     <sodipodi:guide
-       position="423.4375,32.8125"
+       position="413.29639,386.83499"
        orientation="1,0"
        id="guide16382" />
     <sodipodi:guide
-       position="695.31251,-67.187501"
+       position="685.17141,286.83498"
        orientation="1,0"
        id="guide16384" />
     <sodipodi:guide
-       position="990.62501,-9.3750001"
+       position="980.48393,344.64749"
        orientation="1,0"
        id="guide16386" />
   </sodipodi:namedview>
@@ -988,7 +992,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -996,7 +1000,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-630.96264,-679.67515)">
+     transform="translate(-641.10376,-679.67611)">
     <g
        id="g18143"
        transform="matrix(0.87085148,0,0,0.87085148,1022.1492,732.76143)">
@@ -1695,7 +1699,7 @@
                   <polygon
                      style="fill:#808080"
                      id="polygon54464"
-                     points="45,54.3 45.7,56.3 54.3,56.3 55,54.3 " />
+                     points="55,54.3 45,54.3 45.7,56.3 54.3,56.3 " />
                 </g>
                 <g
                    style="fill:#808080"
@@ -1775,7 +1779,7 @@
                      id="polygon54496"
                      style="fill:#37abc8;fill-opacity:1" />
                   <polygon
-                     points="54.3,56.3 55,54.3 45,54.3 45.7,56.3 "
+                     points="45.7,56.3 54.3,56.3 55,54.3 45,54.3 "
                      id="polygon54498"
                      style="fill:#37abc8;fill-opacity:1" />
                 </g>
