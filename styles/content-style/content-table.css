@@ -87,3 +87,31 @@ a:hover, a:focus {
 .content-table-body td{
 	padding: 1em 1em;
 }
+
+.cv-table{
+	position: relative;
+	display: table;
+	width: 85%;
+	margin: 1em auto;
+	vertical-align: middle;
+	border-collapse: separate;
+}
+
+.cv-table-head{
+	display: table-header-group;
+	text-align: left;
+	color:#9D48E8;
+}
+
+.rectangle{
+	background: #9D48E8;
+	padding: 0.5em;
+	vertical-align: middle;
+	width:120px;
+}
+
+.cv-table-body td{
+	padding: 0.5em 0em;
+	text-align: left;
+}
+
