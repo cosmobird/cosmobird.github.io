@@ -92,7 +92,7 @@ a:hover, a:focus {
 	position: relative;
 	display: table;
 	width: 85%;
-	margin: 1em auto;
+	margin: 2.5em auto;
 	vertical-align: middle;
 	border-collapse: separate;
 }
@@ -107,7 +107,7 @@ a:hover, a:focus {
 	background: #9D48E8;
 	padding: 0.5em;
 	vertical-align: middle;
-	width:120px;
+	width:100px;
 }
 
 .cv-table-body td{

@@ -308,3 +308,13 @@ section {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.social{
+	vertical-align: middle;
+	margin: 1em auto;
+	text-align: center;
+}
+
+.social img{
+	padding: 1em 1.5em 0em 1.5em;
+}
