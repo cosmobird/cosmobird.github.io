@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="33.866665mm"
+   height="33.866665mm"
+   viewBox="0 0 119.99999 120"
+   id="svg4759"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="SW-configs.svg">
+  <defs
+     id="defs4761">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter7102"
+       x="-0.062561386"
+       width="1.1251228"
+       y="-0.057640101"
+       height="1.1152802">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.9998415"
+         id="feGaussianBlur7104" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.1527026"
+     inkscape:cx="89.708122"
+     inkscape:cy="12.428424"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showborder="false"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata4764">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-283.17573,-965.61328)">
+    <g
+       id="g7106"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="0"
+         rx="0"
+         style="opacity:1;fill:#808080;fill-opacity:1;stroke:none;stroke-width:6.79094839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5453"
+         width="120"
+         height="120"
+         x="283.17572"
+         y="965.61328" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter7102)"
+         x="343.54706"
+         y="996.63513"
+         id="text7064"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan7066"
+           x="343.54706"
+           y="996.63513"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.75000191px;font-family:TlwgTypewriter;-inkscape-font-specification:'TlwgTypewriter Bold';text-align:center;text-anchor:middle">#!</tspan><tspan
+           sodipodi:role="line"
+           x="343.54706"
+           y="1020.0726"
+           id="tspan7068"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.75000191px;font-family:TlwgTypewriter;-inkscape-font-specification:'TlwgTypewriter Bold';text-align:center;text-anchor:middle">system</tspan><tspan
+           sodipodi:role="line"
+           x="343.54706"
+           y="1043.5101"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.75000191px;font-family:TlwgTypewriter;-inkscape-font-specification:'TlwgTypewriter Bold';text-align:center;text-anchor:middle"
+           id="tspan7070">ports</tspan><tspan
+           sodipodi:role="line"
+           x="343.54706"
+           y="1066.9476"
+           id="tspan7072"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.75000191px;font-family:TlwgTypewriter;-inkscape-font-specification:'TlwgTypewriter Bold';text-align:center;text-anchor:middle">daemons</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text7054"
+         y="996.63513"
+         x="343.54706"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.75000191px;font-family:TlwgTypewriter;-inkscape-font-specification:'TlwgTypewriter Bold';text-align:center;text-anchor:middle;fill:#cccccc"
+           y="996.63513"
+           x="343.54706"
+           id="tspan7056"
+           sodipodi:role="line">#!</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.75000191px;font-family:TlwgTypewriter;-inkscape-font-specification:'TlwgTypewriter Bold';text-align:center;text-anchor:middle;fill:#cccccc"
+           id="tspan7058"
+           y="1020.0726"
+           x="343.54706"
+           sodipodi:role="line">system</tspan><tspan
+           id="tspan7062"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.75000191px;font-family:TlwgTypewriter;-inkscape-font-specification:'TlwgTypewriter Bold';text-align:center;text-anchor:middle;fill:#cccccc"
+           y="1043.5101"
+           x="343.54706"
+           sodipodi:role="line">ports</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.75000191px;font-family:TlwgTypewriter;-inkscape-font-specification:'TlwgTypewriter Bold';text-align:center;text-anchor:middle;fill:#cccccc"
+           id="tspan7060"
+           y="1066.9476"
+           x="343.54706"
+           sodipodi:role="line">daemons</tspan></text>
+    </g>
+  </g>
+  <style
+     id="style6048"
+     type="text/css">
+	.st0{fill:#1D1D1B;}
+</style>
+</svg>
