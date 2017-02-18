@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="42.333332mm"
-   height="42.333332mm"
-   viewBox="0 0 149.99999 150"
+   width="33.866665mm"
+   height="33.866665mm"
+   viewBox="0 0 119.99999 120"
    id="svg4759"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Disobedience.svg">
+   sodipodi:docname="Disobedience-black.svg">
   <defs
      id="defs4761">
     <filter
@@ -39,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="-137.11328"
-     inkscape:cy="65.048594"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="48.861336"
+     inkscape:cy="51.563625"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -71,27 +71,26 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-254.30068,-947.69196)">
+     transform="translate(-251.14773,-980.49994)">
     <g
-       id="g13970"
+       id="g14037"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       transform="matrix(0.8,0,0,0.8,50.860135,219.53839)">
+       inkscape:export-ydpi="90">
       <rect
          ry="0"
          rx="0"
-         style="opacity:1;fill:#808080;fill-opacity:1;stroke:none;stroke-width:6.79094839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:6.79094839;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect5453"
-         width="150"
-         height="150"
-         x="254.30067"
-         y="947.69196" />
+         width="120"
+         height="120"
+         x="251.14772"
+         y="980.49994" />
       <g
-         transform="translate(1.7619826e-6,-3.6103415e-7)"
-         id="g13958">
+         transform="matrix(0.93802472,0,0,0.93802472,16.325915,67.119221)"
+         id="g14025">
         <g
            style="fill:#ffffff;filter:url(#filter13954)"
-           transform="matrix(1.3675086,0,0,1.3675086,261.10345,955.69011)"
+           transform="matrix(1.0940069,0,0,1.0940069,259.7429,984.09048)"
            id="g13112">
           <path
              style="fill:#ffffff"
@@ -120,7 +119,7 @@
         </g>
         <g
            id="g13076"
-           transform="matrix(1.3675086,0,0,1.3675086,261.10345,955.69011)"
+           transform="matrix(1.0940069,0,0,1.0940069,259.7429,984.09048)"
            style="fill:#333333">
           <path
              inkscape:connector-curvature="0"
