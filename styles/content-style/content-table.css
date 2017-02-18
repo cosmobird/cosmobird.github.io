@@ -79,13 +79,17 @@ a:hover, a:focus {
 	text-align: center;
 }
 
+.content-table-head th{
+	padding: 1em 1em 1em 1em;
+}
+
 .content-table-body {
 	display: table-row-group;
 	text-align: center;
 }
 
 .content-table-body td{
-	padding: 1em 1em;
+	padding: 1em 1em 1em 1em;
 }
 
 .cv-table{
