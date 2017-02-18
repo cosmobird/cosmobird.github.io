@@ -64,7 +64,7 @@ a:hover, a:focus {
 .content-table{
 	position: relative;
 	display: table;
-	width: 90%;
+	max-width: 90%;
 	margin: 5em auto;
 	vertical-align: middle;
 	border-collapse: separate;
