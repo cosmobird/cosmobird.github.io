@@ -58,7 +58,7 @@ a {
 a:hover, a:focus {
 	color: #c94e50;
 	outline: none;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .content-table{
@@ -107,15 +107,19 @@ a:hover, a:focus {
 	color:#9D48E8;
 }
 
+.cv-table-head th{
+	padding: 0.5em 0.5em;
+}
+
 .rectangle{
 	background: #9D48E8;
-	padding: 0.5em;
+	padding: 0em;
 	vertical-align: middle;
-	width:100px;
+	width:120px;
 }
 
 .cv-table-body td{
-	padding: 0.5em 0em;
+	padding: 0.5em 0.5em;
 	text-align: left;
 }
 
