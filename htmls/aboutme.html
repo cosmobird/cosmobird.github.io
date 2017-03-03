@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/balloons/balloon.css" />
     <link rel="stylesheet" type="text/css" href="../styles/tabs/tabs.css" />
     <link rel="stylesheet" type="text/css" href="../styles/tabs/tabstyles.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/landing-style/grid_caption_hover.css" />
 
     <!-- SCRIPTS -->
     <script src="../scripts/generalizers/modernizr.custom_tabs.js"></script>
@@ -48,7 +49,6 @@
 			<ul>
 			  	<li><a href="#section-topline-1"><span>Usual Stuff</span></a></li>
 			  	<li><a href="#section-topline-2"><span>CV</span></a></li>
-			  	<li><a href="#section-topline-3"><span>Where am I ?</span></a></li>
 			</ul>
 		  </nav>
 
@@ -323,12 +323,6 @@
 
 		    	</section>
 
-		    	<section id="section-topline-3">
-				<p>
-				  MAPS
-				</p>
-		    	</section>
-
 		  </div> <!-- /content -->
 
 		</div><!-- /tabs -->
@@ -341,39 +335,59 @@
 	</div>
 
 	<div class="social">
-		<figure>
-		  	<a href="mailto:31gane@gmail.com" data-balloon="just write a email" data-balloon-pos="down">
-		  		<img src="../assets/pics/social/mail.png" alt="email">
-		  	</a>
-		  	<a href="irc://irc.freenode.org/cosmobird" data-balloon="wanna chat in irc ?" data-balloon-pos="down">
-		  	  	<img src="../assets/pics/social/irc.png" alt="irc">
-		  	</a>
-			<a href="https://mastodon.social/users/smith_ai" data-balloon="let's Tooot..." data-balloon-pos="down">
-		  		<img src="../assets/pics/social/mastodon.png" alt="mastodon">
-		  	</a>
-		  	<a href="https://vector.im/beta/#/room/#cosmo:matrix.org" data-balloon="let's Riot..." data-balloon-pos="down">
-		  		<img src="../assets/pics/social/riot.png" alt="riot">
-		  	</a>
-			<a data-balloon="dial in extreme cases... +91 - 99 52 52 42 67 :)" data-balloon-pos="down">
-		  		<img src="../assets/pics/social/mobile-phone.png" alt="mobile-phone">
-		  	</a>
-		  <!--
-		  	<a data-balloon="gnu social" data-balloon-pos="down">
-		  		<img src="../assets/pics/social/gnu-social.png" alt="gnu-social">
-		  	</a>
-		   -->
-		</figure>
+		<ul class="grid">
+			<li>
+			  	<figure data-balloon="just write a email" data-balloon-pos="up">
+			  	  <a href="href=mailto:31gane@gmail.com">
+			  		<img src="../assets/pics/social/mail.png" alt="email">
+			  	  </a>
+			  	</figure>
+			</li>
+			<li>
+			  	<figure data-balloon="wanna chat in irc ?" data-balloon-pos="up">
+			  	  <a href="irc://irc.freenode.org/cosmobird" >
+			  	  	<img src="../assets/pics/social/irc.png" alt="irc">
+			  	  </a>
+			  	</figure>
+			</li>
+			<li>
+				<figure data-balloon="let's Tooot..." data-balloon-pos="up">
+				  <a href="https://mastodon.social/users/smith_ai" >
+			  		<img src="../assets/pics/social/mastodon.png" alt="mastodon">
+			  	  </a>
+				</figure>
+			</li>
+			<li>
+			  	<figure data-balloon="let's Riot..." data-balloon-pos="up">
+			  	  <a href="https://vector.im/beta/#/room/#cosmo:matrix.org">
+			  		<img src="../assets/pics/social/riot.png" alt="riot">
+			  	  </a>
+			  	</figure>
+			</li>
+			<li>
+				<figure data-balloon="+91 - 99 52 52 42 67 :)" data-balloon-pos="up">
+				  <a href="">
+			  		<img src="../assets/pics/social/mobile-phone.png" alt="mobile-phone">
+			  	  </a>
+				</figure>
+			</li>
+		<!--
+			<li>
+			  	<figure data-balloon="gnu social" data-balloon-pos="down">
+			  	  <a href="">
+			  		<img src="../assets/pics/social/gnu-social.png" alt="gnu-social">
+			  	  </a>
+				</figure>
+			</li>
+		-->
+		</ul>
   	</div>
 
 	<br></br>
 
-	<div class="content-rectangle">
-		<br></br>
-	</div>
-
-
     <!-- SCRIPTS -->
-	<script>
+
+	<script>	<!-- FOR TABBING ! -->
 		(function() {
 
 			[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {

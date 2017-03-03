@@ -331,16 +331,8 @@ section {
 	display: block;
 }
 
-
-/*SOCIAL LINK BUTTONS*/
-.social figure{
-	vertical-align: middle;
-	width: 65%
-	margin: 1em auto;
-	text-align: center;
-}
-
-.social img{
-	padding: 0em 1.5em 0em 1.5em;
-	position: relative;
+.social{
+	width: 75%;
+	margin: 0 auto;
+	padding: 2em 0em 0em 0em;
 }
