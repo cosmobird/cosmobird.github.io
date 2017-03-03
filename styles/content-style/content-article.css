@@ -323,8 +323,7 @@ section {
 	display: none;
 	margin: 0 auto;
 	padding: 0em;
-	min-width: 600px;
-	max-width: 1200px;
+	max-width: 100%;
 	text-align: justify;
 }
 
@@ -334,12 +333,14 @@ section {
 
 
 /*SOCIAL LINK BUTTONS*/
-.social{
+.social figure{
 	vertical-align: middle;
+	width: 65%
 	margin: 1em auto;
 	text-align: center;
 }
 
 .social img{
 	padding: 0em 1.5em 0em 1.5em;
+	position: relative;
 }

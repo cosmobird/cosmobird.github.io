@@ -3,7 +3,7 @@
 /*****************************/
 
 .tabs-style-topline {
-	max-width: 1200px;
+	max-width: 100%; /*1200px*/
 }
 
 .tabs-style-topline nav li {

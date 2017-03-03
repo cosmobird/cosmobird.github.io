@@ -33,7 +33,7 @@
 	display: flex;
 	margin: 0 auto;
 	padding: 0;
-	max-width: 1200px;
+	max-width: 100%; /*1200px*/
 	list-style: none;
 	-ms-box-orient: horizontal;
 	-ms-box-pack: center;
