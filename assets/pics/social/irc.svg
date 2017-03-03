@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="39.356422mm"
-   height="42.333332mm"
-   viewBox="0 0 139.45189 149.99999"
+   width="56.444443mm"
+   height="56.444443mm"
+   viewBox="0 0 199.99999 199.99999"
    id="svg3644"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -38,9 +38,9 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter4659"
-       x="-0.49182009"
+       x="-0.4918201"
        width="1.9836402"
-       y="-0.46873473"
+       y="-0.46873474"
        height="1.9374695">
       <feGaussianBlur
          inkscape:collect="always"
@@ -56,8 +56,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="130.94116"
-     inkscape:cy="92.765765"
+     inkscape:cx="152.27038"
+     inkscape:cy="103.93654"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -79,7 +79,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -87,7 +87,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-304.6452,-257.57164)">
+     transform="translate(-288.31598,-218.74241)">
     <g
        id="g4307"
        inkscape:export-xdpi="90"
@@ -99,7 +99,7 @@
          height="100"
          width="100"
          id="rect4244"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.65843624;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.65843621, 1.31687243;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:#fdfdf8;fill-opacity:1;stroke:none;stroke-width:0.65843624;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.65843621, 1.31687243;stroke-dashoffset:0;stroke-opacity:1" />
       <path
          transform="matrix(0.84813877,0,0,0.84813877,42.747407,63.065092)"
          id="path3676"

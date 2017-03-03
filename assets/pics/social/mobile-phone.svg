@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="39.356422mm"
-   height="42.333332mm"
-   viewBox="0 0 139.45189 149.99999"
+   width="56.444443mm"
+   height="56.444443mm"
+   viewBox="0 0 199.99999 199.99999"
    id="svg3644"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -35,10 +35,10 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter12305"
-       x="-0.83531073"
-       width="2.6706215"
-       y="-0.33675619"
-       height="1.6735124">
+       x="-0.83531076"
+       width="2.6706214"
+       y="-0.3367562"
+       height="1.6735125">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="13.750955"
@@ -53,8 +53,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.2193101"
-     inkscape:cx="336.79389"
-     inkscape:cy="108.97741"
+     inkscape:cx="226.82171"
+     inkscape:cy="97.473561"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -76,7 +76,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -84,7 +84,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-304.6452,-257.57164)">
+     transform="translate(-417.72364,-196.06779)">
     <g
        id="g4813"
        inkscape:export-xdpi="90"
@@ -96,7 +96,7 @@
          height="100"
          width="100"
          id="rect4244"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.65843624;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.65843621, 1.31687243;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:#fdfdf8;fill-opacity:1;stroke:none;stroke-width:0.65843624;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.65843621, 1.31687243000000009;stroke-dashoffset:0;stroke-opacity:1" />
       <g
          transform="matrix(0.66666664,0,0,0.66666664,226.22216,115.32365)"
          inkscape:export-ydpi="90"
