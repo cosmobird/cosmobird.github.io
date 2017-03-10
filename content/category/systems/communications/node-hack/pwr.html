@@ -19,7 +19,8 @@
     <link rel="stylesheet" type="text/css" href="../../../../../styles/content-style/content-article.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../styles/content-style/content-table.css" />
 
-
+    <script type="text/javascript" src="../../../../../scripts/generalizers/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="../../../../../scripts/frontend-functionality/accordion.js"></script>
 </head>
 
 <body>
@@ -108,56 +109,126 @@
   	  	  	  <li>Generation</li>
   	  	  	  <li>Storage</li>
   	  	  	  <li>Distribution</li>
-  	  	  	  <li>Safety Control & Fail safe backups</li>
-  	  	  	  <li>Power Management</li>
   	  	  	</ul>
+  	  	</p>
+
+  		<figure>
+  	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/power-chain.png" alt="power chain">
+  	  	  	<figcaption><b>A Generic Renewable Energy based Power System</b></figcaption>
+	  	</figure>
+
+  	  	<p>
+  	  	  	The following factors has to be considered for planning & maintenance:
+
+	  	  	<ul>
+	  	  	  <li>Electric power budget</li>
+	  	  	  <li>Size of the Generator</li>
+	  	  	  <li>Generator capacity</li>
+	  	  	  <li>Storage mechanism</li>
+	  	  	  <li>Storage capacity</li>
+	  	  	  <li>Distribution & Maintenance</li>
+	  	  	  <li>Monitoring, Measurement, Analysis</li>
+  	  	  	  <li>Power Management</li>
+  	  	  	  <li>Safety Control & Fail safe backups</li>
+	  	  	  <li>Cost Optimization</li>
+	  	  	  <li>Loss Minimization</li>
+	  	  	</ul>
   	  	</p>
 
   	  	<p>
   	  	  	It is not surprising to see, that such a system, has significant overlap with the renewable
   	  	  	energy system built for a home. For an existing renewable energy system, one has to audit
-  	  	  	what is the amount of energy utilized for communication. This makes measurement necessary
-  	  	  	and analysis becomes habit, from which people would realize that resources for communication
+  	  	  	what is the amount of energy utilized for communication. This makes the habit of measurement
+  	  	  	and analysis normative, from which people would realize that resources for communication
   	  	  	do take considerable power, and such a feedback loop will make them energy conscious or even
   	  	  	develop a power management system that would tailor fit their requirement.
   	  	</p>
 
-	  	<h3>Generation</h3>
-	  	<p>
-			Most of the stuff, modern society lives on really depend upon massive consumption electric
-	  	  	power. With massive requirment, electric power generation as like other infrastrauctures
-	  	  	was centralized due to technical and scalability difficulties. Like how a centralized system
-	  	  	behaves, this resulted in a <b>isolation</b> between work involved in generation & consumption
-	  	  	of the energy. Most of the populace, tend to think, that electric power is available for them
-	  	  	at reasonable cost, and consider that it is available without any interruption. Even in
-	  	  	developing countries (with well managed electric power generation & distribution infrastraucture
-	  	  	with relatively less resource) - such an expectation is common.
-	  	</p>
+  		<div class="accordion">
+  		  <div class="accordion-section">
+  			<a class="accordion-section-title" href="#accordion-1"><h3>Generation</h3></a>
+  			<div id="accordion-1" class="accordion-section-content">
+			  	<p>
+					Most of the stuff, modern society lives on - really depend upon massive consumption electric
+			  	  	power. With massive requirment, electric power generation as like other infrastrauctures
+			  	  	was centralized due to technical and scalability difficulties. Like how a centralized system
+			  	  	behaves, this resulted in a <b>isolation</b> between work involved in generation & consumption
+			  	  	of the energy. Most of the populace, tend to think, that electric power is available for them
+			  	  	at reasonable cost, and consider that it is available without any interruption. Even in developing
+			  		countries (with well managed electric power generation & distribution infrastraucture
+			  	  	with relatively less resource) - such an expectation is common.
+			  	</p>
 
-	  	<h3>Required Modules :</h3>
-	  	<p>
+		  	  	<p>
+		  	  	  	Electricity is no more an optional utility, but an essential requirement for living in modern
+		  	  	  	societies. Even farming methods nowadays heavily depend upon electricity. Using electricity is not
+		  	  	  	a problem, but creating a synthetic dependency on the centralized electricity production
+		  	  	  	systems is the problem. <b>Energy Saving</b> can become more responsibile when the technology
+		  	  	  	enables electricity generation, consumption & maintenance directly to the people. This will
+		  	  	  	lessen the burdern of central infrastrauctures and increase the knowledge & awareness than the
+		  	  	  	<b>billing</b> strategy.
+		  	  	</p>
 
-	  	</p>
+			  	<h3>Required Modules :</h3>
+			  	<p>
+					Based on the power requirement, initial estimate of power - i.e, power budget has to be generated
+			  	  	which helps in knowing the power consumption on average. This is where power specifications of
+			  	  	used appliances will come into picture. Based on geography either solar power or wind power methods
+			  	  	can be used.
+			  	</p>
+  			</div>
 
-	  	<h3>Storage</h3>
-	  	<p>
+		  	<a class="accordion-section-title" href="#accordion-2"><h3>Storage</h3></a>
+	  		<div id="accordion-2" class="accordion-section-content">
 
-	  	</p>
+		  	  	<p>
+		  	  		Electricity storage is vital in the self-production method. Without storage, duration of maintenance
+		  	  		and repair cannot be handled properly. It provides us with <b>continuous</b> power supply. Furthermore,
+		  	  		the storage technology is diversed & varies in cost based upon the chemistry used. So far, we
+		  	  		have used <b>chemical storage</b> mechanisms - a.k.a. <b>Battery</b>. The required battery chemistry
+		  	  		has to be selected based upon the load requirement, cost & maintenance.
+			  	</p>
 
-	  	<h3>Required Modules :</h3>
-	  	<p>
+			  	<h3>Required Modules :</h3>
+			  	<p>
+			  	  	Every appliance, when equipped with such a self-generation infrastraucture, if possible, has to be
+			  	  	attached with its own storage mechanism. This method of localizing storage would isolate the all time
+			  	  	dependency on the main infrastraucture, increase reliability, ease maintenance. Storage determines
+			  	  	the capacity of supply. This capacity has to be <b>>=</b> to the generation capacity. It must also
+			  	  	endure the load variation. Losses between the Generation & Storage, Storage & Distribution has to be
+			  	  	taken into account to minimize losses.
+			  	</p>
+	  		</div>
 
-	  	</p>
+		  	<a class="accordion-section-title" href="#accordion-3"><h3>Distribution</h3></a>
+	  		<div id="accordion-3" class="accordion-section-content">
+			  	<p>
+					The stored energy can be distributed to the load appliances. Most of the time, this invovles a
+			  	  	invertor, to convert the DC electric energy to AC electric energy. This inversion process consumes some
+			  	  	power for itself, & losses occur. If the appliance are operated directly in DC power standards,
+			  	  	then there would not be any additional requirement, apart from safety precautions. This ability
+			  	  	is so vital in communication devices, because they are usually vulnerable to Electromagnetic Interference
+			  	  	from other appliances in the power network, from external appliances, & ground loop noise.
+			  	</p>
 
-	  	<h3>Distribution</h3>
-	  	<p>
+		  	  	<p>
+		  	  	  	With Battery operated devices in constant rise, more and more devices - especially communication devices
+		  	  	  	are enabled with batteries. These devices nowadays are measured in terms of communication duty cycle,
+		  	  	  	number of calls by full charge - for instance. Such unit of measurements seems to emerge. Since our focus
+		  	  	  	is on supplying power for communication appliance, some unit of measurement has to be reached to quantfy
+		  	  	  	the performance of the appliance with respect to the power it consumed to provide such performance.
+		  	  	</p>
 
-	  	</p>
+			  	<h3>Required Modules :</h3>
+			  	<p>
+					To consume power from the Electrical Storage Modules (Batteries), vital power electronics modules are used
+			  	  	to provide the required power, while protecting the storage side units from any undesirable events like
+			  	  	over load/short circuit.
+			  	</p>
+	  		</div>
 
-	  	<h3>Required Modules :</h3>
-	  	<p>
-
-	  	</p>
+		  </div>
+	  	</div>
 
 	</div>
 
@@ -173,14 +244,23 @@
 
 	  <p>
 	    <ol>
-	      <li>Stuff </li>
+		<li><a href="http://www.replicant.us/freedom-privacy-security-issues.php#recommendations">What's the problem with current devices ?</a></li>
+		<li><a href="http://offgridham.com/">How HAM's address the problem ?</a></li>
+		<li><a href="https://www.beartooth.com/#">Devices has to enable Communication</a>- constructing adhoc infrastructure</li>
+		<li><a href="https://www.homepower.com/articles/solar-electricity/basics/what-solar-electricity">Learn Home powering</a></li>
+		<li><a href="http://www.solarta.com/en/installations-solar-energy/solar-photovoltaic/systems-solar-photovoltaic.php">General Schematic</a></li>
+		<li><a href="http://www.builditsolar.com/Projects/PV/PortableSolarGen/easy_diy_solar_generator.pdf">Build it Solar - Built it Yourself</a></li>
+		<li><a href="http://tjeas.com/wp-content/uploads/2014/06/14-17.pdf">How about a Hybrid ?</a></li>
 	    </ol>
 	  </p>
 
   	  <p>
   	     <h3><i>CREDITS & ATTRIBUTIONS :</I></h3>
   	    	<ul>
-  	    	  <li><b>Stuff :</b></li>
+  	    	  <li><b>Icons :</b></li>
+  	    		<ul>
+  	    			<li><a href=""></a></li>
+  	    		</ul>
   	  	</ul>
   	  </p>
 
