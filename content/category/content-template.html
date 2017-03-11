@@ -17,16 +17,27 @@
 
     <!-- STYLE STHEETS -->
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-article.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../styles/content-style/content-table.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-table.css" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../styles/tabs/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/tabs/tabstyles.css" />
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="../../../../scripts/generalizers/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="../../../../scripts/frontend-functionality/accordion.js"></script>
 
 
 </head>
 
 <body>
+
+<!-- HEADER -->
 	<header class="content-header">
 		<h2> Header </h2>
 	</header>
+<!-- HEADER / -->
 
+<!-- AUTHOR INFO -->
   	<div class="content-author-info">
 	  	  <table class="content-table">
 		  <thead class="content-table-head">
@@ -47,7 +58,9 @@
 		  </tbody>
 		</table>
   	</div>
+<!-- AUTHOR INFO / -->
 
+<!-- CONTENT -->
   	<div class="content">
 
   	  	<p>Hey there <b>!</b></p>
@@ -62,6 +75,7 @@
 
 
 
+<!-- PRE -->
 <pre>
 
  <bud>@</bud>
@@ -73,18 +87,71 @@
 	  		      				    | Yeah  |
 	  		      				    +-------+
 </pre>
+<!-- PRE / -->
 
+<!-- FIGURE -->
   	  	<figure>
   	  	  	<img src="../../../../assets/pics/misc/question-time.png" alt="question-time">
   	  	  	<figcaption><b><i>QUESTION THAT IS REASONABLE ?</i></b></figcaption>
   	  	</figure>
+<!-- FIGURE / -->
+
+<!-- ACCORDION -->
+  		<div class="accordion">
+  		  <div class="accordion-section">
+  			<a class="accordion-section-title" href="#accordion-1"><h3>Section1</h3></a>
+  			<div id="accordion-1" class="accordion-section-content">
+	  			<p>
+
+	  			</p>
+  			</div>
+
+  			<a class="accordion-section-title" href="#accordion-2"><h3>Section2</h3></a>
+  			<div id="accordion-2" class="accordion-section-content">
+	  			<p>
+
+	  			</p>
+  			</div>
+  		  </div>
+  		</div>
+<!-- ACCORDION / -->
+
+<!-- TABS -->
+		<section>
+			<div class="tabs tabs-style-topline">
+			  <nav>
+				<ul>
+				  	<li><a href="#section-topline-1"><span>Usual Stuff</span></a></li>
+				  	<li><a href="#section-topline-2"><span>CV</span></a></li>
+				</ul>
+			  </nav>
+
+			  <div class="content">
+
+			    	<section id="section-topline-1">
+			    	<P>
+
+			    	</P>
+
+			    	<section id="section-topline-2">
+			    	<P>
+
+			    	</P>
+			  </div>
+			</div>
+		</section>
+<!-- TABS / -->
 
 	</div>
+<!-- CONTENT / -->
 
+<!-- SEPARATOR -->
 	<div class="content-rectangle">
 		<br></br>
 	</div>
+<!-- SEPARATOR / -->
 
+<!-- LINKS, DOWNLOADS, ATTRIBUTION -->
 	<div class="content">
 
 	  <p>
@@ -105,23 +172,41 @@
   	  </p>
 
 	</div>
+<!-- LINKS, DOWNLOADS, ATTRIBUTION / -->
 
+<!-- SEPARATOR -->
 	<div class="content-rectangle">
 		<br></br>
 	</div>
+<!-- SEPARATOR / -->
 
+<!-- LICENSE -->
 	<div class="content">
 		<figure>
 		  	<img src="../../../../content/resource/licenses/by-nc-sa.png" alt="cc-by-nc-sa">
 		</figure>
   	</div>
+<!-- LICENSE / -->
 
+<!-- SEPARATOR -->
 	<div class="content-rectangle">
 		<br></br>
 	</div>
-
+<!-- SEPARATOR / -->
 </body>
 
 <!-- SCRIPTS -->
+
+<!-- FOR TABBING -->
+	<script>
+		(function() {
+
+			[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+				new CBPFWTabs( el );
+			});
+
+		})();
+	</script>
+<!-- FOR TABBING /-->
 
 </html>
