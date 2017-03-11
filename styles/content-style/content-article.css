@@ -273,7 +273,6 @@ section {
 /*VIDEO*/
 .content-video{
 	max-width: 320px;
-	max-height: 180px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2em;
@@ -339,7 +338,6 @@ section {
     background:#FDFDF8;
 }
 
-/*----- Section Titles -----*/
 .accordion-section-title {
     width:100%;
     padding:15px;
@@ -347,14 +345,13 @@ section {
     border-bottom:5px solid #1a1a1a;
     background:#EBEBEA;
     transition:all linear 0.15s;
-    /* Type */
     font-size:1.000em;
     color:#fff;
 }
 
 .accordion-section-title.active, .accordion-section-title:hover {
-    background:#666666;
-    /* Type */
+    background:#EBEBEA;
+    box-shadow:0px 0px 1px 1px rgba(0,0,0,0.50);
     text-decoration:none;
 }
 
@@ -362,7 +359,6 @@ section {
     border-bottom:1px solid #1a1a1a;
 }
 
-/*----- Section Content -----*/
 .accordion-section-content {
     padding:15px;
     display:none;

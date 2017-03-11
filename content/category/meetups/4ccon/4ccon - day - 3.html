@@ -19,6 +19,8 @@
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-article.css" />
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-table.css" />
 
+    <link rel="stylesheet" type="text/css" href="../../../../styles/multimedia/video-js.css" />
+
     <!-- SCRIPTS -->
     <script type="text/javascript" src="../../../../scripts/generalizers/jquery-2.1.1.js"></script>
     <script type="text/javascript" src="../../../../scripts/frontend-functionality/accordion.js"></script>
@@ -61,7 +63,12 @@
 	  	  	</p>
 
 			<div class="content-video">
-			  	<iframe width="320" height="180" src="https://www.youtube.com/embed/4wAKqdEdcBc" frameborder="0" allowfullscreen></iframe>
+			  	<video id="vid-1" class="video-js vjs-big-play-centered" controls preload="auto" width="320" height="240"
+	    			data-setup='{
+	  			"techOrder": ["youtube", "html5"],
+	  			"sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/embed/4wAKqdEdcBc"}]
+	  			}'>
+				</video>
 			</div>
 
 			<div class="accordion">
@@ -312,5 +319,6 @@
 </body>
 
 <!-- SCRIPTS -->
-
+    <script type="text/javascript" src="../../../../scripts/multimedia/video.js"></script>
+    <script type="text/javascript" src="../../../../scripts/multimedia/Youtube.js"></script>
 </html>
