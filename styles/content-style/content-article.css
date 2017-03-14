@@ -350,7 +350,7 @@ section {
 }
 
 .accordion-section-title.active, .accordion-section-title:hover {
-    background:#EBEBEA;
+    background:#CBCBCA;
     box-shadow:0px 0px 1px 1px rgba(0,0,0,0.50);
     text-decoration:none;
 }
