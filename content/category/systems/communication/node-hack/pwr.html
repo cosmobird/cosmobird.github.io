@@ -142,9 +142,20 @@
   	  	  	what is the amount of energy utilized for communication. This makes the habit of measurement
   	  	  	and analysis normative, from which people would realize that resources for communication
   	  	  	do take considerable power, and such a feedback loop will make them energy conscious or even
-  	  	  	develop a power management system that would tailor fit their requirement.
+  	  	  	develop a power management system that would tailor fit their requirement. I personally would
+  	  		like to use a machine intelligence system that could do this for me.
   	  	</p>
 
+  		<p>
+  			Manual calculation and DIY is so much fun and teaches us a lot through practice. I have enjoyed
+  			learning from one of my friend and peer who does power systems research. He has tried implementing
+  			a <a href="https://solariiknight.org/post/500w-solar-system">500W Solar system back in 2013</a>.
+  			The more key things is his triumph back in 2012 <a href="https://solariiknight.org/post/my-own-solar-power-plant-part-i.html">Part I</a>
+  			& <a href="https://solariiknight.org/post/my-own-solar-power-plant-part-ii.html">Part II</a>
+  			in which he has written about his experiments in building his own Solar Power Plant.
+  		</p>
+
+  		<p>
   		<div class="accordion">
   		  <div class="accordion-section">
   			<a class="accordion-section-title" href="#accordion-1"><h3>→ Generation</h3></a>
@@ -229,6 +240,181 @@
 
 		  </div>
 	  	</div>
+		</p>
+
+  		<h3>Power Requirements of a Communication System :</h3>
+  		<p>
+			The power requirments (load budget) while solely operating it alone through the renewable energy infrastructure,
+  			will vary with the kind of technology and its associated tools, devices/instruments. Depending upon the
+  			kind of communication infrastraucture the power supply utilization will vary. For instance the following choices
+  			might apply :
+
+	  		<table class="content-table">
+			  <thead class="content-table-head">
+				  <tr>
+				    <th>Usage & N/W</th>
+				    <th>Attribute</th>
+				    <th> ~ Radiating Power</th>
+				  </tr>
+			  </thead>
+			  <tbody class="content-table-body">
+				  <tr>
+				    <td>Amateur Radio</td>
+				    <td>Restricted license</td>
+				    <td>5W</td>
+				  </tr>
+				  <tr>
+				    <td>Amateur Radio</td>
+				    <td>Unrestricted license</td>
+				    <td>5 to 50W</td>
+				  </tr>
+				  <tr>
+				    <td>Amateur Radio</td>
+				    <td>Morse Code</td>
+				    <td>1W</td>
+				  </tr>
+				  <tr>
+				    <td>Amateur Radio</td>
+				    <td>HSMM</td>
+				    <td>5 to 50W</td>
+				  </tr>
+				  <tr>
+				    <td>Community Radio</td>
+				    <td>Short Range Internet</td>
+				    <td>1 to 5W</td>
+				  </tr>
+				  <tr>
+				    <td>Community Radio</td>
+				    <td>Long distance Internet</td>
+				    <td>> 5W</td>
+				  </tr>
+			  </tbody>
+			</table>
+  		</p>
+  		<p>
+  			ARRL & other offgrid & emergency services savvy HAM operators have several documents for constructing
+  			generator and storage tools. Those documented procedures, and guidelines are based on mostly amateur radio
+  			and volunteering for emergency services. While both are essential, the requirement is not always continuous
+  			operation and governed by consensus in accessing the net/channel. When the usage is for <b>Internet</b>,
+  			where people have the habit of using it in <i>always turned on</i> mode, that makes internet so powerful,
+  			requires continuous operation. Thus watt hour calculation might ask more necessary power from the energy
+  			storage unit.
+  		</p>
+
+  		<p>
+  			Another main differnece between typical Amateur Radio operation and Internet connectivity/communication is
+  			that services are mechanized using computing machines, which also requires power for its operation, unlike
+  			in HAM radio N/W, where the services are manually run (mostly voice communication).
+  		</p>
+
+		<p class="content-blockquote">
+  	    	  	<b>Power Req.</b> = Computing Power <b>+</b> Information Encoding Power <b>+</b> Radiating Power <b>+</b> Power lost in Heat
+  	    	</p>
+
+  		<p>
+  			With our emphasis on self hosting services and applications, that actually enable one use the communication
+  			to the fullest reflects its vital necessity. With more computing power requirement, the power consumed by the
+  			services will be more. These services are so vital, that transform a plain connection into communication, &
+  			orchestrating information(content,intent) into secure communication. Applications and Services are the frontfacing
+  			interface to the user. No matter how complex is the underlying communication infrastructure, that handles
+  			all the heavy lifting, for a user, communication resides in the interface.
+  		</p>
+
+  		<h3>My Home Setup :</h3>
+  		<p>
+  			The following explanation is completely a subjective experience. I have a HAM radio license, which i am not using
+  			for anything. It become a subject of DIY for me, which i have planned for later. However, i do have a software
+  			controlled radio, which we cooperatively built by soldering ourselves the printed circuit board & components, with
+  			warm help from our HAM Elmers in one of the workshop. I have always sincerely felt very grateful to them, in
+  			sharing so much about its technical and system level details and stuff.
+  		</p>
+
+  		<figure>
+  	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/my-power-chain.png" alt="my-power chain">
+  	  	  	<figcaption><b>My Home Setup</b></figcaption>
+	  	</figure>
+
+  		<p>
+  			I also use Internet for my day to day communication requirement. I am a noob when it comes to computer, software
+  			and stuff. Being part of this community network group locally, i enjoyed fun in learning so much about self hosting,
+  			commons communication infrastructure, community radio networks, distributed systems and all that awesome stuff.
+  			With love in both the communication paradigms, i cant stop learning, and i am still learning.
+  		</p>
+
+		<p>
+  			Apart from serving other home appliances, i have the following communication appliances connected :
+
+  			<table class="content-table">
+			  <thead class="content-table-head">
+				  <tr>
+				    <th>Appliance</th>
+				    <th>Purpose</th>
+				    <th>Duty</th>
+				    <th>Power Rating</th>
+				  </tr>
+			  </thead>
+			  <tbody class="content-table-body">
+				  <tr>
+				    <td>Software Controlled Radio</td>
+				    <td>Amateur Radio</td>
+				    <td><10%</td>
+				    <td>5W</td>
+				  </tr>
+				  <tr>
+				    <td>ADSL Modem</td>
+				    <td>Internet</td>
+				    <td>100%</td>
+				    <td>5W</td>
+				  </tr>
+				  <tr>
+				    <td>Wifi Router</td>
+				    <td>Local Network</td>
+				    <td>100%</td>
+				    <td>5W</td>
+				  </tr>
+				  <tr>
+				    <td>BeagleBoneBlack</td>
+				    <td>Hosting</td>
+				    <td>100%</td>
+				    <td>5W</td>
+				  </tr>
+				  <tr>
+				    <td>PC/Laptop</td>
+				    <td>Hosting</td>
+				    <td>100%</td>
+				    <td>60W</td>
+				  </tr>
+				  <tr>
+				    <td>PC/Laptop</td>
+				    <td>Personal Use</td>
+				    <td><50%</td>
+				    <td>60W</td>
+				  </tr>
+			  </tbody>
+			</table>
+  		</p>
+
+  		<p>
+  			<ul>
+  				<li><b>Generation:</b>
+  				    	<p>
+		  			I have not yet setted up a generator in my home. Since it is kind of relatively heavy investment for me,
+		  			i would add that to the power infrastraucture later. However, for now, i am just using mains power supply
+		  			of 220V, from the distribution transformer through the Online - Uninterruptable Power Supply unit. Thus
+  				    	i am actually just consuming the grid power. <i>No generation yet !</i>
+		  			</p>
+
+  				</li>
+  				<li><b>Storage:</b>
+  					<p>
+		  			My home has this huge Lead-Acid battery with capacity rating of C20, which can deliver whooping 150Ah of current
+		  			@ 12V. Local power policies & economic situations have driven almost every family in our state to install
+		  			a inverter and battery to operate their home appliances in the event of power failure - that happens very
+		  			frequently.
+		  			</p>
+  				</li>
+  			</ul>
+  		</p>
 
 	</div>
 
@@ -246,11 +432,16 @@
 	    <ol>
 		<li><a href="http://www.replicant.us/freedom-privacy-security-issues.php#recommendations">What's the problem with current devices ?</a></li>
 		<li><a href="http://offgridham.com/">How HAM's address the problem ?</a></li>
+		<li><a href="http://www.arrl.org/files/file/Public%20Service/TrainingModules/Emergency-Power-for-Amateur-Radio-Stations-SoCal-ERC-Aug-2010.pdf">ARRL - power for HAM Radio Stations</a></li>
+		<li><a href="http://www.californiaamateurradioservice.com/BatteriesForAmateurRadioEmergencyService.html">Batteries for Radio Emergency services</a></li>
 		<li><a href="https://www.beartooth.com/#">Devices has to enable Communication</a> - constructing adhoc infrastructure</li>
 		<li><a href="https://www.homepower.com/articles/solar-electricity/basics/what-solar-electricity">Learn Home powering</a></li>
 		<li><a href="http://www.solarta.com/en/installations-solar-energy/solar-photovoltaic/systems-solar-photovoltaic.php">General Schematic</a></li>
 		<li><a href="http://www.builditsolar.com/Projects/PV/PortableSolarGen/easy_diy_solar_generator.pdf">Build it Solar - Built it Yourself</a></li>
 		<li><a href="http://tjeas.com/wp-content/uploads/2014/06/14-17.pdf">How about a Hybrid ?</a></li>
+		<li><a href="https://solariiknight.org/post/my-own-solar-power-plant-part-i.html">Own Solar Power Plant - part I</a></li>
+		<li><a href="https://solariiknight.org/post/my-own-solar-power-plant-part-ii.html">Own Solar Power Plant - part II</a></li>
+		<li><a href="https://solariiknight.org/post/500w-solar-system">500W Solar system back in 2013</a></li>
 	    </ol>
 	  </p>
 
@@ -259,7 +450,10 @@
   	    	<ul>
   	    	  <li><b>Icons :</b></li>
   	    		<ul>
-  	    			<li><a href=""></a></li>
+  	    			<li><a href="https://thenounproject.com/guilhem.menard/">Guilhelm</a></li>
+  	    			<li><a href="https://thenounproject.com/smashicons/">Oliviu Stoian</a></li>
+  	    			<li><a href="https://thenounproject.com/kosmofish/">Artem Kovyazin</a></li>
+
   	    		</ul>
   	  	</ul>
   	  </p>
@@ -283,5 +477,4 @@
 </body>
 
 <!-- SCRIPTS -->
-
 </html>
