@@ -20,6 +20,9 @@
     <link rel="stylesheet" type="text/css" href="../../../../../styles/content-style/content-article.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../styles/content-style/content-table.css" />
 
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="../../../../../scripts/generalizers/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="../../../../../scripts/frontend-functionality/accordion.js"></script>
 
 </head>
 
@@ -54,52 +57,399 @@
   	  	<p><h3><i>DISCLIAMER :</i></h3></p>
 
   	  	<p>
-  	  	  	Do not rely on the information i have posted here. They might contain errors and wrong
-  	  	  	procedures. It might be changed in future based upon my learnings. I have just listed
-  	  	  	and explored about the devices that are required to have a self reliable and self
-  	  	  	hostable communication infrastructure.
+  	  	  	All the information i have posted here are just my perspective of learning, interpretation, understanding
+  	  		& experience. Mostly they will change according to my change in views and knowledge acquired with possible
+  	  		critical thinking.
   	  	</p>
 
 		<h3>WHY ?</h3>
-	  	<p>
+  		<p>
+  			Having a reliable communication, devices that provide necessary functionality need to be integrated
+  			properly with appropriate interfaces between them, collectively forming a stable communication
+  			service. The fundamental necessity is that, there should not be any manual synchronizing necessity,
+  			unless until the situation demands (like in disaster), pushing a <b>asynchronous</b> information
+  			reception and transmission, that supports the natural flow of events. This necessity demands the
+  			requirement of devices, services running in the devices to run continuously without any disruption,
+  			and atleast to have a failsafe regulation loop that assures reliability.
+  		</p>
 
+  		<p>
+  			Thus knowing about what are all the devices available in general, how could they be connected, is an important
+  			step in understanding the commisioning of functionlities pertaining to a self manageable communication
+  			service. This crucial step involves not only selecting devices, but also in understanding the mapping
+  			the services and devices (logic, reason, duty, place).
+  		</p>
+
+  		<p>
+			In the <a href="./pwr.html">previous post</a>, i have provided a overall approach to erect a power system
+	  		infrastructure that can be self-managed, which could be easily shared with peers and neighbours openly.
+	  		At first it might seem confusing to start constructing the power supply infrastructure without ever knowing
+	  		what kind of devices or instruments be used to erect a self manageable communication infrastructure.
+	  		But, the power supply architecture can be atleast modeled in paper based on the energy/power budget that
+	  		one calcualted from the specifications of the devices to be purchased or in hand. Knowing a rough calculation
+	  		of required power, one could able to construct a power supply system with the suitable power generation,
+	  		storage and distribution technologies that could supply power more than the required capacity.
 	  	</p>
 
 		<h3>Process :</h3>
 	  	<p>
+			Communication and Information complements both symbiotically. One dominating the other will always leads to
+	  		unnecessary problems. Both cannot be separated from each other, and forms the continuum of cooperation
+	  		between peers of society. Since we fundamentally, consider communication and information are basic infrastructure,
+			and actively ignore the commodification of both, which leads to challenging the current business trends & practices.
+	  		Thus collecting required devices will drive us to search a level deeper than conventional consumer perspective.
+	  		It requires the following essential resources.
 
-	  	</p>
+  			<ul>
+  				<li>atleast two cooperators</li>
+  				<li>information</li>
+  				<li>a common channel</li>
+  			</ul>
+  		</p>
 
-	  	<h3>Radio System</h3>
-	  	<p>
+  		<p>
+  			Information is generated and consumed by us or for satisfying any necessity, effectively. Medium can be created by
+  			deploying machines assigned with logical duties to perform. Usually the <b>channel</b> is born out of connecting the
+  			cooperators with each other through either a guided medium or unguided medium. When guided medium is used, more
+  			natural resource is required because of the material requirement. Moreover, such medium, essentially calls for
+  			centralized hub to manage the channel arbitration and maintenance. Even with complex channel management and arbitration
+  			techniques, establishing direct peer to peer connection is still resource intensive.
+  		</p>
 
-	  	</p>
+  		<figure>
+  	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/device-chain.png" alt="device chain">
+  	  	  	<figcaption><b>A General device chaining to constitute a self manageable communication infrastructure</b></figcaption>
+	  	</figure>
 
-	  	<h3>Required Modules :</h3>
-	  	<p>
+  		<p>
+  			With the availability of <b>radio</b> based communication technology, there is no more technical limitation to
+  			continuously guide the information (signals) between the nodes of the cooperators. However, it adds new
+  			technical requirements to provide the required capacity, to compete the previously provided capacity with
+  			guided mediums. With time, radio based communication (wireless) becomes the significant component of the globally
+  			distributed communication networks. For community networks, this condition is necessary to meet the economic
+  			conditions and p2p production methods.
+  		</p>
 
-	  	</p>
+  		<figure>
+  	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/signaling-chain.png" alt="signal chain">
+  	  	  	<figcaption><b>Interfacing the electrical signals to the physical medium is vital</b></figcaption>
+	  	</figure>
 
-	  	<h3>Router</h3>
-	  	<p>
+  		<p>
+  			Essentially, to establish a communication channel, medium is required which is formed by <b>Radio/Optical Frontend</b>,
+  			& its associated processing unit, which is implemented and available as IC packages. To manage the physical connection
+  			and route the information between the nodes, a computing unit that could interface with the radio processing unit
+  			is necessary. It is necessary that the communication medium and the channel must provide bi-directional information
+  			transferring capability, either using dedicated <b>full duplex</b> mechanism or atleast providing a multiplexed mechanism.
+  			Radio based communication seems to offer a better balance between resource utilization, flexibility, construction complexity.
+  			However, this does not limit one to construct and use <b>Free space Optics</b> to directly communicate between the
+  			peers.
+  		</p>
 
-	  	</p>
+  		<p>
+  			It is not a surprise, that optical medium is just a special case of electromagnetic medium, with variation in
+  			used materials, governed physics & engineered mechanisms. <a href="http://ronja.twibright.com/">RONJA</a>
+  			is the best example to consider optics based communication driven by Free Technology and Community cooperation.
+  			Furthermore, a services hosting computer is mostly required that allows the user to suit their requirement upon
+  			which abstract services can be run that abstract the underlying network infrastructure's complexity & make it effectively
+  			usable.
+  		</p>
 
-	  	<h3>Required Modules :</h3>
-	  	<p>
+  		<p>
+  		<div class="accordion">
+  		  <div class="accordion-section">
+  			<a class="accordion-section-title" href="#accordion-medium"><h3>→ The Medium</h3></a>
+  			<div id="accordion-medium" class="accordion-section-content">
+		  	<p>
+				To have a medium, one could create a dedicated one to one pipe, that enables communication, but
+		  		the world with such pipes, between all known peers to their peers would look like a morbid world
+		  		filled with pipes. We have exhaustively used such pipes, which we generally called them as
+		  		<b>"wires"</b>, or <b>"guides"</b> in general. These enables the transfer of information as signals
+		  		between nodes connected by the guides. The signals can be either, purely electric or electromagnetic
+		  		(radio or optical). Whatever we chose, the purpose is to make a <b>platform</b> that provides a
+		  		stable environment where information can be transferred to and fro between nodes owned by peers.
+		  	</p>
 
-	  	</p>
+  			<p>
+  				In most cases, the network topology is influenced by the type of medium we chose to communicate.
+  				We shall consider the radio & optical medium (free space), that provides optimal flexibility by firing
+  				the mandation to be tethered as in the case of guided medium. Here again, a centralized infrastructure
+  				is possible to maintain the capacity, coverage of the network & artbitration of the channels -
+  				resembling the hub infrastructures of the wired medium. Alternatively, there is a steady rise in
+  				radio/optical based community networks that provides peer to peer distributed network topology.
+  			</p>
 
-	  	<h3>Hosting Computer</h3>
-	  	<p>
+		  	<h3>Required Modules :</h3>
+		  	<p>
+				For a radio network, the following modules are essential :
+		  		<ul>
+		  			<li>Radio/Optics Controller</li>
+		  			<li>Waveguides/Cables</li>
+		  			<li>Antenna/Transducers</li>
+		  			<li>Connectors</li>
+		  		</ul>
+		  	</p>
+  			</div>
 
-	  	</p>
+			<a class="accordion-section-title" href="#accordion-channel"><h3>→ The Channel</h3></a>
+  			<div id="accordion-channel" class="accordion-section-content">
+		  	<p>
+				A channel is a logical entity, that is formed between any two given cooperators or parties who desires to
+		  		engage themself in communication. Channel can only be formed with the presence of a prior medium. It is a
+		  		logical agreement formed between the two nodes leading to a session. This channel will have a information
+		  		capacity limited by the nature of the medium. It defines the <b>connections</b> between the peers which
+		  		collectively forms the network.
+		  	</p>
 
-	  	<h3>Required Modules :</h3>
-	  	<p>
+			<p>
+				To efficiently manage the formation and maintenance of a channel and the associated resources, in terms
+		  		of information capacity such as bandwidth, entropy, session management, error correction, routing the
+		  		packets of information from source to destination through peers, ... so on and so on, requires a computational
+		  		unit that can effectively process such tasks almost as concurrently as possible. With the development of
+		  		miniaturization and silicon wafer technology and radio frequency selection, array configuration, beam steering
+		  		techniques, this has not only became entycing to research further, but also poses challenge to deal with
+		  		complexity emerged from such technologies.
+		  	</p>
 
-	  	</p>
+		  	<h3>Required Modules :</h3>
 
+  			<p>
+  				The following submodules are required to constitute a information channeling & routing instrument:
+
+  				<ul>
+  					<li>Imepedance matching unit</li>
+  					<li>RF to Base band convertor</li>
+  					<li>Radio controller</li>
+  					<li>Microcontroller/DSP/FPGA</li>
+  				</ul>
+  			</p>
+
+  			<p>
+  				It is these interesting mechanisms and fundamental policies that bridge the physical reality of the
+  				selected medium and the logical/virtual abstraction that we deal with the services as users of this
+  				communication platform.
+  			</p>
+
+  			</div>
+
+  			<a class="accordion-section-title" href="#accordion-service"><h3>→ The Service</h3></a>
+  			<div id="accordion-service" class="accordion-section-content">
+		  	<p>
+				Services are logical duties that are necessary to enable the user to communicate. It mostly abstracts
+		  		the complex functionalities which form the physical network infrastructure, and provides a logical
+		  		view of the network & interfaces with the peers who collectively form the emergent network through
+		  		participation. In a sense, it is these services that hooks the user to participate in the network
+		  		which actually forms the network. Eventhough, these are abstract, it completes the overall goal of
+		  		community networks. The services must answer <b>Why should i connect to a N/W ?</b>, <b>What incentive
+				one could enjoy on using the N/W in first place ?</b> It is always the "advantages" that play the scenario.
+		  	</p>
+
+		  	<h3>Required Modules :</h3>
+		  	<p>
+				A service is a set of logical functions that run on top of a sophisticated operating system, that
+		  		enables the user to decide what they need, without ever crossing the borders apart from showing
+		  		options and recommendations, which may otherwise leads to violation of communication liberties. This
+		  		necessitates, the peers in the network to select software systems like, the firmware, bootloaders,
+		  		operating systems, security, software stacks, applications be developed collaboratively & to be transparent.
+		  	</p>
+
+  			<p>
+  				The following modules are necessary to run the services on top of the available network medium, channel,
+  				& interfaces:
+
+  				<ul>
+  					<li>Firmware & Operating System</li>
+  					<li>Addressing & Network Stack</li>
+  					<li>Security & Firewall</li>
+  					<li>P2P Connections & File Sharing</li>
+  					<li>P2P Web Services</li>
+  					<li>P2P applications</li>
+  				</ul>
+  			</p>
+
+  			</div>
+  		    </div>
+  		</div>
+  		</p>
+
+  		<h3>Antennas</h3>
+  		<p>
+			Antennas are the transduction interface with the physical reality. They are the bridges that helps conduct
+  			information as signals in the form of electromagnetic energy radiating into the space. We believe that
+  			social auditing through distributed sensing will pave the way to regulate and eradicate adverse radation
+  			effects. Antennas form the continuum between the signal feedpoint and the medium (atmosphere). Antennas,
+  			have huge diversity of design and can be varied based on its usage. A wide number of parameters are to be
+  			known that fundamentally determine the antenna design. The following non-exhaustive list of parameters
+  			should be considered before desiging an antenna:
+
+  			<ul>
+  				<li>Frequency & Bandwidth</li>
+  				<li>Gain</li>
+  				<li>Power</li>
+  				<li>Loss</li>
+  				<li>Input Impedance</li>
+  				<li>Directivity</li>
+  				<li>Radiation Pattern</li>
+  				<li>Aperture (physical & electrical)</li>
+  				<li>Beamwidth</li>
+  				<li>Polarization</li>
+  				<li>...</li>
+  			</ul>
+  		</p>
+
+  		<p>
+  			For community networks, one of the three simple forms of design can be considered. Typically peers in a
+  			community network would be tied with geographical location which make their radio network planning
+  			more interesting. They have to solve the distance of connection (propagation coverage) between the peers
+  			by choosing the suitable antenna that serves best for the community. Being connected through the
+  			medium is the first and foremost requirement for any communication practice. Usually, we gravitate to the
+  			following three requirements :
+
+  			<ul>
+  				<li>	<h4>Point to Point Link</h4>
+  					<p>
+  						Establishing a link between two nodes that are geographically distant
+  						requires a point to point connection, with high directivity and gain.
+  						Such reqruirement arises usually when connecting atleast two community
+  						networks grouped in different geographical regions.
+  					</p>
+  					<figure>
+		  	  	  		<img src="../../../../../content/resource/illustrations/comms-communication/point-to-point.png" alt="point to point">
+		  	  	  		<figcaption><b>An ideal Point to Point link between nodes</b></figcaption>
+	  				</figure>
+  					<p>
+  						A Yagi-Uda or Parabolic dish antennas are suitable for such link. This is a perfect network link
+  						that can be formed between two peers which dedicatedly connects them. The link is mostly reliable
+  						as it does not sense the spatial reception from all possible angles, determined by its aperture size.
+  						Such limitation itself, adds to the design advantage of reducing noise, which reflects in improved
+  						Signal to Noise Ratio(SNR) - better compared with other designs.
+  					</p>
+  				</li>
+  				<li>	<h4>Point to Multi-Point Link</h4>
+  					<p>
+  						Either because of geographical situation or because of community requirements,
+  						some peers would participate together forming a hub that would provide a multi point
+  						link station, which would serve the community or the locality in general.
+  					</p>
+  					<figure>
+		  	  	  		<img src="../../../../../content/resource/illustrations/comms-communication/point-to-multipoint.png" alt="point to multipoint">
+		  	  	  		<figcaption><b>An ideal Point to Multi-Point link between nodes</b></figcaption>
+	  				</figure>
+  					<p>
+  						A Horn, Sector or Patch antenna are suitable examples for such design. Such antennas are used along
+  						with antenna arrays in conventional wireless base stations with varying number of subscribers
+  						covering a significant nearby location. Usually this is a broadcast (centralized) scenario, nomatter
+  						how decentralized the community it is. But serves it purpose.
+  					</p>
+  				</li>
+  				<li>	<h4>Multi-Point to Multi-Point Link</h4>
+  					<p>
+  						When the community peers manage to individually equip themselves with a self manageable communication
+  						infrastructure, logically they would end up forming a flat network topology. Geographical challenges
+  						are effectively balanced with radio communication link planning using suitable antennas.
+  					</p>
+  					<figure>
+		  	  	  		<img src="../../../../../content/resource/illustrations/comms-communication/multipoint-to-multipoint.png" alt="multipoint to multipoint">
+		  	  	  		<figcaption><b>An ideal Multi-Point to Multi-Point link between nodes</b></figcaption>
+	  				</figure>
+  					<p>
+  						If the links are formed with basic antenna design, then the propagation is modeled with no directivity
+  						that enables the peers to sense all the nearby peers. With coverage comes the sensitivity towards
+  						noise, relatively decreasing the SNR significantly. This necessitates that the nodes be nearer
+  						to each other to effectively engage in communication.
+  					</p>
+  				</li>
+  			</ul>
+  		</p>
+
+  		<h3>Waveguides/Transmission Lines</h3>
+  		<p>
+			Transmission lines and Waveguides, as their names denote, provides the necessary medium to transfer the signal from
+  			one node to another. Usually, what we consider as wired connections, is just an extension of this transmssion line
+  			into a network. However, the transmission lines usually pose signal loss with distance. In the case of wireless networks,
+  			the transmission lines are used to connect the signal processing system with the Antenna. Depending upon the selection
+  			of communication frequency and bandwidth the choice of transmission line or wave guide changes. Design of transmission
+  			line or a waveguide directly affects the energy guiding ability of the line/guide, described interms of its physical or
+  			geometrical properties.
+  		</p>
+
+  		<p>
+  			From a signals point of view, ideally, it must not see any change in medium, when they subject to change from one
+  			to another such as :
+
+  			<ul>
+  				<li> from radio electronics to transmission line/waveguide & vv.</li>
+  				<li> from transmission line/waveguide to antenna & vv.</li>
+  				<li> from antenna to atmosphere & vv.</li>
+  			</ul>
+  		</p>
+
+  		<p>
+  			This creates a stricter condition to know about <a href="http://halifax-arc.org/sites/default/files/TransLines+Antennas.pdf">transmission lines and waveguides</a>, so that the losses incurred by
+  			them has to be taken into account, to either circumvented or overcome by different design. The goal is to design
+  			transmission lines and waveguides such that, the signal has to travel a continuum instead of experiencing a "speed
+  			breaker" between the change in medium. The design has to be in such a way that they must transfer as much power
+  			provided to them at the feed point as possible.
+  		</p>
+
+  		<h3>Radio Electronics</h3>
+  		<p>
+			Radio electronics, constitutes of designing impedance matching circuits, power amplifiers, beam steering - phase
+  			controllers, frequency convertors, oscillators, filters, clock circuits, analog to digital convertors, digital to
+  			analog convertors, etc... The design reflects the architectural requirements of the communication, which utilizes
+  			the mechanisms and tools to arbitrate signal measurement, signal to noise ratio, location based regulation, radiated
+  			power, signal filtering, conversion and processing, channel capacity etc..
+  		</p>
+
+  		<p>
+  			Usually the design of a radio system tends to be complex, because of the complex nature of radio frequency band,
+  			and their interpretation. Most of the silicon die manufactureres manufacture chipsets that now contains most of
+  			the required systems required for realizing radio frequency modules which can be connected to suit the required
+  			system design by configuring or programming them in more than one way. The system is becoming more and more
+  			configurable, that provides flexibility in design. Earlier, the design and implementation of radio frequency based
+  			electronics are almost rigid, and the designs are specifically suitable for one particular requirement, even when
+  			we can able to think it dynamically, or even when situation asks for it.
+  		</p>
+
+  		<p>
+  			With the availability of Software Defined Radios, Field Programmable Arrays, signal measurement feedback (self)
+  			the design patterns are emerging instead of following a specific hand crafted approach.
+  		</p>
+
+  		<h3>Routers</h3>
+  		<p>
+			Routers form the computational part of the device chain, that constitute the node addressing & network stacking,
+  			interface management, connections, sessions, firewall rules, local and wide area network managmement, identification,
+  			packet filtering, etc.. and other long list of essential functionalities, that abstracts the complex physical
+  			network infrastructure. Nowadays the micro-controllers in the routers are equipped with power vs. performance ratio,
+  			that enables us to use it in portable and battery powered manner. They also tend to nicely integrate with the
+  			existing Radio electronic System on Chips, for better and generic operatability.
+  		</p>
+
+  		<p>
+  			Routers are known for generally engaging in <b>Routing functions</b>, which conventionally are implemented by
+  			standard protocols that are based on efficient routing procotols based on some fundamental network architecture theory.
+  			With the rise in community networks and commons based peer production and network emergence requirement, many
+  			communities cooperate and compete to create new algorithms, protocols, test and measure their performance, which
+  			can be chosen by the peer or by the community through common discussion such that a common protocol can be used
+  			to link them easily. Furthermore, these routers acts as <b>access-points</b> for the user devices through which the
+  			services and applications work with.
+  		</p>
+
+
+  		<h3>NOTE:</h3>
+  		<p>
+  			There is a requirement, that the routing, switching protocols, could also be dynamically chosen based upon the
+  			information about the Weather and Geographical conditions. This presses a huge innovation requirement in the area
+  			of protocol design and network stack design that could dynamically switch protocols according to the information
+  			it has gained by sensing or by sharing information from other nodes and verifying it. These innovations will
+  			greatly help in providing stable and reliable communications even during natural disasters. For instance, presently
+  			there is no flexible technology put in practice for commons, to atleast change the frequency of operation from
+  			one band to another, so that it could enable communication, even when many nodes are damaged or mislocated during
+  			disasters. Already, Amateur Radio operators all over the world are volunteering for disaster communications helping
+  			a great deal in humanitarian operations, and serve for <b>respond, rescue, relief operations</b>, where the conventional
+  			communication infrastructures and networks fail.
+  		</p>
 	</div>
 
 	<div class="content-rectangle">
@@ -114,14 +464,27 @@
 
 	  <p>
 	    <ol>
-	      <li>Stuff </li>
+		<li><a href="http://ronja.twibright.com/">RONJA</a> - Reasonable Optical Network Joint Access <i>(community free space optical communication)</i></li>
+		<li><a href="https://www.beartooth.com/#">Devices has to enable Communication</a> - constructing adhoc infrastructure</li>
+		<li><a href="https://commotionwireless.net/docs/guides-howtos/access-point-setup/">How to Setup Access Points</a></li>
+		<li><a href="https://commotionwireless.net/blog/2014/11/05/do-it-yourself-antennas-for-community-networks/">DIY antennas for Community N/W</a></li>
+		<li><a href="http://docs.altermundi.net/RedesMiniMaxi/MontajeDeUnNodo">Alter Mundi Documentation</a></li>
+		<li><a href="http://halifax-arc.org/sites/default/files/HB%20Ants.%202014_0.pdf">Home brew Antennas</a></li>
+		<li><a href="http://halifax-arc.org/sites/default/files/TransLines+Antennas.pdf">Transmission Lines & Antennas</a></li>
+		<li><a href="https://upload.wikimedia.org/wikipedia/commons/4/49/Building_a_Rural_Wireless_Mesh_Network_-_A_DIY_Guide_v0.8.pdf">DIY - Building rural wireless mesh N/W</a></li>
 	    </ol>
 	  </p>
 
   	  <p>
   	     <h3><i>CREDITS & ATTRIBUTIONS :</I></h3>
   	    	<ul>
-  	    	  <li><b>Stuff :</b></li>
+  	    	  <li><b>Icons :</b></li>
+  	    		<ul>
+  	    			<li><a href="https://thenounproject.com/AcceleratorMT/">Michael Thompson</a></li>
+				<li><a href="https://thenounproject.com/ldweisser/">Lance Weisser</a></li>
+  	    			<li><a href="https://thenounproject.com/iconify/">Scott Lewis</a></li>
+  	    			<li><a href="https://thenounproject.com/robertogcolombo/">Roberto Colombo</a></li>
+  	    		</ul>
   	  	</ul>
   	  </p>
 
