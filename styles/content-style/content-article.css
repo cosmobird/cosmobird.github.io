@@ -145,15 +145,18 @@ section {
 
 .content h3 {
 	margin: 0 auto;
+	padding: 1em 1em;
+	border-left: 4px solid #FE739B;
 	font-weight: 800;
 	font-size: 1em;
+	font-family: 'Lato';
 	line-height: 1;
 	color: #0076FF;
 }
 
 .content h4 {
 	margin: 0 auto;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 1em;
 	line-height: 1;
 	color: #E87648;
@@ -376,10 +379,4 @@ section {
 
 .content section.content-current {
 	display: block;
-}
-
-.social{
-	width: 75%;
-	margin: 0 auto;
-	padding: 2em 0em 0em 0em;
 }

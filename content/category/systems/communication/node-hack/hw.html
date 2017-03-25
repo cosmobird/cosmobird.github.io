@@ -179,7 +179,7 @@
   				radio/optical based community networks that provides peer to peer distributed network topology.
   			</p>
 
-		  	<h3>Required Modules :</h3>
+		  	<h4>Required Modules :</h4>
 		  	<p>
 				For a radio network, the following modules are essential :
 		  		<ul>
@@ -211,7 +211,7 @@
 		  		complexity emerged from such technologies.
 		  	</p>
 
-		  	<h3>Required Modules :</h3>
+		  	<h4>Required Modules :</h4>
 
   			<p>
   				The following submodules are required to constitute a information channeling & routing instrument:
@@ -244,7 +244,7 @@
 				one could enjoy on using the N/W in first place ?</b> It is always the "advantages" that play the scenario.
 		  	</p>
 
-		  	<h3>Required Modules :</h3>
+		  	<h4>Required Modules :</h4>
 		  	<p>
 				A service is a set of logical functions that run on top of a sophisticated operating system, that
 		  		enables the user to decide what they need, without ever crossing the borders apart from showing
@@ -434,6 +434,38 @@
   			can be chosen by the peer or by the community through common discussion such that a common protocol can be used
   			to link them easily. Furthermore, these routers acts as <b>access-points</b> for the user devices through which the
   			services and applications work with.
+  		</p>
+
+  		<h3>Service Host</h3>
+  		<p>
+  			To use the underlying network infrastructure for communication, both the stability and usability need to be confirmed.
+  			Providing services that enables other services and application to run on top of the fundamental services are necessary
+  			and are usually executed on a better machine with better processing power. Since these services are software stacks
+  			that provide diverse set of applications, they need to be orchestrated for computing resources like processor, RAM &
+  			storage. Furthermore, a supervisor service is necessary to provide a common management interface to the node administrator
+  			(the peer) monitor and take decisions upon the self hosted services running in the host.
+  		</p>
+
+  		<p>
+  			With the advent in Single board computers (SBC), one can reach a balance between the service load (computational power) and
+  			electricity consumption. Thus one cannot load all of the required services into a modern single board computer, atleast
+  			until they reach equivalent performance in computing resources, while still being economic. For pragmatic situations,
+  			we can bifurcate the services to fall into one of the two service types :
+
+  			<ul>
+  				<li>light weight services</li>
+  				<li>heavy weight services</li>
+  			</ul>
+  		</p>
+
+  		<p>
+  			If the service is a FOSS project, then the community would have already addressed about the services advantages &
+  			limitations. One shall measure based on the metrics provided and could decide whether it is better to host the service
+  			in a SBC or in a workstation. There are alternative projects that are optimized to run with little computing resources
+  			without compromising much of the features of a full fledged service. All those services that are categorized as
+  			light weight can be run in one or several economic SBC's, and the remaining services could be possibly run in a dedicated
+  			workstation (desktop PC or laptop). This decreases the centre point of failure caused by security flaws, or misconfigurations,
+  			or electric catastrophe.
   		</p>
 
 
