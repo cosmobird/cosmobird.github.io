@@ -1239,15 +1239,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="2684.8168"
+     inkscape:cx="2044.8168"
      inkscape:cy="1249.4606"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="768"
+     inkscape:window-height="708"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="23"
      inkscape:window-maximized="1"
      showborder="false"
      fit-margin-top="0"
@@ -14761,22 +14761,12 @@
            style="fill:#000000;stroke:#000000;stroke-width:2.13333344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       </g>
     </g>
-    <rect
-       ry="0"
-       y="267.11624"
-       x="2117.0276"
-       height="226.53027"
-       width="375"
-       id="rect15729"
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.36621094"
-       rx="0" />
     <g
-       id="g6468"
-       transform="matrix(1.0673153,0,0,1.0673153,-167.6794,-16.070852)"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       id="g6193"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
-         transform="matrix(0.34332274,0,0,0.34332274,-139.25081,2644.5732)"
+         transform="matrix(0.36643361,0,0,0.36643361,-316.30392,2806.5226)"
          id="g17244">
         <circle
            r="20.364676"
@@ -14834,7 +14824,7 @@
            style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.33333349;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       </g>
       <g
-         transform="matrix(0.34332274,0,0,0.34332274,-139.25081,2644.5732)"
+         transform="matrix(0.36643361,0,0,0.36643361,-316.30392,2806.5226)"
          id="g17265">
         <circle
            transform="scale(-1,1)"
@@ -14894,7 +14884,7 @@
       </g>
       <g
          id="g15813"
-         transform="matrix(0.34332274,0,0,0.34332274,-198.91662,2627.1728)">
+         transform="matrix(0.36643361,0,0,0.36643361,-379.98615,2787.9509)">
         <path
            style="fill:#000000;stroke:#000000;stroke-width:2.13333344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            inkscape:connector-curvature="0"
@@ -14958,7 +14948,7 @@
       </g>
       <g
          id="g15839"
-         transform="matrix(-0.34332274,0,0,0.34332274,4853.377,2626.4317)">
+         transform="matrix(-0.36643361,0,0,0.36643361,5012.4041,2787.1599)">
         <path
            style="fill:#000000;stroke:#000000;stroke-width:2.13333344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            inkscape:connector-curvature="0"
@@ -14991,7 +14981,7 @@
            id="path15851" />
       </g>
       <g
-         transform="matrix(0.29732621,-0.17166137,0.17166137,0.29732621,1334.188,3545.1725)"
+         transform="matrix(0.31734081,-0.18321681,0.18321681,0.31734081,1256.3199,3767.746)"
          id="g17276">
         <circle
            r="20.364676"
@@ -15051,7 +15041,7 @@
       </g>
       <g
          id="g17296"
-         transform="matrix(0.29732621,0.17166137,-0.17166137,0.29732621,-924.72881,1136.6555)">
+         transform="matrix(0.31734081,0.18321681,-0.18321681,0.31734081,-1154.6566,1197.099)">
         <circle
            transform="scale(-1,1)"
            style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5.33333349;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -15109,7 +15099,7 @@
            sodipodi:nodetypes="cc" />
       </g>
       <g
-         transform="matrix(-0.34332274,0,0,0.34332274,5148.1861,2658.2323)"
+         transform="matrix(-0.36643361,0,0,0.36643361,5327.0584,2821.1012)"
          id="g17318">
         <path
            style="fill:#000000;stroke:#000000;stroke-width:2.13333344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -15133,7 +15123,7 @@
            id="path17326" />
       </g>
       <g
-         transform="matrix(-0.34332274,0,0,0.34332274,5217.274,2843.7919)"
+         transform="matrix(-0.36643361,0,0,0.36643361,5400.797,3019.1518)"
          id="g17328">
         <path
            style="fill:#000000;stroke:#000000;stroke-width:2.13333344;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
