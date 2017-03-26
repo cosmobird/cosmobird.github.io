@@ -133,6 +133,8 @@ section {
 	border-radius: 2%;
 }
 
+
+/*FOOTER*/
 .cosmo-footer {
 	margin: 3em 3em 3em 3em;
 	overflow:hidden;
@@ -142,7 +144,7 @@ section {
 	display: block;
 }
 
-.cosmo-footer .status-wall {
+.cosmo-footer .footer-wall {
 	display: block;
 	position: relative;
 	margin: 0 auto;
@@ -150,7 +152,7 @@ section {
 	text-align: center;
 }
 
-.status-wall figure {
+.footer-wall figure {
 	display: inline-block;
 	position: relative;
 	margin: 1em auto 1em auto;
@@ -164,7 +166,7 @@ section {
 	position: relative;
 }
 
-.cosmo-footer .contact {
+.cosmo-footer .footer-social {
 	padding: 1em 1em 1em 1em;
 	min-width: 20%;
 	max-width: 100%;
@@ -173,7 +175,7 @@ section {
 	text-align: center;
 }
 
-.contact li {
+.footer-social li {
 	display: inline-block;
 	min-width: 60px;
 	max-width: 60px;
@@ -183,23 +185,23 @@ section {
 	margin: 0em 1em 3em 1em;
 }
 
-.contact figure {
+.footer-social figure {
 	margin: 0;
 	position: relative;
 }
 
-.contact a {
+.footer-social a {
 	text-align: center;
 	color: #fff;
 }
 
-.contact img {
+.footer-social img {
 	width: 100%;
 	display: block;
 	position: relative;
 }
 
-.cosmo-footer .license {
+.cosmo-footer .footer-license {
 	font-weight: normal;
 	font-style: normal;
 	font-family: 'Lato';
@@ -208,11 +210,22 @@ section {
 	position: relative;
 }
 
-.license figure {
+.footer-license figure {
 	margin: 0;
 	position: relative;
 }
 
-.license img {
+.footer-license img {
 	padding: 1em 1em;
+}
+
+.cosmo-footer .footer-quote {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'Lato';
+	text-align: center;
+	color: #FF2A2A;
+	padding: 1em 1em 1em 1em;
+	position: relative;
+
 }
