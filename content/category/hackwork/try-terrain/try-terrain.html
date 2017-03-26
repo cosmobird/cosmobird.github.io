@@ -20,6 +20,9 @@
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-table.css" />
     <link rel="stylesheet" type="text/css" href="../../../../styles/balloons/balloon.css" />
 
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="../../../../scripts/generalizers/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="../../../../scripts/frontend-functionality/accordion.js"></script>
 
 </head>
 
@@ -208,10 +211,11 @@
 	  	  	</figure>
   	  	</p>
 
-  	  	<ul>
-	  	  	<li><h3><i>STEP 1:</i></h3>
-
-		  	  	<p>
+  	  	<div class="accordion">
+  		  <div class="accordion-section">
+  			<a class="accordion-section-title" href="#accordion-step1"><h3>STEP 1 = Data Sourcing</h3></a>
+  			<div id="accordion-step1" class="accordion-section-content">
+	  			<p>
 		  	  	  	One has to know the data sources from which they can either download the data directly if the
 		  	  	  	data provider offers the data in public domain or registration based data access. It has to be
 		  	  	  	noted that most of the data source mentioned here are mostly of public domain type, which are
@@ -265,10 +269,11 @@
 	  	  	  	  	refer to <a href="https://drive.google.com/open?id=0B2P66bYnyzH7Xzlqamp4NDlXeVU">my presentation</a>
 	  	  	  	  	listed at links and downloads section of this page.
 	  	  	  	</p>
-	  	  	</li>
+  			</div>
 
-  	  	  	<li><h3><i>STEP 2:</i></h3>
-				<p>
+  			<a class="accordion-section-title" href="#accordion-step2"><h3>STEP 2 = Tools</h3></a>
+  			<div id="accordion-step2" class="accordion-section-content">
+	  			<p>
 				  	With data sources identified, and being downloaded with your favourite download
 				  	manager, one has to know what are the FOSS tools available to play with. Remember
 				  	<b>not to mirror</b> the website when the service is offered by plain FTP. That
@@ -294,10 +299,11 @@
   	  	  	  	  	tool stacks work upon the fundamental <a href="http://www.gdal.org/index.html">GDAL/OGR</a>
   	  	  	  	  	implementation of open standards.
   	  	  	  	</p>
-  	  	  	</li>
+  			</div>
 
-  	  	  	<li><h3><i>STEP 3:</i></h3>
-				<p>
+  			<a class="accordion-section-title" href="#accordion-step3"><h3>STEP 3 = DIY Learning</h3></a>
+  			<div id="accordion-step3" class="accordion-section-content">
+	  			<p>
 					Now what to do with the Data & Tools ? One can play
 				</p>
 <pre>
@@ -318,13 +324,11 @@
 				  	statistical world is waiting where cool computational, algorithms crank and churn out
 				  	numbers and commands to enable us to do crazy things we wish to do !
 				</p>
-  	  	  	</li>
+  			</div>
 
-  	  	  	<li>
-  	  	  	  	<p>
-  	  	  	  		<h3><i>STEP 4:</i></h3>
-  	  	  	  	</p>
-  	  	  	  	<p>
+  			<a class="accordion-section-title" href="#accordion-step4"><h3>STEP 4 = Organize</h3></a>
+  			<div id="accordion-step4" class="accordion-section-content">
+	  			<p>
 	  	  	  	  	Understanding an abstract organization of layers of information while
 	  	  	  	  	creating a map enables easier execution of cartography workflow.
   	  	  	  	</p>
@@ -342,12 +346,11 @@
 					<img src="../../../../content/resource/illustrations/try-terrain/layer-arrangement.png" alt="layers">
 		  	  		<figcaption><b>Layer arrangement</b></figcaption>
 	  	  	  	</figure>
+  			</div>
 
-  	  	  	</li>
-
-  	  	  	<li><h3><i>STEP 5:</i></h3>
-
-  	  	  	  	<p>
+  			<a class="accordion-section-title" href="#accordion-step5"><h3>STEP 5 = Data Flow</h3></a>
+  			<div id="accordion-step5" class="accordion-section-content">
+	  			<p>
   	  	  	  	  	Any map requires a reference layer of grid, especially when the data is a field representing
   	  	  	  	  	a phenomenon. This "<b><i>field</i></b>" data is typically available in <b>raster format</b>. Thus
   	  	  	  	  	to play with the SRTM data, one has to decide the <b>local region</b> falling under
@@ -484,12 +487,11 @@
   	  	  		  	for working with a specific locality. But i have included it for learners, and might help learners who are
   	  	  		  	interested in doing this stuff for the whole state or country itself !!
   	  	  		</p>
+  			</div>
 
-  	  	  	</li>
-
-  	  	  	<li><h3><i>STEP 6:</i></h3>
-
-				<p>
+  			<a class="accordion-section-title" href="#accordion-step6"><h3>STEP 6 = Process/Analyze</h3></a>
+  			<div id="accordion-step6" class="accordion-section-content">
+	  			<p>
 				  	OK, with the completion of acquiring required data - accessing files from public domain remote sensing
 				  	websites, and projecting them into the canvas of the GIS tool (GRASS/QGIS), we shall see how to pre-process
 				  	the data, and apply required/interested raster/vector analysis. We shall call the available elevation
@@ -598,11 +600,11 @@
 	  	  	  			<figcaption><b>Contours zoomed & overlayed on Shaded relief</b></figcaption>
   	  	  	  		</figure>
 				</p>
-  	  	  	</li>
+  			</div>
 
-  	  	  	<li><h3><i>STEP 7:</i></h3>
-
-  	  	  	  	<p>
+  			<a class="accordion-section-title" href="#accordion-step7"><h3>STEP 7 = Visualize</h3></a>
+  			<div id="accordion-step7" class="accordion-section-content">
+	  			<p>
   	  	  	  	  	Whatever might be the analysis implemented on the data, the results along with the original data, can be visualized
   	  	  	  	  	in number of ways. 3D visualization is one of the way that modern <b>webgl & js</b> enables one to simply
   	  	  	  	  	use modern web browesers to communicate the data effectively.
@@ -678,8 +680,9 @@
 					by <a href="http://maputnik.com/">Maputnik</a> either using the <a href="https://github.com/maputnik/editor">web version</a>
   	  	  	  	  	or by deploying the <a href="https://github.com/maputnik/desktop">desktop version</a>.  <b>:D...</b>
   	  	  	  	</p>
-  	  	  	</li>
-  	  	</ul>
+  			</div>
+  		  </div>
+  		</div>
 
 <pre>
  <bud>@</bud>
