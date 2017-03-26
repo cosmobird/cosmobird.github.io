@@ -175,11 +175,12 @@ section {
 
 .contact li {
 	display: inline-block;
-	min-width: 80px;
-	max-width: 80px;
-	min-height: 80px;
+	min-width: 60px;
+	max-width: 60px;
+	min-height: 60px;
 	text-align: left;
 	position: relative;
+	margin: 0em 1em 3em 1em;
 }
 
 .contact figure {
