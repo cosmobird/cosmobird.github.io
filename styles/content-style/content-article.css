@@ -320,9 +320,9 @@ section {
 
 /*AUTHOR INFORMATON*/
 .content-author-info {
-	max-width: 75%;
-	margin-left: 4em;
-	margin-right: 4em;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
