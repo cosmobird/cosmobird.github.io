@@ -19,6 +19,13 @@
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-article.css" />
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-table.css" />
 
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="../../../../scripts/generalizers/modernizr.custom_tabs.js"></script>
+    <script type="text/javascript" src="../../../../scripts/frontend-functionality/cbpFWTabs.js"></script>
+
+    <script type="text/javascript" src="../../../../scripts/generalizers/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="../../../../scripts/frontend-functionality/accordion.js"></script>
+
 </head>
 
 <body>
@@ -268,6 +275,7 @@
 
   			<ul>
   				<li>Resolving Power</li>
+  				<li>Dynamic Range</li>
   				<li>Spectral Bandwidth</li>
   				<li>Spectral Resolution</li>
   				<li>Slit width</li>
@@ -326,8 +334,236 @@
 
   		<figure>
   	  	  	<img src="../../../../content/resource/illustrations/spectroscopy/constituents.png" alt="constituent-modules">
-  	  	  	<figcaption><b><i>Modules of a Spectrometer</i></b></figcaption>
+  	  	  	<figcaption><b><i>Modules of a typical Spectrometer</i></b></figcaption>
   	  	</figure>
+
+  		<h4>Required Architectures:</h4>
+  		<p>
+  			Any design will have few or more architectures, which makes the overall design innovative and really useful with good
+  			reasoning balances. Designing any instrument is not a skewed one. It does requires architecture, and spectrometers do
+  			have a highly interdisciplinary approach as far as reductionst science and technology is considered. On the whole, the
+  			instrument mainly consists of :
+
+  			<ul>
+  				<li>Optical device Architecture</li>
+  				<li>Electrical device Architecture</li>
+  				<li>Computing Architecture</li>
+  				<li>Information Architecture</li>
+  			</ul>
+  		</p>
+
+  		<p>
+  			The excitation source represents the source of our spectrum which we wish to play with. The sample/material under test,
+  			is either shined before or after diffracting the composite source. If the placement of sample is configurable, then it would
+  			be really awesome for the user. Furthermore, the type of sample, also matters of analysis. Arrangement of optical modules
+  			are governed by optical architectures like <b>Czerny-Turner, Fastie-Ebert</b> design configurations. Conversion & count of sensed photons
+  			of desired wavelength after diffraction & its interaction with the material through reflection or transmission, quntifying
+  			the count, transferring the measured count to a safer location are governed by the electrical architecture that involves usage of
+  			data convertors, microcontrollers, memory devices, communication interfaces.
+  		</p>
+
+  		<p>
+  			Furthermore, the recorded data, have to be filtered, pre-processed, analyzed using mathematical models, formulaes,
+  			analysing frakeworks, visualizing them and generating reports from them involves using architectures from computing and
+  			information technology. Usually data acquisition, encapsulation frameworks, stacks & services; algorithms for efficient
+  			analysis are deployed to <b>make sense of the data</b>.
+  		</p>
+
+  		<h3>Generic Process of Measurement</h3>
+  		<p>
+			What do we have now ?. We are literally equipped with good computing power, performing computing resources,
+  			necessary data processing libraries, data & information analyzing frameworks and services, data sharing abilities &
+  			networks, required licenses that ensure knowledge propagation while empowering the creators, contributors & users to
+  			circumvent the monopoly and stealing effects. The essential stuff that are required to fill the gap are :
+
+  			<ol>
+  				<li>Optical design & Construction setup</li>
+  				<li>Sensor, Actuator (transducer) interface</li>
+  				<li>Computing, Controlling & Communication units</li>
+  			</ol>
+
+  			The process involved in using a spectrometer (or) spectrograph (or) spectrophotometer can be deconstructed into following simple steps:
+  		</p>
+
+  		<div class="accordion">
+  		  <div class="accordion-section">
+  			<a class="accordion-section-title" href="#accordion-boot-optics"><h3>→ Boot-Optics</h3></a>
+  			<div id="accordion-boot-optics" class="accordion-section-content">
+	  			<p>
+					Having an energy source that fits the region of exploration or extends it, need to be excited
+	  				properly, which determines the strength of the photons that are to be interacted with the
+	  				material later. Nowadays, with the advent in power electronics, these spectral sources can be
+	  				easily regulated, to control their photon output, heat loss, actively control heat dissipation,
+	  				etc.. If the instrument consists of movable parts such as in monochromators, then they need to be
+	  				aligned perfectly as far as possible, that needs active feedback to reset to their default positions
+	  				and angles.
+	  			</p>
+
+  				<figure>
+  	  	  			<img src="../../../../content/resource/blockdiagrams/spectroscopy/boot-optics.png" alt="boot-optics">
+  	  	  			<figcaption><b><i>Usual optical modules involved</i></b></figcaption>
+  	  			</figure>
+
+  				<p>
+  					Construction design and physical dimensions of the optical devices and interfaces decide the
+  					signal quality and reliability of the instrument.
+  				</p>
+  			</div>
+
+  			<a class="accordion-section-title" href="#accordion-wave-selection"><h3>→ Wavelength-Selection</h3></a>
+  			<div id="accordion-wave-selection" class="accordion-section-content">
+	  			<p>
+					After warming up the optical section, which is controlled by the electrical interface, now the
+	  				electronic control and measurement unit, can either parallely count the photons they sense, or
+	  				sequentially scan the spectrum by rotating or controlling the actuating element like motors which
+	  				in turn rotates the dispersing or diffracting element. The transducer used for sensing the energy
+	  				is of prime important, as they decide the measurement accuracy. The transducers has to match the
+	  				spectral bandwidth of the dispersing element, i.e, our objective exploration space.
+	  			</p>
+
+  				<figure>
+  	  	  			<img src="../../../../content/resource/blockdiagrams/spectroscopy/wavelength-selection.png" alt="wavelength-selection">
+  	  	  			<figcaption><b><i>Core Organ of the Spectrometer</i></b></figcaption>
+  	  			</figure>
+
+  				<p>
+  					The wavelength selection is possible only because of the dispersive element or the diffraction
+  					element used, that actually deconstructs or splits up the composite electromagnetic energy (ex: white light)
+  					into its sub constituent wavelengths (with specific energies). This can be analogously understood as
+  					the living proof of a fourier transform, which states that any given complex signal can be written as
+  					sum of fundamental and harmonic sines and cosines. Thus the wavelength dispersion can be simply
+  					modeled as a transformation mechanism, that always does this.
+  				</p>
+
+  				<p>
+  					Nowadays, Optics have advanced with more fundamental research in material science, which have
+  					facilitated with remarkable materials that are synthesized out of crystal materials that
+  					exhibit unique optical, electrical, acoustical characteristics. Any of these materials when synthesized
+  					with specific characteristics, are used instead of regular prism or grating, to facilitate active
+  					control of wavelength selection - electronically. As the conventional prism and grating once constructed
+  					could not be configured even within the required spectral bandwidth. Whereas, these special devices
+  					which might be of <a href="https://en.wikipedia.org/wiki/AOTF">AOTF</a>,
+  					<a href="https://en.wikipedia.org/wiki/Liquid_crystal_tunable_filter">LCTF</a>,
+  					<a href="https://en.wikipedia.org/wiki/Electro-optic_modulator">EOM</a>, can provide flexibile control
+  					and easier wavelength selection, without any requirement of rotation/moving parts in the instrument, that
+  					effectively reduces the error due to wear, tear & vibration.
+  				</p>
+  			</div>
+
+  			<a class="accordion-section-title" href="#accordion-record-spectrum"><h3>→ Measure-Spectrum</h3></a>
+  			<div id="accordion-record-spectrum" class="accordion-section-content">
+	  			<p>
+					Analog signal processing unit and Digital signal processing unit, could take care
+	  				of filtering the noise from the electrical signal, from the transducer unit. Using proper
+	  				data convertor, decides the numerical precision of photon count, which is a measure of
+	  				particular wavelength intensity. Depending upon the type of optical interaction (transmisison
+	  				or reflection), the spectral measurement will be changed to different record setting.
+	  			</p>
+
+  				<figure>
+  	  	  			<img src="../../../../content/resource/blockdiagrams/spectroscopy/measure-spectrum.png" alt="measurement">
+  	  	  			<figcaption><b><i>Signal processing (Analog & Digital) & Control for Measurement</i></b></figcaption>
+  	  			</figure>
+
+  				<p>
+  					Measurement, involves with data acquisition, controlling back the diffraction if the active element
+  					is electronically controllable through an actuator unit, like a steeper motor or piezoelectric
+  					device, which in turn influences the minimum wavelength resolution to a certain extent. Uncertainty
+  					in controlling the wavelength selection, decreases the accuracy of the instrument. Even before acquiring
+  					the data, the SNR (Signal to Noise Ratio) in the signal chain has to be improved. Signal integrity has
+  					to be preserved. Measurement makes sense only when we know the accuracy in it.
+  				</p>
+
+  				<p>
+  					While analyzing a spectrum which cannot be sensed by human eyes, they are usually measured, and then
+  					transformed to the spectrum which we understand. Instead of such contradicting use, we can simply
+  					record wavelength internsity per wavelength numerically. These numeric data, needs to be stored safely
+  					for offline analysis and processing. Also based on the deployed applications, online measurement
+  					coupled with powerful online processing are necessary in real-time situations.
+  				</p>
+  			</div>
+
+  			<a class="accordion-section-title" href="#accordion-spectral-analysis"><h3>→ Spectral-Analysis</h3></a>
+  			<div id="accordion-spectral-analysis" class="accordion-section-content">
+	  			<p>
+					After recording the spectrum, of a test sample/material, it needs to be pre-processed
+	  				to remove the artifacts added because of the instrument configuration, apply statistical
+	  				filters, and prepare it for further spectral analysis where advanced transformations
+	  				and statistical analysis would be deployed upon the data to reveal the information that
+	  				makes sense and also to enable the revealed information to connect with other informations
+	  				that provides the necessary feature or application.
+	  			</p>
+
+  				<p>
+  					With Free & Open Source software rich analytical libraries can be built to suit the
+  					spectroscopy requirements. Usually, a mathematical sub domain called as <a href="https://en.wikipedia.org/wiki/Chemometrics">Chemometrics</a>
+  					are mostly used to process the spectrum providing various statistical features, that help
+  					the user to group, classify, register, identify a particular sample. Beautiful applications
+  					of such mathematical and statistical treatment is that highly interdisciplinary subjuects can be
+  					connected, which further reveals associated information, such as identifying the principal
+  					molecules in the material and help determining the overal molecular structure in a probabilistic
+  					manner.
+  				</p>
+
+  				<p>
+  					Still only one type of spectrometer data cannot provide the complete detail of the material. It is
+  					just one view, & interpretation from a particular angle. Thus, with more and more widespread use
+  					of other spectroscopy like, NMR spectroscopy, Mass spectroscopy, Raman Spectroscopy, + other analytical
+  					methods, provide multi modal information, which needs to be fused, abstrated to provide a multi-faceted
+  					information, from which an <b>almost</b> view can be extracted. There are several gaps that are to be
+  					filled in Chemometrics, Cheminformatics, Bioinformatics, Structure identification, Prediction, etc..
+  				</p>
+  			</div>
+  		  </div>
+  		</div>
+
+  		<h3>Look & Learn</h3>
+  		<p>
+  			As hackers, & independent researchers, developers, we cannot reject the proprietary solutions that are still working
+  			and heavily deployed in the scientific circle. We have to look at them as a black box, which we have done for most of the
+  			information technology, and erect alternative solutions & tools, which prove the actual science. Only when transparency
+  			and propagation thrives, science sustains, otherwise it is a survivor who constantly fights for its liberty among the
+  			monopolizers and proprietary occupiers, that churn out financial benefit from it, like leeches. However, we must not
+  			forget the mechanism these leechers practice that make the dumb scientists and engineers to use it. With more and more
+  			of them moving towards open technologies, they would react with new attempts to monopolize through other means.
+  		</p>
+
+  		<p>
+  			Usually, technological complexity is solved with time, and the cost of democratizing and making it public decreases
+  			with time, that increases the availability, and affordability. Instead of posing as a competition while head starting,
+  			a best approach would be to fill the local needs and find alternative solutions where the leechers have not spread.
+  			We need to learn, what kind of solutions they provide, how they provide, etc.. from them. It is not a bad thing to learn
+  			from them. Only by being unbiased in evaluation, knowledge acceptance, we could be more critical and innovative. Current
+  			Peer production, Peer 2 Peer sharing, Network effect, Collaborative developemnt, Cooperative building strategies needs
+  			to be used effectively.
+  		</p>
+
+  		<h4>What are we currently lacking ?</h4>
+  		<p>
+  			There are several works which need to be done to find alternatives in open technology realm, pertaining to the
+  			spectroscopy field. Some of them are:
+
+  			<ul>
+  				<li>FOSS based OS for Spectrometer instruments</li>
+  				<li>CBPP designs for optical devices</li>
+  				<li>Open Data format, and collective data contribution as spectras</li>
+  				<li>Quality grading the collaboratively collected data</li>
+  				<li>Scientific Data sharing means and Network</li>
+  				<li>Data analysis, Mining, Machine learning stacks</li>
+  				<li>Spectra to Molecules to Structure to Material Identification - mechanisms</li>
+  				<li>Aiding molecular modeling with high quality spectral information</li>
+  				<li>Innovating areas of application for commons of use value</li>
+  				<li>Survey of necessities where spectroscopy science & tech. can be useful</li>
+  				<li>Democratizing through <b>Amateur Spectroscopy</b></li>
+  				<li>Open data licensing the spectra, and using it for developing & evaluating mining, & machine learning algorithms, tools</li>
+  			</ul>
+  		</p>
+
+  		<h3>How about a Gratig Maker ?</h3>
+
+  		<p>
+
+  		</p>
 	</div>
 
 
@@ -344,7 +580,7 @@
 
 	  <p>
 	    <ol>
-	      <li>Stuff </li>
+	      <li><a href="http://www.horiba.com/us/en/scientific/products/optics-tutorial/">Optics of Spectroscopy</a></li>
 	    </ol>
 	  </p>
 
