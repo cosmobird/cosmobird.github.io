@@ -136,15 +136,28 @@
         </item>
 
 	<item>
+            <title>Activism - Disobey</title>
+            <link>https://cosmobird.github.io/content/category/activism/civil-disobey/know.html</link>
+            <guid>https://cosmobird.github.io/content/category/activism/civil-disobey/know.html</guid>
+            <category>Activism</category>
+            <description>
+                What about Civil Disobedience ?
+            </description>
+            <author>Cosmobird Ganesh</author>
+            <pubDate>Sat, 18 Feb 2017 04:00:00 GMT</pubDate>
+            <creativeCommons:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</creativeCommons:license>
+        </item>
+
+	<item>
             <title>Communication Networks - Organization</title>
             <link>https://cosmobird.github.io/content/category/systems/communications/node-hack/org.html</link>
             <guid>https://cosmobird.github.io/content/category/systems/communications/node-hack/org.html</guid>
             <category>Systems - Communications</category>
             <description>
-                How to Organize stuff for booting a Communication Infrastructure Network
+                How to Organize stuff for booting a Communication Infrastructure Network ?
             </description>
             <author>Cosmobird Ganesh</author>
-            <pubDate>Fri, 4 Mar 2017 04:00:00 GMT</pubDate>
+            <pubDate>Sat, 4 Mar 2017 04:00:00 GMT</pubDate>
             <creativeCommons:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</creativeCommons:license>
         </item>
 
