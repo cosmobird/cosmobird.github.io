@@ -135,6 +135,45 @@
             <creativeCommons:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</creativeCommons:license>
         </item>
 
+	<item>
+            <title>Communication Networks - Organization</title>
+            <link>https://cosmobird.github.io/content/category/systems/communications/node-hack/org.html</link>
+            <guid>https://cosmobird.github.io/content/category/systems/communications/node-hack/org.html</guid>
+            <category>Systems - Communications</category>
+            <description>
+                How to Organize stuff for booting a Communication Infrastructure Network
+            </description>
+            <author>Cosmobird Ganesh</author>
+            <pubDate>Fri, 25 Mar 2017 04:00:00 GMT</pubDate>
+            <creativeCommons:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</creativeCommons:license>
+        </item>
+
+	<item>
+            <title>Communication Networks - Supplying Electric Power</title>
+            <link>https://cosmobird.github.io/content/category/systems/communications/node-hack/pwr.html</link>
+            <guid>https://cosmobird.github.io/content/category/systems/communications/node-hack/pwr.html</guid>
+            <category>Systems - Communications</category>
+            <description>
+                Organizing Ideas, and related stuff for having a self reliable Power supply infrastructure
+            </description>
+            <author>Cosmobird Ganesh</author>
+            <pubDate>Fri, 15 Mar 2017 04:00:00 GMT</pubDate>
+            <creativeCommons:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</creativeCommons:license>
+        </item>
+
+	<item>
+            <title>Communication Networks - Hardware Devices</title>
+            <link>https://cosmobird.github.io/content/category/systems/communications/node-hack/hw.html</link>
+            <guid>https://cosmobird.github.io/content/category/systems/communications/node-hack/hw.html</guid>
+            <category>Systems - Communications</category>
+            <description>
+                What are all the conceptual/real hardware devices required to setup a Commons Communication Network ?
+            </description>
+            <author>Cosmobird Ganesh</author>
+            <pubDate>Fri, 28 Mar 2017 04:00:00 GMT</pubDate>
+            <creativeCommons:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</creativeCommons:license>
+        </item>
+
     </channel>
 
 </rss>
