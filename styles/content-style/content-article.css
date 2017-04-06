@@ -282,6 +282,15 @@ section {
 	margin-bottom: 2em;
 }
 
+.content-video figcaption{
+	font-size: 13px;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*A SEPERATOR*/
 .content-rectangle{
 	background: #5EA8FC;
