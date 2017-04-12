@@ -210,6 +210,11 @@ section {
 	position: relative;
 }
 
+.footer-license .copyleft{
+	display:inline-block;
+	transform: rotate(180deg);
+}
+
 .footer-license figure {
 	margin: 0;
 	position: relative;
