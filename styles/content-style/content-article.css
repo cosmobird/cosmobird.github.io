@@ -193,6 +193,13 @@ section {
 	margin: 1em auto;
 }
 
+.content mark{
+	background: #00FFB4;
+	padding: 3px 5px;
+	margin: -1px -2px;
+	line-height: 1.5;
+	border-radius: 4px;
+}
 /*PRE TAG BUDDY :)*/
 
 .content pre ul {
@@ -391,5 +398,4 @@ section {
 .content section.content-current {
 	display: block;
 }
-
 
