@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Connect your Devices" />
+    <meta name="keywords" content="cosmobird" />
+    <meta name="author" content="cosmobird" />
+
+    <!-- TITLE -->
+    <title>Connect your Devices</title>
+
+    <!-- STYLE STHEETS -->
+    <link rel="stylesheet" type="text/css" href="../../../../../styles/content-style/content-article.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../styles/content-style/content-table.css" />
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="../../../../../scripts/generalizers/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="../../../../../scripts/frontend-functionality/accordion.js"></script>
+
+</head>
+
+<body>
+	<header class="content-header">
+		<h2> Connect & Breathe Life with it</h2>
+	</header>
+
+  	<div class="content-author-info">
+	  	  <table class="content-table">
+		  <thead class="content-table-head">
+			  <tr>
+			    <th>Author</th>
+			    <th>Date</th>
+			    <th>Time to Read</th>
+			    <th>License</th>
+			  </tr>
+		  </thead>
+		  <tbody class="content-table-body">
+			  <tr>
+			    <td>Cosmobird + Ganesh</td>
+			    <td>16 Apr 2017</td>
+			    <td>30 mins.</td>
+			    <td><img src="../../../../../content/resource/licenses/by-nc-sa.png" alt="cc-by-nc-sa"></td>
+			  </tr>
+		  </tbody>
+		</table>
+  	</div>
+
+  	<div class="content">
+
+  	  	<p><h3><i>DISCLIAMER :</i></h3></p>
+
+  	  	<p>
+  	  	  	I have shared the information from my subjective experience. I would not like to take responsibility
+  	  		for you have done anything crazy and dumb on your side when attempting to do the stuff i have listed here.
+  	  		Furthermore, i always break things and change stuff, which means, i would constantly keep this post
+  	  		updated, and thus following exactly as here might be a bit hard. On the other hand, i will not restrict
+  	  		you to try this at your home, after all it is in your discretion. <i>Happy Hacking</i> !
+  	  	</p>
+
+  		<h3>TO START:</h3>
+  		<p>
+  			Based on my previous learnings and my peers recommendations from the community network groups, i have
+  			iterated the layout of the required design that would satisfy my need through several iterations. For now
+  			i have settled in organizing a hierarchical network setup that help easily organize and manage my
+  			local area network which my devices are connected together, that runs required services & functionalities
+  			which i aspire to host my self. For this instance this blog/website itself. As covered in the <a href="../2-node-hack/hw.html">devices</a>
+  			post, a lot of stuff has to be considered before even making a hackable device. If the <u>community</u> has a
+  			set of <u>open designs</u> for the devices used, then it would be wise and economic to use the <u>locally made</u>
+  			device, than importing a "open supportive" <mark>(non proprietary/non-tivo)</mark> device.
+  		</p>
+
+  		<h3>WHAT I HAVE ?</h3>
+  		<p>
+  			Let me start with what devices i have in hand. Eventhough, i have fascinating ideas for network setup
+  			that would only mean a imagination rather than reality that can atleast produce a functional action. Devices
+  			are not immaterial and thus consumes power for its programmed operation. The current power infrastructure
+  			in my home is being used to power all these devices, which is a Uninterruptable Power Supply system built
+  			for home appliances, as a power backup during electric grid power outage. As depicted in the
+  			<a href="../2-node-hack/pwr.html">power infrastructure</a>, and from the following table i could approximately
+  			get a <b>power budget</b> that would be consumed by the communication infrastructure. Later when the power
+  			system is updated with a renewable energy source this data and calculation would be of remarkable use to
+  			calculate the necessary power devices to be made or procured to integrate and update the power infrastructure
+  			itself.
+
+  			<table class="content-table">
+			  <thead class="content-table-head">
+				  <tr>
+				    <th>Appliance</th>
+				    <th>Purpose</th>
+				    <th>Usage/Power</th>
+				  </tr>
+			  </thead>
+			  <tbody class="content-table-body">
+				  <tr>
+				    <td>Software <br>Controlled <br>Radio</td>
+				    <td>Amateur Radio</td>
+				    <td><10%/5W</td>
+				  </tr>
+				  <tr>
+				    <td>ADSL Modem</td>
+				    <td>Internet</td>
+				    <td>100%/5W</td>
+				  </tr>
+				  <tr>
+				    <td>Wifi Router</td>
+				    <td>Local Network</td>
+				    <td>100%/5W</td>
+				  </tr>
+				  <tr>
+				    <td>BeagleBone <br>Black</td>
+				    <td>Hosting</td>
+				    <td>100%/5W</td>
+				  </tr>
+				  <tr>
+				    <td>PC/Laptop</td>
+				    <td>Hosting</td>
+				    <td>100%/60W</td>
+				  </tr>
+				  <tr>
+				    <td>PC/Laptop</td>
+				    <td>Personal Use</td>
+				    <td><50%/60W</td>
+				  </tr>
+			  </tbody>
+			</table>
+		</p>
+
+		<p>
+			One must not forget about the connecting medium that enables <b>linking</b> between different types of
+			devices, with proper interfaces. Now, common sense, says that the current technology available in wireless
+			medium using proper antennas and radio, (economic & open) are not equivalent in performance when comapared
+			with the wired medium. Thus in general, i have tried to reduce the usage of wireless mediums when trying
+			to connect devices in the hierarchical structure. Both cost & performance are better than the wireless
+			medium - unless wireless interface is inbuilt in the devices itself. Ethernet cables with RJ45 ports,
+			coaxial cables with suitable connectors, will be required to properly connect antennas with the radio
+			modules in wireless devices. Since visions of community networks have planned with wireless mediums, to
+			enable less clutter, and more connectivity with the neighbouring peers, atleast one device would be
+			required to represent it as the <b>community node</b>
+		</p>
+
+		<p>
+			With the power supply in place which is compatible with the calculated power budget, can now be connected
+			together to form a local area network. The network architecture - i.e, the topology can be decided by the
+			organizer of the network. As said, i would like to implement a hierarchical topology which is very much
+			the pattern of the existing internet. This structure would enable me to establish a easily scalable network
+			within the home, and at the same time serve as a <b>transitional base</b> to make my device and services to
+			be a part of community network.
+		</p>
+
+	</div>
+
+	<div class="content-rectangle">
+		<br></br>
+	</div>
+
+	<div class="content">
+
+	  <p>
+	    <h3><i>READINGS, LINKS & DOWNLOADS :</i></h3>
+	  </p>
+
+	  <p>
+	    <ol>
+		    <li>stuff</li>
+	    </ol>
+	  </p>
+
+  	  <p>
+  	     <h3><i>CREDITS & ATTRIBUTIONS :</I></h3>
+  	    	<ul>
+  	    	  <li><b>Icons :</b></li>
+  	    		<ul>
+  	    			<li>stuff</li>
+  	    		</ul>
+  	  	</ul>
+  	  </p>
+
+	</div>
+
+	<div class="content-rectangle">
+		<br></br>
+	</div>
+
+	<div class="content">
+		<figure>
+		  	<img src="../../../../../content/resource/licenses/by-nc-sa.png" alt="cc-by-nc-sa">
+		</figure>
+  	</div>
+
+	<div class="content-rectangle">
+		<br></br>
+	</div>
+
+</body>
+
+<!-- SCRIPTS -->
+
+</html>
