@@ -343,6 +343,9 @@ section {
 	padding-right: 2em;
 }
 
+.author-name {
+	text-align: right;
+}
 
 /*ACCORDION*/
 .accordion, .accordion * {
