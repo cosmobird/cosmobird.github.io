@@ -33,6 +33,7 @@
 	width: 100%;
 	display: block;
 	position: relative;
+	max-height: 200px;
 }
 
 .grid figcaption {
