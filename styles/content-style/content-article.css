@@ -388,6 +388,11 @@ section {
     display:none;
 }
 
+.accordion-section-content.open{
+    padding:15px;
+    display:block;
+}
+
 
 /*TABS - CONTENT WRAPPING/ENABLING*/
 .content section {
