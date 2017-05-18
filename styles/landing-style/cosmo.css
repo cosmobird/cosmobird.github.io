@@ -133,6 +133,13 @@ section {
 	border-radius: 2%;
 }
 
+/*SEARCH*/
+.cosmo-search {
+	margin: 1em auto;
+	text-align: center;
+	vertical-align: middle;
+	display: table;
+}
 
 /*FOOTER*/
 .cosmo-footer {
