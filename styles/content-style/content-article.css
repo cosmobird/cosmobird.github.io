@@ -392,15 +392,13 @@ section {
 }
 
 .accordion-section-content {
-    padding:25px;
+    padding:15px;
     display:none;
 }
 
 .accordion-section-content.open{
-    padding:25px;
+    padding:15px;
     display:block;
-    max-height: 600px;
-    overflow: auto;
 }
 
 
