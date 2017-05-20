@@ -1,4 +1,7 @@
-		<!-- search -->
+
+FOR INCLUDING SEARCH:
+---------------------
+	<!-- search -->
 		<div class="cosmo-search">
 			<form action="htmls/search.html">
 				<div class="tipue_search_left"><img src="assets/pics/misc/search.png" class="tipue_search_icon"></div>
@@ -6,4 +9,4 @@
 				<div style="clear: both;"></div>
 			</form>
 		</div>
-		<!-- search -->
+	<!-- search -->
