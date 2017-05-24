@@ -1877,7 +1877,8 @@ only screen and (max-device-width:500px) {
     line-height: 14px;
     color: #737373;
     width: 100px;
-    margin-left: -50px
+    margin-left: -50px;
+    font-weight: 900
 }
 
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-major .tl-timeaxis-tick:before {
@@ -2578,7 +2579,8 @@ only screen and (max-device-width:500px) {
     width: 100%;
     height: 100%;
     position: relative;
-    z-index: 5
+    z-index: 5;
+    background: #fdfdf8;
 }
 
 .tl-storyslider .tl-slider-container-mask .tl-slider-container {
