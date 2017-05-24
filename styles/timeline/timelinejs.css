@@ -1788,7 +1788,7 @@ only screen and (max-device-width:500px) {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #FFF;
+    background-color: #FDFDF8;
     border-top: 1px solid #e5e5e5;
     z-index: 2
 }
@@ -3174,7 +3174,7 @@ only screen and (max-device-width:500px) {
     -o-user-select: none;
     user-select: none;
     background-color: #FFF;
-    color: #737373;
+    color: #e87648;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box
