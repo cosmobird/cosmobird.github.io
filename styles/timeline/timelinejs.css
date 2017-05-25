@@ -1988,7 +1988,8 @@ only screen and (max-device-width:500px) {
     display: table;
     table-layout: fixed;
     height: 100%;
-    z-index: 1
+    z-index: 1;
+    margin: 0 auto;
 }
 
 .tl-slide .tl-slide-content-container {
@@ -1997,7 +1998,9 @@ only screen and (max-device-width:500px) {
     position: relative;
     width: 100%;
     height: 100%;
-    z-index: 3
+    z-index: 3;
+    /*! margin: 0 auto; */
+    /*! text-align: center; */
 }
 
 .tl-slide .tl-slide-content-container .tl-slide-content {
@@ -2006,7 +2009,9 @@ only screen and (max-device-width:500px) {
     padding-left: 100px;
     padding-right: 100px;
     position: relative;
-    max-width: 100%
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .tl-slide .tl-slide-content-container .tl-slide-content .tl-media {
@@ -2025,7 +2030,8 @@ only screen and (max-device-width:500px) {
     padding: 0 20px 0 20px;
     display: table-cell;
     vertical-align: middle;
-    text-align: left
+    text-align: left;
+    margin: 0 auto;
 }
 
 .tl-slide-media-only .tl-slide-content-container .tl-slide-content {
@@ -3175,7 +3181,7 @@ only screen and (max-device-width:500px) {
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
-    background-color: #FFF;
+    background-color: #FDFDF8;
     color: #e87648;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;

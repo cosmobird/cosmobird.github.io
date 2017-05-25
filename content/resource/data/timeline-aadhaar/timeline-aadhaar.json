@@ -1,0 +1,264 @@
+{
+    "title": {
+        "media": {
+          "url": "../../../../content/resource/illustrations/uidai-aadhaar/anti-aadhaar.png"
+        },
+        "text": {
+          "headline": "Mortmain of Aadhaar",
+          "text": "<p>One can learn from history instead of repeating it, and it is also true in the case of Aadhaar. Tracking its oppressive influence of events or decisions are necessary. Why? How? What? are all the reasons that started it are essential part of learning to get a better interpretation & understanding.</p>"
+        }
+    },
+
+    "events": [
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/bpl.jpg"
+        },
+        "start_date": {
+          "month": "03",
+          "day": "3",
+          "year": "2006"
+        },
+        "text": {
+          "headline": "Conception of Unique ID ",
+          "text": "<p>The ministry of communications and information technology approves the ‘Unique ID for Below Poverty Line (BPL) families’ project under the chairmanship of Arvind Virmani, then principal advisor, Planning Commission. </p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/manmohan-singh.jpg"
+        },
+        "start_date": {
+          "month": "12",
+          "day": "4",
+          "year": "2006"
+        },
+        "end_date": {
+          "year": "2008"
+        },
+        "text": {
+          "headline": "Conceiving Aadhaar",
+          "text": "<p>Constitution of an Empowered group of ministers formed by former Prime Minister Manmohan Singh decides to collate two schemes — the National Population Register under the Citizenship Act, 1955 and the UID project — to conceive Aadhaar. </p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/nandan-uidai.jpg",
+          "caption": "Government appoints Infosys co-founder Nandan Nilekani as the first chairman of UIDAI, with the rank and status of a cabinet minister."
+        },
+        "start_date": {
+          "year": "2009"
+        },
+        "text": {
+          "headline": "Constituting UIDAI",
+          "text": "<p>The Unique Identification Authority of India (UIDAI) was constituted for the purpose of issuing unique identification numbers by the Central Government. It was decided that the UIDAI will be executive in nature and function under the Planning Commission. Nandan M. Nilekani was appointed as the first chairman of this Authority.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/niai-aadhaar-bill.jpg"
+        },
+        "start_date": {
+          "month": "12",
+          "day": "03",
+          "year": "2010"
+        },
+        "end_date": {
+          "month": "11",
+          "year": "2010"
+        },
+        "text": {
+          "headline": "NIAI Bill",
+          "text": "<p>The National Identification Authority of India Bill, 2010 (NIAI Bill) was introduced in Rajya Sabha by the UPA government & was referred by the Lok Sabha Speaker to a Standing Committee for examination and a report thereafter.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/yashwant-sinha.jpg",
+          "caption": "NIAI bill trashed by the Parliament Standing Committee. Issued <a href='../../../../content/resource/reports/uniqueid-aadhaar/UID-Report.pdf'>Report</a>"
+        },
+        "start_date": {
+          "day": "12",
+          "year": "2011"
+        },
+        "text": {
+          "headline": "Rejection of NIAI bill",
+          "text": "<p>The Standing committee on Finance under Yashwant Sinha issued a <a href='../../../../content/resource/reports/uniqueid-aadhaar/UID-Report.pdf'>report</a> on the NIAI Bill and rejected the bill in its initial form. It gave recommendations, including the requirement for an over arching privacy legislation and data protection law before the continuance of the scheme, and expressed concern about private agencies being contracted for the collection of sensitive information.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/ks-puttaswamy.jpg"
+        },
+        "start_date": {
+          "year": "2012"
+        },
+        "text": {
+          "headline": "First PIL against Aadhaar",
+          "text": "<p>Justice K.S. Puttaswamy, former Karnataka High Court Judge, filed a <a href='../../../../content/resource/reports/uniqueid-aadhaar/ks-puttaswamy-petition.pdf'>petition (W.P.(C) 494/2012)</a> before the Supreme Court contending that Aadhaar does not have any statutory basis, and moreover violates fundamental rights of equality & privacy granted to every individual under the Constitution.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/supreme-court-india.jpg",
+          "caption": "The <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-interim-order-494201232392013p.txt'>interim order.</a> No person should suffer even when UID is mandatory."
+        },
+        "start_date": {
+          "year": "2013"
+        },
+        "text": {
+          "headline": "SC interim order",
+          "text": "<p>Supreme Court in an interim <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-interim-order-494201232392013p.txt'>order</a> stated that no person should suffer for not having an Aadhaar card, even if it has been made mandatory by certain authorities to avail benefits.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/aadhaar-vs-cbi.jpg",
+          "caption": "Supreme court <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-interim-order-2524201422432014p.txt'>ordered</a> agencies to revoke mandation of aadhaar to avail benefits"
+        },
+        "start_date": {
+          "year": "2014"
+        },
+        "text": {
+          "headline": "UIDAI Vs CBI",
+          "text": "<p>An <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-interim-order-2524201422432014p.txt'>order</a> is issued by the Supreme Court in the case of UIDAI v. Central Bureau of Investigation (CBI) (SLP (Crl) 2524/2014), (subsequently tagged with Justice Puttaswamy’s petition) asking agencies to revoke any orders made by them making Aadhaar mandatory for availing benefits. Moreover, it also forbid the UIDAI from sharing any information in the Aadhaar database with any agency without the data subject’s consent.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/biometrics-fp.jpg",
+          "caption": "3 bench judge restricts denial of benefits & questions right to privacy to a constitutional bench"
+        },
+        "start_date": {
+          "day": "11",
+          "month": "08",
+          "year": "2015"
+        },
+        "text": {
+          "headline": "SC questions Privacy ?",
+          "text": "<p>Three judge bench of Supreme Court in an <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-threebench-judge-11th-August-2015.pdf'>order</a> restricted the use of Aadhaar to schemes of LPG, and PDS, and held that no one would be denied the benefits rightfully entitled to them for the lack of an Aadhaar card. It also refers the question of right to privacy as a fundamental right to citizens of India to a Constitutional Bench. </p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/expands.jpg",
+          "caption": "5 bench judge reiterates - non mandation of Aadhaar, but expands scope of it",
+          "credit": "Image Credits: Projet de biométrie. Credit: Benoit Crouzet/Flickr CC BY 2.0"
+        },
+        "start_date": {
+          "month": "10",
+          "year": "2015"
+        },
+        "text": {
+          "headline": "Aadhaar expands",
+          "text": "<p>A five judge bench constituted for seeking clarifications on the August order, <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-fivebench-judge-15th-October-2015.pdf'>reiterates</a> that Aadhaar is not mandatory for availing any benefits, but in the interim, expands the scope of the scheme to PDS, LPG, MNREGA, National Social Assistance Program, PM’s Jan Dhan Yojna, and Employees’ Providend Fund Organization. It further asks the CJI to expeditiously constitute a Bench for final hearing of the matter. </p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/aadhaar-mercy.jpg",
+          "caption": "Aadhaar act comes into force & notified as Targeted Delivery of Financial & Other Subsidies, Benefits & Services, in the gazette of India"
+        },
+        "start_date": {
+          "day": "03",
+          "month": "03",
+          "year": "2016"
+        },
+        "end_date": {
+          "day":"26",
+          "month":"03",
+          "year":"2016"
+        },
+        "text": {
+          "headline": "Aadhaar as Money Bill",
+          "text": "<p>Finance minister Arun Jaitley announces in the budget speech that the government will offer statutory backing for Aadhaar. The Lok Sabha passes the Aadhaar Bill, 2016 as a Money Bill, rejecting Rajya Sabha recommendations.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/jairam-ramesh.jpg",
+          "caption": "Petition of Jairaram Ramesh, and its repercussions to regulate Aadhaar"
+        },
+        "start_date": {
+          "day": "07",
+          "month": "04",
+          "year": "2016"
+        },
+        "end_date": {
+          "day":"12",
+          "month":"09",
+          "year":"2016"
+        },
+        "text": {
+          "headline": "Petition & Response",
+          "text": "<p>Jairam Ramesh, member of Rajya Sabha, moves a petition (W.P. (C) 231/2016) in the Supreme Court challenging the introduction and passing of Aadhaar Act as a money bill. Supreme Court asks Jairam Ramesh to submit a note of their submissions & case laws. A set of notifications and regulations for the Aadhaar Act was released.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/sgv.jpg",
+          "caption": "Petition by Vombatkere challenging the Aadhaar act."
+        },
+        "start_date": {
+          "day": "21",
+          "month": "10",
+          "year": "2016"
+        },
+        "text": {
+          "headline": "A fresh petition",
+          "text": "<p>A fresh petition, S.G. Vombatkere & Anr. v. Union of India & Ors. (W. P.(C) 797/2016), challenging Aadhaar Act and the Regulations notified therein listed in the Supreme Court.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/here-now.jpg",
+          "caption": "<a href='../../../../content/resource/reports/uniqueid-aadhaar/AadhaarMandatory_Notifications_27March.pdf'>Several Union Ministries mandates Aadhaar, to avail public benefits.</a> Detailed events on mandation notifications can be viewed <a href='https://thewire.in/115125/aadhaar-timeline-mandatory-notifications/'>here</a>"
+        },
+        "start_date": {
+          "month": "01",
+          "year": "2017"
+        },
+        "end_date": {
+          "month": "03",
+          "year":"2017"
+        },
+        "text": {
+          "headline": "Unleashed mandations",
+          "text": "<p>Around 30 <a href='http://sflc.in/no-aadhaar-no-service-notifications-making-aadhaar-mandatory/'>notifications</a> were issued by various departments of Union Ministries making Aadhaar mandatory for availing benefits of certain welfare schemes and subsidies. Amendment in Section 139AA that made Aadhaar mandatory for filing of Income Tax returns, and for applying for a PAN card. 80+ more mandations are expected.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/supreme-court-india.jpg"
+        },
+        "start_date": {
+          "month": "03",
+          "year": "2017"
+        },
+        "end_date": {
+          "month": "05",
+          "year":"2017"
+        },
+        "text": {
+          "headline": "Never, ever give up",
+          "text": "<p> The Supreme Court heard the challenge of mandatory linking of Aadhaat to PAN in the cases of Binoy Viswam v. Union of India (W.P.(C)247/2017), S.G. Vombatkere & Anr. v. Union of India (W.P.(C) 277/2017). </p>"
+        }
+      }
+
+
+    ]
+}

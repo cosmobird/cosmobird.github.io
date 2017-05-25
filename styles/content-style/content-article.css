@@ -349,9 +349,9 @@ section {
 
 /*TIMELINE*/
 .content-timeline {
-	max-width: 100%;
 	margin: 0 auto;
 	vertical-align: middle;
+	text-align: center;
 	padding: 1em 1em 1em 1em;
 }
 
