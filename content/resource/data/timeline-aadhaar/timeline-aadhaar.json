@@ -5,11 +5,62 @@
         },
         "text": {
           "headline": "Mortmain of Aadhaar",
-          "text": "<p>One can learn from history instead of repeating it, and it is also true in the case of Aadhaar. Tracking its oppressive influence of events or decisions are necessary. Why? How? What? are all the reasons that started it are essential part of learning to get a better interpretation & understanding.</p>"
+          "text": "<p>One can learn from history instead of repeating it, and it is also true in the case of Aadhaar. Tracking its oppressive influence from events or decisions are necessary. Why? How? What? are all the reasons that started it are essential part of learning to get a better interpretation & understanding.</p>"
         }
     },
 
     "events": [
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/kargil-war.jpg"
+        },
+        "start_date": {
+          "month": "5",
+          "year": "1999"
+        },
+        "end_date": {
+          "month": "7",
+          "year":"1999"
+        },
+        "text": {
+          "headline": "Kargil War",
+          "text": "<p>Armed conflict between India and Pakistan that took place between May and July 1999 in the Kargil district of Kashmir and elsewhere along the Line of Control.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/k-subrahmanyam.jpg"
+        },
+        "start_date": {
+          "day":"7",
+          "month": "1",
+          "year": "2000"
+        },
+        "text": {
+          "headline": "Kargil Review Committee",
+          "text": "<p>The Kargil Review Committee, headed by security analyst K. Subrahmanyam, was formed to study the state of national security. It submitted its <a href='http://www.frontline.in/static/html/fl1702/17020310.htm'>report</a> to the then Prime Minister, Atal Bihari Vajpayee. Among its various recommendations, was the proposal that citizens in villages in border region be issued identity cards on a priority basis, later such ID cards should be issued to all people living in border states.</p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/l-k-advani.jpg"
+        },
+        "start_date": {
+          "month": "5",
+          "year": "2001"
+        },
+        "end_date": {
+          "month": "12",
+          "year": "2003"
+        },
+        "text": {
+          "headline": "ID Card & Citizenship Bill",
+          "text": "<p>A Group of Ministers headed by L. K. Advani, accepted the recommendation for an id card. A Multi-purpose National Identity Card would be first issued in border villages and then elsewhere. Later, the <a href='../../../../content/resource/reports/uniqueid-aadhaar/citizenship_amendment.pdf'>Citizenship (Amendment) Bill</a> mandated compulsory registration and national id card to every citizen of India.</p>"
+        }
+      },
+
       {
         "media": {
           "url": "../../../../content/resource/pictures/uniqueid-aadhaar/bpl.jpg"
@@ -67,7 +118,8 @@
           "year": "2010"
         },
         "end_date": {
-          "month": "11",
+          "day": "10",
+          "month": "12",
           "year": "2010"
         },
         "text": {
