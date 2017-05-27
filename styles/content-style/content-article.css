@@ -28,6 +28,14 @@
 	src:url('../../assets/fonts/sourcecodepro/SourceCodePro-Bold.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: "source_sans_proitalic";
+	font-weight: normal;
+	font-style: normal;
+	src: url("../../assets/fonts/sourcesanspro/SourceSansPro-It.eot") format("embedded-opentype"),
+			url("../../assets/fonts/sourcesanspro/SourceSansPro-It.ttf") format("truetype");
+}
+
 *, *:after, *:before
 {
 	-webkit-box-sizing: border-box;
@@ -317,20 +325,41 @@ section {
 }
 
 /*DISPLAYING A BLOCK QUOTE*/
-.content-blockquote {
-	background: #CCEFFF;
-	border-left: 10px solid #ccc;
-	margin: auto;
-	padding: 0.5em 2em;
-	vertical-align:middle;
-	font-family: 'Lato';
-	font-size: 15px;
-	font-weight: 400;
-	color: #333333;
+blockquote::before {
+	content: "\201C";
+	font-size: 6em;
+	line-height: 0em;
+	margin-right: 0.15em;
+	margin-left: -0.2em;
+	vertical-align: -0.4em;
+	opacity: 0.2;
 }
 
-.content-blockquote p {
-	display: block;
+blockquote {
+	background: #CCEFFF;
+	border-left: 10px solid #ccc;
+	max-width: auto;
+	margin: 2em 2em;
+	padding: 2em 2em 1em 2em;
+	vertical-align:middle;
+	font-family: 'source_sans_proitalic', sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	color: #333333;
+	line-height: 180%;
+}
+
+blockquote p {
+    text-indent: 0;
+    font-family: "source_sans_proitalic", sans-serif;
+}
+
+blockquote p[data-type="attribution"] {
+    text-align: right;
+    font-size: 0.85em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-weight: bold;
 }
 
 

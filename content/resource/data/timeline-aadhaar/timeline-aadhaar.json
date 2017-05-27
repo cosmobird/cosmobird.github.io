@@ -158,6 +158,20 @@
 
       {
         "media": {
+          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/ap-shah.jpg"
+        },
+        "start_date": {
+          "month": "10",
+          "year": "2012"
+        },
+        "text": {
+          "headline": "Shah Committee on privacy principles",
+          "text": "<p>The Group of Experts on Privacy constituted by the Planning Commission under the chairmanship of Justice AP Shah Committee submitted its report which <a href='../../../../content/resource/reports/uniqueid-aadhaar/shah-committee-privacy-report-2012.pdf'>listed nine principles of privacy</a> which all legislations, especially those dealing with personal should adhere to.</p>"
+        }
+      },
+
+      {
+        "media": {
           "url": "../../../../content/resource/pictures/uniqueid-aadhaar/supreme-court-india.jpg",
           "caption": "The <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-interim-order-494201232392013p.txt'>interim order.</a> No person should suffer even when UID is mandatory."
         },
