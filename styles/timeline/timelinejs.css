@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: PT Sans Narrow;
-    url(../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Web-Bold.ttf) format('truetype');
-    url(../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Web-Regular.ttf) format('truetype');
+    url(../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Bold.ttf) format('truetype');
+    url(../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Regular.ttf) format('truetype');
     font-style: normal
 }
 

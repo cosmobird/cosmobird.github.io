@@ -67,8 +67,9 @@ a:hover, a:focus {
 	max-width: 90%;
 	margin: 5em auto;
 	vertical-align: middle;
-	border-collapse: separate;
-	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	border-collapse: collapse;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+	font-size: 0.9em;
 }
 
 .content-table-head{
@@ -81,6 +82,8 @@ a:hover, a:focus {
 
 .content-table-head th{
 	padding: 1em 1em 1em 1em;
+	border-bottom: 1px solid #d1d2d4;
+	border-left: 1px solid #d1d2d4;
 }
 
 .content-table-body {
@@ -88,8 +91,18 @@ a:hover, a:focus {
 	text-align: center;
 }
 
+.content-table-body tr:nth-child(2n+1){
+	background: white;
+}
+
+.content-table-body tr:nth-child(2n+2){
+	background: #f4fafb;
+}
+
 .content-table-body td{
 	padding: 1em 1em 1em 1em;
+	border-bottom: 1px solid #d1d2d4;
+	border-left: 1px solid #d1d2d4;
 }
 
 
