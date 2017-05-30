@@ -73,8 +73,8 @@
 .tabs nav a span {
 	vertical-align: middle;
 	font-size: 0.75em;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .tabs nav li.tab-current a {
