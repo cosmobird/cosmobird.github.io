@@ -182,6 +182,15 @@ section {
 	line-height: 1.8em;
 }
 
+.content p[data-type="attribution"] {
+	font-family: source_sans_proitalic;
+    	text-align: right;
+    	font-size: 0.95em;
+    	margin-top: 1em;
+    	margin-bottom: 0;
+    	font-weight: bold;
+}
+
 .content b {
 	font-family: 'Lato';
 	color: #c94e50;
