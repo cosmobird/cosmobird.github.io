@@ -1,7 +1,7 @@
 {
     "title": {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/Prisoners_Uniforms_with_Red_Triangles_of_Political_Prisoners.jpg",
+          "url": "../../../../content/resource/pictures/uniqueid/Prisoners_Uniforms_with_Red_Triangles_of_Political_Prisoners.jpg",
           "caption": "History teaches and illustrates proof of unique identification systems that are required in concentration camps !"
         },
         "text": {
@@ -13,7 +13,7 @@
     "events": [
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/kargil-war.jpg"
+          "url": "../../../../content/resource/pictures/uniqueid/kargil-war.jpg"
         },
         "start_date": {
           "month": "5",
@@ -31,7 +31,7 @@
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/k-subrahmanyam.jpg"
+          "url": "../../../../content/resource/pictures/uniqueid/k-subrahmanyam.jpg"
         },
         "start_date": {
           "day":"7",
@@ -46,7 +46,7 @@
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/l-k-advani.jpg"
+          "url": "../../../../content/resource/pictures/uniqueid/l-k-advani.jpg"
         },
         "start_date": {
           "month": "5",
@@ -58,13 +58,13 @@
         },
         "text": {
           "headline": "ID Card & Citizenship Bill",
-          "text": "<p>A Group of Ministers headed by L. K. Advani, accepted the recommendation for an id card. A Multi-purpose National Identity Card would be first issued in border villages and then elsewhere. Later, the <a href='../../../../content/resource/reports/uniqueid-aadhaar/citizenship_amendment.pdf'>Citizenship (Amendment) Bill</a> mandated compulsory registration and national id card to every citizen of India.</p>"
+          "text": "<p>A Group of Ministers headed by L. K. Advani, accepted the recommendation for an id card. A Multi-purpose National Identity Card would be first issued in border villages and then elsewhere. Later, the <a href='../../../../content/resource/reports/uniqueid/citizenship_amendment.pdf'>Citizenship (Amendment) Bill</a> mandated compulsory registration and national id card to every citizen of India.</p>"
         }
       },
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/bpl.jpg"
+          "url": "../../../../content/resource/pictures/uniqueid/bpl.jpg"
         },
         "start_date": {
           "month": "03",
@@ -79,7 +79,7 @@
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/manmohan-singh.jpg"
+          "url": "../../../../content/resource/pictures/uniqueid/manmohan-singh.jpg"
         },
         "start_date": {
           "month": "12",
@@ -97,7 +97,7 @@
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/nandan-uidai.jpg",
+          "url": "../../../../content/resource/pictures/uniqueid/nandan-uidai.jpg",
           "caption": "Government appoints Infosys co-founder Nandan Nilekani as the first chairman of UIDAI, with the rank and status of a cabinet minister."
         },
         "start_date": {
@@ -111,7 +111,7 @@
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/niai-aadhaar-bill.jpg"
+          "url": "../../../../content/resource/pictures/uniqueid/niai-aadhaar-bill.jpg"
         },
         "start_date": {
           "month": "12",
@@ -131,8 +131,8 @@
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/yashwant-sinha.jpg",
-          "caption": "NIAI bill trashed by the Parliament Standing Committee. Issued <a href='../../../../content/resource/reports/uniqueid-aadhaar/UID-Report.pdf'>Report</a>"
+          "url": "../../../../content/resource/pictures/uniqueid/yashwant-sinha.jpg",
+          "caption": "NIAI bill trashed by the Parliament Standing Committee. Issued <a href='../../../../content/resource/reports/uniqueid/UID-Report.pdf'>Report</a>"
         },
         "start_date": {
           "day": "12",
@@ -140,26 +140,26 @@
         },
         "text": {
           "headline": "Rejection of NIAI bill",
-          "text": "<p>The Standing committee on Finance under Yashwant Sinha issued a <a href='../../../../content/resource/reports/uniqueid-aadhaar/UID-Report.pdf'>report</a> on the NIAI Bill and rejected the bill in its initial form. It gave recommendations, including the requirement for an over arching privacy legislation and data protection law before the continuance of the scheme, and expressed concern about private agencies being contracted for the collection of sensitive information.</p>"
+          "text": "<p>The Standing committee on Finance under Yashwant Sinha issued a <a href='../../../../content/resource/reports/uniqueid/UID-Report.pdf'>report</a> on the NIAI Bill and rejected the bill in its initial form. It gave recommendations, including the requirement for an over arching privacy legislation and data protection law before the continuance of the scheme, and expressed concern about private agencies being contracted for the collection of sensitive information.</p>"
         }
       },
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/ks-puttaswamy.jpg"
+          "url": "../../../../content/resource/pictures/uniqueid/ks-puttaswamy.jpg"
         },
         "start_date": {
           "year": "2012"
         },
         "text": {
           "headline": "First PIL against Aadhaar",
-          "text": "<p>Justice K.S. Puttaswamy, former Karnataka High Court Judge, filed a <a href='../../../../content/resource/reports/uniqueid-aadhaar/ks-puttaswamy-petition.pdf'>petition (W.P.(C) 494/2012)</a> before the Supreme Court contending that Aadhaar does not have any statutory basis, and moreover violates fundamental rights of equality & privacy granted to every individual under the Constitution.</p>"
+          "text": "<p>Justice K.S. Puttaswamy, former Karnataka High Court Judge, filed a <a href='../../../../content/resource/reports/uniqueid/ks-puttaswamy-petition.pdf'>petition (W.P.(C) 494/2012)</a> before the Supreme Court contending that Aadhaar does not have any statutory basis, and moreover violates fundamental rights of equality & privacy granted to every individual under the Constitution.</p>"
         }
       },
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/ap-shah.jpg"
+          "url": "../../../../content/resource/pictures/uniqueid/ap-shah.jpg"
         },
         "start_date": {
           "month": "10",
@@ -167,41 +167,41 @@
         },
         "text": {
           "headline": "Shah Committee on privacy principles",
-          "text": "<p>The Group of Experts on Privacy constituted by the Planning Commission under the chairmanship of Justice AP Shah Committee submitted its report which <a href='../../../../content/resource/reports/uniqueid-aadhaar/shah-committee-privacy-report-2012.pdf'>listed nine principles of privacy</a> which all legislations, especially those dealing with personal should adhere to.</p>"
+          "text": "<p>The Group of Experts on Privacy constituted by the Planning Commission under the chairmanship of Justice AP Shah Committee submitted its report which <a href='../../../../content/resource/reports/uniqueid/shah-committee-privacy-report-2012.pdf'>listed nine principles of privacy</a> which all legislations, especially those dealing with personal should adhere to.</p>"
         }
       },
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/supreme-court-india.jpg",
-          "caption": "The <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-interim-order-494201232392013p.txt'>interim order.</a> No person should suffer even when UID is mandatory."
+          "url": "../../../../content/resource/pictures/uniqueid/supreme-court-india.jpg",
+          "caption": "The <a href='../../../../content/resource/reports/uniqueid/sc-interim-order-494201232392013p.txt'>interim order.</a> No person should suffer even when UID is mandatory."
         },
         "start_date": {
           "year": "2013"
         },
         "text": {
           "headline": "SC interim order",
-          "text": "<p>Supreme Court in an interim <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-interim-order-494201232392013p.txt'>order</a> stated that no person should suffer for not having an Aadhaar card, even if it has been made mandatory by certain authorities to avail benefits.</p>"
+          "text": "<p>Supreme Court in an interim <a href='../../../../content/resource/reports/uniqueid/sc-interim-order-494201232392013p.txt'>order</a> stated that no person should suffer for not having an Aadhaar card, even if it has been made mandatory by certain authorities to avail benefits.</p>"
         }
       },
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/aadhaar-vs-cbi.jpg",
-          "caption": "Supreme court <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-interim-order-2524201422432014p.txt'>ordered</a> agencies to revoke mandation of aadhaar to avail benefits"
+          "url": "../../../../content/resource/pictures/uniqueid/aadhaar-vs-cbi.jpg",
+          "caption": "Supreme court <a href='../../../../content/resource/reports/uniqueid/sc-interim-order-2524201422432014p.txt'>ordered</a> agencies to revoke mandation of aadhaar to avail benefits"
         },
         "start_date": {
           "year": "2014"
         },
         "text": {
           "headline": "UIDAI Vs CBI",
-          "text": "<p>An <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-interim-order-2524201422432014p.txt'>order</a> is issued by the Supreme Court in the case of UIDAI v. Central Bureau of Investigation (CBI) (SLP (Crl) 2524/2014), (subsequently tagged with Justice Puttaswamy’s petition) asking agencies to revoke any orders made by them making Aadhaar mandatory for availing benefits. Moreover, it also forbid the UIDAI from sharing any information in the Aadhaar database with any agency without the data subject’s consent.</p>"
+          "text": "<p>An <a href='../../../../content/resource/reports/uniqueid/sc-interim-order-2524201422432014p.txt'>order</a> is issued by the Supreme Court in the case of UIDAI v. Central Bureau of Investigation (CBI) (SLP (Crl) 2524/2014), (subsequently tagged with Justice Puttaswamy’s petition) asking agencies to revoke any orders made by them making Aadhaar mandatory for availing benefits. Moreover, it also forbid the UIDAI from sharing any information in the Aadhaar database with any agency without the data subject’s consent.</p>"
         }
       },
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/biometrics-fp.jpg",
+          "url": "../../../../content/resource/pictures/uniqueid/biometrics-fp.jpg",
           "caption": "3 bench judge restricts denial of benefits & questions right to privacy to a constitutional bench"
         },
         "start_date": {
@@ -211,13 +211,13 @@
         },
         "text": {
           "headline": "SC questions Privacy ?",
-          "text": "<p>Three judge bench of Supreme Court in an <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-threebench-judge-11th-August-2015.pdf'>order</a> restricted the use of Aadhaar to schemes of LPG, and PDS, and held that no one would be denied the benefits rightfully entitled to them for the lack of an Aadhaar card. It also refers the question of right to privacy as a fundamental right to citizens of India to a Constitutional Bench. </p>"
+          "text": "<p>Three judge bench of Supreme Court in an <a href='../../../../content/resource/reports/uniqueid/sc-threebench-judge-11th-August-2015.pdf'>order</a> restricted the use of Aadhaar to schemes of LPG, and PDS, and held that no one would be denied the benefits rightfully entitled to them for the lack of an Aadhaar card. It also refers the question of right to privacy as a fundamental right to citizens of India to a Constitutional Bench. </p>"
         }
       },
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/expands.jpg",
+          "url": "../../../../content/resource/pictures/uniqueid/expands.jpg",
           "credit": "Image Credits: Projet de biométrie. Credit: Benoit Crouzet/Flickr CC BY 2.0"
         },
         "start_date": {
@@ -226,13 +226,13 @@
         },
         "text": {
           "headline": "Aadhaar expands",
-          "text": "<p>A five judge bench constituted for seeking clarifications on the August order, <a href='../../../../content/resource/reports/uniqueid-aadhaar/sc-fivebench-judge-15th-October-2015.pdf'>reiterates</a> that Aadhaar is not mandatory for availing any benefits, but in the interim, expands the scope of the scheme to PDS, LPG, MNREGA, National Social Assistance Program, PM’s Jan Dhan Yojna, and Employees’ Providend Fund Organization. It further asks the CJI to expeditiously constitute a Bench for final hearing of the matter. </p>"
+          "text": "<p>A five judge bench constituted for seeking clarifications on the August order, <a href='../../../../content/resource/reports/uniqueid/sc-fivebench-judge-15th-October-2015.pdf'>reiterates</a> that Aadhaar is not mandatory for availing any benefits, but in the interim, expands the scope of the scheme to PDS, LPG, MNREGA, National Social Assistance Program, PM’s Jan Dhan Yojna, and Employees’ Providend Fund Organization. It further asks the CJI to expeditiously constitute a Bench for final hearing of the matter. </p>"
         }
       },
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/aadhaar.jpg",
+          "url": "../../../../content/resource/pictures/uniqueid/aadhaar.jpg",
           "caption": "Aadhaar act comes into force & notified as Targeted Delivery of Financial & Other Subsidies, Benefits & Services, in the gazette of India"
         },
         "start_date": {
@@ -253,7 +253,7 @@
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/jairam-ramesh.jpg",
+          "url": "../../../../content/resource/pictures/uniqueid/jairam-ramesh.jpg",
           "caption": "Petition of Jairaram Ramesh, and its repercussions to regulate Aadhaar"
         },
         "start_date": {
@@ -274,7 +274,7 @@
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/sgv.jpg",
+          "url": "../../../../content/resource/pictures/uniqueid/sgv.jpg",
           "caption": "Petition by Vombatkere challenging the Aadhaar act."
         },
         "start_date": {
@@ -290,8 +290,8 @@
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/here-now.jpg",
-          "caption": "<a href='../../../../content/resource/reports/uniqueid-aadhaar/AadhaarMandatory_Notifications_27March.pdf'>Several Union Ministries mandates Aadhaar, to avail public benefits.</a> Detailed events on mandation notifications can be viewed <a href='https://thewire.in/115125/aadhaar-timeline-mandatory-notifications/'>here</a>"
+          "url": "../../../../content/resource/pictures/uniqueid/here-now.jpg",
+          "caption": "<a href='../../../../content/resource/reports/uniqueid/AadhaarMandatory_Notifications_27March.pdf'>Several Union Ministries mandates Aadhaar, to avail public benefits.</a> Detailed events on mandation notifications can be viewed <a href='https://thewire.in/115125/aadhaar-timeline-mandatory-notifications/'>here</a>"
         },
         "start_date": {
           "month": "01",
@@ -309,7 +309,7 @@
 
       {
         "media": {
-          "url": "../../../../content/resource/pictures/uniqueid-aadhaar/supreme-court-india.jpg"
+          "url": "../../../../content/resource/pictures/uniqueid/supreme-court-india.jpg"
         },
         "start_date": {
           "month": "03",

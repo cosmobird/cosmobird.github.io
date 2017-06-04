@@ -36,6 +36,20 @@
 			url("../../assets/fonts/sourcesanspro/SourceSansPro-It.ttf") format("truetype");
 }
 
+@font-face {
+	font-family: "pt_sans_narrow-regular";
+	font-weight: normal;
+	font-style: normal;
+	src: url("../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "pt_sans_narrow-bold";
+	font-weight: normal;
+	font-style: normal;
+	src: url("../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Bold.ttf") format("truetype");
+}
+
 *, *:after, *:before
 {
 	-webkit-box-sizing: border-box;
@@ -218,8 +232,8 @@ section {
 	line-height: 1.5;
 	border-radius: 4px;
 }
-/*PRE TAG BUDDY :)*/
 
+/*PRE TAG BUDDY :)*/
 .content pre ul {
 	line-height: 0.8em;
 }
@@ -264,9 +278,18 @@ section {
 	color: #1ED865;
 }
 
-/*IMAGES & FIGURES*/
+/*FIGURES, IMAGES, COMICS*/
 .content-header img {
 	border-radius: 2%;
+}
+
+.content figure{
+	font-family: 'pt_sans_narrow-bold';
+	font-size: 1.1em;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	margin: 2em auto;
 }
 
 .content img {
@@ -281,21 +304,13 @@ section {
 	vertical-align: middle;
 }
 
-.content figure{
-	font-family: 'SourceCodePro-Regular';
-	font-size: 13px;
-	position: relative;
-	vertical-align: middle;
-	text-align: center;
-	margin: 2em auto;
-}
-
 .content figcaption{
 	margin-top: 0em;
 	margin-bottom: 0.5em;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 
 /*VIDEO*/
 .content-video{
