@@ -207,7 +207,7 @@ section {
 
 .content li{
 	text-align: left;
-	margin: 1em auto;
+	margin: 0.5em auto;
 	line-height: 1.65em;
 }
 
@@ -315,14 +315,63 @@ section {
 	margin-right: auto;
 }
 
+.points-for-video{
+	max-height: 240px;
+	width: 100%;
+	margin: 1em auto;
+	border: 2px solid #cbcbcb;
+}
+
+.points-for-video h4{
+	text-align:center;
+	margin: 0 auto;
+	padding: 1em 0 1em 0;
+	background-color: #cbcbca;
+}
+
+.points-for-video ul{
+	max-height: 190px;
+	width: 100%;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+/*CHAPTERS*/
+.chapter-header{
+	text-align: center;
+	position: relative;
+	width: inherit;
+	height: 16px;
+	top: 0px;
+	border-bottom: 2px solid #ccc;
+	margin-top: 1em;
+	margin-bottom: 3em;
+}
+
+.chapter-header span{
+	color: #222;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	font-size: x-large;
+	font-weight: 900;
+	background-color: #fdfdf8;
+}
 
 /*A SEPERATOR*/
-.content-rectangle{
+.content-horizontal-separator{
 	background: #5EA8FC;
 	max-width: 80%;
 	max-height: 2px;
 	margin: auto;
 	vertical-align: middle;
+}
+
+.content-vertical-separator{
+	max-width: 2px;
+	margin: 0 auto;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-right: 2px solid #ccc;
 }
 
 /*FOR COMMENT SECTION*/
