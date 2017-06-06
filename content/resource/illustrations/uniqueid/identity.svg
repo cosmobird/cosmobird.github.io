@@ -378,8 +378,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.44900004"
-     inkscape:cx="714.04586"
-     inkscape:cy="-331.71698"
+     inkscape:cx="1115.3442"
+     inkscape:cy="-410.75527"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -387,7 +387,7 @@
      inkscape:window-height="768"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:showpageshadow="false"
@@ -4006,11 +4006,11 @@
       </g>
     </g>
     <g
-       id="g1443"
+       id="g1959"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <rect
-         style="fill:#e6e6e6;stroke:none;stroke-width:0.25738487;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.77215461, 0.77215461"
+         style="fill:#dcdcdc;stroke:none;stroke-width:0.25738487;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.77215461, 0.77215460999999996;fill-opacity:1"
          id="rect1319"
          width="34.309406"
          height="35.544048"
@@ -4564,26 +4564,15 @@
         </g>
       </g>
       <text
-         id="text3235"
-         y="271.44904"
-         x="251.56187"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.45086956px;line-height:1.25;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33627173"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:4.48362303px;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Condensed';text-align:center;text-anchor:middle;stroke-width:0.33627173"
-           y="271.44904"
-           x="251.56187"
-           id="tspan3233"
-           sodipodi:role="line">individual controls</tspan></text>
-      <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.45086956px;line-height:1.25;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33627173"
-         x="318.50427"
-         y="271.44904"
+         x="304.04889"
+         y="275.29126"
          id="text3239"><tspan
            sodipodi:role="line"
            id="tspan3237"
-           x="318.50427"
-           y="271.44904"
+           x="304.04889"
+           y="275.29126"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:4.48362303px;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Condensed';text-align:center;text-anchor:middle;stroke-width:0.33627173">thirdparty controls</tspan></text>
       <g
          id="g1122"
@@ -4657,6 +4646,17 @@
              id="tspan1296"
              sodipodi:role="line">mental integrity</tspan></text>
       </g>
+      <text
+         id="text1844"
+         y="275.29126"
+         x="261.90726"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.45086956px;line-height:1.25;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33627173"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:4.48362303px;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Condensed';text-align:center;text-anchor:middle;stroke-width:0.33627173"
+           y="275.29126"
+           x="261.90726"
+           id="tspan1842"
+           sodipodi:role="line">thirdparty controls</tspan></text>
     </g>
   </g>
 </svg>
