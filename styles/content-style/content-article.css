@@ -347,6 +347,13 @@ section {
 .points-for-video ul{
 	max-height: 190px;
 	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.points-for-video ul:hover{
+	max-height: 190px;
+	width: 100%;
 	overflow: auto;
 	margin: 0 auto;
 }
@@ -355,12 +362,11 @@ section {
 .chapter-header{
 	text-align: center;
 	position: relative;
-	width: inherit;
+	width: 80%;
 	height: 16px;
-	top: 0px;
 	border-bottom: 2px solid #ccc;
-	margin-top: 1em;
-	margin-bottom: 3em;
+	margin: 3em auto 3em auto;
+	vertical-align: middle;
 }
 
 .chapter-header span{
