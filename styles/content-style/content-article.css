@@ -418,7 +418,7 @@ blockquote::before {
 
 blockquote {
 	background: #CCEFFF;
-	border-left: 10px solid #ccc;
+	border-left: 10px solid #B08FE7;
 	max-width: auto;
 	margin: 2em 2em;
 	padding: 2em 2em 1em 2em;
@@ -428,6 +428,7 @@ blockquote {
 	font-weight: 400;
 	color: #333333;
 	line-height: 180%;
+	border-radius: 5px;
 }
 
 blockquote p {
@@ -516,6 +517,6 @@ blockquote p[data-type="attribution"] {
 	margin: 2em auto;
 	padding: 1em 1em 1em 1em;
 	border-width: thick;
-	max-width: 90%;
+	max-width: 950%;
 	text-align: justify;
 }
