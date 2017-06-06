@@ -32,7 +32,7 @@
 	font-family: "source_sans_proitalic";
 	font-weight: normal;
 	font-style: normal;
-	src: url("../../assets/fonts/sourcesanspro/SourceSansPro-It.eot") format("embedded-opentype"),
+	src:url("../../assets/fonts/sourcesanspro/SourceSansPro-It.eot") format("embedded-opentype"),
 			url("../../assets/fonts/sourcesanspro/SourceSansPro-It.ttf") format("truetype");
 }
 
@@ -40,14 +40,14 @@
 	font-family: "pt_sans_narrow-regular";
 	font-weight: normal;
 	font-style: normal;
-	src: url("../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Regular.ttf") format("truetype");
+	src:url("../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Regular.ttf") format("truetype");
 }
 
 @font-face {
 	font-family: "pt_sans_narrow-bold";
 	font-weight: normal;
 	font-style: normal;
-	src: url("../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Bold.ttf") format("truetype");
+	src:url("../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Bold.ttf") format("truetype");
 }
 
 *, *:after, *:before

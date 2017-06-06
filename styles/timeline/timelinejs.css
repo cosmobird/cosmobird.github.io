@@ -8,10 +8,17 @@
 */
 
 @font-face {
-    font-family: PT Sans Narrow;
-    url(../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Bold.ttf) format('truetype');
-    url(../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Regular.ttf) format('truetype');
-    font-style: normal
+    font-family: "pt_sans_narrow_regular";
+    font-style: normal;
+    font-weight: normal;
+    src:url(../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "pt_sans_narrow_bold";
+    font-style: normal;
+    font-weight: normal;
+    src:url(../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Bold.ttf) format('truetype');
 }
 
 .tl-storyjs div * {
@@ -234,7 +241,7 @@
 }
 
 .tl-timeline {
-    font-family: "PT Sans Narrow", sans-serif
+    font-family: "pt_sans_narrow_regular", sans-serif
 }
 
 .tl-timeline h1,
@@ -373,7 +380,7 @@
 
 .tl-timeline blockquote,
 .tl-timeline blockquote p {
-    font-family: PT Sans Narrow, serif;
+    font-family: pt_sans_narrow_regular, serif;
     color: #999;
     font-size: 24px;
     line-height: 24px;
@@ -385,7 +392,7 @@
 
 .tl-timeline blockquote cite,
 .tl-timeline blockquote p cite {
-    font-family: PT Sans Narrow, sans-serif;
+    font-family: pt_sans_narrow_regular, sans-serif;
     font-size: 11px;
     color: #666;
     display: block;
@@ -425,7 +432,7 @@
 }
 
 .tl-timeline .vcard {
-    font-family: PT Sans Narrow, sans-serif;
+    font-family: pt_sans_narrow_regular, sans-serif;
     font-size: 15px;
     line-height: 15px;
     margin-bottom: 15px;
@@ -522,7 +529,7 @@
 
 .tl-timeline .tl-note {
     display: block;
-    font-family: PT Sans Narrow, sans-serif;
+    font-family: pt_sans_narrow_regular, sans-serif;
     font-style: italic;
     background-color: #e6e6e6;
     font-size: 15px;
@@ -1074,7 +1081,7 @@ only screen and (max-device-width:500px) {
     left: 0;
     font-size: 10px;
     line-height: 10px;
-    font-family: PT Sans Narrow, sans-serif!important;
+    font-family: pt_sans_narrow_regular, sans-serif!important;
     background-color: rgba(255, 255, 255, .85);
     padding: 3px
 }
@@ -2771,7 +2778,7 @@ only screen and (max-device-width:500px) {
 
 .tl-text .tl-headline-date,
 .tl-text h3.tl-headline-date {
-    font-family: PT Sans Narrow, sans-serif;
+    font-family: pt_sans_narrow_regular, sans-serif;
     font-size: 15px;
     line-height: 15px;
     font-weight: 400;
@@ -2789,7 +2796,7 @@ only screen and (max-device-width:500px) {
 
 .tl-text .tl-text-date {
     display: inline-block;
-    font-family: PT Sans Narrow, sans-serif;
+    font-family: pt_sans_narrow_regular, sans-serif;
     font-weight: 400;
     margin-top: 10px;
     font-size: 12px;
