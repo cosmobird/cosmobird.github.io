@@ -341,7 +341,8 @@ section {
 	text-align:center;
 	margin: 0 auto;
 	padding: 1em 0 1em 0;
-	background-color: #cbcbca;
+	color: #fdfdf8
+	background-color: #444444;
 }
 
 .points-for-video ul{
@@ -440,20 +441,6 @@ blockquote p[data-type="attribution"] {
     margin-top: 1em;
     margin-bottom: 0;
     font-weight: bold;
-}
-
-
-/*AUTHOR INFORMATON*/
-.content-author-info {
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 2em;
-	padding-right: 2em;
-}
-
-.author-name {
-	text-align: right;
 }
 
 /*TIMELINE*/
