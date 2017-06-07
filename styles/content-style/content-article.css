@@ -359,6 +359,20 @@ section {
 	margin: 0 auto;
 }
 
+.points-for-video ol{
+	max-height: 188px; /*(2px reduced for avoiding border overlap at a height of 190px)*/
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.points-for-video ol:hover{
+	max-height: 188px;
+	width: 100%;
+	overflow: auto;
+	margin: 0 auto;
+}
+
 /*CHAPTERS*/
 .chapter-header{
 	text-align: center;
