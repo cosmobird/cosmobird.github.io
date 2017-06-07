@@ -345,20 +345,6 @@ section {
 	background-color: #444444;
 }
 
-.points-for-video ul{
-	max-height: 188px; /*(2px reduced for avoiding border overlap at a height of 190px)*/
-	width: 100%;
-	overflow: hidden;
-	margin: 0 auto;
-}
-
-.points-for-video ul:hover{
-	max-height: 188px;
-	width: 100%;
-	overflow: auto;
-	margin: 0 auto;
-}
-
 .points-for-video ol{
 	max-height: 188px; /*(2px reduced for avoiding border overlap at a height of 190px)*/
 	width: 100%;
