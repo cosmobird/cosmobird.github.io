@@ -479,7 +479,6 @@ blockquote p[data-type="attribution"] {
 .accordion {
     margin: 1em 0em 3em 0em;
     overflow:hidden;
-    box-shadow:0px 0px 1px 1px rgba(0,0,0,0.25);
     border-radius:3px;
     background:#FDFDF8;
 }
@@ -489,16 +488,23 @@ blockquote p[data-type="attribution"] {
     padding:15px;
     display:inline-block;
     border-bottom:5px solid #1a1a1a;
+    margin-bottom:1px;
     background:#EBEBEA;
     transition:all linear 0.15s;
     font-size:1.000em;
     color:#fff;
 }
 
-.accordion-section-title.active, .accordion-section-title:hover {
+.accordion-section-title:hover {
     background:#CBCBCA;
-    box-shadow:0px 0px 1px 1px rgba(0,0,0,0.50);
+    box-shadow:1px 1px 0px 1px rgba(0,0,0,0.50);
     text-decoration:none;
+}
+
+.accordion-section-title.active{
+    background:#CBCBCA;
+    text-decoration:none;
+    border:1px solid #1a1a1a;
 }
 
 .accordion-section:last-child .accordion-section-title {
@@ -511,8 +517,14 @@ blockquote p[data-type="attribution"] {
 }
 
 .accordion-section-content.open{
-    padding:15px;
     display:block;
+    padding:15px;
+    border-bottom:1px solid #1a1a1a;
+    border-left:1px solid #1a1a1a;
+    border-right:1px solid #1a1a1a;
+    margin-bottom:5px;
+    max-height: 700px;
+    overflow: auto;
 }
 
 
