@@ -488,7 +488,7 @@ blockquote p[data-type="attribution"] {
     padding:15px;
     display:inline-block;
     border-bottom:5px solid #1a1a1a;
-    margin-bottom:1px;
+    margin-bottom:5px;
     background:#EBEBEA;
     transition:all linear 0.15s;
     font-size:1.000em;
@@ -504,11 +504,14 @@ blockquote p[data-type="attribution"] {
 .accordion-section-title.active{
     background:#CBCBCA;
     text-decoration:none;
-    border:1px solid #1a1a1a;
+}
+
+.accordion-section-title.active h3 {
+	border-left: 4px solid #FFFF33;
 }
 
 .accordion-section:last-child .accordion-section-title {
-    border-bottom:1px solid #1a1a1a;
+    border-bottom:0px solid #1a1a1a;
 }
 
 .accordion-section-content {
@@ -519,12 +522,7 @@ blockquote p[data-type="attribution"] {
 .accordion-section-content.open{
     display:block;
     padding:15px;
-    border-bottom:1px solid #1a1a1a;
-    border-left:1px solid #1a1a1a;
-    border-right:1px solid #1a1a1a;
     margin-bottom:5px;
-    max-height: 700px;
-    overflow: auto;
 }
 
 
