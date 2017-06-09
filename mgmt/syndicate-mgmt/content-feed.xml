@@ -187,6 +187,19 @@
             <creativeCommons:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</creativeCommons:license>
         </item>
 
+	<item>
+            <title>Policy - Unique ID</title>
+            <link>https://cosmobird.github.io/content/category/</link>
+            <guid>https://cosmobird.github.io/content/category/</guid>
+            <category>Activism - Policy - Identification</category>
+            <description>
+                In the age of ICT, evolving democracy people must be aware about technological determinism & its adverse implications
+            </description>
+            <author>Cosmobird Ganesh</author>
+            <pubDate>Fri, 209 June 2017 04:00:00 GMT</pubDate>
+            <creativeCommons:license>https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode</creativeCommons:license>
+        </item>
+
     </channel>
 
 </rss>
