@@ -11,3 +11,8 @@ FOR INCLUDING SEARCH:
 		</div>
 	<!-- search -->
 
+
+.tabs-style-topline nav li.tab-current a:hover {
+	transition: all .4s cubic-bezier(0.4,0,0.2,1);
+	text-shadow: -2.12132px 2.12132px 0 #3f3f3f,-4.24264px 4.24264px 0 #404040,-6.36396px 6.36396px 0 #414141,-8.48528px 8.48528px 0 #424242,-10.6066px 10.6066px 0 #434343,-12.72792px 12.72792px 0 #444,-14.84924px 14.84924px 0 #454545,-16.97056px 16.97056px 0 #464646,-19.09188px 19.09188px 0 #474747,-21.2132px 21.2132px 0 #484848;
+}

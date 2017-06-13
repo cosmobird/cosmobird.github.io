@@ -678,8 +678,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7071068"
-     inkscape:cx="2994.9499"
-     inkscape:cy="-78.844826"
+     inkscape:cx="1650.6128"
+     inkscape:cy="36.997524"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -687,7 +687,7 @@
      inkscape:window-height="768"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:showpageshadow="false"
@@ -3009,7 +3009,7 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:4.619874px;line-height:2.16556597px;font-family:'PT Sans Narrow';-inkscape-font-specification:'PT Sans Narrow Condensed';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.43311319"
              y="75.292252"
              x="731.25287"
-             sodipodi:role="line">Cebtrak UID DB</tspan></text>
+             sodipodi:role="line">Central UID DB</tspan></text>
       </g>
       <g
          transform="translate(-293.5313,-27.710231)"
