@@ -335,16 +335,17 @@ section {
 	max-height: 240px; /*(default height used by videojs 320 by 240)*/
 	width: 100%;
 	min-width: 640px;
-	margin: 1em auto;
+	margin: 2em 1em;
 	border: 2px solid #444444;
 	background-color: #fdfdf8;
 }
 
 .points-for-video:hover{
+	transition: all .4s cubic-bezier(0.4,0,0.2,1);
 	max-height: 500px; /*(height while hovering)*/
 	width: 100%;
 	min-width: 640px;
-	margin: 1em auto;
+	margin: 2em 1em;
 	border: 2px solid #444444;
 	background-color: #fdfdf8;
 }
@@ -546,3 +547,11 @@ blockquote p[data-type="attribution"] {
 	max-width: 950%;
 	text-align: justify;
 }
+
+@media (max-width: 640px) {
+	.points-for-video{
+		display: none;
+	}
+}
+
+
