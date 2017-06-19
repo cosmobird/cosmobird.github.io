@@ -446,16 +446,16 @@ blockquote {
 }
 
 blockquote p {
-    text-indent: 0;
-    font-family: "source_sans_proitalic", sans-serif;
+	text-indent: 0;
+	font-family: "source_sans_proitalic", sans-serif;
 }
 
 blockquote p[data-type="attribution"] {
-    text-align: right;
-    font-size: 0.95em;
-    margin-top: 1em;
-    margin-bottom: 0;
-    font-weight: bold;
+	text-align: right;
+	font-size: 0.95em;
+	margin-top: 1em;
+	margin-bottom: 0;
+	font-weight: bold;
 }
 
 /*TIMELINE*/
@@ -472,59 +472,60 @@ blockquote p[data-type="attribution"] {
 
 /*ACCORDION*/
 .accordion, .accordion * {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
 }
 
 .accordion {
-    margin: 1em 0em 3em 0em;
-    overflow:hidden;
-    border-radius:3px;
-    background:#FDFDF8;
+	margin: 1em 0em 3em 0em;
+	overflow:hidden;
+	border-radius:3px;
+	background:#FDFDF8;
 }
 
 .accordion-section-title {
-    width:100%;
-    padding:15px;
-    display:inline-block;
-    border-bottom:5px solid #1a1a1a;
-    margin-bottom:5px;
-    background:#EBEBEA;
-    transition:all linear 0.15s;
-    font-size:1.000em;
-    color:#fff;
+	width:100%;
+	padding:15px;
+	display:inline-block;
+	border-bottom:5px solid #1a1a1a;
+	margin-bottom:5px;
+	background:#EBEBEA;
+	transition:all linear 0.15s;
+	font-size:1.000em;
+	color:#fff;
 }
 
 .accordion-section-title:hover {
-    background:#CBCBCA;
-    box-shadow:1px 1px 0px 1px rgba(0,0,0,0.50);
-    text-decoration:none;
+	background:#CBCBCA;
+	box-shadow:1px 1px 0px 1px rgba(0,0,0,0.50);
+	text-decoration:none;
 }
 
-.accordion-section-title.active{
-    background:#CBCBCA;
-    text-decoration:none;
+.accordion-section-title.active {
+	background:#CBCBCA;
+	text-decoration:none;
 }
 
 .accordion-section-title.active h3 {
+	transition: all .4s cubic-bezier(0.4,0,0.2,1);
 	border-left: 4px solid #FFFF33;
 }
 
 .accordion-section:last-child .accordion-section-title {
-    border-bottom:0px solid #1a1a1a;
+	border-bottom:0px solid #1a1a1a;
 }
 
 .accordion-section-content {
-    padding:15px;
-    display:none;
+	padding:15px;
+	display:none;
 }
 
-.accordion-section-content.open{
-    display:block;
-    padding:15px;
-    margin-bottom:5px;
-    overflow-x:auto;
+.accordion-section-content.open {
+	display:block;
+	padding:15px;
+	margin-bottom:5px;
+	overflow-x:auto;
 }
 
 
