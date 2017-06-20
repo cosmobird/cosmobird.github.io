@@ -1,3 +1,10 @@
+@font-face {
+	font-family: "pt_sans_narrow-regular";
+	font-weight: normal;
+	font-style: normal;
+	src:url("../../assets/fonts/ptsansnarrow/PT_Sans-Narrow-Regular.ttf") format("truetype");
+}
+
 /*GRID CAPTIONS IN PAGE*/
 .grid {
 	padding: 10px 10px 10px 10px;
@@ -47,6 +54,19 @@
 	background: #2c3f52;
 	color: #ffffff;
 	text-align: center;
+}
+
+.grid .book-caption{
+	font-family: pt_sans_narrow-regular;
+	font-size: 1em;
+	position: relative;
+	display: inline-block;
+	margin: 7px auto 7px auto;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 
