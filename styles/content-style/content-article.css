@@ -340,6 +340,10 @@ section {
 	margin-right: auto;
 }
 
+.substitue-for-points{
+	display: none;
+}
+
 .points-for-video{
 	max-height: 240px; /*(default height used by videojs 320 by 240)*/
 	width: 100%;
@@ -561,6 +565,10 @@ blockquote p[data-type="attribution"] {
 @media (max-width: 1310px) {
 	.points-for-video{
 		display: none;
+	}
+
+	.substitue-for-points{
+		display: block;
 	}
 }
 
