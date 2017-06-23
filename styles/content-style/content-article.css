@@ -376,6 +376,7 @@ section {
 }
 
 .points-for-video ol:hover{
+	transition: all .4s cubic-bezier(0.4,0,0.2,1);
 	max-height: 440px; /*(some px reduced for avoiding border overlap at a height of 450px)*/
 	width: 100%;
 	overflow: auto;
@@ -557,7 +558,7 @@ blockquote p[data-type="attribution"] {
 	text-align: justify;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1310px) {
 	.points-for-video{
 		display: none;
 	}
