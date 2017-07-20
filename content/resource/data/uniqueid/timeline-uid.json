@@ -323,8 +323,39 @@
           "headline": "Never, ever give up",
           "text": "<p> The Supreme Court heard the challenge of mandatory linking of Aadhaat to PAN in the cases of Binoy Viswam v. Union of India (W.P.(C)247/2017), S.G. Vombatkere & Anr. v. Union of India (W.P.(C) 277/2017). </p>"
         }
-      }
+      },
 
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid/supreme-court-india.jpg",
+          "caption": "<a href='../../../../content/resource/reports/uniqueid/Five-Judge-Consitution-July 2017.pdf'>Order for referring to Nine-judge bench.</a> Read Hearing documentation <a href='http://sflc.in/five-judge-constitution-bench-of-sc-refers-question-of-right-to-privacy-to-nine-judge-bench/'>here</a>"
+        },
+        "start_date": {
+          "day": "18",
+          "month": "07",
+          "year": "2017"
+        },
+        "text": {
+          "headline": "Five-judge & Aadhaar",
+          "text": "<p> Five-judge Constitution Bench of the Supreme Court formed by CJI, heard the batch of 22 petitions led by Justice K.S. Puttaswamy & Ors. v. Union of India & Ors., which challenge various aspects of the Aadhaar scheme. </p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid/supreme-court-india.jpg",
+          "caption": "Read Hearing documentation <a href='http://sflc.in/nine-judge-constitution-bench-of-sc-hears-arguments-on-right-to-privacy/'>here</a>"
+        },
+        "start_date": {
+          "day": "19",
+          "month": "07",
+          "year": "2017"
+        },
+        "text": {
+          "headline": "Nine-judge & Right to Privacy",
+          "text": "<p> A nine-judge Constitution Bench of the Supreme Court, heard arguments today on whether Indian citizens enjoy a fundamental right to privacy. </p>"
+        }
+      }
 
     ]
 }
