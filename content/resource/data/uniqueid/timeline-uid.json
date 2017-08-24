@@ -345,7 +345,7 @@
       {
         "media": {
           "url": "../../../../content/resource/pictures/uniqueid/supreme-court-india.jpg",
-          "caption": "Read Hearing documentation of : <a href='http://sflc.in/nine-judge-constitution-bench-of-sc-hears-arguments-on-right-to-privacy/'>day 1</a>, <a href='http://sflc.in/nine-judge-constitution-bench-of-supreme-court-hears-arguments-on-right-to-privacy-updates-from-day-2/'>day 2</a>, <a href='http://sflc.in/nine-judge-constitution-bench-of-the-supreme-court-hears-arguments-on-right-to-privacy-updates-from-day-3/'>day 3</a>, <a href='http://sflc.in/nine-judge-constitution-bench-of-supreme-court-hears-arguments-on-right-to-privacy-updates-from-day-4/'>day 4</a>, <a href='http://sflc.in/nine-judge-constitution-bench-of-supreme-court-hears-arguments-on-right-to-privacy-updates-from-day-5/'>day 5</a>"
+          "caption": "Read Hearing documentation of :<a href='http://sflc.in/nine-judge-constitution-bench-of-sc-hears-arguments-on-right-to-privacy/'>day 1</a>, <a href='http://sflc.in/nine-judge-constitution-bench-of-supreme-court-hears-arguments-on-right-to-privacy-updates-from-day-2/'>day 2</a>, <a href='http://sflc.in/nine-judge-constitution-bench-of-the-supreme-court-hears-arguments-on-right-to-privacy-updates-from-day-3/'>day 3</a>, <a href='http://sflc.in/nine-judge-constitution-bench-of-supreme-court-hears-arguments-on-right-to-privacy-updates-from-day-4/'>day 4</a>, <a href='http://sflc.in/nine-judge-constitution-bench-of-supreme-court-hears-arguments-on-right-to-privacy-updates-from-day-5/'>day 5</a>"
         },
         "start_date": {
           "day": "19",
@@ -360,6 +360,22 @@
         "text": {
           "headline": "Nine-judge & Right to Privacy",
           "text": "<p> A nine-judge Constitution Bench of the Supreme Court, heard arguments today on whether Indian citizens enjoy a fundamental right to privacy. </p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid/supreme-court-india.jpg",
+          "caption": "<a href='http://sflc.in/supreme-court-upholds-right-to-privacy-as-a-fundamental-right/'>Read Hearing documentation</a>, <a href='http://sflc.in/wp-content/uploads/2017/08/ALL-WPC-No.494-of-2012-Right-to-Privacy.pdf'>Judgement text</a>"
+        },
+        "start_date": {
+          "day": "24",
+          "month": "08",
+          "year": "2017"
+        },
+        "text": {
+          "headline": "Right to Privacy is Fundamental",
+          "text": "<p> The nine-judge Constitution bench, held in a unanimous decision that Right to Privacy is protected as an intrinsic part of Right to Life and Personal Liberty under Article 21 of the Constitution and other freedoms guaranteed under Part III of the Constitution. </p>"
         }
       }
 
