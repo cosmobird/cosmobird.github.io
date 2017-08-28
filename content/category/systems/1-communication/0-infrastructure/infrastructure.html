@@ -18,10 +18,14 @@
     <!-- STYLE STHEETS -->
     <link rel="stylesheet" type="text/css" href="../../../../../styles/content-style/content-article.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../styles/content-style/content-table.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../styles/tabs/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../styles/tabs/tabstyles.css" />
 
     <link rel="stylesheet" type="text/css" href="../../../../../styles/multimedia/video-js.css" />
 
     <!-- SCRIPTS -->
+    <script type="text/javascript" src="../../../../../scripts/generalizers/modernizr.custom_tabs.js"></script>
+    <script type="text/javascript" src="../../../../../scripts/frontend-functionality/cbpFWTabs.js"></script>
     <script type="text/javascript" src="../../../../../scripts/analytics/analytics.js"></script>
 
 </head>
@@ -145,8 +149,11 @@
   	  	  	  <li>Services tied with it cannot abruptly modify its design without affecting users</li>
   	  	  	</ul>
   	  	</p>
+	</div>
 
-  	  	<h3><b>A bit of History :</b> COMMONS <b>+</b> COMMUNICATIONS & INTERNET obviously <b>:)</b></h3>
+	<!-- A LITTLE HISTORY -->
+  	<div class="chapter-header"><span>A BIT OF HISTORY</span></div>
+  	<div class="content">
   	  	<p>
 			Every innovation and change in the realm of communciation and communication networks were mostly contributed by the
   	  	  	commons. Furthermore, commons are the information generators and the information aggreagators, information absorbers,
@@ -242,7 +249,7 @@
 
   	  	<figure>
   	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/demonstration-internet.png" alt="demonstration & internet">
-  	  	  	<figcaption>fig.1. Critical pressure on establishment is now possible through open critic & humour</figcaption>
+  	  	  	<figcaption>Critical pressure on establishment is now possible through open critic & humour</figcaption>
   	  	</figure>
 
   	  	<p>
@@ -254,282 +261,311 @@
   	  	  	pressure) to meet what the people need with critical deliberation.
   	  	</p>
 
-  	  	<h3>A STORY FOR YOU <b>:)</b></h3>
-  	  	<p>
-  	  	  	Epiphany striked for DAS, who studies social engineering and have decided to start a social networking company in
-  	  	  	India, where anybody can join and do the similar stuff all other current day centralized social networks offer. It is
-  	  	  	not a new idea, but its tailor made cool UI and features specific for students, artists, researchers, homemakers,
-  	  	  	elders, ... were added in order to spend more time in it. DAS knows that such a system requires loooooooot of data
-  	  	  	and it cannot be demanded, he has to streamline his internal action plan as follows :
+  	</div>
 
-  	  	  	<ol>
-  	  	  	  <li><b>Bootstrap:</b>
-  	  	  	    <ol>
-  	  	  		  <li>Find a rich & dumb funder</li>
-	  	  	  	  <li>Create a gorgeous website</li>
-	  	  	  	  <li>Popularize it with early adopters</li>
-  	  	  	    </ol>
-  	  	  	  </li>
-  	  	  	  <li><b>Gain Social momentum:</b>
-  	  	  	    <ol>
-	  	  	  	  <li>Provide freebies to attract more</li>
-	  	  	  	  <li>Track the number of user registration</li>
-  	  	  	    </ol>
-  	  	  	  </li>
-  	  	  	  <li><b>Scale along:</b>
-  	  	  	    <ol>
-  	  	  	  	<li>Migrate to techology stack</li>
-  	  	  	  	<li>Log users information [ more information <b>→</b> better service ]
-  	  	  	  	<li>Provide better security for servers</li>
-  	  	  	  	</li>
-  	  		    </ol>
-  	  	  	  </li>
-  	  	  	  <li><b>Learn & Capitalize:</b></li>
-  	  	  	    <ol>
-  	  	  	      	  <li>Analyze, and learn from information</li>
-  	  	  	      	  <li>Extract connections</li>
-  	  	  	      	  <li>Provide better targeted service</li>
-  	  	  	      	  <li>Gain social capital</li>
-  	  	  	      	  <li>Transform gain to financial & economic capital</li>
-  	  	  	    </ol>
-  	  	  	</ol>
-  	  	</p>
+	<!-- A LITTLE HISTORY -->
+  	<div class="chapter-header"><span>LET'S TRY & UNDERSTAND</span></div>
 
-  	  	<figure>
-  	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/story.png" alt="DAS's story">
-  	  	  	<figcaption>fig.2. DAS's plan </figcaption>
-  	  	</figure>
+  	<section>
+		<div class="tabs tabs-style-topline">
+			<nav>
+				<ul>
+				  	<li><a href="#section-topline-1"><span>A STORY</span></a></li>
+				  	<li><a href="#section-topline-2"><span>THE PROBLEM</span></a></li>
+					<li><a href="#section-topline-3"><span>DEEP DIVE</span></a></li>
+					<li><a href="#section-topline-4"><span>WHO OWNS ?</span></a></li>
+				</ul>
+			</nav>
 
-  	  	<p>
-  	  	  	DAS decides to practice/emulate this action plan to observe how it might go even with a smaller/feeble user
-  	  	  	base. One fine day in his hostel dormitory, decided to test this, using his own laptop, local network as the
-  	  	  	initial resource. He convinced his friends to join the network. Everything is free of cost. His service coverage
-  	  	  	reached his department students within few days, and people started to converse through the service, which
-  	  	  	rapidly gained momentum and made the resources halt because of their technical limitations.
-  	  	</p>
+			<div class="content">
 
-  	  	<p>
-  	  	  	DAS decides to convince some of his geeky friends in all other departments, to share the service instance, so
-  	  	  	that the load can now be distributed. After a week or so, the influx of students, professors, and others
-  	  	  	access for the service seems to be overwhelming. Now, DAS raises the demand to fund him, in order to scale up
-  	  	  	the service. People who find it most attractive become the initial funders, and with that he could run the
-  	  	  	service better with better hardware stack, for instance more storage and memory.
-  	  	</p>
+				<!-- A STORY -->
+				<section id="section-topline-1">
+					<p>
+			  	  	  	Epiphany striked for DAS, who studies social engineering and have decided to start a social networking company in
+			  	  	  	India, where anybody can join and do the similar stuff all other current day centralized social networks offer. It is
+			  	  	  	not a new idea, but its tailor made cool UI and features specific for students, artists, researchers, homemakers,
+			  	  	  	elders, ... were added in order to spend more time in it. DAS knows that such a system requires loooooooot of data
+			  	  	  	and it cannot be demanded, he has to streamline his internal action plan as follows :
 
-  	  	<p>
-  	  	  	The no. of users seems not to stop, and nowhere drops. With increase in the rate of registration - filled by
-  	  	  	new incoming students to the university and substantial no. of users after finishing their degrees are still
-  	  	  	connected. This pushes DAS to further increase the capacity by demanding more capital funding to raise the
-  	  	  	resource by orders of magnitude.
-  	  	</p>
+			  	  	  	<ol>
+			  	  	  	  <li><b>Bootstrap:</b>
+			  	  	  	    <ol>
+			  	  	  		  <li>Find a rich & dumb funder</li>
+				  	  	  	  <li>Create a gorgeous website</li>
+				  	  	  	  <li>Popularize it with early adopters</li>
+			  	  	  	    </ol>
+			  	  	  	  </li>
+			  	  	  	  <li><b>Gain Social momentum:</b>
+			  	  	  	    <ol>
+				  	  	  	  <li>Provide freebies to attract more</li>
+				  	  	  	  <li>Track the number of user registration</li>
+			  	  	  	    </ol>
+			  	  	  	  </li>
+			  	  	  	  <li><b>Scale along:</b>
+			  	  	  	    <ol>
+			  	  	  	  	<li>Migrate to techology stack</li>
+			  	  	  	  	<li>Log users information [ more information <b>→</b> better service ]
+			  	  	  	  	<li>Provide better security for servers</li>
+			  	  	  	  	</li>
+			  	  		    </ol>
+			  	  	  	  </li>
+			  	  	  	  <li><b>Learn & Capitalize:</b></li>
+			  	  	  	    <ol>
+			  	  	  	      	  <li>Analyze, and learn from information</li>
+			  	  	  	      	  <li>Extract connections</li>
+			  	  	  	      	  <li>Provide better targeted service</li>
+			  	  	  	      	  <li>Gain social capital</li>
+			  	  	  	      	  <li>Transform gain to financial & economic capital</li>
+			  	  	  	    </ol>
+			  	  	  	</ol>
+			  	  	</p>
 
-  	  	<p>
-  	  	  	<ul>
-  	  	  	  <li><b>→ Revelation 1:</b>
-  	  	  	    <p>
-  	  	  	    	Here the problem simply seems to reduce to : <br>
-  	  	  		[ better scalablity <b>→</b> (with) <b>→</b> powerful tech. resource <b>→</b> (comes) <b>→</b> more cost ].
-				<br>
-				<br>
-  	  	  		DAS soon realized that there is a potential loooooopy going on here and its pattern can be deduced earlier
-  	  	  		and thus can be solved by projecting the trajectory making the service virtually endless, with constant
-  	  	  		update of technological resources & technology itself that suits centralized services.
-  	  	  	    </p>
-  	  	  	  </li>
-  	  	  	  <li><b>→ Revelation 2:</b>
-  	  	  	    <p>
-				Logging meta information of service, as well as users will help improve the service for better & moreover
-  	  	  	      	projects the service as some form of endless resource to the user - that can potentially drive them to
-  	  	  	      	log their personal datas, files, resources for better reliability and backup. Furthermore, some users
-  	  	  	      	might use the resources provided by the service as the facilitator for his/her requirement. Thus, providing
-  	  	  	      	reliable service or abstracting by simulating reliability by obscuring hard and dirty jobs behind the user
-  	  	  	      	interface of the service will tie them to the service.
-  	  	  	    </p>
+			  	  	<figure>
+			  	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/story.png" alt="DAS's story">
+			  	  	  	<figcaption>DAS's plan </figcaption>
+			  	  	</figure>
 
-  	  	  	    <p>
-  	  	  	      	This mechanism, always increases the <b>social capital capacity</b> influx & the mechanism is only regulated by the
-  	  	  	      	policy guidelines which itself could be changed at any point of time as the owner - DAS sees it fit !
-  	  	  	    </p>
-  	  	  	  </li>
-  	  	  	  <li><b>→ Revelation 3:</b>
-  	  	  	    <p>
-  	  	  	    	When a conflict occurs between the users or between the user and the authority whom DAS has signed a contract/
-  	  	  	      	agreement, that abides the constitution and governance of the university, the final decision and action completely
-  	  	  	      	depends upon the DAS's discretion. Whooooooooooa ! complete control. Why ? with so much social capital derived
-  	  	  	      	from the users through complete psychological dependency, any authority would not even try to restrict the growth
-  	  	  	      	of the service. Furthermore, when the service is completely run by the capital invested by the users, DAS, would
-  	  	  	      	have to just go check the policy, which everybody agreed and take so and so action ! <b>remember:</b> the policy
-  	  	  	      	itself, can be changed with time as per owner/investors/funders wish.
-  	  	  	    </p>
-  	  	  	  </li>
-  	  	  	</ul>
-  	  	</p>
+			  	  	<p>
+			  	  	  	DAS decides to practice/emulate this action plan to observe how it might go even with a smaller/feeble user
+			  	  	  	base. One fine day in his hostel dormitory, decided to test this, using his own laptop, local network as the
+			  	  	  	initial resource. He convinced his friends to join the network. Everything is free of cost. His service coverage
+			  	  	  	reached his department students within few days, and people started to converse through the service, which
+			  	  	  	rapidly gained momentum and made the resources halt because of their technical limitations.
+			  	  	</p>
 
-  	  	<h3>WHAT'S THE PROBLEM ?</h3>
-  	  	<p>
-  	  	  	Eventhough internet, has emerged out of commons contribution, the very nature of it has not provided mechanisms to restrict
-  	  	  	the influx of systems, infrastructures & services that are already flawed in the real world. In fact, they are the ones that
-  	  	  	inspired people to think alternatively and create internet in the first place. With such diverse mix, internet was at some
-  	  	  	point of time has been recognized as potential space for business and commerce apart from free souls, hipsters, hackers
-  	  	  	wandering around writing and hosting their websites, experimenting it with to learn networking, computing sciences. By this
-  	  	  	time still penetration of internet is not much deeper than it is today. With more and more percolation, accelerated by the
-  	  	  	academic research, and business spaces, world wide web has become a real space for gaining social capital that really
-  	  	  	engaged online business systems. This has made internet very popular and allowed several governments to embrace internet, to
-  	  	  	provide the necessary fundamental infrastructure to their countries.
-  	  	</p>
+			  	  	<p>
+			  	  	  	DAS decides to convince some of his geeky friends in all other departments, to share the service instance, so
+			  	  	  	that the load can now be distributed. After a week or so, the influx of students, professors, and others
+			  	  	  	access for the service seems to be overwhelming. Now, DAS raises the demand to fund him, in order to scale up
+			  	  	  	the service. People who find it most attractive become the initial funders, and with that he could run the
+			  	  	  	service better with better hardware stack, for instance more storage and memory.
+			  	  	</p>
 
-  	  	<p>
-  	  	  	With ever growing social base, Web, became the fertile ground for centralized ecosystems to enable the users of internet with
-  	  	  	information services, with which data/information became the new commodity for e-commerce & e-business systems. This continues
-  	  	  	still today ! Even we commons find that collaboration seems to much easier when it happens in a commonly addressable location.
-  	  	  	Yeah !. Today almost all human collaboration projects are mostly central in functionality if not in topology and architecture.
-  	  	</p>
+			  	  	<p>
+			  	  	  	The no. of users seems not to stop, and nowhere drops. With increase in the rate of registration - filled by
+			  	  	  	new incoming students to the university and substantial no. of users after finishing their degrees are still
+			  	  	  	connected. This pushes DAS to further increase the capacity by demanding more capital funding to raise the
+			  	  	  	resource by orders of magnitude.
+			  	  	</p>
 
-  	  	<p>
-  	  	  	There are two problems i see, to be potentially addressed :
+			  	  	<p>
+			  	  	  	<ul>
+			  	  	  	  <li><b>→ Revelation 1:</b> Here the problem simply seems to reduce to :
+			  	  	  	    <p style="text-align:center; font-size:large;">
+			  	  	  		[ better scalablity <b>→</b> (with) <b>→</b> powerful tech. resource <b>→</b> (comes) <b>→</b> more cost ].
+			  	  	  	    </p>
 
-  	  	  	<ul>
-  	  	  	  <li>Lack of experimentation by commons over the infrastructure</li>
-  	  	  	  <li>Lack of clarity in understanding Centralization & Hierarchy</li>
-  	  	  	</ul>
-  	  	</p>
+			  	  	  	    <p>
+			  	  	  		DAS soon realized that there is a potential loooooopy going on here and its pattern can be deduced earlier
+			  	  	  		and thus can be solved by projecting the trajectory making the service virtually endless, with constant
+			  	  	  		update of technological resources & technology itself that suits centralized services.
+			  	  	  	    </p>
+			  	  	  	  </li>
+			  	  	  	  <li><b>→ Revelation 2:</b>
+			  	  	  	    <p>
+							Logging meta information of service, as well as users will help improve the service for better & moreover
+			  	  	  	      	projects the service as some form of endless resource to the user - that can potentially drive them to
+			  	  	  	      	log their personal datas, files, resources for better reliability and backup. Furthermore, some users
+			  	  	  	      	might use the resources provided by the service as the facilitator for his/her requirement. Thus, providing
+			  	  	  	      	reliable service or abstracting by simulating reliability by obscuring hard and dirty jobs behind the user
+			  	  	  	      	interface of the service will tie them to the service.
+			  	  	  	    </p>
 
-  	  	<p>
-  	  	  	With almost all real world services, which can be represented using information have been now mobilized towards web based
-  	  	  	technology that runs over internet using centralized infrasturctures that connect to the underlying physical topology of the
-  	  	  	internet itself. Furthermore, Initial technical challenges has led topology of internet to be hierarchical and establish
-  	  	  	them through cables (still most % of internet is still based on guided medium). Thus the above listed two problems can be
-  	  	  	seen as a emergent situation based of the following:
+			  	  	  	    <p>
+			  	  	  	      	This mechanism, always increases the <b>social capital capacity</b> influx & the mechanism is only regulated by the
+			  	  	  	      	policy guidelines which itself could be changed at any point of time as the owner - DAS sees it fit !
+			  	  	  	    </p>
+			  	  	  	  </li>
+			  	  	  	  <li><b>→ Revelation 3:</b>
+			  	  	  	    <p>
+			  	  	  	    	When a conflict occurs between the users or between the user and the authority whom DAS has signed a contract/
+			  	  	  	      	agreement, that abides the constitution and governance of the university, the final decision and action completely
+			  	  	  	      	depends upon the DAS's discretion. Whooooooooooa ! complete control. Why ? with so much social capital derived
+			  	  	  	      	from the users through complete psychological dependency, any authority would not even try to restrict the growth
+			  	  	  	      	of the service. Furthermore, when the service is completely run by the capital invested by the users, DAS, would
+			  	  	  	      	have to just go check the policy, which everybody agreed and take so and so action ! <b>remember:</b> the policy
+			  	  	  	      	itself, can be changed with time as per owner/investors/funders wish.
+			  	  	  	    </p>
+			  	  	  	  </li>
+			  	  	  	</ul>
+			  	  	</p>
+			    	</section>
 
-  	  	  	<ul>
-  	  	  	  <li>Technological challenges in Physical networking</li>
-  	  	  	  <li>Huge belief in Centralized business models</li>
-  	  	  	</ul>
-  	  	</p>
+				<!-- THE PROBLEM -->
+			    	<section id="section-topline-2">
+				    	<p>
+			  	  	  	Eventhough internet, has emerged out of commons contribution, the very nature of it has not provided mechanisms to restrict
+			  	  	  	the influx of systems, infrastructures & services that are already flawed in the real world. In fact, they are the ones that
+			  	  	  	inspired people to think alternatively and create internet in the first place. With such diverse mix, internet was at some
+			  	  	  	point of time has been recognized as potential space for business and commerce apart from free souls, hipsters, hackers
+			  	  	  	wandering around writing and hosting their websites, experimenting it with to learn networking, computing sciences. By this
+			  	  	  	time still penetration of internet is not much deeper than it is today. With more and more percolation, accelerated by the
+			  	  	  	academic research, and business spaces, world wide web has become a real space for gaining social capital that really
+			  	  	  	engaged online business systems. This has made internet very popular and allowed several governments to embrace internet, to
+			  	  	  	provide the necessary fundamental infrastructure to their countries.
+			  	  	</p>
 
-  	  	<figure>
-  	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/problem-links-commns.png" alt="link problems and commons">
-  	  	  	<figcaption>fig.3. Problems that underlie the lack of understanding and experimentation</figcaption>
-  	  	</figure>
+			  	  	<p>
+			  	  	  	With ever growing social base, Web, became the fertile ground for centralized ecosystems to enable the users of internet with
+			  	  	  	information services, with which data/information became the new commodity for e-commerce & e-business systems. This continues
+			  	  	  	still today ! Even we commons find that collaboration seems to much easier when it happens in a commonly addressable location.
+			  	  	  	Yeah !. Today almost all human collaboration projects are mostly central in functionality if not in topology and architecture.
+			  	  	</p>
 
-  	  	<h3>DIVE DEEP !</h3>
-  	  	<p>
-  	  	  	To understand how centralization and hierarchy usage does deeply affect the commons thought process, one has to understand
-  	  	  	both its advantages and limitations. The current internet structure is lot skewed from its intended trajectory. But the
-  	  	  	current structure also teaches us how not a network be synthesized. In other words, internet is filled with synthesized
-  	  	  	fabric, instead of symbiotic emergent topologies. The establishment of e-business, e-commerce, online payment & banking
-  	  	  	systems have reinforced the significance of centralization and hierarchy and has already reached people more than ever along
-  	  	  	with internet.
+			  	  	<p>
+			  	  	  	There are two problems i see, to be potentially addressed :
 
-	  	  	<ul>
-	  	  	  <li><b>→ Centralization:</b>
-	  	  	    <p>
-	  	  	      	It is the effect that we experience through the services and problems we face with it. Centralization in
-	  	  	      	topology is so popular because of its control ability that allows administration and management tasks to be completed
-	  	  	      	with ease. The problem is internet as envisoned by the commons is actually against licensing, administration and so on...
-	  	  	      	With centralization, addressing & regulation becomes easier which made the services built with it under a single point
-	  	  	      	of administration.
-	  	  	    </p>
-	  	  	    <p>
-	  	  	      	However, presently, most of the services once popular undergo a series of decentralization process - but only in
-	  	  	      	functionality. This does not make the whole infrastructure decentralized or federated. No control is provided to the
-	  	  	      	user. Still the same <b>Server & Client</b> communication is handled. All that the current structure does is to shift
-	  	  	      	their servers to locations to improve localized service, redundancy, backup strength, better service rechability etc...
-	  	  	    </p>
-	  	  	  </li>
-	  	  	  <li><b>→ Hierarchy:</b>
-	  	  	    <p>
-				Hierarchy is a fundamental mathematical structure that helped us to organize information and memory. It is so basic
-	  	  	      	that without such interpretation of classification & grouping of information, knowledge organization would become
-	  	  	      	so hard to manage. Usually centralized architectures, and thus the infrastructures following it use the hierarchical
-	  	  	      	management strategy, because of its efficiency. When the services becomes large <b>scalability</b> is a vital issue
-	  	  	      	which is so far solved with hierarchy and centralization.
-	  	  	    </p>
-	  	  	  </li>
-	  	  	</ul>
-  	  	</p>
+			  	  	  	<ul>
+			  	  	  	  <li>Lack of experimentation by commons over the infrastructure</li>
+			  	  	  	  <li>Lack of clarity in understanding Centralization & Hierarchy</li>
+			  	  	  	</ul>
+			  	  	</p>
 
-  	  	<p>
-  	  	  	The draw backs are :
+			  	  	<p>
+			  	  	  	With almost all real world services, which can be represented using information have been now mobilized towards web based
+			  	  	  	technology that runs over internet using centralized infrasturctures that connect to the underlying physical topology of the
+			  	  	  	internet itself. Furthermore, Initial technical challenges has led topology of internet to be hierarchical and establish
+			  	  	  	them through cables (still most % of internet is still based on guided medium). Thus the above listed two problems can be
+			  	  	  	seen as a emergent situation based of the following:
 
-  	  	  	<ul>
-  	  	  	  <li>Central point of failure</li>
-  	  	  	  <li>Circumvents, grassroots independency</li>
-  	  	  	  <li>Usually non-transparent in its operation</li>
-  	  	  	  <li>Causes power & responsibility asymmetry</li>
-  	  	  	  <li>Produces unnecessary accountability loads</li>
-  	  	  	  <li>Economy is reduced to trickled down fashion</li>
-  	  	  	  <li>Cost involved to erect and maintain is so large</li>
-  	  	  	  <li>Surplus of resources are used as marketing parameter</li>
-  	  	  	  <li>User potentially seen as the data acquisition instrument</li>
-  	  	  	  <li>Usually competition oriented instead of cooperation oriented</li>
-  	  	  	  <li>Centralized policy changes might be different from initial settings</li>
-  	  	  	  <li>Always indefinetely demands more and more resources to provide scaling</li>
-  	  	  	  <li>Creates a isolation between user and service - compromising transparency</li>
-  	  	  	  <li>With more centralization, power and responsibility is loaded to a central point</li>
-  	  	  	  <li>Prone to attack from crackers, as it represents honey pot of information density</li>
-  	  	  	  <li>Loops of information dependency, freebies, social density - hinders decision making</li>
-  	  	  	  <li>Inability to check the mechanism of service even if the policy emphasizes transparency</li>
-  	  	  	</ul>
-  	  	</p>
+			  	  	  	<ul>
+			  	  	  	  <li>Technological challenges in Physical networking</li>
+			  	  	  	  <li>Huge <mark>belief</mark> in Centralized business models</li>
+			  	  	  	</ul>
+			  	  	</p>
 
-  	  	<blockquote>
-		  <b>power</b> <b>→</b> (demands) <b>→</b> <b>responsibility</b> <b>→</b> (demands) <b>→</b> <b>accountability</b>
-  	  	  <b>→</b> (demands) <b>→</b> <b>control</b> <br>
-		  thus, one can see the situation as : <b>{ power</b> <b>→</b> (demands) <b>→</b> <b>control }</b>
-		</blockquote>
+			  	  	<figure>
+			  	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/problem-links-commns.png" alt="link problems and commons">
+			  	  	  	<figcaption>Problems that underlie the lack of understanding and experimentation</figcaption>
+			  	  	</figure>
+			    	</section>
 
-  	  	<p>
-  	  	  	One can view the centralization and hierarchy in the light of the following parameters :
+				<!-- DEEP DIVE -->
+				<section id="section-topline-3">
+				    	<p>
+			  	  	  	To understand how centralization and hierarchy usage does deeply affect the commons thought process, one has to understand
+			  	  	  	both its advantages and limitations. The current internet structure is lot skewed from its intended trajectory. But the
+			  	  	  	current structure also teaches us how not a network be synthesized. In other words, internet is filled with synthesized
+			  	  	  	fabric, instead of symbiotic emergent topologies. The establishment of e-business, e-commerce, online payment & banking
+			  	  	  	systems have reinforced the significance of centralization and hierarchy and has already reached people more than ever along
+			  	  	  	with internet.
 
-  	  	  	<ul>
-  	  	  	  <li><h4>Architectural topology</h4>  &nbsp - &nbsp topology by design</li>
-  	  	  	  <li><h4>Network topology</h4> &nbsp - &nbsp topology by connections</li>
-  	  	  	  <li><h4>Functional topology</h4> &nbsp - &nbsp topology by operations, functions</li>
-  	  	  	  <li><h4>Informational topology</h4> &nbsp - &nbsp topology by information routing</li>
-  	  	  	</ul>
+				  	  	<ul>
+				  	  	  <li><b>→ Centralization:</b>
+				  	  	    <p>
+				  	  	      	It is the effect that we experience through the services and problems we face with it. Centralization in
+				  	  	      	topology is so popular because of its control ability that allows administration and management tasks to be completed
+				  	  	      	with ease. The problem is internet as envisoned by the commons is actually against licensing, administration and so on...
+				  	  	      	With centralization, addressing & regulation becomes easier which made the services built with it under a single point
+				  	  	      	of administration.
+				  	  	    </p>
+				  	  	    <p>
+				  	  	      	However, presently, most of the services once popular undergo a series of decentralization process - but only in
+				  	  	      	functionality. This does not make the whole infrastructure decentralized or federated. No control is provided to the
+				  	  	      	user. Still the same <b>Server & Client</b> communication is handled. All that the current structure does is to shift
+				  	  	      	their servers to locations to improve localized service, redundancy, backup strength, better service rechability etc...
+				  	  	    </p>
+				  	  	  </li>
+				  	  	  <li><b>→ Hierarchy:</b>
+				  	  	    <p>
+							Hierarchy is a fundamental mathematical structure that helped us to organize information and memory. It is so basic
+				  	  	      	that without such interpretation of classification & grouping of information, knowledge organization would become
+				  	  	      	so hard to manage. Usually centralized architectures, and thus the infrastructures following it use the hierarchical
+				  	  	      	management strategy, because of its efficiency. When the services becomes large <b>scalability</b> is a vital issue
+				  	  	      	which is so far solved with hierarchy and centralization.
+				  	  	    </p>
+				  	  	  </li>
+				  	  	</ul>
+			  	  	</p>
 
-  	  	  	Technical reconstruction of the infrastructure in one or two of these forms, never transforms the centralized power.
-  	  	</p>
+					<h3>Limitations & Drawbacks</h3>
+			  	  	<p>
+			  	  	  	<ul>
+			  	  	  	  <li>Central point of failure</li>
+			  	  	  	  <li>Circumvents, grassroots independency</li>
+			  	  	  	  <li>Usually non-transparent in its operation</li>
+			  	  	  	  <li>Causes power & responsibility asymmetry</li>
+			  	  	  	  <li>Produces unnecessary accountability loads</li>
+			  	  	  	  <li>Economy is reduced to trickled down fashion</li>
+			  	  	  	  <li>Cost involved to erect and maintain is so large</li>
+			  	  	  	  <li>Surplus of resources are used as marketing parameter</li>
+			  	  	  	  <li>User potentially seen as the data acquisition instrument</li>
+			  	  	  	  <li>Usually competition oriented instead of cooperation oriented</li>
+			  	  	  	  <li>Centralized policy changes might be different from initial settings</li>
+			  	  	  	  <li>Always indefinetely demands more and more resources to provide scaling</li>
+			  	  	  	  <li>Creates a isolation between user and service - compromising transparency</li>
+			  	  	  	  <li>With more centralization, power and responsibility is loaded to a central point</li>
+			  	  	  	  <li>Prone to attack from crackers, as it represents honey pot of information density</li>
+			  	  	  	  <li>Loops of information dependency, freebies, social density - hinders decision making</li>
+			  	  	  	  <li>Inability to check the mechanism of service even if the policy emphasizes transparency</li>
+			  	  	  	</ul>
+			  	  	</p>
 
-  	  	<h3>( PUBLIC FUNDED ) != ( COMMONS OWNED )</h3>
-  	  	<p>
-			In conventional governance, there are institutions which are centralized but are funded by the public where the
-  	  	  	institution is funded by the people through the governance structure (via legislature and bureaucracy). When
-  	  	  	the institution is answerable to the people, the channels of communication are laid by protocols and rules
-  	  	  	which actually does not fit todays expctation and often feel so dumb, even when there are proper reasons behind
-  	  	  	it. Here the infrastructures are governed by the state. Usually public funding happens through state funding and
-  	  	  	by taxes imposed on people, right ?
-  	  	</p>
+			  	  	<blockquote>
+					  <b>power</b> <b>→</b> (demands) <b>→</b> <b>responsibility</b> <b>→</b> (demands) <b>→</b> <b>accountability</b>
+			  	  	  <b>→</b> (demands) <b>→</b> <b>control</b> <br>
+					  thus, one can see the situation as : <b>{ power</b> <b>→</b> (demands) <b>→</b> <b>control }</b>
+					</blockquote>
 
-		<figure>
-  	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/public-funding.png" alt="public fund">
-  	  	  	<figcaption>fig.4. Who owns in "public funding", what participation does people have ?</figcaption>
-  	  	</figure>
+			  	  	<p>
+			  	  	  	One can view the centralization and hierarchy in the light of the following parameters :
 
-  	  	<p>
-  	  	  	With commons, the approach is more symbiotic, where the owner ship is not based on funding alone, but through
-  	  	  	cooperative and participatory actions like contribution, design, implementation, documentaiton & management in a
-  	  	  	collaborative way. This provides a common platform where nobody can own anything in particular apart from their part of
-  	  	  	their contribution. Thus the interdependency to implement something for practical usage demands collaboration,
-  	  	  	where <b>peer produced</b> ideas, products are brought together and collaboratively connected to setup a ecosystem,
-  	  	  	through which the economy emerges. However, this requires large social density to get started and the communities
-  	  	  	usually struggles until the participation reaches a <b>inflection point</b>. Most of the cultures seems to have used
-  	  	  	this approach as a reliable sustainable model. Economic ecosystems derived based on such cultures seems to self sustain
-  	  	  	than the current centralized models.
-  	  	</p>
+			  	  	  	<ul>
+			  	  	  	  <li><h4>Architectural topology</h4>  &nbsp - &nbsp topology by design</li>
+			  	  	  	  <li><h4>Network topology</h4> &nbsp - &nbsp topology by connections</li>
+			  	  	  	  <li><h4>Functional topology</h4> &nbsp - &nbsp topology by operations, functions</li>
+			  	  	  	  <li><h4>Informational topology</h4> &nbsp - &nbsp topology by information routing</li>
+			  	  	  	</ul>
+			  	  	</p>
 
-		<figure>
-  	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/commons-owned.png" alt="commons infrastructure">
-  	  	  	<figcaption>fig.5. Who participates, shares & owns commons-collaborative ecosystem ?</figcaption>
-  	  	</figure>
+			  	  	<p>
+			  	  		Technical reconstruction of the infrastructure in one or two of these forms, never transforms the centralized power.
+			  	  	</p>
+			    	</section>
 
-		<blockquote>
-		  <b>remember :</b> for every social & democratic uprise and action, communication is vital. If we let communication in the
-		  hands of a few, then we are literally handing over our freedom & liberty to a few, who have systems that can only churn profits
-		  and comfort out of it. If we do that, we are going to be the best ever slaves in the history !
-		</blockquote>
-	</div>
+				<!-- WHO OWNS -->
+				<section id="section-topline-4">
+				    	<p>
+						In conventional governance, there are institutions which are centralized but are funded by the public where the
+			  	  	  	institution is funded by the people through the governance structure (via legislature and bureaucracy). When
+			  	  	  	the institution is answerable to the people, the channels of communication are laid by protocols and rules
+			  	  	  	which actually does not fit todays expctation and often feel so dumb, even when there are proper reasons behind
+			  	  	  	it. Here the infrastructures are governed by the state. Usually public funding happens through state funding and
+			  	  	  	by taxes imposed on people, right ?
+			  	  	</p>
+
+					<figure>
+			  	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/public-funding.png" alt="public fund">
+			  	  	  	<figcaption>Who owns in "public funding", what participation does people have ?</figcaption>
+			  	  	</figure>
+
+			  	  	<p>
+			  	  	  	With commons, the approach is more symbiotic, where the owner ship is not based on funding alone, but through
+			  	  	  	cooperative and participatory actions like contribution, design, implementation, documentaiton & management in a
+			  	  	  	collaborative way. This provides a common platform where nobody can own anything in particular apart from their part of
+			  	  	  	their contribution. Thus the interdependency to implement something for practical usage demands collaboration,
+			  	  	  	where <b>peer produced</b> ideas, products are brought together and collaboratively connected to setup a ecosystem,
+			  	  	  	through which the economy emerges. However, this requires large social density to get started and the communities
+			  	  	  	usually struggles until the participation reaches a <b>inflection point</b>. Most of the cultures seems to have used
+			  	  	  	this approach as a reliable sustainable model. Economic ecosystems derived based on such cultures seems to self sustain
+			  	  	  	than the current centralized models.
+			  	  	</p>
+
+					<figure>
+			  	  	  	<img src="../../../../../content/resource/illustrations/comms-communication/commons-owned.png" alt="commons infrastructure">
+			  	  	  	<figcaption>Who participates, shares & owns commons-collaborative ecosystem ?</figcaption>
+			  	  	</figure>
+
+					<blockquote>
+					  <b>remember :</b> for every social & democratic uprise and action, communication is vital. If we let communication in the
+					  hands of a few, then we are literally handing over our freedom & liberty to a few, who have systems that can only churn profits
+					  and comfort out of it. If we do that, we are going to be the best ever slaves in the history !
+					</blockquote>
+			    	</section>
+			</div>
+		</div>
+	</section>
 
 	<div class="content-horizontal-separator">
 		<br></br>
@@ -594,5 +630,17 @@
 <!-- SCRIPTS -->
     <script type="text/javascript" src="../../../../../scripts/multimedia/video.js"></script>
     <script type="text/javascript" src="../../../../../scripts/multimedia/Youtube.js"></script>
+
+<!-- FOR TABBING -->
+	<script>
+		(function() {
+
+			[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+				new CBPFWTabs( el );
+			});
+
+		})();
+	</script>
+<!-- FOR TABBING /-->
 
 </html>
