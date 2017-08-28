@@ -19,8 +19,12 @@
     <!-- STYLE STHEETS -->
     <link rel="stylesheet" type="text/css" href="../../../../../styles/content-style/content-article.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../styles/content-style/content-table.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../styles/tabs/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../styles/tabs/tabstyles.css" />
 
     <!-- SCRIPTS -->
+    <script type="text/javascript" src="../../../../../scripts/generalizers/modernizr.custom_tabs.js"></script>
+    <script type="text/javascript" src="../../../../../scripts/frontend-functionality/cbpFWTabs.js"></script>
     <script type="text/javascript" src="../../../../../scripts/generalizers/jquery-2.1.1.js"></script>
     <script type="text/javascript" src="../../../../../scripts/frontend-functionality/accordion.js"></script>
 
@@ -84,7 +88,7 @@
 	  		</ol>
   		</p>
 
-  		<h3> Why Self Hosting ?</h3>
+  		<h3> Why Self-Host?</h3>
   		<p>
   			From a individual's perspective communicating with other peers requires content generation, organization
   			and sharing platforms. These platforms are realized by the services. When these services are self hostable
@@ -123,8 +127,13 @@
   			and is a complex phenomenon. Such a network is more organic.
   		</p>
 
-  		<h3>How Self Hosting ?</h3>
-  		<p>
+	</div>
+
+<!-- TRYING TO EXPLAIN THE COMMONALITIES, SPECIFICITIES IN GENERIC MANNER OF HOW I DID -->
+  	<div class="chapter-header"><span>HOW TO SELF-HOST ?</span></div>
+
+  	<div class="content">
+		<p>
   			Once it is decided to be independent of typical centralized services provided in exchange of personal data and
   			information to some governments and big business conglomerates - one has to come up with a list of services
   			that they are already dependent upon. This list helps book keeping and organizing the service platforms. These
@@ -143,117 +152,185 @@
   			integrations are possible. The community have also take into account of common requirements that are fundamental
   			for reliable addressing, identification, and access.
   		</p>
+  	</div>
 
-  		<div class="accordion">
-  		  <div class="accordion-section">
+	<section>
+		<div class="tabs tabs-style-topline">
+			<nav>
+				<ul>
+				  	<li><a href="#section-topline-1"><span>Address</span></a></li>
+				  	<li><a href="#section-topline-2"><span>Socialize</span></a></li>
+					<li><a href="#section-topline-3"><span>Supervise</span></a></li>
+					<li><a href="#section-topline-4"><span>P2P + Collab</span></a></li>
+					<li><a href="#section-topline-5"><span>Specifize</span></a></li>
+				</ul>
+			</nav>
 
-  			<a class="accordion-section-title" href="#dynamic-dns"><h3>Shared Dynamic DNS</h3></a>
-  			<div id="dynamic-dns" class="accordion-section-content">
-	  			<p>
+			<div class="content">
 
-	  			</p>
-  			</div>
+				<!-- ADDRESS -->
+				<section id="section-topline-1">
+					<div class="accordion">
+			  		  <div class="accordion-section">
 
-  			<a class="accordion-section-title" href="#web-service"><h3>Web</h3></a>
-  			<div id="web-service" class="accordion-section-content">
-	  			<p>
+			  			<a class="accordion-section-title" href="#dynamic-dns"><h3>Domain Naming & Identification</h3></a>
+			  			<div id="dynamic-dns" class="accordion-section-content">
+				  			<p>
+								Identifying individual node in internet through dynamic dns, understanding domain naming,
+								-- arun issacs tutorial on it...
+						    	</p>
+			  			</div>
 
-	  			</p>
-  			</div>
+			  			<a class="accordion-section-title" href="#web-service"><h3>Web Service</h3></a>
+			  			<div id="web-service" class="accordion-section-content">
+				  			<p>
+								The interface stack with which the other web based services interact with other individual peers
+				  				in internet.
+				  			</p>
+			  			</div>
 
-  			<a class="accordion-section-title" href="#db-service"><h3>Database</h3></a>
-  			<div id="db-service" class="accordion-section-content">
-	  			<p>
+						<a class="accordion-section-title" href="#db-service"><h3>Database Service</h3></a>
+			  			<div id="db-service" class="accordion-section-content">
+				  			<p>
 
-	  			</p>
-  			</div>
+				  			</p>
+			  			</div>
+			  		  </div>
+			  		</div>
+			    	</section>
 
-  			<a class="accordion-section-title" href="#server-mgmt"><h3>Server Monitoring</h3></a>
-  			<div id="server-mgmt" class="accordion-section-content">
-	  			<p>
+				<!-- SOCIALIZE -->
+			    	<section id="section-topline-2">
+				    	<div class="accordion">
+			  		  <div class="accordion-section">
 
-	  			</p>
-  			</div>
+			  			<a class="accordion-section-title" href="#email-service"><h3>E-Mail</h3></a>
+			  			<div id="email-service" class="accordion-section-content">
+				  			<p>
 
-  			<a class="accordion-section-title" href="#email-service"><h3>E-Mail</h3></a>
-  			<div id="email-service" class="accordion-section-content">
-	  			<p>
+				  			</p>
+			  			</div>
 
-	  			</p>
-  			</div>
+			  			<a class="accordion-section-title" href="#blogging"><h3>WeBLOGging</h3></a>
+			  			<div id="blogging" class="accordion-section-content">
+				  			<p>
 
-  			<a class="accordion-section-title" href="#blogging"><h3>WeBLOGging</h3></a>
-  			<div id="blogging" class="accordion-section-content">
-	  			<p>
+				  			</p>
+			  			</div>
 
-	  			</p>
-  			</div>
+			  			<a class="accordion-section-title" href="#commenting"><h3>Commenting</h3></a>
+			  			<div id="commenting" class="accordion-section-content">
+				  			<p>
 
-  			<a class="accordion-section-title" href="#web-analytics"><h3>Web Analytics</h3></a>
-  			<div id="web-analytics" class="accordion-section-content">
-	  			<p>
+				  			</p>
+			  			</div>
 
-	  			</p>
-  			</div>
+			  			<a class="accordion-section-title" href="#voip-service"><h3>VOIP Calls</h3></a>
+			  			<div id="voip-service" class="accordion-section-content">
+				  			<p>
 
-  			<a class="accordion-section-title" href="#commenting"><h3>Commenting</h3></a>
-  			<div id="commenting" class="accordion-section-content">
-	  			<p>
+				  			</p>
+			  			</div>
 
-	  			</p>
-  			</div>
+			  			<a class="accordion-section-title" href="#file-sync"><h3>File Sync & Sharing</h3></a>
+			  			<div id="file-sync" class="accordion-section-content">
+				  			<p>
 
-  			<a class="accordion-section-title" href="#collab-edit"><h3>Collaborative Editing</h3></a>
-  			<div id="collab-edit" class="accordion-section-content">
-	  			<p>
+				  			</p>
+			  			</div>
+			  		  </div>
+			  		</div>
+			    	</section>
 
-	  			</p>
-  			</div>
+				<!-- SUPERVISE -->
+				<section id="section-topline-3">
+				    	<div class="accordion">
+			  		  <div class="accordion-section">
 
-  			<a class="accordion-section-title" href="#voip-service"><h3>VOIP Calls</h3></a>
-  			<div id="voip-service" class="accordion-section-content">
-	  			<p>
+			  			<a class="accordion-section-title" href="#server-mgmt"><h3>Server Monitoring</h3></a>
+			  			<div id="server-mgmt" class="accordion-section-content">
+				  			<p>
 
-	  			</p>
-  			</div>
+				  			</p>
+			  			</div>
 
-  			<a class="accordion-section-title" href="#file-sync"><h3>File Sync & Sharing</h3></a>
-  			<div id="file-sync" class="accordion-section-content">
-	  			<p>
+			  			<a class="accordion-section-title" href="#web-analytics"><h3>Web Analytics</h3></a>
+			  			<div id="web-analytics" class="accordion-section-content">
+				  			<p>
 
-	  			</p>
-  			</div>
+				  			</p>
+			  			</div>
+			  		  </div>
+			  		</div>
+				</section>
 
-  			<a class="accordion-section-title" href="#imn-service"><h3>Local Instrmentation & Measurement Network</h3></a>
-  			<div id="imn-service" class="accordion-section-content">
-	  			<p>
+				<!-- P2P + COLLAB -->
+				<section id="section-topline-4">
+				    	<div class="accordion">
+			  		  <div class="accordion-section">
 
-	  			</p>
-  			</div>
+			  			<a class="accordion-section-title" href="#collab-edit"><h3>Collaborative Editing</h3></a>
+			  			<div id="collab-edit" class="accordion-section-content">
+				  			<p>
 
-  			<a class="accordion-section-title" href="#wiki"><h3>Wiki</h3></a>
-  			<div id="wiki" class="accordion-section-content">
-	  			<p>
+				  			</p>
+			  			</div>
 
-	  			</p>
-  			</div>
+			  			<a class="accordion-section-title" href="#file-sync"><h3>File Sync & Sharing</h3></a>
+			  			<div id="file-sync" class="accordion-section-content">
+				  			<p>
 
-  			<a class="accordion-section-title" href="#p2p-search"><h3>P2P - Search Engine</h3></a>
-  			<div id="p2p-search" class="accordion-section-content">
-	  			<p>
+				  			</p>
+			  			</div>
 
-	  			</p>
-  			</div>
+			  			<a class="accordion-section-title" href="#wiki-for-community"><h3>Community Wiki</h3></a>
+			  			<div id="wiki-for-community" class="accordion-section-content">
+				  			<p>
 
-  			<a class="accordion-section-title" href="#wms-service"><h3>Web Mapping</h3></a>
-  			<div id="wms-service" class="accordion-section-content">
-	  			<p>
+				  			</p>
+			  			</div>
 
-	  			</p>
-  			</div>
-  		  </div>
-  		</div>
-	</div>
+			  			<a class="accordion-section-title" href="#p2p-search"><h3>P2P - Search Engine</h3></a>
+			  			<div id="p2p-search" class="accordion-section-content">
+				  			<p>
+
+				  			</p>
+			  			</div>
+			  		  </div>
+			  		</div>
+				</section>
+
+				<!-- SPECIFIZE -->
+				<section id="section-topline-5">
+				    	<div class="accordion">
+			  		  <div class="accordion-section">
+
+			  			<a class="accordion-section-title" href="#wiki"><h3>Wiki for PIM/PKM</h3></a>
+			  			<div id="wiki" class="accordion-section-content">
+				  			<p>
+
+				  			</p>
+			  			</div>
+
+			  			<a class="accordion-section-title" href="#imn-service"><h3>Local Instrmentation & Measurement Network</h3></a>
+			  			<div id="imn-service" class="accordion-section-content">
+				  			<p>
+
+				  			</p>
+			  			</div>
+
+			  			<a class="accordion-section-title" href="#wms-service"><h3>Web Mapping</h3></a>
+			  			<div id="wms-service" class="accordion-section-content">
+				  			<p>
+
+				  			</p>
+			  			</div>
+			  		  </div>
+			  		</div>
+				</section>
+			</div>
+		</div>
+	</section>
 
 	<div class="content-horizontal-separator">
 		<br></br>
@@ -300,5 +377,17 @@
 </body>
 
 <!-- SCRIPTS -->
+<!-- FOR TABBING -->
+	<script>
+		(function() {
+
+			[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+				new CBPFWTabs( el );
+			});
+
+		})();
+	</script>
+<!-- FOR TABBING /-->
+
 
 </html>
