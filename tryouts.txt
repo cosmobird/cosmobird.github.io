@@ -10,3 +10,51 @@ FOR INCLUDING SEARCH:
 			</form>
 		</div>
 	<!-- search -->
+
+comms-communication infrastructure
+----------------------------------
+
+
+					<h3>Limitations & Drawbacks</h3>
+			  	  	<p>
+			  	  	  	<ul>
+			  	  	  	  <li>Central point of failure</li>
+			  	  	  	  <li>Circumvents, grassroots independency</li>
+			  	  	  	  <li>Usually non-transparent in its operation</li>
+			  	  	  	  <li>Causes power & responsibility asymmetry</li>
+			  	  	  	  <li>Produces unnecessary accountability loads</li>
+			  	  	  	  <li>Economy is reduced to trickled down fashion</li>
+			  	  	  	  <li>Cost involved to erect and maintain is so large</li>
+			  	  	  	  <li>Surplus of resources are used as marketing parameter</li>
+			  	  	  	  <li>User potentially seen as the data acquisition instrument</li>
+			  	  	  	  <li>Usually competition oriented instead of cooperation oriented</li>
+			  	  	  	  <li>Centralized policy changes might be different from initial settings</li>
+			  	  	  	  <li>Always indefinetely demands more and more resources to provide scaling</li>
+			  	  	  	  <li>Creates a isolation between user and service - compromising transparency</li>
+			  	  	  	  <li>With more centralization, power and responsibility is loaded to a central point</li>
+			  	  	  	  <li>Prone to attack from crackers, as it represents honey pot of information density</li>
+			  	  	  	  <li>Loops of information dependency, freebies, social density - hinders decision making</li>
+			  	  	  	  <li>Inability to check the mechanism of service even if the policy emphasizes transparency</li>
+			  	  	  	</ul>
+			  	  	</p>
+
+			  	  	<blockquote>
+					  <b>power</b> <b>→</b> (demands) <b>→</b> <b>responsibility</b> <b>→</b> (demands) <b>→</b> <b>accountability</b>
+			  	  	  <b>→</b> (demands) <b>→</b> <b>control</b> <br>
+					  thus, one can see the situation as : <b>{ power</b> <b>→</b> (demands) <b>→</b> <b>control }</b>
+					</blockquote>
+
+			  	  	<p>
+			  	  	  	One can view the centralization and hierarchy in the light of the following parameters :
+
+			  	  	  	<ul>
+			  	  	  	  <li><h4>Architectural topology</h4>  &nbsp - &nbsp topology by design</li>
+			  	  	  	  <li><h4>Network topology</h4> &nbsp - &nbsp topology by connections</li>
+			  	  	  	  <li><h4>Functional topology</h4> &nbsp - &nbsp topology by operations, functions</li>
+			  	  	  	  <li><h4>Informational topology</h4> &nbsp - &nbsp topology by information routing</li>
+			  	  	  	</ul>
+			  	  	</p>
+
+			  	  	<p>
+			  	  		Technical reconstruction of the infrastructure in one or two of these forms, never transforms the centralized power.
+			  	  	</p>
