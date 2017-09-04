@@ -18,7 +18,8 @@ var OLmap = new ol.Map( {
 		})
 	});
 
-/*	TRYING OUT FROM OPENLAYER WORKSHOP - http://openlayers.org/workshop/en/ */
+/*	TRYING OUT FROM OPENLAYER WORKSHOP - http://openlayers.org/workshop/en/ 	*/
+
 
 /*ZOOMING TO THE CURRENT USER LOCATION*/
 //-------------------------------------
@@ -28,5 +29,3 @@ navigator.geolocation.getCurrentPosition(function(pos) {
 	const coords = ol.proj.fromLonLat([pos.coords.longitude, pos.coords.latitude]);
 	OLmap.getView().animate({center: coords, zoom: 5});
 });
-
-
