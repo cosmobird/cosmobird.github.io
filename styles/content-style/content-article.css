@@ -573,7 +573,11 @@ blockquote p[data-type="attribution"] {
 }
 
 /*Sticky*/
+<<<<<<< HEAD
 @media (min-width: 700px) {
+=======
+@media screen and (min-width: 700px) {
+>>>>>>> cd301279e35957f4db6a95c661d31460fd2eace3
 	.sticky-container {
 		padding: 0px;
 		margin: 0px;
@@ -628,4 +632,7 @@ blockquote p[data-type="attribution"] {
 		display:none;
 	}
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cd301279e35957f4db6a95c661d31460fd2eace3
