@@ -41,8 +41,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.9599431"
-     inkscape:cx="36.398534"
-     inkscape:cy="81.705184"
+     inkscape:cx="36.567456"
+     inkscape:cy="54.677637"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -51,9 +51,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="768"
+     inkscape:window-height="708"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="23"
      inkscape:window-maximized="1"
      showborder="false" />
   <metadata
@@ -74,7 +74,7 @@
      id="layer1"
      transform="translate(-263.37482,-945.53693)">
     <g
-       id="g184"
+       id="g40"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <rect
@@ -113,7 +113,7 @@
         </g>
       </g>
       <g
-         transform="matrix(0.88458264,0,0,0.88458264,38.76479,117.63678)"
+         transform="matrix(0.88458264,0,0,0.88458264,38.76479,121.38678)"
          id="g135">
         <image
            y="1054.2111"
