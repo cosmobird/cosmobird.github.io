@@ -573,7 +573,7 @@ blockquote p[data-type="attribution"] {
 }
 
 /*Sticky*/
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 	.sticky-container {
 		padding: 0px;
 		margin: 0px;
@@ -621,8 +621,11 @@ blockquote p[data-type="attribution"] {
     		font-size: 13px;
 	}
 
-	.mobile-sticky-container {
-    		display: none;
-	}
 }
+
+@media (max-width: 699px) {
+	.sticky-container {
+		display:none;
+	}
+
 
