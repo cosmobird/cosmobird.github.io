@@ -5,6 +5,7 @@
 					:	"interactions"	-	to modify content
 					:	"controls"	-	with UI Components
 */
+
 var OLmap = new ol.Map( {
 		target: 'omap',
 		layers: [
@@ -29,3 +30,14 @@ navigator.geolocation.getCurrentPosition(function(pos) {
 	const coords = ol.proj.fromLonLat([pos.coords.longitude, pos.coords.latitude]);
 	OLmap.getView().animate({center: coords, zoom: 5});
 });
+
+/*PINNING THE LOCATED POSITION COORDINATES*/
+//------------------------------------------
+{
+const vSource	= new ol.VectorSource();
+const vLayer	= new ol.layer.vector.VectorLayer({
+  				source: vSource
+			});
+map.addLayer(vLayer);
+vSource.addFeature(new ol.feature(new Point(coords)));
+}
