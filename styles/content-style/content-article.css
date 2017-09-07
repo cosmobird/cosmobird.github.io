@@ -29,11 +29,24 @@
 }
 
 @font-face {
-	font-family: "source_sans_proitalic";
+	font-family: "source_sans_pro_regular";
 	font-weight: normal;
 	font-style: normal;
-	src:url("../../assets/fonts/sourcesanspro/SourceSansPro-It.eot") format("embedded-opentype"),
-		url("../../assets/fonts/sourcesanspro/SourceSansPro-It.ttf") format("truetype");
+	src:url("../../assets/fonts/sourcesanspro/SourceSansPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "source_sans_pro_semibold";
+	font-weight: normal;
+	font-style: normal;
+	src:url("../../assets/fonts/sourcesanspro/SourceSansPro-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "source_sans_pro_italic";
+	font-weight: normal;
+	font-style: normal;
+	src:url("../../assets/fonts/sourcesanspro/SourceSansPro-Italic.ttf") format("truetype");
 }
 
 @font-face {
@@ -133,6 +146,7 @@ section {
 
 .content-header h2 {
 	margin: 0 auto;
+	font-family: source_sans_pro_semibold;
 	font-weight: 400;
 	font-size: 2.5em;
 	line-height: 1;
@@ -197,7 +211,7 @@ section {
 }
 
 .content p[data-type="attribution"] {
-	font-family: source_sans_proitalic;
+	font-family: source_sans_pro_italic;
     	text-align: right;
     	font-size: 0.95em;
     	margin-top: 1em;
