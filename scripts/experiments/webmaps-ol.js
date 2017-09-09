@@ -1,6 +1,6 @@
 
 /*
-	A Map in Openlayers in made of	:	"layers"
+  A Map in Openlayers in made of        :       "layers"
 					:	"view" 		-	to visualize "layers"
 					:	"interactions"	-	to modify content
 					:	"controls"	-	with UI Components

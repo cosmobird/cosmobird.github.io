@@ -466,7 +466,7 @@ blockquote {
 	margin: 2em 2em;
 	padding: 2em 2em 1em 2em;
 	vertical-align:middle;
-	font-family: 'source_sans_proitalic', sans-serif;
+	font-family: 'source_sans_pro_italic', sans-serif;
 	font-size: 1.1em;
 	font-weight: 400;
 	color: #333333;
@@ -476,7 +476,7 @@ blockquote {
 
 blockquote p {
 	text-indent: 0;
-	font-family: "source_sans_proitalic", sans-serif;
+	font-family: "source_sans_pro_italic", sans-serif;
 }
 
 blockquote p[data-type="attribution"] {
