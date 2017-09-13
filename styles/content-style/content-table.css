@@ -45,7 +45,7 @@ html,body {
 }
 
 body{
-	display: table-cell;
+	display: initial;
 	min-width: 50%;
 }
 
