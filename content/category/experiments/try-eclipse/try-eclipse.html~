@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+  <head>
+
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Bicycle Science" />
+    <meta name="keywords" content="cosmobird" />
+    <meta name="author" content="cosmobird" />
+
+    <!-- TITLE -->
+    <title>Awesome Eclipse</title>
+
+    <!-- STYLE STHEETS -->
+    <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-article.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-table.css" />
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="../../../../scripts/analytics/analytics.js"></script>
+
+  </head>
+
+  <body>
+    <header class="content-header">
+      <h2> Awe-Science of Planetary Eclipse </h2>
+    </header>
+
+    <div class="content-author-info">
+      <table class="content-table">
+	<thead class="content-table-head">
+	  <tr>
+	    <th>Authors</th>
+	    <th>Date</th>
+	    <th>Time to Read</th>
+	    <th>License</th>
+	  </tr>
+	</thead>
+	<tbody class="content-table-body">
+	  <tr>
+	    <td>ArunIssac + Ganesh + Surendar</td>
+	    <td>05 Sept 2017 <br> - <br> 26 Sept 2017</td>
+	    <td>30 mins.</td>
+	    <td><img src="../../../../content/resource/licenses/by-nc-sa.png" alt="cc-by-nc-sa"></td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
+
+    <div class="sticky-container">
+      <ul class="sticky">
+	<li>
+	  <a href="mailto:31gane@gmail.com">
+	    <img title="" src="../../../../assets/pics/social/mail-32.png" alt="email">
+	    <p>mail</p>
+	  </a>
+	</li>
+	<li>
+	  <a href="irc://irc.freenode.org/cosmobird">
+	    <img title="" src="../../../../assets/pics/social/irc-32.png" alt="irc">
+	    <p>irc</p>
+	  </a>
+	</li>
+	<li>
+	  <a href="https://mastodon.social/users/smith_ai">
+	    <img title="" src="../../../../assets/pics/social/mastodon-32.png" alt="mastodon">
+	    <p>toot</p>
+	  </a>
+	</li>
+	<li>
+	  <a href="https://vector.im/beta/#/room/#cosmo:matrix.org">
+	    <img title="" src="../../../../assets/pics/social/riot-32.png" alt="riot">
+	    <p>riot</p>
+	  </a>
+	</li>
+	<li>
+	  <a href="https://diasp.in/u/31gane">
+	    <img title="" src="../../../../assets/pics/social/diaspora-32.png" alt="diaspora">
+	    <p>pod</p>
+	  </a>
+	</li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <p>
+	We all have experienced enjoying atleast one eclipse in our life time. It is also emotionally rewarding for some.
+	Every culture seems to have some kind of interpretation to it. However, for those who dared to question the normative
+	rules, such astronomical events happening within Earth's vicinity help wonder about the possible reasons behind
+	it. Scientific explanation in Astronomy so far has provided with tremendous amount of information that help realize
+	the beautiful complexity behind it. After getting to know it, i personally realized how fortunate humanity is in time,
+	to experience such awesome natural events.
+      </p>
+
+      <p>
+	It has also helped researchers, eclipse chasers, artists, by revealing the astronomical facts which apparently not
+	visible or detectable without eclipse. At first, in fact we are being flattered by the shadows of one rock on another.
+	The fact seems simple. But theorizing and proving the exact mechanisms are really really difficult. It simply takes
+	time. We need to observe painstakingly. Some desperate researcher has to keep their eye glued to the telescopes in order
+	to get reliable data to compile the observation.
+      </p>
+
+      <p>
+	Since eclipses are phenomena that occurs when one enoromous rock in space casts shadow on nearby shadow for a brief
+	duration, we are more interested in occultations that happens between star - Sun, planet Earth & its natural satellite Moon.
+	I am not going into much details as like a wikipedia article or any other research institute could offer. I consider
+	this writing as my view and learning from my peers <u>ArunIssac & Surender</u>. Eventhough eclipse is a pretty event, it is
+	ArunIssac who have actually discussed with me about writing a interactive application that might probably help people
+	to look into about eclipse and learn it from there. This stumbled upon while we were searching for personally entycing
+	projects and seems to be a perfect candidate. Eventhough i do not know much of programming, i have immediately accepted to
+	contribute for it.
+      </p>
+    </div>
+
+    
+
+    <div class="content-horizontal-separator">
+      <br></br>
+    </div>
+
+    <div class="content">
+
+      <p>
+	<h3><i>READINGS, LINKS & DOWNLOADS :</i></h3>
+      </p>
+
+      <p>
+	<ol>
+	  <li> </li>
+	</ol>
+      </p>
+      <p>
+  	<h3><i>CREDITS & ATTRIBUTIONS :</i></h3>
+  	<ul>
+  	  <li><b>Icons:</b>
+  	    <ul>
+	      <li><a href="https://thenounproject.com/grzl"> xwoodhillx </a></li>
+  	    </ul>
+  	  </li>
+  	</ul>
+      </p>
+    </div>
+
+    <div class="content-horizontal-separator">
+      <br></br>
+    </div>
+
+    <div class="content">
+      <figure>
+	<img src="../../../../content/resource/licenses/by-nc-sa.png" alt="cc-by-nc-sa">
+      </figure>
+    </div>
+
+    <div class="content-horizontal-separator">
+      <br></br>
+    </div>
+
+  </body>
+
+  <!-- SCRIPTS -->
+
+</html>
