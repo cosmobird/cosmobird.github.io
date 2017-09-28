@@ -531,7 +531,7 @@ blockquote p[data-type="attribution"] {
     border-radius: 3px;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.25);
     background : #FDFDF8';
-	display: block;
+    display: block;
 }
 
 /*ACCORDION*/
@@ -621,8 +621,9 @@ blockquote p[data-type="attribution"] {
 	}
 }
 
-/*Sticky*/
+/*STICKY BAR*/
 @media (min-width: 700px) {
+
 	.sticky-container {
 		padding: 0px;
 		margin: 0px;
@@ -652,7 +653,6 @@ blockquote p[data-type="attribution"] {
 
 	.sticky li a {
     		text-decoration: none;
-    		font-family: 'pt_sans_narrow-bold';
     		color: #ddd;
 	}
 
@@ -664,6 +664,7 @@ blockquote p[data-type="attribution"] {
 
 	.sticky li a p {
 		font-family: 'pt_sans_narrow-bold';
+		font-style: oblique;
     		padding: 0;
     		margin: 0;
     		line-height: 43px;
@@ -673,8 +674,7 @@ blockquote p[data-type="attribution"] {
 }
 
 @media (max-width: 699px) {
-	.sticky-container {
+       .sticky-container {
 		display:none;
 	}
-
-
+}
