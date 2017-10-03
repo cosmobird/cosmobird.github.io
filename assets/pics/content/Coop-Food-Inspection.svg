@@ -15,7 +15,7 @@
    id="svg4759"
    version="1.1"
    inkscape:version="0.92pre2 r"
-   sodipodi:docname="Social-Food-Inspection.svg">
+   sodipodi:docname="Coop-Food-Inspection.svg">
   <defs
      id="defs4761" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.2995071"
-     inkscape:cx="181.14948"
+     inkscape:cx="110.26472"
      inkscape:cy="68.120376"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,7 +61,54 @@
      id="layer1"
      transform="translate(-254.30068,-943.69336)">
     <g
-       id="g2024">
+       id="g17844"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17846"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17848"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17850"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17852"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17854"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17856"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17858"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17860"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17862"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17864"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17866"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17868"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17870"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g17872"
+       transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)" />
+    <g
+       id="g2295"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <rect
          ry="0"
          rx="0"
@@ -72,52 +119,7 @@
          x="254.30067"
          y="943.69336" />
       <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17844" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17846" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17848" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17850" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17852" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17854" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17856" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17858" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17860" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17862" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17864" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17866" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17868" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17870" />
-      <g
-         transform="matrix(0.32938344,0,0,0.32938344,287.57876,976.58917)"
-         id="g17872" />
-      <g
-         transform="matrix(0.78961536,-0.79405427,0.78961536,0.79405427,-712.2428,505.0615)"
+         transform="matrix(0.84699868,-0.85176018,0.84699868,0.85176018,-794.5226,462.66059)"
          id="g18010">
         <g
            id="g17788"
