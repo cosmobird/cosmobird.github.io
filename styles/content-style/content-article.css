@@ -376,16 +376,50 @@ section {
 
 
 
-/*VIDEO*/
+/*VIDEO & VIDEO GRID*/
 .content-video{
     max-width: 320px; /*320 is concise and apt*/
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
     margin-bottom: 2em;
+    text-align: center;
+}
+
+.content-video-grid{
+    max-width: 100%; /*grid covers max space*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.content-video-grid ul{
+    list-style: none;
+    text-align: center;
+}
+
+.content-video-grid li{
+    display: inline-block;
+    max-width: 320px; /*320 is concise and apt*/
+    max-height: 240px;
+    margin: 2em 2em;
+    position: relative;
+    text-align: center;
 }
 
 .content-video figcaption{
+    font-family: 'pt_sans_narrow-bold';
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-video-grid figcaption{
     font-family: 'pt_sans_narrow-bold';
     font-size: 1.1em;
     text-align: center;
