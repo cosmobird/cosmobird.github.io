@@ -1,0 +1,30 @@
+{
+    "title": {
+        "media": {
+            "url": "../../../../content/resource/pictures/uniqueid/Prisoners_Uniforms_with_Red_Triangles_of_Political_Prisoners.jpg",
+            "caption": "History teaches and illustrates proof"
+        },
+        "text": {
+            "headline": "Mortmain of UID",
+            "text": "<p>One can learn from history instead of repeating it.</p>"
+        }
+    },
+
+    "events": [
+	{
+            "media": {
+		"url": "../../../../content/resource/pictures/uniqueid/supreme-court-india.jpg",
+		"caption": "Hearing documentation <a href='http://sflc.in/nine-judge-constitution-bench-of-supreme-court-hears-arguments-on-right-to-privacy-updates-from-day-5/'>day 5</a>"
+            },
+            "start_date": {
+		"day": "01",
+		"month": "08",
+		"year": "2016"
+            },
+            "text": {
+		"headline": "Supreme Court",
+		"text": "<p> Bench of the Supreme Court, heard fundamental right to privacy. </p>"
+            }
+	}
+    ]
+}

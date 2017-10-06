@@ -40,8 +40,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="4.7569338"
-     inkscape:cy="79.385434"
+     inkscape:cx="20.876437"
+     inkscape:cy="57.795651"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -50,9 +50,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="708"
+     inkscape:window-height="768"
      inkscape:window-x="0"
-     inkscape:window-y="23"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showborder="false" />
   <metadata
@@ -73,7 +73,7 @@
      id="layer1"
      transform="translate(-263.37482,-945.53693)">
     <g
-       id="g1894"
+       id="g1353"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <rect
@@ -86,7 +86,7 @@
          x="256.47598"
          y="945.70105" />
       <g
-         transform="matrix(0.80559325,0,0,0.80559325,94.728489,232.57118)"
+         transform="matrix(0.8,0,0,0.8,66.295207,204.14019)"
          id="g1810">
         <g
            style="fill:#ececec;filter:url(#filter2599)"
@@ -111,7 +111,7 @@
       </g>
       <g
          id="g820"
-         transform="matrix(0.46107943,-0.26195454,0.26195454,0.46107943,-29.49348,530.88123)"
+         transform="matrix(0.23602292,-0.13409246,0.13409246,0.23602292,215.14839,839.00243)"
          style="fill:#f2f2f2">
         <path
            id="path790"
