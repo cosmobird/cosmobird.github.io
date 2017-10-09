@@ -342,6 +342,17 @@ section {
 }
 
 
+/*IMAGE SLIDER*/
+.image-slider{
+    max-width: 80%;
+    margin: 2em auto 1em auto;
+    padding: 1em;
+    border-radius: 6px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3),0 0 0 1px rgba(0,0,0,0.08);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
 
 /*AUDIO*/
 .content-audio{

@@ -18,13 +18,15 @@
     <!-- STYLE STHEETS -->
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-article.css" />
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-table.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../styles/slides/sss.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/slides/ideal-image-slider/ideal-image-slider.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/slides/ideal-image-slider/themes/default.css" />
     <link rel="stylesheet" type="text/css" href="../../../../styles/tabs/tabs.css" />
     <link rel="stylesheet" type="text/css" href="../../../../styles/tabs/tabstyles.css" />    
 
     <!-- SCRIPTS -->
     <script type="text/javascript" src="../../../../scripts/generalizers/jquery-2.1.1.js"></script>
-    <script type="text/javascript" src="../../../../scripts/slides/sss.js"></script>
+    <script type="text/javascript" src="../../../../scripts/slides/ideal-image-slider.js"></script>
+    <script type="text/javascript" src="../../../../scripts/frontend-functionality/accordion.js"></script>
     <script type="text/javascript" src="../../../../scripts/generalizers/modernizr.custom_tabs.js"></script>
     <script type="text/javascript" src="../../../../scripts/frontend-functionality/cbpFWTabs.js"></script>
     <script type="text/javascript" src="../../../../scripts/analytics/analytics.js"></script>    
@@ -288,11 +290,47 @@
 	</ul>
       </p>
 
-      <div class="slider">
-	  <img src="../../../../content/resource/drawings/eclipse/mock_1.jpg" />
-	  <img src="../../../../content/resource/drawings/eclipse/mock_2.jpg" />
-	  <img src="../../../../content/resource/drawings/eclipse/mock_3.jpg" />
+      <div class="accordion">
+	<div class="accordion-section">
+	  <a class="accordion-section-title" href="#accordion-visual-design"><h3>Drawing</h3></a>
+	  <div id="accordion-visual-design" class="accordion-section-content">
+	    <p>
+	      So... for me visual thinking works ease and nicer than a procedural/algorithmic thinking. It makes
+	      me wonder how i would be playing with such a tool if one is provided. I would : play around all the
+	      optimal functions manifested through the widgets in the screen (that does not make me feel dumb);
+	      i would see why such a tool is built; i would see what logic & math works behind the tool; i would
+	      surely like to see whose labour is contributed to make such a useful tool; if all goes fine, i would
+	      spread share it to all my friends.
+	    </p>
+
+	    <p>
+	      To start with i have seen some of the images offered by NASA eclipse shadow plotted on a static 3D
+	      globe. But it is all static. It is honest, informative, but could not interact to let the exploration
+	      flow. You know, if a thing craves itself for exploration, it must be flexible to let user explore it.
+	    </p>
+
+	    <figure>
+	    <div id="slider" class="image-slider">
+	      <img data-src="../../../../content/resource/drawings/eclipse/mock_1.jpg" />
+	      <img data-src="../../../../content/resource/drawings/eclipse/mock_2.jpg" />
+	      <img data-src="../../../../content/resource/drawings/eclipse/mock_3.jpg" />
+	    </div>
+	    <figcaption> Mockups drawn for Visual Layouts</figcaption>
+	    </figure>
+	  </div>
+
+	  <a class="accordion-section-title" href="#accordion-2"><h3>Coding</h3></a>
+	  <div id="accordion-2" class="accordion-section-content">
+	    <p>
+	      I know one thing for sure, coding for fun stuff is hyper fun. But somebody got to code it. I do know
+	      that i am not good at coding or programming either. But contributing a little like how i would
+	      spend some sleepless nights in order to bring some css and js in making this website itself - trying
+	      to figure out how they work is addictive too. :)
+	    </p>
+	  </div>
+	</div>
       </div>
+      
       
     </div>
    
@@ -349,8 +387,11 @@
 
   <!-- FOR IMAGE SLIDE / -->
   <script>
-    $('.slider').sss({
-    slideShow : false
+    var slider = new IdealImageSlider.Slider({
+    selector: '#slider',
+    height: 600, // Required but can be set by CSS
+    interval: 5000,
+    transitionDuration: 200
     });
   </script>
   <!-- FOR IMAGE SLIDE / -->
