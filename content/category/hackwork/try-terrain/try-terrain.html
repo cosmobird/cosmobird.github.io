@@ -19,9 +19,12 @@
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-article.css" />
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-table.css" />
     <link rel="stylesheet" type="text/css" href="../../../../styles/balloons/balloon.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/slides/ideal-image-slider/ideal-image-slider.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/slides/ideal-image-slider/themes/default.css" />    
 
     <!-- SCRIPTS -->
     <script type="text/javascript" src="../../../../scripts/generalizers/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="../../../../scripts/slides/ideal-image-slider.js"></script>    
     <script type="text/javascript" src="../../../../scripts/frontend-functionality/accordion.js"></script>
     <script type="text/javascript" src="../../../../scripts/analytics/analytics.js"></script>
 
@@ -314,6 +317,7 @@
   	  	  	  	  	<li><a href="http://qgis.org/en/site/"> QGIS </a>(or)</li>
   	  	  	  	  	<li><a href="http://saga-gis.sourceforge.net/en/"> SAGA </a>(or)</li>
   	  	  	  	  	<li><a href="http://udig.refractions.net/"> UDIG </a>(or)</li>
+					<li><a href="https://lsdtopotools.github.io/"> LSD Topo Tools </a>(or)</li>					
   	  	  	  	  	<li><a href="http://live.osgeo.org/en/"> OSGEO live distro. </a></li>
   	  	  	  	  	<li>...</li>
   	  	  	  	</ul>
@@ -696,6 +700,44 @@
   		  </div>
   		</div>
 
+		<figure>
+		  <div id="slider" class="image-slider" style="max-width:1030; max-height:580">
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/1.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/2.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/3.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/4.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/5.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/6.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/7.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/8.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/9.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/10.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/11.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/12.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/13.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/14.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/15.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/16.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/17.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/18.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/19.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/20.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/21.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/22.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/23.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/24.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/25.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/26.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/27.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/28.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/29.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/30.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/31.png" />
+		    <img data-src="../../../../content/resource/screenshots/try-terrain/32.png" />
+		  </div>
+		  <figcaption> Power of few FOSS tools, libraries used while learning topography partially</figcaption>
+		</figure>
+
 <pre>
  <bud>@</bud>
 <bud>/.\</bud> ----+------------------+
@@ -790,5 +832,15 @@
 </body>
 
 <!-- SCRIPTS -->
+
+  <!-- FOR IMAGE SLIDE / -->
+  <script>
+    var slider = new IdealImageSlider.Slider({
+    selector: '#slider',
+    interval: 5000,
+    transitionDuration: 200
+    });
+  </script>
+  <!-- FOR IMAGE SLIDE / -->
 
 </html>
