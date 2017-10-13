@@ -179,12 +179,109 @@
       <div class="tabs tabs-style-topline">
 	<nav>
 	  <ul>
+	    <li><a href="#section-tab-besselian-elements"><span>BESSELIAN ELEMENTS</span></a></li>	    
 	    <li><a href="#section-tab-solar-eclipse"><span>SOLAR ECLIPSE</span></a></li>
 	    <li><a href="#section-tab-lunar-eclipse"><span>LUNAR ECLIPSE</span></a></li>
 	  </ul>
 	</nav>
 
 	<div class="content">
+
+	  <section id="section-tab-besselian-elements">
+	    <p>
+	      It turns out that understanding <a href="https://en.wikipedia.org/wiki/Besselian_elements">besselian elements</a> - a mathematical
+	      model trying to describe the details of eclipse phenomenon, called as occultation. But this might require a clever understanding
+	      of line, plane & spherical geometry. Or, one can just imagine about balls/spheres, papers/surface, shadows/projections to
+	      get a intution of what the mathematics is trying to explain. To understand its explanation, some ideations such as ideal sphere,
+	      are assumed. Once a proper model to workout the problem is in hand, it can further be complicated with several other real world
+	      variables and verify its validity with experimentation.
+	    </p>
+
+	    <p>
+	      I hope i have tried properly to redepict what i have understood. Let's see how it goes.
+	    </p>
+
+	    <div class="accordion">
+	      <div class="accordion-section">
+		<a class="accordion-section-title" href="#accordion-understand-sphere"><h3>Bit of Spherical Geometry</h3></a>
+		<div id="accordion-understand-sphere" class="accordion-section-content">
+		  <figure class="content-image">
+		    <img style="max-width: 300px" src="../../../../content/resource/illustrations/eclipse/bessel-sphere-w-axis.png" alt="sphere with axis">
+		    <figcaption>We shall have a simple sphere with reference axis</figcaption>
+		    
+		    <img style="max-width: 300px" src="../../../../content/resource/illustrations/eclipse/bessel-sphere-cut-surface.png" alt="sphere with surface cut">
+		    <figcaption>A plane surface (a paper) slicing the sphere</figcaption>
+
+		    <img style="max-width: 300px" src="../../../../content/resource/illustrations/eclipse/bessel-hemisphere.png" alt="result hemisphere">
+		    <figcaption>If slicing goes well, we now have a hemisphere</figcaption>
+		  </figure>
+		</div>
+
+		<a class="accordion-section-title" href="#accordion-ideal-shadow-cast"><h3>Ideal Shadow Casting (Occulting)</h3></a>
+		<div id="accordion-ideal-shadow-cast" class="accordion-section-content">
+		  <p>
+		    Now one shall consider the ideal hemisphere as the slice of Earth, so that when a occulting body like Moon casts shadow on it, the
+		    observer can realize them as circles, as illustrated below. However, this is only our mathematical thinking that provides us mental
+		    space to imagine for such a ideal case. And here we can see how the projections are simply circles.
+		  </p>
+		  <figure class="content-image">
+		    <img style="max-width: 700px" src="../../../../content/resource/illustrations/eclipse/bessel-no-perspective.png" alt="shadows without perspective">
+		    <figcaption>Shadow casted by occulting body on the fundamental plane</figcaption>
+		  </figure>
+		</div>
+
+		<a class="accordion-section-title" href="#accordion-add-back-reality"><h3>Adding some Reality to it</h3></a>
+		<div id="accordion-add-back-reality" class="accordion-section-content">
+		  <p>
+		    Having a simple distortionless, non-perspective shadow casted on the hemisphere of Earth with the help of a fundamental plane provides
+		    a framework to imagine and stick with mathematical and informational simplicity. On the other hand, reality is really complicated, thus
+		    necessitating us to add back reality by adding one parameter by one parameter that are carefully studied with theoretical analysis and
+		    accurately enough experimental measurement and verfication. In other words, from the humble simple mathematical realm, it extends itself
+		    to be dynamic by adding variables such as:
+
+		    <ul>
+		      <li><a href="https://en.wikipedia.org/wiki/Figure_of_the_Earth">Figure of Earth</a></li>
+		      <li><a href="https://en.wikipedia.org/wiki/Earth%27s_rotation">Rotation of Earth</a></li>
+		      <li>Observers Location on Earth: Latitude, Longitude & Elevation</li>
+		    </ul>
+		  </p>
+
+		  <p>
+		    Let's see how it might look at one instance of shadows casted on the surface of the occulted body, or a complete sphere without slicing it
+		    down. Now, the shadow casted upon the surface of sphere is not a simple circle, instead looks like a real perspective projection that
+		    changes shapes based on the place where the shadow is casted. This depends upon where & how far the light source is? where the occulting
+		    body within the field of view of the occulted body is ?
+		  </p>
+		  <figure class="content-image">
+		    <img style="max-width: 700px" src="../../../../content/resource/illustrations/eclipse/bessel-w-perspective.png" alt="shadows with perspective">
+		    <figcaption>Shadow casted by occulting body on the Surface of Sphere/Occulted body</figcaption>
+		  </figure>
+
+		  <p>
+		    This seems more like what we experience in reality. Besselian elements helps us to describe the movement of shadow on the fundamental plane,
+		    which in turn needs to be reproject the shadow cone back to the surface to make it more pragmatic. The above described parameters/variables
+		    comes in the play here and helps us describe the dynamics of occultation caused by one body on another even before it tends to happen. As
+		    our observation and measurement instrument gets more and more accurate, more and more data shall be added to the model making it express
+		    more reality. At the same time, we will also end up finding limitation of the models description accuracy, as atleast one of the variables
+		    involved might end up creating more error in the possible outcome. Since this is a astronomical space-time event involving an observer, its
+		    range of description becomes naturally time bound.
+		  </p>
+		  <figure class="content-image">
+		    <img style="max-width: 300px" src="../../../../content/resource/illustrations/eclipse/bessel-sphere-w-perspective-rotationaxis.png" alt="with rotation axis">
+		    <figcaption>Shadows on the Sphere with rotation axis of planet Earth</figcaption>
+		  </figure>
+
+		  <p>
+		    Furthermore, there are are several other models that help express the data required for the besselian computation. These models can describe
+		    the shape of occulting and occulted body, their rotation and revolution dynamics, eccentricity, etc... which might add to the propagation
+		    of error.
+		  </p>
+		</div>
+		
+	      </div>
+	    </div>
+			
+	  </section>	  
 
 	  <section id="section-tab-solar-eclipse">
 	    <p>
@@ -224,7 +321,6 @@
 	  <li>Collaborate and ask for help</li>
 	  <li>Try not to be a asshole while trying any of it</li>
 	</ul>
-	
       </p>
 
       <p>
@@ -292,7 +388,7 @@
 
       <div class="accordion">
 	<div class="accordion-section">
-	  <a class="accordion-section-title" href="#accordion-visual-design"><h3>Drawing</h3></a>
+	  <a class="accordion-section-title" href="#accordion-visual-design"><h3>Step 1: Drawing</h3></a>
 	  <div id="accordion-visual-design" class="accordion-section-content">
 	    <p>
 	      So... for me visual thinking works ease and nicer than a procedural/algorithmic thinking. It makes
@@ -304,9 +400,13 @@
 	    </p>
 
 	    <p>
-	      To start with i have seen some of the images offered by NASA eclipse shadow plotted on a static 3D
-	      globe. But it is all static. It is honest, informative, but could not interact to let the exploration
-	      flow. You know, if a thing craves itself for exploration, it must be flexible to let user explore it.
+	      To start with i have seen some of the images offered by NASA eclipse shadow
+	      <a href="http://www.eclipsewise.com/pubs/images/TYCSE-sample1.pdf"> plotted on a static 3D globe.</a>
+	      But it is all static. It is honest, informative, but could not interact to let the exploration flow.
+	      You know, if a thing craves itself for exploration, it must be flexible to the let users explore it.
+	      Moreover, with very rapid advancement in web based data visualization and story telling techniques,
+	      visual designers have done some neat work in visualizing the solar eclipse stuff. Obviously it has
+	      helped me visualize further why these designers have explored and presented the same data in such ways.
 	    </p>
 
 	    <figure>
@@ -315,11 +415,22 @@
 	      <img data-src="../../../../content/resource/drawings/eclipse/mock_2.jpg" />
 	      <img data-src="../../../../content/resource/drawings/eclipse/mock_3.jpg" />
 	    </div>
-	    <figcaption> Mockups drawn for Visual Layouts</figcaption>
+	    <figcaption> Mockups tried out for Visual Layout</figcaption>
 	    </figure>
+
+	    <p>
+	      Thus i find the following features are necessary to be provided to user:
+	      <ul>
+		<li>Option to choose between 2D Map or 3D globe</li>
+		<li>Use calendar to select the recent event or any one within range</li>
+		<li>Use interaction in Map/Globe - based on existing mental models</li>
+		<li>Show numerical data to give a little bad ass touch</li>
+		<li>Dont overload with excess options</li>
+	      </ul>
+	    </p>
 	  </div>
 
-	  <a class="accordion-section-title" href="#accordion-2"><h3>Coding</h3></a>
+	  <a class="accordion-section-title" href="#accordion-2"><h3>Step 2: Coding</h3></a>
 	  <div id="accordion-2" class="accordion-section-content">
 	    <p>
 	      I know one thing for sure, coding for fun stuff is hyper fun. But somebody got to code it. I do know
