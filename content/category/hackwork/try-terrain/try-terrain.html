@@ -296,7 +296,12 @@
 	  	  	  	  	It has to be noted that since we are focusing on some degree of specificity towards terrain
 	  	  	  	  	hacking, not all exhaustive sources are listed. If one is interested in knowing them, please
 	  	  	  	  	refer to <a href="https://drive.google.com/open?id=0B2P66bYnyzH7Xzlqamp4NDlXeVU">my presentation</a>
-	  	  	  	  	listed at links and downloads section of this page.
+	  	  	  	  	listed at links and downloads section of this page. The data source nowadays can not only be
+					acquired from Satellite, Aerial, UAV, RADAR, LIDAR, Photogrammetry, sources, but also include 3D scanning, SONAR with
+					<a href="http://arc-team-open-research.blogspot.in/2016/10/archeorov-open-hardware-rov.html">unmanned Under Water Vehicles/Robots</a>
+  					for localized mapping. This breaks the surface mapping limitation, and thus can be used in <a href="http://arc-team-open-research.blogspot.in/2017/01/digitizing-excavation.html">archeological studies too</a>. In such cases, the location is measured by position measurement methods such as dead reckoning, etc.
+					Most probably Simultaneous Localization and Mapping (SLAM) are developed and used to aid data acquisition.
+					    
 	  	  	  	</p>
   			</div>
 
@@ -317,6 +322,7 @@
   	  	  	  	  	<li><a href="http://qgis.org/en/site/"> QGIS </a>(or)</li>
   	  	  	  	  	<li><a href="http://saga-gis.sourceforge.net/en/"> SAGA </a>(or)</li>
   	  	  	  	  	<li><a href="http://udig.refractions.net/"> UDIG </a>(or)</li>
+					<li><a href="http://www.gvsig.com/en"> gvSIG </a>(or)</li>
 					<li><a href="https://lsdtopotools.github.io/"> LSD Topo Tools </a>(or)</li>					
   	  	  	  	  	<li><a href="http://live.osgeo.org/en/"> OSGEO live distro. </a></li>
   	  	  	  	  	<li>...</li>
@@ -327,7 +333,7 @@
   	  	  	  	  	those who are interested can see my presentation listed at the end of the page in
   	  	  	  	  	links and downloads section. It is wise to note, that almost all of the FOSS - GIS
   	  	  	  	  	tool stacks work upon the fundamental <a href="http://www.gdal.org/index.html">GDAL/OGR</a>
-  	  	  	  	  	implementation of open standards.
+  	  	  	  	  	implementation of open geospatial standards.
   	  	  	  	</p>
   			</div>
 
@@ -655,7 +661,7 @@
 
   	  	  	  	<p>
   	  	  	  	  	The 3D rendering can also be awesomely done using <a href="https://grasswiki.osgeo.org/wiki/Help_with_3D">GRASS-Nviz</a>
-  	  	  	  	  	tool which offers wider controls and visualization options.
+  	  	  	  	  	tool which offers wider controls and visualization options. For instance, <a href="http://arc-team-open-research.blogspot.in/2017/08/mapping-high-apline-lakes-for.html">take a look</a> at what Open Research + Open Data + FOSS Hardware & Software + Open Design + Open Geomatics + Open Archeology can do. 
 
   	  	  	  	</p>
   			</div>
@@ -700,6 +706,29 @@
   		  </div>
   		</div>
 
+
+<pre>
+ <bud>@</bud>
+<bud>/.\</bud> ----+------------------+
+<bud>/ \</bud>     | Yo ! So What ??? |
+  	+------------------+
+
+ <bud>@</bud>
+<bud>/.\</bud> ----+-----------------------------+
+<bud>/ \</bud>     | What are the applications ? |
+  	+-----------------------------+
+				+-------------------------------------+---( me )
+  				| Learning basic Geomatics, GIS,      |
+  				| Contributing to OSM,		      |
+  				| Communication - N/W planning,       |
+                                | Transport - N/W Mapping, 	      |
+                                | <a href="http://arc-team-open-research.blogspot.in/2017/08/mapping-high-apline-lakes-for.html">Archeologic explorations</a> ,          | 
+                                | Disaster resilient mapping ...      |
+                                | you better learn to imagine !       |
+  				+-------------------------------------+
+</pre>
+
+		<p><h4 style="text-align:center;">Some Show off :)</h4></p>
 		<figure>
 		  <div id="slider" class="image-slider" style="max-width:1030; max-height:580">
 		    <img data-src="../../../../content/resource/screenshots/try-terrain/1.png" />
@@ -735,28 +764,8 @@
 		    <img data-src="../../../../content/resource/screenshots/try-terrain/31.png" />
 		    <img data-src="../../../../content/resource/screenshots/try-terrain/32.png" />
 		  </div>
-		  <figcaption> Power of few FOSS tools, libraries used while learning topography</figcaption>
+		  <figcaption> <img src="../../../../content/resource/licenses/by-nc-nd-small strip.png" alt="cc-by-nc-nd"> Power of few FOSS tools, libraries used while learning topography</figcaption>
 		</figure>
-
-<pre>
- <bud>@</bud>
-<bud>/.\</bud> ----+------------------+
-<bud>/ \</bud>     | Yo ! So What ??? |
-  	+------------------+
-
- <bud>@</bud>
-<bud>/.\</bud> ----+-----------------------------+
-<bud>/ \</bud>     | What are the applications ? |
-  	+-----------------------------+
-				+-------------------------------------+---( me )
-  				| Learning basic GIS ,		      |
-  				| Contributing to OSM ,		      |
-  				| Communication - N/W planning ,      |
-  				| Transport - N/W mgmt. ,	      |
-                                | Disaster resilient mapping ...      |
-                                | you better learn to imagine !       |
-  				+-------------------------------------+
-</pre>
 
 	</div>
 
@@ -779,6 +788,7 @@
 	      <li><a href="http://www.terrainmodels.com/index.html">Terrain Models</a></li>
 	      <li><a href="../../../../content/resource/papers/BOINC Topography extraction.pdf">BOINC for Global Topography Extraction</a></li>
 	      <li><a href="https://i2.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Terrain_Map_of_India.png/606px-Terrain_Map_of_India.png">Terrain Map of India (2013) </a></li>
+	      <li><a href="http://arc-team-open-research.blogspot.in/2017/08/mapping-high-apline-lakes-for.html"> Mapping High alpine lakes - Archaeologic exploration</a></li>
 	    </ol>
 	  </p>
 
