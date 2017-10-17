@@ -115,7 +115,7 @@
 	  </p>
 
 	  <figure>
-	    <img style="width:640px; border-radius: 5px; box-shadow: 0 3px 5px rgba(0,0,0,0.3),0 0 0 1px rgba(0,0,0,0.08);"
+	    <img style="width:1000px; border-radius: 5px; box-shadow: 0 3px 5px rgba(0,0,0,0.3),0 0 0 1px rgba(0,0,0,0.08);"
 		 src="../../../../content/resource/maps/try-river/oregeon-missisipi-torrentialflow.jpg" alt="missisipi-torrential-flow">
 	  </figure>
 	  
@@ -129,7 +129,7 @@
 	  <p>
 	    Liking the power of Free Software tools contributed by awesome developers, students, researchers all over the world is
 	    just one thing. Doing stuff using it is completely a new experience. It is definetely a interesting and addictive
-	    task. It is like having a katana collaboratively made by swordsmiths trained by good martial art mentors. If i am not
+	    task. It is like having a katana collaboratively made by swordsmiths trained by good martial art mentor. If i am not
 	    good making katana, i shall learn to use it. It might help in slashing through realworld problems and issues. One has
 	    to know how to use it & when to use it.
 	  </p>
@@ -149,38 +149,16 @@
 	    This is what i have tried to attempt in the <a href="../../../../content/category/hackwork/try-terrain/try-terrain.html">earlier article</a>, to start with.
 	  </p>
 
-	  <div class="accordion">
-	    <div class="accordion-section">
-	      
-	      <a class="accordion-section-title" href="#accordion-why"><h3>Why am i Trying it ?</h3></a>
-	      <div id="accordion-why" class="accordion-section-content">
-		<p>
-		  I grew up almost in urban region, but have always emotionally tied myself with my native village. I have
-		  walked through its paved and non paved roads, with and without foot wears, sometimes working in the fields
-		  with my toiling other members of grand family. Somehow, i was treated nicely - may be because of my weak
-		  structure or me being the last grandson of the current generation in the family. However, i have done
-		  some interesting tasks like collecting cow dungs, and preparing it for biogas. I have witnessed a sustainable
-		  ecosystem in our lands which i could able to unfortunatey understand only after its erosion. I have seen
-		  from almost dried wells, lakes to their full extent. Most of the times been only a dry status. I have heared
-		  stories. I have seen mostly dried up rivers. <b>I was basically in ignorance then.</b>
-		</p>
-
-		<p>
-		  Non critical thinking Labour is one of the most deadlist weapon human civilization have ever come up with.
-		  It does made sense to me to learn about the fundamental things that decides our sustenance even before
-		  working with it closely. My impetus has recently grown out of nature's play in filling the river & tributary
-		  capacities at my locality. If i am not using my interests, information and knowledge to my local situations
-		  then i felt i am definetely going wrong somewhere seriously.
-		</p>
-	      </div>
-
-	    </div>
-	  </div>
-
-	  <figure>
-	    <img src="../../../../content/resource/blockdiagrams/try-river/gis-flow.png" alt="gis-workfow">
-	    <figcaption>Workflow for Hydrological Analysis using GIS</figcaption>
-	  </figure>
+	  <p>
+	    I grew up almost in urban region, but have always emotionally tied myself with my native village. I have
+	    walked through its paved and non paved roads, with and without foot wears, sometimes working in the fields
+	    with my toiling other members of grand family. Somehow, i was treated nicely - may be because of my weak
+	    structure or me being the last grandson of the current generation in the family. However, i have done
+	    some interesting tasks like collecting cow dungs, and preparing it for biogas. I have witnessed a sustainable
+	    ecosystem in our lands which i could able to unfortunatey understand only after its erosion. I have seen
+	    both almost dried wells, lakes and to its full extent. Most of the times been only a dry status. I have heared
+	    stories. I have seen mostly dried up rivers. <b>I was basically in ignorance then.</b>
+	  </p>
 	  
 	</div>
 
@@ -212,6 +190,47 @@
 	  </div>
 	</section>
 
+	
+	<div class="chapter-header"><span>WHY PALAR ?</span></div>
+	<div class="content">
+	  
+	  <p>
+	    My Locality - the TamilNadu state, India is very well known for its River disputes with its neighbouring states. This
+	    has become part of our lives. I do not know who to blame about it. May be every caring empathizing citizen taking responsibility
+	    would help solve the problem. However, i would try to keep focus on my beloved neighbour hood river Palar situated very
+	    near to my village and home. I believe it would help me learn about rivers, and the socio-economic-political issues that
+	    underpin such essential natural resource.
+	  </p>
+
+	  <br>
+	  <h4 style="text-align: center">PALAR DISPUTE HISTORY</h4>
+	  <br>
+	  <br>
+
+	  <div class="content-timeline">
+	    <div id='palar-timeline' style="max-width: 100%; min-height:600px; margin: 0 auto;"></div>
+	  </div>
+	  <p>
+	    For those who are interested in this timeline data, i have made it using JSON, and
+	    <a href="../../../../content/resource/data/try-river/timeline-palar.json">feel free to download</a>
+	    and share it with your peers, whenever you find it needed. <br>
+	  </p>
+	  <p data-type="attribution">
+	    <img src="../../../../content/resource/pictures/try-river/knightlab.png" alt="knightlab">
+	    - Thanks to timelinejs team of knightlab, for creating it.
+	  </p>
+
+	  <div class="content-video">
+	    <video id="vid-1" class="video-js vjs-big-play-centered" controls preload="auto" width="320" height="240"
+		   data-setup='{
+		   "techOrder": ["youtube", "html5"],
+		   "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/embed/Gzzr_Iz0s7Y"}]
+		   }'>
+	    </video>
+	  </div>
+
+	  
+	</div>	
 
 	<div class="content-horizontal-separator">
 		<br>
