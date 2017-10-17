@@ -8,8 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="Everybody has the right to know their terrain" />
-    <meta name="keywords" content="cosmobird" />
+    <meta name="description" content="Everyone has the right to know about terrain" />
+    <meta name="keywords" content="terrain, topography, geomatics, gis, hypsometry, bathymetry, elevation, dem, dtm, cartography, 
+				   satellite, grass, qgis, srtm, raster, vector, contour, osgeo, ogc, isolines, OSM, workflow, threejs, 
+				   maputnik, tileserver, tippecanoe, webgl, cosmobird" />
     <meta name="author" content="cosmobird" />
 
     <!-- TITLE -->
@@ -85,41 +87,6 @@
 			<li>
 				<a href="https://diasp.in/u/31gane">
 					<img title="" src="../../../../assets/pics/social/diaspora-32.png" alt="diaspora">
-					<p>pod</p>
-				</a>
-			</li>
-		</ul>
-	</div>
-
-	<div class="sticky-container">
-		<ul class="sticky">
-			<li>
-				<a href="mailto:31gane@gmail.com">
-					<img title="" src="../../../../assets/pics/social/mail-32.png" alt="email">
-					<p>mail</p>
-				</a>
-			</li>
-			<li>
-				<a href="irc://irc.freenode.org/cosmobird">
-					<img title="" src="../../../../assets/pics/social/irc-32.png" alt="irc">
-					<p>irc</p>
-				</a>
-			</li>
-			<li>
-				<a href="https://mastodon.social/users/smith_ai">
-					<img title="" src="../../../../assets/pics/social/mastodon-32.png" alt="mastodon">
-					<p>toot</p>
-				</a>
-			</li>
-			<li>
-				<a href="https://vector.im/beta/#/room/#cosmo:matrix.org">
-					<img title="" src="../../../../assets/pics/social/riot-32.png" alt="riot">
-					<p>riot</p>
-				</a>
-			</li>
-			<li>
-				<a href="https://diasp.in/u/31gane">
-					<img title="" src="../../../../assets/pics/social/diaspora-32.png" alt="diaspora">
 					<p>pods</p>
 				</a>
 			</li>
@@ -132,16 +99,16 @@
 
   	  	<p>
 			If one ever understands the relationship between geography, social, cultural, technological, economic
-  	  	  	& environmental systems - seems to get to know further about the complexity involved in nature.
+  	  	  	& environmental systems - seems to get to know further about the intrinsic complexity of nature.
   	  	  	Without doubt it has deep entangled connections with the math involved in Geometry, Physics, Chemistry,
   	  	  	Biology. In short, whenever a phenomenon can be represented along with the location involved (<i><a
 			href = "https://en.wikipedia.org/wiki/Uncertainty_principle">that respects heisenberg's uncertainty
 			principle</a></i>), the spatiality can be used to visualize and communicate about the phenomenon's
   	  	  	behavior which is scalable from local to global. However, i am not going to discuss something widely
   	  	  	about geography and GIS here (perhaps another article in someother category) - let's delve into how
-  	  	  	i have used the <b>open data <i>(public domain)</i></b> to undetstand the topography and how i
-  	  	  	further travelled to learn more about it, to analyze, to generate, to visualize, to communicate, & to
-  	  	  	share.
+  	  	  	i have used the <b>open data <i>(public domain)</i></b> & <b>FOSS tools</b> to understand the topography
+			and how i further travelled to learn more about it, to analyze, to generate, to visualize, to communicate,
+			& to share.
   	  	</p>
   	</div>
 
@@ -186,7 +153,8 @@
   	  	  	</ul>
 
   	  		<figure>
-  	  		  	<img style="width:640px" src="../../../../content/resource/drawings/try-terrain/hypso-bathy.png" alt="hypsometry-bathymetry-drawing">
+  	  		  <img style="width:640px; border-radius: 6px; box-shadow: 0 3px 5px rgba(0,0,0,0.3),0 0 0 1px rgba(0,0,0,0.08);"
+			       src="../../../../content/resource/drawings/try-terrain/hypso-bathy.png" alt="hypsometry-bathymetry-drawing">
   	  	  		<figcaption>Basic difference between Hypsometry & Bathymetry and how they relate to DEM</figcaption>
   	  		</figure>
   	  	</p>
@@ -204,7 +172,8 @@
   	  	</p>
 
   	  		<figure>
-  	  		  	<img src="../../../../content/resource/maps/try-terrain/Global Bathymetry DEM.jpg" alt="global-bath-dem">
+  	  		  <img style="width:640px; border-radius: 6px; box-shadow: 0 3px 5px rgba(0,0,0,0.3),0 0 0 1px rgba(0,0,0,0.08);"
+			       src="../../../../content/resource/maps/try-terrain/Global Bathymetry DEM.jpg" alt="global-bath-dem">
   	  	  		<figcaption>example bathymetry DEM</figcaption>
   	  		</figure>
 
@@ -287,6 +256,12 @@
 						  </tbody>
 					</table>
 		  	  	</p>
+
+				<p>
+				  If you have decided to use the popular SRTM data, as the primary data source, one shall use <a href="http://dwtkns.com/srtm/">SRTM Tile Grabber</a>
+				  by <a href="http://dwtkns.com/portfolio/"> Derek Watkins,</a> one of those inspiring designers in Internet. In Step 5, i have tried to
+				  explain how i have done it manually.
+				</p>
 
 	  	  	  	<p>
 	  	  	  	  <b>NOTE:</b>
@@ -456,7 +431,7 @@
 					</table>
 
   	  	  	  	<p>
-  	  	  	  	  	In this case, the map shown above is annotated with coordinates which are <b><i>bottom-left corners</i></b>
+  	  	  	  	  	<b>Manual: </b>In this case, the map shown above is annotated with coordinates which are <b><i>bottom-left corners</i></b>
   	  	  	  	  	(red markers) of the graticules that covers the region (yellow) required. Please do read the SRTM
   	  	  	  	  	<a href="https://dds.cr.usgs.gov/srtm/version2_1/Documentation/">documentation</a> to know why is it so.
   	  	  	  	</p>
@@ -473,6 +448,11 @@
   	  	  		  	  <li>N13E079.hgt</li>
   	  	  		  	</ul>
   	  	  	  	</p>
+
+				<p>
+				  <b>With Help: </b> One shall use <a href="http://dwtkns.com/srtm/">SRTM Tile Grabber</a> web tool designed based on D3
+				  by <a href="http://dwtkns.com/portfolio/"> Derek Watkins,</a> one of those inspiring designers in Internet.
+				</p>
 
   	  	  	  	<p>
   	  	  	  	  <b><i>NOTE:</i></b> One has to be careful when working in a <b>disputed area</b>. Make sure
@@ -717,12 +697,14 @@
 <bud>/.\</bud> ----+-----------------------------+
 <bud>/ \</bud>     | What are the applications ? |
   	+-----------------------------+
-				+-------------------------------------+---( me )
+
+                                +-------------------------------------+---( me )
   				| Learning basic Geomatics, GIS,      |
   				| Contributing to OSM,		      |
   				| Communication - N/W planning,       |
                                 | Transport - N/W Mapping, 	      |
-                                | <a href="http://arc-team-open-research.blogspot.in/2017/08/mapping-high-apline-lakes-for.html">Archeologic explorations</a> ,          | 
+                                | <a href="http://arc-team-open-research.blogspot.in/2017/08/mapping-high-apline-lakes-for.html">Archeologic explorations</a>,           | 
+                                | <a href="https://source.opennews.org/articles/how-we-made-washington-post-eclipse-scroller/">Digital GeoSpatial Journalism</a>,      |
                                 | Disaster resilient mapping ...      |
                                 | you better learn to imagine !       |
   				+-------------------------------------+
@@ -784,7 +766,7 @@
 	      <li><a href="https://w3c.github.io/sdw/bp/"> Spatial Data on Web - Best Practices </a> </li>
 	      <li><a href="https://drive.google.com/open?id=0B2P66bYnyzH7Xzlqamp4NDlXeVU"> My evolving presentation on GIS </a> </li>
 	      <li><a href="http://www.reliefshading.com/">Relief Shading</a></li>
-	      <li><a href="http://www.shadedrelief.com/">Relief representation on Maps</li>
+	      <li><a href="http://www.shadedrelief.com/">Relief representation on Maps</a></li>
 	      <li><a href="http://www.terrainmodels.com/index.html">Terrain Models</a></li>
 	      <li><a href="../../../../content/resource/papers/BOINC Topography extraction.pdf">BOINC for Global Topography Extraction</a></li>
 	      <li><a href="https://i2.wp.com/upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Terrain_Map_of_India.png/606px-Terrain_Map_of_India.png">Terrain Map of India (2013) </a></li>
@@ -805,12 +787,13 @@
 			    	<li><a href="http://www.flaticon.com/authors/roundicons">Round Icons</a></li>
 	  	  	  </ul>
 		  </li>
-  	  	  <li><b>Maps & Tools :</b>
+  	  	  <li><b>Useful Maps & Tools :</b>
 			  <ul>
 	  	  	  	<li><a href="https://www.flickr.com/photos/kevinmgill/">Kevin Gill - Bathymetry map</a></li>
 				<li><a href="https://grass.osgeo.org/documentation/manuals/"> GRASS GIS Manuals </a></li>
 			        <li><a href="http://elasticterrain.xyz">Elastic Terrain</a></li>
-				<li><a href="http://terraincartography.com/PyramidShader/">Pyramid Shader</a></li>
+				<li><a href="http://dwtkns.com/srtm/">SRTM Tile Grabber</a></li>
+				<li><a href="http://www.terraincartography.com/PyramidShader/">Pyramid Shader</a></li>
 				<li><a href="http://www.terraincartography.com/terrainequalizer/">Terrain Equalizer</a></li>
 				<li><a href="http://www.terraincartography.com/terrainbender/">Terrain Bender</a></li>
 				<li><a href="http://www.screepainter.com/">Scree Painter</a></li>
@@ -826,7 +809,7 @@
 	</div>
 
 	<div class="content-horizontal-separator">
-		<br></br>
+		<br>
 	</div>
 
 	<div class="content">
@@ -836,14 +819,14 @@
   	</div>
 
 	<div class="content-horizontal-separator">
-		<br></br>
+		<br>
 	</div>
 
 </body>
 
 <!-- SCRIPTS -->
 
-  <!-- FOR IMAGE SLIDE / -->
+  <!-- FOR IMAGE SLIDE -->
   <script>
     var slider = new IdealImageSlider.Slider({
     selector: '#slider',
