@@ -28,6 +28,8 @@
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-article.css" />
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-table.css" />
     <link rel="stylesheet" type="text/css" href="../../../../styles/font-awesome/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/slides/ideal-image-slider/ideal-image-slider.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/slides/ideal-image-slider/themes/default.css" />    
     <link rel="stylesheet" type="text/css" href="../../../../styles/tabs/tabs.css" />
     <link rel="stylesheet" type="text/css" href="../../../../styles/tabs/tabstyles.css" />
     <link rel="stylesheet" type="text/css" href="../../../../styles/timeline/timelinejs.css" />
@@ -37,6 +39,7 @@
     <script type="text/javascript" src="../../../../scripts/generalizers/modernizr.custom_tabs.js"></script>
     <script type="text/javascript" src="../../../../scripts/frontend-functionality/cbpFWTabs.js"></script>
     <script type="text/javascript" src="../../../../scripts/generalizers/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="../../../../scripts/slides/ideal-image-slider.js"></script>        
     <script type="text/javascript" src="../../../../scripts/frontend-functionality/accordion.js"></script>
     <script type="text/javascript" src="../../../../scripts/timeline/timelinejs.js"></script>
     <script type="text/javascript" src="../../../../scripts/analytics/analytics.js"></script>
@@ -1319,12 +1322,16 @@
 		    who does not have the slightest connection or any understanding about the systems in place. They are inherently innocent about it.
 		  </p>
 
-		  <figure style="display:flex; max-width:1024px">
-		    <img style="margin:0.5em;" src="../../../../content/resource/pictures/uniqueid/Bundesarchiv Bild Tafel mit KZ-Kennzeichen (Winkel) retouched - small-1.jpg" alt="numbering-holocaust-1">
-		    <img style="margin:0.5em;" src="../../../../content/resource/pictures/uniqueid/Bundesarchiv Bild Tafel mit KZ-Kennzeichen (Winkel) retouched - small-2.jpg" alt="numbering-holocaust-2">
-		    <img style="margin:0.5em;" src="../../../../content/resource/pictures/uniqueid/hollerith.gif" alt="hollerith-machine">
+		  <figure>
+		    <div id="slider" style="width:550px; height:400px;" class="image-slider">
+		      <img data-src="../../../../content/resource/pictures/uniqueid/Winkel-retouched-small-1.jpg" />
+		      <img data-src="../../../../content/resource/pictures/uniqueid/Winkel-retouched-small-2.jpg" />
+		      <img data-src="../../../../content/resource/pictures/uniqueid/hollerith.gif" />
+		      <img data-src="../../../../content/resource/pictures/uniqueid/Ebensee_concentration_camp_prisoners_1945-small.jpg" />
+		    </div>
+		    <figcaption> Holocaust, IBM's Hollerith Machine & Prisoners</figcaption>
 		  </figure>
-
+		  
 		  <p>
 		    Based on the facts provided by the international investivative author <b>Edwin Black</b>, in the 12 year nazi regime, there has been
 		    a continuous participation and several attempts of IBM's contribution to the Reich. Dutch subsidiary of IBM worked in tandem with the
@@ -1334,10 +1341,6 @@
 		    one who had been gassed, then print the cards, configure the machines, train the staff, and continuously maintain the fragile systems
 		    every two weeks on site in the concentration camps.
 		  </p>
-
-		  <figure style="max-width:80%">
-		    <img src="../../../../content/resource/pictures/uniqueid/Ebensee_concentration_camp_prisoners_1945-small.jpg" alt="camp-prisoners">
-		  </figure>
 
 		  <h4>Gandhi, Transvaal and Disobedience:</h4>
 		  <p>
@@ -1355,7 +1358,8 @@
 		  </p>
 
 		  <figure>
-		    <img src="../../../../content/resource/pictures/uniqueid/transvaalregistrationact-fingerprintdetails.jpg" alt="transvall-passburning">
+		    <img style="border-radius: 6px; box-shadow: 0 3px 5px rgba(0,0,0,0.3),0 0 0 1px rgba(0,0,0,0.08);"
+			 src="../../../../content/resource/pictures/uniqueid/transvaalregistrationact-fingerprintdetails.jpg" alt="transvall-passburning">
 		  </figure>
 
 		  <h4>NOTE</h4>
@@ -3389,6 +3393,17 @@
 
   <!-- SCRIPTS -->
 
+  <!-- FOR IMAGE SLIDE -->
+  <script>
+    var slider = new IdealImageSlider.Slider({
+    selector: '#slider',
+    interval: 5000,
+    transitionDuration: 200,
+    height: 400
+    });
+  </script>
+  <!-- FOR IMAGE SLIDE / -->
+  
   <!-- FOR TIMELINING -->
   <script type="text/javascript">
     window.timeline = new TL.Timeline('aadhaar-timeline', '../../../../content/resource/data/uniqueid/timeline-uid.json');
