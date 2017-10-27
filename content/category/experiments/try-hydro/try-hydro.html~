@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Everyone has the right to know about Rivers" />
+    <meta name="keywords" content="terrain, topography, geomatics, gis, hypsometry, bathymetry, elevation, dem, dtm, cartography, catchment
+				   rivers, watershed, wetland, ponds, lakes, aquatic vegetation, basins, satellite, grass, qgis, srtm, 
+				   raster, vector, contour, osgeo, ogc, isolines, OSM, workflow, threejs, maputnik, tileserver, tippecanoe, 
+				   webgl, cosmobird" />
+    <meta name="author" content="cosmobird" />
+
+    <!-- TITLE -->
+    <title>Right to know the Hydro !</title>
+
+    <!-- STYLE STHEETS -->
+    <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-article.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-table.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/balloons/balloon.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/slides/ideal-image-slider/ideal-image-slider.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/slides/ideal-image-slider/themes/default.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/tabs/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/tabs/tabstyles.css" />    
+    <link rel="stylesheet" type="text/css" href="../../../../styles/timeline/timelinejs.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../styles/multimedia/video-js.css" />    
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="../../../../scripts/generalizers/modernizr.custom_tabs.js"></script>
+    <script type="text/javascript" src="../../../../scripts/frontend-functionality/cbpFWTabs.js"></script>    
+    <script type="text/javascript" src="../../../../scripts/generalizers/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="../../../../scripts/slides/ideal-image-slider.js"></script>    
+    <script type="text/javascript" src="../../../../scripts/frontend-functionality/accordion.js"></script>
+    <script type="text/javascript" src="../../../../scripts/timeline/timelinejs.js"></script>      
+    <script type="text/javascript" src="../../../../scripts/analytics/analytics.js"></script>
+    
+
+</head>
+
+<body>
+	<header class="content-header">
+		<h2> Know thy Hydro </h2>
+	</header>
+
+  	<div class="content-author-info">
+	  	  <table class="content-table">
+		  <thead class="content-table-head">
+			  <tr>
+			    <th>Author</th>
+			    <th>Date</th>
+			    <th>Time to Read</th>
+			    <th>License</th>
+			  </tr>
+		  </thead>
+		  <tbody class="content-table-body">
+			  <tr>
+			    <td>Cosmobird + Ganesh</td>
+			    <td>17 Oct 2017</td>
+			    <td>30 mins.</td>
+			    <td><img src="../../../../content/resource/licenses/by-nc-sa.png" alt="cc-by-nc-sa"></td>
+			  </tr>
+		  </tbody>
+		</table>
+  	</div>
+
+	<div class="sticky-container">
+		<ul class="sticky">
+			<li>
+				<a href="mailto:31gane@gmail.com">
+					<img title="" src="../../../../assets/pics/social/mail-32.png" alt="email">
+					<p>mail</p>
+				</a>
+			</li>
+			<li>
+				<a href="irc://irc.freenode.org/cosmobird">
+					<img title="" src="../../../../assets/pics/social/irc-32.png" alt="irc">
+					<p>irc</p>
+				</a>
+			</li>
+			<li>
+				<a href="https://mastodon.social/users/smith_ai">
+					<img title="" src="../../../../assets/pics/social/mastodon-32.png" alt="mastodon">
+					<p>toot</p>
+				</a>
+			</li>
+			<li>
+				<a href="https://vector.im/beta/#/room/#cosmo:matrix.org">
+					<img title="" src="../../../../assets/pics/social/riot-32.png" alt="riot">
+					<p>riot</p>
+				</a>
+			</li>
+			<li>
+				<a href="https://diasp.in/u/31gane">
+					<img title="" src="../../../../assets/pics/social/diaspora-32.png" alt="diaspora">
+					<p>pods</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+  	<div class="content">
+
+	  <p>Hey there Water drinkers !</p>
+
+	  <p>
+	    We all know Water is the elixir of Life. And freshwater is is much more scarce elixir of Life. When there is more
+	    living beings in a planet, competition emerges to sustain life that depends on this elixir. With humans in such an
+	    ecosystem, known for consuming water from cleaning our ass to making useless beverages - makes the competition much
+	    worse. Especially when the raging market for water packed in polyethylene bottles and selling sand that once was a river
+	    and lake beds to meet the accelerated urbanization requirements become normative. It turns out humans are their own
+	    problems. I mean me too.
+	  </p>
+
+	  <figure>
+	    <img style="width:640px; border-radius: 5px; box-shadow: 0 3px 5px rgba(0,0,0,0.3),0 0 0 1px rgba(0,0,0,0.08);"
+		 src="../../../../content/resource/maps/try-river/oregeon-missisipi-torrentialflow-small.jpg" alt="missisipi-torrential-flow">
+	    <figcaption>Beautiful Meandering history of Missisipi River</figcaption>
+	  </figure>
+	  
+	  <p>
+	    Well i dont know what i can contribute to solve this problem, apart from being conscious and take part in protests as
+	    a usual common citizen would do. But i can do one more thing that feeds my intellectual capacity as well as letting
+	    myself understand the problem from a scientific but associated perspective. With that intention & existing know how of
+	    handling GIS data, tools, some theory & internet i think i can do something about it. <mark>But why River in particular ?</mark>
+	    I view common water bodies as (rivers, acquifiers, lakes, ponds, tanks) as the common representator of water collection,
+	    flow, banking, and contributor of complex ecosystems which in turn contribute to other ecosystems. Its flow completes the
+	    natural water/hydrological cycle.
+	  </p>
+
+	  <p>
+	    Liking the power of Free Software tools contributed by awesome developers, students, researchers all over the world is
+	    just one thing. Doing stuff using it is completely a new experience. It is definetely a interesting and addictive
+	    task. It is like having a katana collaboratively made by swordsmiths trained by good martial art mentors. If i am not
+	    good making katana, i shall learn to use it. Since now i can access the information how it is made and why it is made
+	    so, it will help in slashing through realworld problems and issues. One has to know how to use it & when to use it.
+	  </p>
+	  
+	</div>
+
+
+	<div class="chapter-header"><span>KNOWING RIVER STUFF</span></div>
+	<div class="content">
+	  <p>
+	    Being conscious and aware about the problems surrounding us are vital, and getting to know about the
+	    geographical nature - environment that sustains us is much more essential. It is the material & immaterial
+	    fabric that connects us. Exploring the topography around ones location, aided with the modern FOSS tools,
+	    is not equivalent to what one shall enjoy in taking a magnetic compass, finely scaled map, trekking, taking
+	    notes, surveying, collecting data from nature, recording nature's awe but will surely reduce the labour
+	    that loads our intellectual work, so that we can use it wisely for craftsman ship embedded in the work.
+	    This is what i have tried to attempt in the <a href="../../../../content/category/hackwork/try-terrain/try-terrain.html">earlier article</a>, to start with.
+	  </p>
+
+	  <p>
+	    Starting from the common GIS workflow again guides one to keep the process simple and explainable. In this
+	    attempt we are trying to look at the river of interest and see how come FOSS based tools, libraries, Open
+	    data, Open Access research papers, & internet will help us explore. 
+	  </p>
+	  
+	  <figure>
+	    <img src="../../../../content/resource/blockdiagrams/try-river/gis-flow.png" alt="gis-workfow">
+	    <figcaption>Common GIS Workflow</figcaption>
+	  </figure>
+
+	  <p>
+	    Learning hydrological view of a Water body (ex: River) has sure lead the exploration to all other overlapping transdisciplinary
+	    fields. It is a wonderful way of learning geo-sciences that also lets one constantly be aware about the
+	    socio-economic influence it always has in human history. So, before doing something with the tools that provides
+	    the power, one has to know the theoretical understanding of what <a href="http://wiki.gis.com/wiki/index.php/Hydrology">hydrology</a> mean, how it is related to fundamental
+	    topography and how will it water collection, flow, & storage, until it confluences to either the ocean or
+	    sinks to a land locked lake/pond. 
+	  </p>
+
+	  <p>
+	    Its wise to remember, that both terrain study and <a href="https://en.wikipedia.org/wiki/Hydrology">hydrological</a> study of a
+	    region is carried out using calibrated <a href="https://en.wikipedia.org/wiki/Surveying">survey</a> instruments, trained workforce
+	    constituting managers, researchers, scientists, surveyors, auditing officials, etc. This attempt is to see how far we can go with
+	    Open data, FOSS tools & Open Access Research. Labour put into such tedious task of collecting data representing "ground truth" &
+	    disseminating data for further use must be thanked. It is a well known fact, that geospatial science has always respected, adapted
+	    and contributed for Open systems & standards.
+	  </p>
+	  
+	</div>
+
+
+	<div class="chapter-header"><span>LET'S TRY IT</span></div>
+	<div class="content">
+	  <p>
+	    Hydrology, as far as i understand constitutes knowing about several kind of data, and related knowledge about it.
+	    Only then one can understand how labouriously collected can be put together to make sense of it. Also from a
+	    community of individuals perspective, working on how to extract useful, intutively interpretative & interactive
+	    information about the local region is of fundamental importance. As the Region is now bounded it requires relatively
+	    very less computing requrirements, and when exceeds a individuals power, communities support in handling the load
+	    will make the work very feasible and useful at the end.
+	  </p>
+
+	  <figure>
+	    <img src="../../../../content/resource/blockdiagrams/try-river/hydrology-flow.png" alt="hydrology-workfow">
+	    <figcaption>Understanding Hydrology Workflow</figcaption>
+	  </figure>
+
+	  <p>
+	    Topography of a region decides the hydrological effects. Learning about one have lead to learning about the other.
+	    Understanding about the information dependence lets us see how terrain contribute to formation of <a href="https://en.wikipedia.org/wiki/Drainage_basin">catchment basins</a>.
+	    With the availability of open data and internet, one can analyze and visualize topography from the Terrain data
+	    available in public domain. Furthermore, access to Spectral remote sensing data, and their derived indices (water,
+	    vegetation, turbidity, ...) help visualize how the flow of water & its storage form the hydrology throughout its
+	    presence. Then one could see clearly how the fundamental topographical & hydrological nature of a region influenced
+	    the cultural & socio-economic conditions.
+	  </p>
+	  
+	</div>
+	
+	<section>
+	  <div class="tabs tabs-style-topline">
+	    <nav>
+	      <ul>
+		<li><a href="#section-administrative"><span>ADMINISTRATIVE</span></a></li>
+		<li><a href="#section-topography"><span>TOPOGRAPHY</span></a></li>
+		<li><a href="#section-hydrology"><span>HYDROLOGY</span></a></li>
+	      </ul>
+	    </nav>
+
+	    <div class="content">
+
+	      <section id="section-administrative">
+		<p>
+		  Knowing terrain information and generating topographic details from it for the selected region, based
+		  on administrative boundary will be the most intuitive way to focus the scope of play and analysis. When
+		  the region of interest, cannot be confined within a specific administrative boundary, one may have to
+		  widen the scope of interest to more than one geographical regions, spanning neighbouring villages or
+		  districts or counties or states or countries. This makes the boundary information to be accurate and
+		  satisfactory for included administrative regions. Care needs to be taken that such an attempt must not
+		  trigger any boundary related issues during publication.
+		</p>
+
+		<p>
+		  <mark>But Why ?</mark> In the case of hydrological study, for instance a river, which naturally provides
+		  resources for more than an administrative region is a common and shared resource. In such cases starting
+		  from topographic analysis to extracting hydrological and socio-economic or cultural information needs to
+		  include plurality of inter-boundary features.
+		</p>
+
+		<p>
+		  Since, i have already tried understanding terrain and extrating topographic information associated with it,
+		  in an <a href="../../../../content/category/hackwork/try-terrain/try-terrain.html">earlier article</a>, as
+		  in the above picture. It would be better to further see how it helps in associating with hydrological understanding.
+		  Also, since my interest is now aligned with studying and analysing hydrology of south indian river <a href="https://en.wikipedia.org/wiki/Palar_River">Palar</a>.
+		  Thus now, the region of interest, must span the <u>districts in each of the 3 states</u>, through out which Palar flows:
+
+		  <ul>
+		    <li>Karnataka</li>
+		    <li>Andhra Pradesh</li>
+		    <li>TamilNadu</li>
+		  </ul>
+		</p>
+		
+	      </section>
+
+	      <section id="section-topography">
+		<p>
+
+		</p>
+	      </section>
+	      
+	      <section id="section-hydrology">
+		<p>
+
+		</p>
+	      </section>
+
+	    </div>
+	  </div>
+	</section>
+
+
+	<div class="content-horizontal-separator">
+	  <br>
+	</div>
+
+	<div class="content">
+
+	  <p>
+	    <h3><i>READINGS, LINKS & DOWNLOADS :</i></h3>
+	  </p>
+
+	  <p>
+	    <ol>
+	    </ol>
+	  </p>
+
+  	  <p>
+  	   <h3><i>CREDITS & ATTRIBUTIONS :</i></h3>
+  	  	<ul>
+		  <li><b>Icons :</b>
+			  <ul>
+
+	  	  	  </ul>
+		  </li>
+  	  	  <li><b>Useful Maps & Tools :</b>
+			  <ul>
+	  	  	  </ul>
+		  </li>
+  	    	</ul>
+  	   </p>
+
+	</div>
+
+	<div class="content-horizontal-separator">
+		<br>
+	</div>
+
+	<div class="content">
+		<figure>
+		  	<img src="../../../../content/resource/licenses/by-nc-sa.png" alt="cc-by-nc-sa">
+		</figure>
+  	</div>
+
+	<div class="content-horizontal-separator">
+		<br>
+	</div>
+
+</body>
+
+
+<!-- SCRIPTS -->
+
+  <!-- FOR IMAGE SLIDE -->
+  <script>
+    var slider = new IdealImageSlider.Slider({
+    selector: '#slider',
+    interval: 5000,
+    transitionDuration: 200
+    });
+  </script>
+  <!-- FOR IMAGE SLIDE / -->
+
+  <!-- FOR TABBING -->
+  <script>
+    (function() {
+
+    [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+    new CBPFWTabs( el );
+    });
+
+    })();
+  </script>
+  <!-- FOR TABBING /-->
+  
+  <!-- FOR TIMELINING -->
+  <script type="text/javascript">
+    window.timeline = new TL.Timeline('palar-timeline', '../../../../content/resource/data/try-river/timeline-palar.json');
+  </script>
+  <!-- FOR TIMELINING / -->
+
+  <!-- FOR VIDEO -->
+  <script type="text/javascript" src="../../../../scripts/multimedia/video.js"></script>
+  <script type="text/javascript" src="../../../../scripts/multimedia/Youtube.js"></script>
+  <!-- FOR VIDEO / -->
+
+</html>

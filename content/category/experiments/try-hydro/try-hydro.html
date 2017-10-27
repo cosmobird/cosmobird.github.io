@@ -8,14 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="Everyone has the right to know about Rivers" />
-    <meta name="keywords" content="terrain, topography, geomatics, gis, hypsometry, bathymetry, elevation, dem, dtm, cartography, 
-				   rivers, watershed, basins, wet land, satellite, grass, qgis, srtm, raster, vector, contour, 
-				   osgeo, ogc, isolines, OSM, workflow, threejs, maputnik, tileserver, tippecanoe, webgl, cosmobird" />
+    <meta name="description" content="Everyone has the right to know about Land & Water" />
+    <meta name="keywords" content="terrain, topography, geomatics, gis, hypsometry, bathymetry, elevation, dem, dtm, cartography, catchment
+				   rivers, watershed, wetland, ponds, lakes, aquatic vegetation, basins, satellite, grass, qgis, srtm, 
+				   raster, vector, contour, osgeo, ogc, isolines, OSM, workflow, threejs, maputnik, tileserver, tippecanoe, 
+				   webgl, cosmobird" />
     <meta name="author" content="cosmobird" />
 
     <!-- TITLE -->
-    <title>Right to know the Rivers !</title>
+    <title>Right to know the Hydro !</title>
 
     <!-- STYLE STHEETS -->
     <link rel="stylesheet" type="text/css" href="../../../../styles/content-style/content-article.css" />
@@ -42,7 +43,7 @@
 
 <body>
 	<header class="content-header">
-		<h2> Know thy Rivers </h2>
+		<h2> Know thy Hydro </h2>
 	</header>
 
   	<div class="content-author-info">
@@ -58,7 +59,7 @@
 		  <tbody class="content-table-body">
 			  <tr>
 			    <td>Cosmobird + Ganesh</td>
-			    <td>17 Oct 2017</td>
+			    <td>26 Oct 2017</td>
 			    <td>30 mins.</td>
 			    <td><img src="../../../../content/resource/licenses/by-nc-sa.png" alt="cc-by-nc-sa"></td>
 			  </tr>
@@ -117,6 +118,7 @@
 	  <figure>
 	    <img style="width:640px; border-radius: 5px; box-shadow: 0 3px 5px rgba(0,0,0,0.3),0 0 0 1px rgba(0,0,0,0.08);"
 		 src="../../../../content/resource/maps/try-river/oregeon-missisipi-torrentialflow-small.jpg" alt="missisipi-torrential-flow">
+	    <figcaption>Beautiful Meandering history of Mississipi River</figcaption>
 	  </figure>
 	  
 	  <p>
@@ -124,8 +126,9 @@
 	    a usual common citizen would do. But i can do one more thing that feeds my intellectual capacity as well as letting
 	    myself understand the problem from a scientific but associated perspective. With that intention & existing know how of
 	    handling GIS data, tools, some theory & internet i think i can do something about it. <mark>But why River in particular ?</mark>
-	    I view rivers as the common representator of water collection, flow, banking, and contributor of complex ecosystems which
-	    in turn contribute to other ecosystems. Its flow completes the natural water/hydrological cycle.
+	    I view common water bodies as (rivers, acquifiers, lakes, ponds, tanks) as the common representator of water collection,
+	    flow, banking, and contributor of complex ecosystems which in turn contribute to other ecosystems. Its <mark>flow</mark> completes the
+	    natural water/hydrological cycle.
 	  </p>
 
 	  <p>
@@ -139,11 +142,11 @@
 	</div>
 
 
-	<div class="chapter-header"><span>KNOWING RIVER STUFF</span></div>
+	<div class="chapter-header"><span>KNOWING HYDRO STUFF</span></div>
 	<div class="content">
 	  <p>
 	    Being conscious and aware about the problems surrounding us are vital, and getting to know about the
-	    geographical nature - environment that sustains us is much more essential. It is the material & immaterial
+	    geographical nature & environment that sustains us is much more essential. It is the material & immaterial
 	    fabric that connects us. Exploring the topography around ones location, aided with the modern FOSS tools,
 	    is not equivalent to what one shall enjoy in taking a magnetic compass, finely scaled map, trekking, taking
 	    notes, surveying, collecting data from nature, recording nature's awe but will surely reduce the labour
@@ -163,9 +166,9 @@
 	  </figure>
 
 	  <p>
-	    Learning hydrological view of a Water body (ex: River) has sure lead the exploration to all other overlapping transdisciplinary
-	    fields. It is a wonderful way of learning geo-sciences that also lets one constantly be aware about the
-	    socio-economic influence it always has in human history. So, before doing something with the tools that provides
+	    Learning hydrological view of nearby Water bodies (ex: River) has sure lead the exploration to all other overlapping
+	    transdisciplinary fields. It is a wonderful way of learning geo-sciences that also lets one constantly be aware about
+	    the socio-economic influence it always has in human history. So, before doing something with the tools that provides
 	    the power, one has to know the theoretical understanding of what <a href="http://wiki.gis.com/wiki/index.php/Hydrology">hydrology</a> mean, how it is related to fundamental
 	    topography and how will it water collection, flow, & storage, until it confluences to either the ocean or
 	    sinks to a land locked lake/pond. 
@@ -205,7 +208,7 @@
 	    With the availability of open data and internet, one can analyze and visualize topography from the Terrain data
 	    available in public domain. Furthermore, access to Spectral remote sensing data, and their derived indices (water,
 	    vegetation, turbidity, ...) help visualize how the flow of water & its storage form the hydrology throughout its
-	    presence. Then one could see clearly how the fundamental topographical & hydrological nature of a region influenced
+	    presence. Then one could see clearly how the fundamental topographical & hydrological nature of a region influences
 	    the cultural & socio-economic conditions.
 	  </p>
 	  
@@ -241,18 +244,19 @@
 		  include plurality of inter-boundary features.
 		</p>
 
-		<figure style="width: 640px">
-		  <img src="../../../../content/resource/maps/try-terrain/Slope.png" alt="Slope">
-		  <figcaption>Topographic confied to a admin. boundary</figcaption>
-		</figure>
-
 		<p>
 		  Since, i have already tried understanding terrain and extrating topographic information associated with it,
 		  in an <a href="../../../../content/category/hackwork/try-terrain/try-terrain.html">earlier article</a>, as
 		  in the above picture. It would be better to further see how it helps in associating with hydrological understanding.
-		  Also, since my interest is now aligned with studying and analysing hydrology of south indian river <a href="">Palar</a>,
+		  Also, since my interest is now aligned with studying and analysing hydrology of south indian river <a href="https://en.wikipedia.org/wiki/Palar_River">Palar</a>.
+		  Thus now, the region of interest, must span the <u>districts in each of the 3 states</u>, through out which Palar flows:
+
+		  <ul>
+		    <li>Karnataka</li>
+		    <li>Andhra Pradesh</li>
+		    <li>TamilNadu</li>
+		  </ul>
 		</p>
-		
 		
 	      </section>
 
