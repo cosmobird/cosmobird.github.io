@@ -1,29 +1,36 @@
 {
     "title": {
         "media": {
-            "url": "../../../../content/resource/pictures/uniqueid/Prisoners_Uniforms_with_Red_Triangles_of_Political_Prisoners.jpg",
-            "caption": "History teaches and illustrates proof"
-        },
-        "text": {
-            "headline": "Mortmain of UID",
-            "text": "<p>One can learn from history instead of repeating it.</p>"
+            "url": "../../../../content/resource/pictures/boot-coops/Coop_logo_small.png"
         }
     },
 
     "events": [
 	{
             "media": {
-		"url": "../../../../content/resource/pictures/uniqueid/supreme-court-india.jpg",
-		"caption": "Hearing documentation <a href='http://sflc.in/nine-judge-constitution-bench-of-supreme-court-hears-arguments-on-right-to-privacy-updates-from-day-5/'>day 5</a>"
+		"url": "../../../../content/resource/pictures/boot-coops/Via_Mala_micro.jpg",
+		"caption": "Viamala Bridges"
             },
             "start_date": {
-		"day": "01",
-		"month": "08",
-		"year": "2016"
+		"year": "1473"
             },
             "text": {
-		"headline": "Supreme Court",
-		"text": "<p> Bench of the Supreme Court, heard fundamental right to privacy. </p>"
+		"headline": "Via Mala",
+		"text": "<p> A <a href='https://en.wikipedia.org/wiki/Viamala'>Bad Path resolved by Coops</a>. Municipalities and transport cooperatives of Thusis, Masein and Cazis to rebuild the passage, then in desolate condition. </p>"
+            }
+	},
+
+	{
+            "media": {
+		"url": "../../../../content/resource/pictures/boot-coops/Fenwick_small.jpg",
+		"caption": ""
+            },
+            "start_date": {
+		"year": "1761"
+            },
+            "text": {
+		"headline": "Weavers Society",
+		"text": "<p> Formed to foster high standards in the weaving craft, & to include collective purchasing of bulk food items and books. Resulted in the creation of the Fenwick Library in 1808. This practice of collective purchasing for the benefit of members has led many to consider <a href='https://en.wikipedia.org/wiki/Fenwick_Weavers%27_Society'>Fenwick Weavers' Society</a> the first co-operative.</p>"
             }
 	}
     ]
