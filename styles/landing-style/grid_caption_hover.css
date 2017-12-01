@@ -1,5 +1,7 @@
 /*GRID CAPTIONS IN PAGE*/
-.grid {
+
+/*SMALL GRID*/
+.grid-small {
     padding: 10px 10px 10px 10px;
     min-width: 20%;
     margin: 0 auto;
@@ -7,7 +9,44 @@
     text-align: center;
 }
 
-.grid li {
+.grid-small li {
+    display: inline-block;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.grid-small figure {
+    margin: 0;
+    position: relative;
+}
+
+.grid-small figure a {
+    text-align: center;
+    color: #fff;
+}
+
+.grid-small figure img {
+    max-width: 100%;
+    max-height: 50px;
+    display: block;
+    position: relative;
+}
+
+/*LARGE GRID*/
+.grid-large {
+    padding: 10px 10px 10px 10px;
+    min-width: 20%;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.grid-large li {
     display: inline-block;
     min-width: 200px;
     max-width: 200px;
@@ -18,24 +57,24 @@
     position: relative;
 }
 
-.grid figure {
+.grid-large figure {
     margin: 0;
     position: relative;
 }
 
-.grid figure a {
+.grid-large figure a {
     text-align: center;
     color: #fff;
 }
 
-.grid figure img {
+.grid-large figure img {
     max-width: 100%;
     max-height: 200px;
     display: block;
     position: relative;
 }
 
-.grid figcaption {
+.grid-large figcaption {
     min-width: 100%;
     position: absolute;
     padding: 2px;
@@ -43,7 +82,7 @@
     color: #ed4e6e;
 }
 
-.grid figcaption h3 {
+.grid-large figcaption h3 {
     margin: 0;
     padding: 0;
     color: #fff;
@@ -51,13 +90,34 @@
 }
 
 
-/*When Viewport is 800px*/
-@media screen and (width: 800px) {
-    .grid {
+/*When Viewport is between >280px && <= 600px*/
+@media screen and (min-width: 280px) and (max-width: 600px) {
+    .grid-small {
+	padding: 5px 5px 5px 5px;
+	max-width: 80%;
+    }
+    .grid-small li {
+	width: 100%;
+	min-width: 50px;
+    }
+    .grid-large {
+	display: none;
+    }
+}
+
+/*When Viewport is between > 600px && <= 800px*/
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    .grid-small {
+	display: none;
+    }
+    .grid-small li{
+	display: none;
+    }
+    .grid-large {
 	padding: 10px 10px 10px 10px;
 	max-width: 80%;
     }
-    .grid li {
+    .grid-large li {
 	width: 100%;
 	min-width: 200px;
     }
@@ -65,12 +125,36 @@
 }
 
 /*When Viewport reaches 1366px*/
-@media screen and (max-width: 1366px) {
-    .grid {
+@media screen and (min-width: 801px) and (max-width: 1366px) {
+    .grid-small {
+	display: none;
+    }
+    .grid-small li{
+	display: none;
+    }    
+    .grid-large {
 	padding: 10px 10px 10px 10px;
 	max-width: 1024px;
     }
-    .grid li {
+    .grid-large li {
+	width: 100%;
+	min-width: 200px;
+    }
+}
+
+/*When Viewport reaches 1920px*/
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+    .grid-small {
+	display: none;
+    }
+    .grid-small li{
+	display: none;
+    }    
+    .grid-large {
+	padding: 10px 10px 10px 10px;
+	max-width: 1366px;
+    }
+    .grid-large li {
 	width: 100%;
 	min-width: 200px;
     }

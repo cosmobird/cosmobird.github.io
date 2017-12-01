@@ -131,6 +131,7 @@ section {
 
 .cosmo-header img {
     border-radius: 2%;
+    max-width: 100%;
 }
 
 /*SEARCH*/
@@ -241,9 +242,16 @@ section {
 
 }
 
+
+
+@media screen and (min-width: 280px) and (max-width: 320px) {
+    .cosmo-header img {
+	max-width: 75%;
+    }    
+}
+
 @media screen and (min-width: 716px) {
-    .footer-social li
-    {
+    .footer-social li {
 	margin: 0em 1em 1em 1em;
     }
 }

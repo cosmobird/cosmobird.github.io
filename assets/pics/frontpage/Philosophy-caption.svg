@@ -15,13 +15,13 @@
    enable-background="new 0 0 100 100"
    xml:space="preserve"
    id="svg3555"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="Philosophy-caption.svg"
    width="400"
    height="300"><metadata
      id="metadata3593"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
      id="defs3591"><linearGradient
        inkscape:collect="always"
        id="linearGradient3349"><stop
@@ -56,8 +56,8 @@
      inkscape:cx="385.36229"
      inkscape:cy="114.92935"
      inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg3555"
      showguides="true"
      inkscape:guide-bbox="true"
