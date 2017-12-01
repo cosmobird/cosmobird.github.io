@@ -99,6 +99,8 @@
     .grid-small li {
 	width: 100%;
 	min-width: 50px;
+	margin: 10px;
+	padding: 0px;
     }
     .grid-large {
 	display: none;

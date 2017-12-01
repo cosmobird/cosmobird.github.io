@@ -244,10 +244,17 @@ section {
 
 
 
-@media screen and (min-width: 280px) and (max-width: 320px) {
+@media screen and (min-width: 280px) and (max-width: 640px) {
+    .cosmo-header {
+	margin-top: 1em;
+	margin-bottom: 0em;
+    }
     .cosmo-header img {
 	max-width: 75%;
-    }    
+    }
+    .cosmo-footer {
+	display: none;
+    }
 }
 
 @media screen and (min-width: 716px) {
