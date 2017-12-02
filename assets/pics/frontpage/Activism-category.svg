@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="13.229167mm"
-   height="13.229168mm"
-   viewBox="0 0 13.229167 13.229168"
+   width="26.458332mm"
+   height="26.45833mm"
+   viewBox="0 0 26.458332 26.45833"
    version="1.1"
    id="svg16032"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
@@ -49,9 +49,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="10.939999"
-     inkscape:cx="10.64785"
-     inkscape:cy="28.201069"
+     inkscape:zoom="0.5"
+     inkscape:cx="10.647843"
+     inkscape:cy="28.201056"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -59,9 +59,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1080"
-     inkscape:window-x="1366"
+     inkscape:window-width="1366"
+     inkscape:window-height="717"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      showborder="false" />
@@ -81,11 +81,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(59.153278,-94.215774)">
+     transform="translate(59.153276,-80.986609)">
     <g
        id="g10801"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       transform="matrix(1.9999998,0,0,1.9999998,59.153268,-107.44492)">
       <path
          d="m -46.255155,97.464218 c -0.279317,-1.499268 -1.456489,-2.645724 -2.927493,-2.925217 -1.118001,-0.22014 -2.251069,-0.323227 -3.354185,-0.323227 -1.132885,0 -2.265771,0.103087 -3.383587,0.323227 -1.500591,0.279493 -2.633293,1.440649 -2.912977,2.910516 -0.426508,2.23411 -0.426508,4.512683 0,6.732093 0.279501,1.51415 1.441604,2.64591 2.912977,2.9254 1.117816,0.23484 2.250702,0.33793 3.383587,0.33793 1.1327,0 2.250517,-0.10309 3.368701,-0.32341 1.500775,-0.29401 2.63366,-1.44047 2.912977,-2.92503 0.441393,-2.23448 0.441393,-4.512873 0,-6.732282 z"
          id="path15957"

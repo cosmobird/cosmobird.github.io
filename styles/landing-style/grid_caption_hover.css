@@ -37,6 +37,7 @@
     position: relative;
 }
 
+
 /*LARGE GRID*/
 .grid-large {
     padding: 10px 10px 10px 10px;
@@ -90,8 +91,8 @@
 }
 
 
-/*When Viewport is between >280px && <= 600px*/
-@media screen and (min-width: 280px) and (max-width: 600px) {
+/*When Viewport is between >280px && <= 640px*/
+@media screen and (min-width: 280px) and (max-width: 640px) {
     .grid-small {
 	padding: 5px 5px 5px 5px;
 	max-width: 80%;
@@ -107,8 +108,8 @@
     }
 }
 
-/*When Viewport is between > 600px && <= 800px*/
-@media screen and (min-width: 601px) and (max-width: 800px) {
+/*When Viewport is between > 640px && <= 800px*/
+@media screen and (min-width: 641px) and (max-width: 800px) {
     .grid-small {
 	display: none;
     }
