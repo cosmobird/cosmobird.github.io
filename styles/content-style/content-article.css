@@ -448,7 +448,7 @@ section {
     max-height: 240px; /*(default height used by videojs 320 by 240)*/
     width: 100%;
     min-width: 640px;
-    margin: 2em 1em;
+    margin: 2em 0 2em 1em;
     border: 2px solid #444444;
     background-color: #fdfdf8;
 }
@@ -458,7 +458,7 @@ section {
     max-height: 500px; /*(height while hovering)*/
     width: 100%;
     min-width: 640px;
-    margin: 2em 1em;
+    margin: 2em 0 2em 1em;
     border: 2px solid #444444;
     background-color: #fdfdf8;
 }
