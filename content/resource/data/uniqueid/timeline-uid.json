@@ -377,6 +377,22 @@
           "headline": "Right to Privacy is Fundamental",
           "text": "<p> The nine-judge Constitution bench, held in a unanimous decision that Right to Privacy is protected as an intrinsic part of Right to Life and Personal Liberty under Article 21 of the Constitution and other freedoms guaranteed under Part III of the Constitution. </p>"
         }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid/whitepaper-data-protection-fw-india.jpg",
+          "caption": "Download <a href='../../../../content/resource/reports/white_paper_on_data_protection_in_india_171127_final_v2.pdf'>White Paper on Data Protection Framework</a>, by Srikrishna Committee"
+        },
+        "start_date": {
+          "day": "27",
+          "month": "11",
+          "year": "2017"
+        },
+        "text": {
+          "headline": "Data Protection Framework - Whitepaper",
+          "text": "<p> The nine-member expert committee, headed by former Supreme Court judge Justice BN Srikrishna, was set up on July 31 by the Union government—while the apex court was hearing challenges to the UID project—to formulate a data protection law for India. </p>"
+        }
       }
 
     ]
