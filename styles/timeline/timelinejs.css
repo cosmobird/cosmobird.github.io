@@ -2013,8 +2013,8 @@ only screen and (max-device-width:500px) {
 .tl-slide .tl-slide-content-container .tl-slide-content {
     display: table;
     vertical-align: middle;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 40px; /*100px*/
+    padding-right: 40px; /*100px*/
     position: relative;
     max-width: 100%;
     margin: 0 auto;

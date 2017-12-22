@@ -13116,7 +13116,7 @@ TL.Timeline = TL.Class.extend({
 			dragging: 					true,
 			trackResize: 				true,
 			map_type: 					"stamen:toner-lite",
-			slide_padding_lr: 			100,					// padding on slide of slide
+			slide_padding_lr: 			40, //100	//i changed it manually				// padding on slide of slide
 			slide_default_fade: 		"0%",					// landscape fade
 			zoom_sequence: 				[0.5, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89], // Array of Fibonacci numbers for TimeNav zoom levels
 			language: 					"en",

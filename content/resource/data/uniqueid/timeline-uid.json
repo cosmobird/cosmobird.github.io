@@ -393,6 +393,22 @@
           "headline": "Data Protection Framework - Whitepaper",
           "text": "<p> The nine-member expert committee, headed by former Supreme Court judge Justice BN Srikrishna, was set up on July 31 by the Union government—while the apex court was hearing challenges to the UID project—to formulate a data protection law for India. </p>"
         }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid/speakforme_campaign.jpg",
+          "caption": "Public Campaign against UIDAI/Aadhaar Lynching & Linking"
+        },
+        "start_date": {
+          "day": "13",
+          "month": "12",
+          "year": "2017"
+        },
+        "text": {
+          "headline": "Public Petition Campaign",
+          "text": "<p> Concerned Citizens, Civic activists, Lawyers, Economists, Researchers, Internet & Web developers cohorted to rise public awareness & help people to petition corresponding MP's, Public Services, Banks, Telecom Operators, ... to stop Illegal UID/Aadhaar linkage & lynching</p>"
+        }
       }
 
     ]
