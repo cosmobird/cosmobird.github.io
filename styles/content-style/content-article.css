@@ -707,27 +707,27 @@ blockquote p[data-type="attribution"] img {
     }
 
     .sticky li:hover {
-    	margin-left: -45px;
+	margin-left: -45px;
     }
 
     .sticky li a {
-    	text-decoration: none;
-    	color: #ddd;
+	text-decoration: none;
+	color: #ddd;
     }
 
     .sticky li a img {
-    	float: left;
-    	margin: 5px 5px;
-    	margin-right: 10px;
+	float: left;
+	margin: 5px 5px;
+	margin-right: 10px;
     }
 
     .sticky li a p {
 	font-family: 'pt_sans_narrow-bold';
 	font-style: oblique;
-    	padding: 0;
-    	margin: 0;
-    	line-height: 43px;
-    	font-size: 13px;
+	padding: 0;
+	margin: 0;
+	line-height: 43px;
+	font-size: 13px;
     }
 
 }
