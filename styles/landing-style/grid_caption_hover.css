@@ -91,8 +91,8 @@
 }
 
 
-/*When Viewport is between >280px && <= 640px*/
-@media screen and (min-width: 280px) and (max-width: 640px) {
+/*When Viewport is between >= 280px && <= 840px*/
+@media screen and (min-width: 280px) and (max-width: 840px) {
     .grid-small {
 	padding: 5px 5px 5px 5px;
 	max-width: 80%;
@@ -108,8 +108,8 @@
     }
 }
 
-/*When Viewport is between > 640px && <= 800px*/
-@media screen and (min-width: 641px) and (max-width: 800px) {
+/*When Viewport is between >= 841px && <= 1024px*/
+@media screen and (min-width: 841px) and (max-width: 1024px) {
     .grid-small {
 	display: none;
     }
@@ -127,8 +127,8 @@
 
 }
 
-/*When Viewport reaches 1366px*/
-@media screen and (min-width: 801px) and (max-width: 1366px) {
+/*When Viewport is between > 1024px && <= 1366px*/
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
     .grid-small {
 	display: none;
     }

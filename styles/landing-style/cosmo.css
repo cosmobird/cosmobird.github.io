@@ -1,4 +1,4 @@
-@font-face {
+g@font-face {
     font-weight: normal;
     font-style: normal;
     font-family: 'Lato';
@@ -242,23 +242,68 @@ section {
 
 }
 
+/*FOOTER SMALL*/
+.cosmo-footer-small {
+    margin: 1em auto;
+    overflow:hidden;
+    background:#FDFDF8;
+    display: block;
+}
+.cosmo-footer-small .footer-social-small {
+    margin: 0em auto;
+    padding: 0.5em 0.5em;
+    max-width: 100%;
+    list-style: none;
+    text-align: center;
+}
 
-/*When Viewport is between >280px && <= 640px*/
-@media screen and (min-width: 280px) and (max-width: 640px) {
+.footer-social-small li {
+    display: inline-block;
+    max-width: 32px;
+    max-height: 32px;
+    text-align: left;
+    position: relative;
+    padding: 2px 2px;
+    margin: 0em auto;
+}
+
+.footer-social-small figure {
+    margin: 0em auto;
+    position: relative;
+}
+
+.footer-social-small a {
+    text-align: center;
+    color: #fff;
+}
+
+.footer-social-small img {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+
+
+
+/************************************************************************************/
+/*When Viewport is between >280px && <= 840px*/
+@media screen and (min-width: 280px) and (max-width: 840px) {
     .cosmo-header {
 	margin-top: 1em;
 	margin-bottom: 1em;
     }
     .cosmo-header img {
-	max-width: 70%;
+	max-width: 65%;
     }
     .cosmo-footer {
 	display: none;
     }
 }
 
-@media screen and (min-width: 716px) {
-    .footer-social li {
-	margin: 0em 1em 1em 1em;
+/*When Viewport is between > 841px && <= 840px*/
+@media screen and (min-width: 841px) {
+    .cosmo-footer-small {
+	display: none;
     }
 }
