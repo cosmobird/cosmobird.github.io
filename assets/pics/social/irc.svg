@@ -62,10 +62,10 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="708"
+     inkscape:window-height="768"
      inkscape:window-x="0"
-     inkscape:window-y="23"
-     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -128,8 +128,8 @@
     <g
        id="g101"
        transform="matrix(0.67682337,0,0,0.67682337,84.799499,80.528802)"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
          id="g83"
          style="font-style:normal;font-weight:normal;font-size:73.09065247px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;filter:url(#filter4659)"
@@ -153,9 +153,9 @@
     </g>
     <g
        id="g518"
-       transform="translate(10.3125,-32.812499)"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
+       transform="matrix(2,0,0,2,-271.9078,-469.36932)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <path
          d="m 278.43332,384.00238 a 14.045783,14.045783 0 0 1 16.94687,10.25051 14.045783,14.045783 0 0 1 -10.15162,17.0063 14.045783,14.045783 0 0 1 -17.06514,-10.05239 14.045783,14.045783 0 0 1 9.95281,-17.12341"
          sodipodi:open="true"

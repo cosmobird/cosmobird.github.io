@@ -72,10 +72,10 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="708"
+     inkscape:window-height="768"
      inkscape:window-x="0"
-     inkscape:window-y="23"
-     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -306,7 +306,7 @@
        id="g729" />
     <g
        id="g1648"
-       transform="translate(-105.10706)"
+       transform="matrix(1.1455465,0,0,1.1455465,-222.18858,-47.413109)"
        inkscape:export-xdpi="95.995453"
        inkscape:export-ydpi="95.995453">
       <g

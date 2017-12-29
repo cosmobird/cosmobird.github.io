@@ -64,10 +64,10 @@
      fit-margin-bottom="0"
      showborder="false"
      inkscape:window-width="1366"
-     inkscape:window-height="708"
+     inkscape:window-height="768"
      inkscape:window-x="0"
-     inkscape:window-y="23"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata6330">
     <rdf:RDF>
@@ -148,7 +148,7 @@
     </g>
     <g
        id="g2372"
-       transform="translate(-11.553303,-2.9200656)"
+       transform="matrix(2,0,0,2,-68.340289,-189.60629)"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <path

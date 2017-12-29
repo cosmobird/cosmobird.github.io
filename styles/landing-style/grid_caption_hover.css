@@ -2,11 +2,12 @@
 
 /*SMALL GRID*/
 .grid-small {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 1.5em 10px;
     min-width: 20%;
     margin: 0 auto;
     list-style: none;
     text-align: center;
+    border-bottom: 2px solid #ccc;
 }
 
 .grid-small li {
@@ -94,7 +95,7 @@
 /*When Viewport is between >= 280px && <= 840px*/
 @media screen and (min-width: 280px) and (max-width: 840px) {
     .grid-small {
-	padding: 5px 5px 5px 5px;
+	padding: 5px 5px 1.5em 5px;
 	max-width: 80%;
     }
     .grid-small li {

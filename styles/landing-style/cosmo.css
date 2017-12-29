@@ -259,12 +259,11 @@ section {
 
 .footer-social-small li {
     display: inline-block;
-    max-width: 32px;
-    max-height: 32px;
+    max-width: 36px;
+    max-height: 36px;
     text-align: left;
     position: relative;
-    padding: 2px 2px;
-    margin: 0em auto;
+    margin: 8px 8px;
 }
 
 .footer-social-small figure {
