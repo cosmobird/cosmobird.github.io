@@ -1,0 +1,12 @@
+'use strict';
+
+/*Using JQuery*/
+
+$(document).ready(function() {
+    // get the names from alt tag in the grid list of images and display it to the label
+    
+    $("#grid-small li figure img").mouseover( function(){
+	var names = $(this).attr("alt");
+	$("#category-label span").text(names);
+    });
+});
