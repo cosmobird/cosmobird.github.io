@@ -10,8 +10,8 @@ $(document).ready(function() {
 	function() {
 	    var names = $(this).attr("alt");
 	    $("#category-label span").text(names);
-	    $("#category-label span").fadeOut(1000);
-	    $("#category-label span").fadeIn(1000);	    
+//	    $("#category-label span").fadeOut(1000);
+//	    $("#category-label span").fadeIn(1000);	    
 	},    
 	function() {
 	    $("#category-label span").text(" ");

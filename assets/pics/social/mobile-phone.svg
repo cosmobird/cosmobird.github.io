@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="56.444443mm"
-   height="56.444443mm"
-   viewBox="0 0 199.99999 199.99999"
+   width="56mm"
+   height="56mm"
+   viewBox="0 0 198.42519 198.4252"
    id="svg3644"
    version="1.1"
-   inkscape:version="0.92.1 r"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="mobile-phone.svg">
   <defs
      id="defs3646">
@@ -38,7 +38,7 @@
        x="-0.031419788"
        width="1.0628396"
        y="-0.028702978"
-       height="1.057406">
+       height="1.0574059">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.91741647"
@@ -52,9 +52,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.4421874"
-     inkscape:cx="39.923215"
-     inkscape:cy="106.66667"
+     inkscape:zoom="0.61054685"
+     inkscape:cx="272.27639"
+     inkscape:cy="98.759715"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -76,7 +76,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -84,10 +84,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-417.72364,-196.06779)">
+     transform="translate(-454.5539,-166.43801)">
     <g
        id="g41597"
-       transform="matrix(0.40882084,0,0,0.40882084,268.72279,215.69952)"
+       transform="matrix(1.0091879,0,0,1.0091879,29.604806,-29.455969)"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <path

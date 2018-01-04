@@ -409,6 +409,22 @@
           "headline": "Public Petition Campaign",
           "text": "<p> Concerned Citizens, Civic activists, Lawyers, Economists, Researchers, Internet & Web developers cohorted to rise public awareness & help people to petition corresponding MP's, Public Services, Banks, Telecom Operators, ... to stop Illegal UID/Aadhaar linkage & lynching</p>"
         }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid/identitytheft.jpg",
+          "caption": "IDENTITY BLACK MARKET"
+        },
+        "start_date": {
+          "day": "04",
+          "month": "01",
+          "year": "2018"
+        },
+        "text": {
+          "headline": "ID For Sale in ID Black Market (IBM)",
+          "text": "<p> <a href='http://www.tribuneindia.com/news/nation/rs-500-10-minutes-and-you-have-access-to-billion-aadhaar-details/523361.html'>Rs 500, 10 minutes, and you have access to billion Aadhaar details.</a> Group tapping UIDAI data may have sold access to 1 lakh service providers</p>"
+        }
       }
 
     ]
