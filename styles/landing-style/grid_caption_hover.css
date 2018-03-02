@@ -135,7 +135,7 @@
     }
     .grid-small li{
 	display: none;
-    }    
+    }
     .grid-large {
 	padding: 10px 10px 10px 10px;
 	max-width: 1024px;
@@ -153,10 +153,28 @@
     }
     .grid-small li{
 	display: none;
-    }    
+    }
     .grid-large {
 	padding: 10px 10px 10px 10px;
 	max-width: 1366px;
+    }
+    .grid-large li {
+	width: 100%;
+	min-width: 200px;
+    }
+}
+
+/*When Viewport reaches > 1920px*/
+@media screen and (min-width: 1921px) {
+    .grid-small {
+	display: none;
+    }
+    .grid-small li{
+	display: none;
+    }
+    .grid-large {
+	padding: 10px 10px 10px 10px;
+	max-width: 1600px;
     }
     .grid-large li {
 	width: 100%;
