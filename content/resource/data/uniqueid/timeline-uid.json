@@ -425,6 +425,23 @@
           "headline": "ID For Sale in ID Black Market (IBM)",
           "text": "<p> <a href='http://www.tribuneindia.com/news/nation/rs-500-10-minutes-and-you-have-access-to-billion-aadhaar-details/523361.html'>Rs 500, 10 minutes, and you have access to billion Aadhaar details.</a> Group tapping UIDAI data may have sold access to 1 lakh service providers</p>"
         }
+      },
+
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid/save-our-privacy.jpg",
+          "caption": "Save Our Privacy endorsement Campaign"
+        },
+        "start_date": {
+          "day": "08",
+          "month": "06",
+          "year": "2018"
+        },
+        "text": {
+          "headline": "Endorse guiding Privacy principles",
+          "text": "<p> <a href='https://saveourprivacy.in'>Save Our Privacy</a> 7 guiding & learned principles for Privacy. Respecting individual liberty and privacy and progressing in it must be one of the duty of ethical and healthier governance</p>"
+        }
       }
 
     ]
