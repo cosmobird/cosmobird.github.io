@@ -442,6 +442,38 @@
           "headline": "Endorse guiding Privacy principles",
           "text": "<p> <a href='https://saveourprivacy.in'>Save Our Privacy</a> 7 guiding & learned principles for Privacy. Respecting individual liberty and privacy and progressing in it must be one of the duty of ethical and healthier governance</p>"
         }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid/sri-krishna.jpg",
+          "caption": "<a href='http://meity.gov.in/writereaddata/files/Data_Protection_Committee_Report.pdf'>Srikrishna Committee on Personal Data Protection Report 2018</a>"
+        },
+        "start_date": {
+          "day": "27",
+          "month": "07",
+          "year": "2018"
+        },
+        "text": {
+          "headline": "Personal Data Protection Bill",
+          "text": "<p>Law should be applicable to processing of personal data if such data has been used, shared, disclosed, collected or otherwise processed in India, <a href='http://meity.gov.in/writereaddata/files/Personal_Data_Protection_Bill%2C2018_0.pdf'>as per the detailed Bill</a></p>"
+        }
+      },
+
+      {
+        "media": {
+          "url": "../../../../content/resource/pictures/uniqueid/supreme-court-india.jpg",
+          "caption": "<a href='https://www.sci.gov.in/supremecourt/2012/35071/35071_2012_Judgement_26-Sep-2018.pdf'>SC Verdict on Aadhaar Validity</a>"
+        },
+        "start_date": {
+          "day": "26",
+          "month": "09",
+          "year": "2018"
+        },
+        "text": {
+          "headline": "Five-judge & Aadhaar Validity",
+          "text": "<p>A Five-judge bench determine if use of Aadhaar violates right to privacy, give its decision on PIL's. For further reference : <a href='https://www.sci.gov.in/supremecourt/2012/35071/35071_2012_Judgement_26-Sep-2018.pdf'> Detailed judgement report </a> </p>"
+        }
       }
 
     ]
